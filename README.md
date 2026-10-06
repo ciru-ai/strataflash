@@ -38,10 +38,10 @@ Historical baseline logs and sources are published separately in [Strix Showdown
 ```sh
 python3 scripts/verify_public.py
 python3 scripts/build_page.py
-python3 -m http.server 8000 --directory site
+python3 scripts/serve_page.py
 ```
 
-Open `http://localhost:8000/`. Rebuilding this page only reads saved records. Benchmark execution is a separate, explicit operation; consult [METHODOLOGY.md](METHODOLOGY.md) and the frozen per-panel contracts before adapting the runners to another host.
+Open `http://localhost:8000/strataflash/`. Rebuilding this page only reads saved records. Benchmark execution is a separate, explicit operation; consult [METHODOLOGY.md](METHODOLOGY.md) and the frozen per-panel contracts before adapting the runners to another host.
 
 ## Evidence and privacy
 
