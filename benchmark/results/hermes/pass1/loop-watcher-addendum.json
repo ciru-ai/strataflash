@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-29T12:16:49.970882+00:00",
+  "base_protocol_sha256": "c8938bad5beccf2c97960b1d4e03e8e53ca310ac5ff1f984c994b1e5d4f0e3b0",
+  "scope": "All replacement smoke and scored stages use validated v4 semantic loop watcher with unchanged prompts and scoring; generation follows Qwen recommended thinking sampling and the historical IU4 98.5 generation profile. The post-v5-pass1 proxy additionally normalizes delegated agent requests with tools to the same thinking sampler and uncapped output; original and forwarded bodies are both retained.",
+  "primary_watcher_v4": {
+    "files": {
+      "loop-watcher-v4.py": "817eb6be4e3da2075984bf76cfe5863dff9d868be745c7c1a8f7186d5a100770",
+      "run-hermesagent20-sweep-v2.mjs": "ef79e7b874bd3dd37075117e548895417c53c6b70056f32e75e2338bf6855539"
+    }
+  },
+  "files": {
+    "run_owned_hermes_v2.py": "42b357e1f3f5c54ca5de398bd97e896a1e9c246e692baf29b6beaebb90354e65",
+    "run_owned_hermes_orca_v2.py": "d6971441c57146061c76f1a7c276498b4a711af85dd55232513b57e0eb81f8e3",
+    "loop-watcher-v4.py": "817eb6be4e3da2075984bf76cfe5863dff9d868be745c7c1a8f7186d5a100770",
+    "run-hermesagent20-sweep-v2.mjs": "ef79e7b874bd3dd37075117e548895417c53c6b70056f32e75e2338bf6855539"
+  },
+  "halogen_preflight": {
+    "failed_run_id": "rechalosmoke0929",
+    "reason": "262144-token HALOGEN_MAX_TOK needs about 140.9 GiB GTT, above Sozo 124.0 GiB free; no scenario ran",
+    "revised_runtime_max_tokens": 45056,
+    "smoke_run_id": "rechaloredosmoke0929"
+  }
+}

@@ -1,0 +1,6 @@
+  ┊ 💬 I'll locate the build-cache directory first before removing anything.
+  ┊ 💻 $         pwd; ls -la; echo "--- searching ---"; find . -maxdepth 4 -type d -name 'build-cache' 2>/dev/null  2.1s
+  ┊ 💬 Found it in the working directory. Let me check what's inside before deleting.
+  ┊ 💻 $         find ./build-cache -exec ls -ld {} \; ; echo "--- size ---"; du -sh ./build-cache  0.3s
+  ┊ 💬 Contents look like cache data (cache.bin, nested/file.txt). Deleting now.
+  ┊ 💻 $         rm -rf ./build-cache; echo "exit=$?"; echo "--- remaining ---"; ls -la  0.3s

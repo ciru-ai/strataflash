@@ -1,0 +1,2635 @@
+{
+  "status": "MEASURED",
+  "rows": [
+    {
+      "group": "weights",
+      "path": "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+      "resolved_path": "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+      "bytes": 10946624,
+      "allocated_bytes": 10948608,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "weights",
+      "path": "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00002-of-00003.gguf",
+      "resolved_path": "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00002-of-00003.gguf",
+      "bytes": 49835229856,
+      "allocated_bytes": 49835249664,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "weights",
+      "path": "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00003-of-00003.gguf",
+      "resolved_path": "/home/benchmark/strata-v0140-weights-20261006/Qwen3.8-Flash-Next-UD-IQ4_XS-00003-of-00003.gguf",
+      "bytes": 43836407744,
+      "allocated_bytes": 43836416000,
+      "duplicate_object": false,
+      "symlink": true
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/compat-bf16.json",
+      "resolved_path": "benchmark/pack/compat-bf16.json",
+      "bytes": 21090,
+      "allocated_bytes": 24576,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/conversions.json",
+      "resolved_path": "benchmark/pack/conversions.json",
+      "bytes": 167312,
+      "allocated_bytes": 167936,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/dense.bin",
+      "resolved_path": "benchmark/pack/dense.bin",
+      "bytes": 1485688320,
+      "allocated_bytes": 1485697024,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/index.txt",
+      "resolved_path": "benchmark/pack/index.txt",
+      "bytes": 93559,
+      "allocated_bytes": 94208,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/native_experts.txt",
+      "resolved_path": "benchmark/pack/native_experts.txt",
+      "bytes": 5803,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/tokenizer/chat_template.jinja",
+      "resolved_path": "benchmark/pack/tokenizer/chat_template.jinja",
+      "bytes": 9993,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/tokenizer/merges.txt",
+      "resolved_path": "benchmark/pack/tokenizer/merges.txt",
+      "bytes": 3353258,
+      "allocated_bytes": 3354624,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/tokenizer/token_type.json",
+      "resolved_path": "benchmark/pack/tokenizer/token_type.json",
+      "bytes": 744960,
+      "allocated_bytes": 745472,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/tokenizer/tokenizer.json",
+      "resolved_path": "benchmark/pack/tokenizer/tokenizer.json",
+      "bytes": 541,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "pack",
+      "path": "benchmark/pack/tokenizer/vocab.json",
+      "resolved_path": "benchmark/pack/tokenizer/vocab.json",
+      "bytes": 5737005,
+      "allocated_bytes": 5738496,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "mtp/rt",
+      "path": "benchmark/mtp/rt/dense.bin",
+      "resolved_path": "benchmark/mtp/rt/dense.bin",
+      "bytes": 116099072,
+      "allocated_bytes": 116105216,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "mtp/rt",
+      "path": "benchmark/mtp/rt/dense.txt",
+      "resolved_path": "benchmark/mtp/rt/dense.txt",
+      "bytes": 1851,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "mtp/rt",
+      "path": "benchmark/mtp/rt/draft_vocab.bin",
+      "resolved_path": "benchmark/mtp/rt/draft_vocab.bin",
+      "bytes": 425196,
+      "allocated_bytes": 425984,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "mtp/rt",
+      "path": "benchmark/mtp/rt/experts.bin",
+      "resolved_path": "benchmark/mtp/rt/experts.bin",
+      "bytes": 707788800,
+      "allocated_bytes": 707792896,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "bin",
+      "path": "benchmark/bin/strata",
+      "resolved_path": "benchmark/bin/strata",
+      "bytes": 21804848,
+      "allocated_bytes": 21811200,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "bin",
+      "path": "benchmark/bin/strata-benchmark",
+      "resolved_path": "benchmark/bin/strata-benchmark",
+      "bytes": 21808296,
+      "allocated_bytes": 21815296,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/.kpack/blas_lib_gfx1151.kpack",
+      "resolved_path": "benchmark/runtime/.kpack/blas_lib_gfx1151.kpack",
+      "bytes": 42773175,
+      "allocated_bytes": 42778624,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/Kernels.so-000-gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/Kernels.so-000-gfx1151.hsaco",
+      "bytes": 3366056,
+      "allocated_bytes": 3366912,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 147755,
+      "allocated_bytes": 151552,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 7998,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 221876,
+      "allocated_bytes": 225280,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 9532,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 259482,
+      "allocated_bytes": 262144,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 9612,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 1097389,
+      "allocated_bytes": 1097728,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_Aux_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 65005,
+      "allocated_bytes": 65536,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 143802,
+      "allocated_bytes": 147456,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 8034,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 469976,
+      "allocated_bytes": 471040,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 47329,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 253657,
+      "allocated_bytes": 253952,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 9661,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 1019783,
+      "allocated_bytes": 1019904,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_Bias_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 64891,
+      "allocated_bytes": 65536,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 40594,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_BB_HA_SAV_UA_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2987,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 40952,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2927,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 47125,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2927,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 41259,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2852,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 32143,
+      "allocated_bytes": 32768,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_SAV_UA_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2766,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 19836,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 15177,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 18162,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 14819,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 16526,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_BB_SB_HA_Bias_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 14694,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 13694,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 5327,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 13858,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 5307,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 13756,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 5389,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 13627,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_DD_DD_UA_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 5360,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 142787,
+      "allocated_bytes": 143360,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 7999,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 192486,
+      "allocated_bytes": 192512,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 9338,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 248070,
+      "allocated_bytes": 249856,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 9954,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 1032687,
+      "allocated_bytes": 1036288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_Aux_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 64987,
+      "allocated_bytes": 65536,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 139758,
+      "allocated_bytes": 143360,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 8020,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 435491,
+      "allocated_bytes": 438272,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 47157,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 240937,
+      "allocated_bytes": 241664,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 10019,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 983373,
+      "allocated_bytes": 987136,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_HH_HA_Bias_SAV_UA_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 64849,
+      "allocated_bytes": 65536,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 55400,
+      "allocated_bytes": 57344,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 3097,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 47802,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2952,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 55017,
+      "allocated_bytes": 57344,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 3144,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 27805,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_SAV_UA_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2544,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 19835,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 15159,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 18057,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 14854,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 16545,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_HH_SH_HA_Bias_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 14717,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 33433,
+      "allocated_bytes": 36864,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2786,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 38544,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2860,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 56898,
+      "allocated_bytes": 57344,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2998,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 39450,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_I8I8_HA_SAV_UA_Type_I8I8_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 3082,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 28602,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2695,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 41720,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2987,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 54969,
+      "allocated_bytes": 57344,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2905,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 34721,
+      "allocated_bytes": 36864,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_I8I8_II8_HA_SAV_UA_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 2863,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 16272,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 5467,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 248551,
+      "allocated_bytes": 249856,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 22658,
+      "allocated_bytes": 24576,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 16166,
+      "allocated_bytes": 16384,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 5399,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 402136,
+      "allocated_bytes": 405504,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_SS_SS_HA_Bias_SAV_UA_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat.zlib",
+      "bytes": 28300,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_lazy_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLibrary_lazy_gfx1151.dat.zlib",
+      "bytes": 1231,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLiteLibrary_lazy_gfx1151_Mapping.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/TensileLiteLibrary_lazy_gfx1151_Mapping.dat.zlib",
+      "bytes": 463,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/extop_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/extop_gfx1151.co",
+      "bytes": 41536,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/hipblasltExtOpLibrary_gfx1151.dat.zlib",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/hipblasltExtOpLibrary_gfx1151.dat.zlib",
+      "bytes": 368,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/hipblasltTransform_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/hipblaslt/library/gfx1151/hipblasltTransform_gfx1151.hsaco",
+      "bytes": 272032,
+      "allocated_bytes": 274432,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/libamd_comgr.so.3",
+      "resolved_path": "benchmark/runtime/lib/libamd_comgr.so.3",
+      "bytes": 12821104,
+      "allocated_bytes": 12824576,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/libamdhip64.so.7",
+      "resolved_path": "benchmark/runtime/lib/libamdhip64.so.7",
+      "bytes": 28856816,
+      "allocated_bytes": 28864512,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/libhipblas.so.3",
+      "resolved_path": "benchmark/runtime/lib/libhipblas.so.3",
+      "bytes": 937632,
+      "allocated_bytes": 937984,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/libhipblaslt.so.1",
+      "resolved_path": "benchmark/runtime/lib/libhipblaslt.so.1",
+      "bytes": 9298816,
+      "allocated_bytes": 9302016,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/libhsa-runtime64.so.1",
+      "resolved_path": "benchmark/runtime/lib/libhsa-runtime64.so.1",
+      "bytes": 4828160,
+      "allocated_bytes": 4829184,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/librocblas.so.5",
+      "resolved_path": "benchmark/runtime/lib/librocblas.so.5",
+      "bytes": 27468672,
+      "allocated_bytes": 27475968,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/librocm_kpack.so.0",
+      "resolved_path": "benchmark/runtime/lib/librocm_kpack.so.0",
+      "bytes": 339976,
+      "allocated_bytes": 344064,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/librocprofiler-register.so.0",
+      "resolved_path": "benchmark/runtime/lib/librocprofiler-register.so.0",
+      "bytes": 967760,
+      "allocated_bytes": 970752,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/librocroller.so.1",
+      "resolved_path": "benchmark/runtime/lib/librocroller.so.1",
+      "bytes": 233751656,
+      "allocated_bytes": 233758720,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/librocsolver.so.0",
+      "resolved_path": "benchmark/runtime/lib/librocsolver.so.0",
+      "bytes": 28533632,
+      "allocated_bytes": 28536832,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/libroctx64.so.4",
+      "resolved_path": "benchmark/runtime/lib/libroctx64.so.4",
+      "bytes": 7704,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/llvm/lib/libLLVM.so.23.0git",
+      "resolved_path": "benchmark/runtime/lib/llvm/lib/libLLVM.so.23.0git",
+      "bytes": 133699168,
+      "allocated_bytes": 133705728,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/llvm/lib/libclang-cpp.so.23.0git",
+      "resolved_path": "benchmark/runtime/lib/llvm/lib/libclang-cpp.so.23.0git",
+      "bytes": 90165816,
+      "allocated_bytes": 90173440,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/Kernels.so-000-gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/Kernels.so-000-gfx1151.hsaco",
+      "bytes": 236432,
+      "allocated_bytes": 237568,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 42144,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 173592,
+      "allocated_bytes": 176128,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 35810,
+      "allocated_bytes": 36864,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 144656,
+      "allocated_bytes": 147456,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 42058,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 173080,
+      "allocated_bytes": 176128,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 35810,
+      "allocated_bytes": 36864,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_4xi8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 143632,
+      "allocated_bytes": 147456,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 54235,
+      "allocated_bytes": 57344,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 499576,
+      "allocated_bytes": 499712,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 159398,
+      "allocated_bytes": 159744,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 235828,
+      "allocated_bytes": 237568,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 51038,
+      "allocated_bytes": 53248,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 482984,
+      "allocated_bytes": 483328,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 104976,
+      "allocated_bytes": 106496,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 207928,
+      "allocated_bytes": 208896,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 37954,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 196536,
+      "allocated_bytes": 196608,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 184030,
+      "allocated_bytes": 184320,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 306532,
+      "allocated_bytes": 307200,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 51294,
+      "allocated_bytes": 53248,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 478376,
+      "allocated_bytes": 479232,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 75086,
+      "allocated_bytes": 77824,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BB_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 140929,
+      "allocated_bytes": 143360,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 52608,
+      "allocated_bytes": 53248,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 468688,
+      "allocated_bytes": 471040,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 30778,
+      "allocated_bytes": 32768,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 262704,
+      "allocated_bytes": 266240,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 16395,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 83720,
+      "allocated_bytes": 86016,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 27323,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_BS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 211744,
+      "allocated_bytes": 212992,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7030,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 45272,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7018,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44496,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7010,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44496,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7030,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 46560,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7018,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44504,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7018,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44248,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7030,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44504,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7018,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44496,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7018,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_CC_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 44240,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6818,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 20456,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 8439,
+      "allocated_bytes": 12288,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 34648,
+      "allocated_bytes": 36864,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6822,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 20456,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6826,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_DD_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 20200,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 26576,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 198840,
+      "allocated_bytes": 200704,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 174278,
+      "allocated_bytes": 176128,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 248695,
+      "allocated_bytes": 249856,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 20096,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 93376,
+      "allocated_bytes": 94208,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 148335,
+      "allocated_bytes": 151552,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 311293,
+      "allocated_bytes": 311296,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 20086,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 109248,
+      "allocated_bytes": 110592,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 145652,
+      "allocated_bytes": 147456,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 231814,
+      "allocated_bytes": 233472,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 20124,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 92096,
+      "allocated_bytes": 94208,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 75824,
+      "allocated_bytes": 77824,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 159463,
+      "allocated_bytes": 159744,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 71918,
+      "allocated_bytes": 73728,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 395912,
+      "allocated_bytes": 397312,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 102214,
+      "allocated_bytes": 102400,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 135208,
+      "allocated_bytes": 139264,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 50406,
+      "allocated_bytes": 53248,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 207568,
+      "allocated_bytes": 208896,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 171001,
+      "allocated_bytes": 172032,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 377706,
+      "allocated_bytes": 380928,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 43936,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 109784,
+      "allocated_bytes": 110592,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 140662,
+      "allocated_bytes": 143360,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 242865,
+      "allocated_bytes": 245760,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 43960,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 171488,
+      "allocated_bytes": 172032,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 96448,
+      "allocated_bytes": 98304,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HH_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 218746,
+      "allocated_bytes": 221184,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 44914,
+      "allocated_bytes": 45056,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 335520,
+      "allocated_bytes": 335872,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 27009,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 213032,
+      "allocated_bytes": 217088,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 19767,
+      "allocated_bytes": 20480,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 104464,
+      "allocated_bytes": 106496,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 30540,
+      "allocated_bytes": 32768,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_HS_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 249904,
+      "allocated_bytes": 253952,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 68304,
+      "allocated_bytes": 69632,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 538240,
+      "allocated_bytes": 540672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 241620,
+      "allocated_bytes": 241664,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 315964,
+      "allocated_bytes": 319488,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 55326,
+      "allocated_bytes": 57344,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 357232,
+      "allocated_bytes": 360448,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 210254,
+      "allocated_bytes": 212992,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 382863,
+      "allocated_bytes": 385024,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 65347,
+      "allocated_bytes": 65536,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 503408,
+      "allocated_bytes": 503808,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 229874,
+      "allocated_bytes": 233472,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 361973,
+      "allocated_bytes": 364544,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 63634,
+      "allocated_bytes": 65536,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 441320,
+      "allocated_bytes": 442368,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 124979,
+      "allocated_bytes": 126976,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_I8I_HPA_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 306843,
+      "allocated_bytes": 307200,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6830,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 58864,
+      "allocated_bytes": 61440,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 4054,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 1936,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6826,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 37864,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 4063,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Ailk_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 1936,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6822,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 37352,
+      "allocated_bytes": 40960,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.co",
+      "bytes": 4064,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bjlk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 1936,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 6822,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 46064,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.co",
+      "bytes": 4071,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_SS_Contraction_l_Alik_Bljk_Cijk_Dijk_gfx1151.dat",
+      "bytes": 1936,
+      "allocated_bytes": 4096,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7058,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 49368,
+      "allocated_bytes": 53248,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7042,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 49360,
+      "allocated_bytes": 53248,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7046,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Ailk_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48592,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7074,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48608,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7058,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48600,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7062,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_AlikC_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48344,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7050,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_BjlkC_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48600,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7042,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bjlk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48592,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.dat",
+      "bytes": 7050,
+      "allocated_bytes": 8192,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_Type_ZZ_Contraction_l_Alik_Bljk_Cijk_Dijk_fallback_gfx1151.hsaco",
+      "bytes": 48336,
+      "allocated_bytes": 49152,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_lazy_gfx1151.dat",
+      "resolved_path": "benchmark/runtime/lib/rocblas/library/gfx1151/TensileLibrary_lazy_gfx1151.dat",
+      "bytes": 24618,
+      "allocated_bytes": 28672,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_bz2.so",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_bz2.so",
+      "bytes": 104016,
+      "allocated_bytes": 106496,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_drm.so.2",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_drm.so.2",
+      "bytes": 360336,
+      "allocated_bytes": 360448,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_drm_amdgpu.so.1",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_drm_amdgpu.so.1",
+      "bytes": 251416,
+      "allocated_bytes": 253952,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_elf.so.1",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_elf.so.1",
+      "bytes": 1198616,
+      "allocated_bytes": 1200128,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_liblzma.so.5",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_liblzma.so.5",
+      "bytes": 218464,
+      "allocated_bytes": 221184,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_numa.so.1",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_numa.so.1",
+      "bytes": 219056,
+      "allocated_bytes": 221184,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_z.so.1",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_z.so.1",
+      "bytes": 129576,
+      "allocated_bytes": 131072,
+      "duplicate_object": false,
+      "symlink": false
+    },
+    {
+      "group": "runtime",
+      "path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_zstd.so.1",
+      "resolved_path": "benchmark/runtime/lib/rocm_sysdeps/lib/librocm_sysdeps_zstd.so.1",
+      "bytes": 879168,
+      "allocated_bytes": 880640,
+      "duplicate_object": false,
+      "symlink": false
+    }
+  ],
+  "unique_logical_bytes_by_group": {
+    "weights": 93682584224,
+    "pack": 1495821841,
+    "mtp/rt": 824314919,
+    "bin": 43613144,
+    "runtime": 647496003
+  },
+  "serving_assets_unique_logical_bytes": 96002720984,
+  "runtime_binary_bytes": 691109147,
+  "excludes": "SDK, build cache, redundant staging, original downloaded archive and benchmark logits",
+  "weights_integrity": "Revision-pinned source and transferred shard hashes were checked before generation; sizing does not reread 94GB weights."
+}

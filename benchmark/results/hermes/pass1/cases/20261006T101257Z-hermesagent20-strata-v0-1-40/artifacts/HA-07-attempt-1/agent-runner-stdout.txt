@@ -1,0 +1,19 @@
+  ┊ 🔎 find      *  1.0s
+  ┊ 🐍 exec      from hermes_tools import read_file  3.2s [error]
+  ┊ 🐍 exec      import os  3.2s
+  ┊ 🐍 exec      import os, glob  3.2s
+  ┊ 🐍 exec      import os  3.2s [error]
+  ┊ 🔎 find      *.json  0.4s
+  ┊ 📖 read      data/incidents/150.json  0.8s
+  ┊ 🔎 grep      ^\s*"[a-zA-Z]+"  0.6s
+  ┊ 🔎 grep      issueId  0.2s
+  ┊ 🔎 grep      owner|severity|ownerId|priority  0.4s
+  ┊ 🔎 grep      owner  0.4s
+  ┊ 🔎 grep      severity  0.4s
+  ┊ 💬 Schema is uniform (issueId, owner, severity each exactly once per file). Now extracting all values with three content searches:
+  ┊ 🔎 grep      issueId  0.4s
+  ┊ 🔎 grep      owner  0.4s
+  ┊ 🔎 grep      severity  0.4s
+  ┊ 🐍 exec      import json  1.6s [error]
+  ┊ 📖 read      reports/summary.json  0.0s
+  ┊ 🐍 exec      import re, json  1.0s

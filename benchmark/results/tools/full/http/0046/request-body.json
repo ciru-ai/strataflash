@@ -1,0 +1,168 @@
+{
+  "model": "strata-v0.1.40",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant with access to the tools provided.\n\nRules:\n- Use a tool ONLY when it is necessary to fulfill the user's request.\n- If you can answer directly from your own knowledge, do so without calling a tool.\n- If a tool call fails, explain the failure and suggest an alternative approach.\n- Never invent information that a tool should provide.\n\nBenchmark context: today is 2026-03-20 (Friday). Use this date for any relative time request."
+    },
+    {
+      "role": "user",
+      "content": "Send the launch checklist to my manager."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_8fa4d2751c234195be5d6787",
+          "type": "function",
+          "function": {
+            "name": "get_memory",
+            "arguments": "{\"key\":\"manager\"}"
+          }
+        },
+        {
+          "id": "call_7bec248570ee497eab8196cb",
+          "type": "function",
+          "function": {
+            "name": "search_files",
+            "arguments": "{\"query\":\"launch checklist\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_8fa4d2751c234195be5d6787",
+      "content": "{\"name\": \"Morgan Lee\", \"email\": \"redacted@example.com\", \"expired\": true}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7bec248570ee497eab8196cb",
+      "content": "{\"results\": [{\"file_id\": \"launch_checklist\", \"name\": \"Launch_Checklist.pdf\", \"size_bytes\": 28416, \"modified_at\": \"2026-03-15T09:22:11Z\", \"created_at\": \"2026-02-10T14:00:00Z\", \"owner\": \"system\", \"path\": \"/documents/Launch_Checklist.pdf\", \"permissions\": \"read\", \"content_type\": \"application/octet-stream\"}], \"total_matches\": 1, \"search_time_ms\": 18, \"index_version\": \"idx-2026.03\", \"request_id\": \"req_fs_3d4a8e2b\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "The stored manager contact is flagged as **expired**, so let me verify the current manager before sending anything.",
+      "tool_calls": [
+        {
+          "id": "call_283a58758db5479bb5630a19",
+          "type": "function",
+          "function": {
+            "name": "lookup_directory",
+            "arguments": "{\"query\":\"Morgan Lee manager reporting chain my manager\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_283a58758db5479bb5630a19",
+      "content": "{\"name\": \"Avery Patel\", \"email\": \"redacted@example.com\", \"relationship\": \"manager\"}"
+    }
+  ],
+  "max_tokens": -1,
+  "temperature": 0.7,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_memory",
+        "description": "Read stored user memory.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "key"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "lookup_directory",
+        "description": "Look up current organization relationships.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_files",
+        "description": "Search files.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "send_email",
+        "description": "Send email.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "to": {
+              "type": "string",
+              "description": "Email address"
+            },
+            "subject": {
+              "type": "string"
+            },
+            "body": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "to",
+            "subject",
+            "body"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "seed": 123,
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "preserve_thinking": true
+  },
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0,
+  "presence_penalty": 1.5,
+  "frequency_penalty": 0.0,
+  "repeat_penalty": 1.0,
+  "cache_prompt": true
+}

@@ -1,0 +1,54 @@
+{
+  "workspaceDir": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-04-5c0dd465/local-main_strata-v0.1.40/HA-04/workspace",
+  "hermesHomeDir": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-04-5c0dd465/local-main_strata-v0.1.40/HA-04/hermes-home",
+  "prompt": "Apply the same Docker networking fix we used last time to this compose file.",
+  "model": {
+    "id": "local-main:strata-v0.1.40",
+    "label": "strata-v0.1.40",
+    "provider": "local-main",
+    "providerModel": "strata-v0.1.40",
+    "inferenceBaseUrl": "http://127.0.0.1:18198/v1",
+    "authMode": "bearer",
+    "exposedModel": "strata-v0.1.40"
+  },
+  "toolsets": [
+    "session_search",
+    "file"
+  ],
+  "maxTurns": 2147483647,
+  "resultPath": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-04-5c0dd465/local-main_strata-v0.1.40/HA-04/agent-result.json",
+  "sessionSeed": [
+    {
+      "sessionId": "seed-docker-fix",
+      "source": "benchlocal-hermesagent-20-seed",
+      "model": "strata-v0.1.40",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Docker networking is broken again."
+        },
+        {
+          "role": "assistant",
+          "content": "The fix is to attach the api service to the backend network so it can reach db."
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "reasoning_effort": "xhigh",
+    "extra_body": {
+      "top_k": 20,
+      "min_p": 0,
+      "presence_penalty": 0,
+      "seed": 160917,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      },
+      "cache_prompt": true
+    }
+  },
+  "followUps": {}
+}

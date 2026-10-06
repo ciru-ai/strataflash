@@ -1,0 +1,38 @@
+{
+  "scenarioId": "HA-10",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes discovered the existing skill, viewed it, and applied it correctly.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-10\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-10-a0bd9409/local-main_strata-v0.1.40/HA-10\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-10-a0bd9409/local-main_strata-v0.1.40/HA-10/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-10-a0bd9409/local-main_strata-v0.1.40/HA-10/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=66514c97-8a8f-48a0-93c7-38f3f99f6d94\ntool_events=14\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-10-attempt-1\nsummary=\"TOTAL=3\\nTOP=alice:2\\nDUPLICATES=ISS-001\"",
+  "output": {
+    "finalAnswer": "Yes — the `incident-summary` skill already covers this workflow, and I used it.\n\nDone. Wrote reports/summary.txt from the 3 JSON files in data/incidents/:\n\n  TOTAL=3\n  TOP=alice:2\n  DUPLICATES=ISS-001\n\nVerified per the skill: file exists, exactly three lines in the expected format (ISS-001 appears in both 0.json and 2.json, so it's flagged as a duplicate).",
+    "summary": "TOTAL=3\nTOP=alice:2\nDUPLICATES=ISS-001"
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The preloaded skill was discovered and applied correctly.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "expectedSummary": "TOTAL=3\nTOP=alice:2\nDUPLICATES=ISS-001",
+      "actualSummary": "TOTAL=3\nTOP=alice:2\nDUPLICATES=ISS-001",
+      "usedSkillFlow": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:22:36.451Z",
+    "completedAt": "2026-10-06T10:23:05.293Z",
+    "durationMs": 28842
+  },
+  "primaryToolCalls": 7,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 6,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 28.842,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-10-attempt-1"
+}

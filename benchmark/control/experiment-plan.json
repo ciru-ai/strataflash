@@ -1,0 +1,178 @@
+{
+  "status": "FROZEN_BEFORE_GENERATION",
+  "requested_release": "https://github.com/Niko1221/Strata/releases/tag/v0.1.40",
+  "runtime_revision": "1735d6471df29b42c26170efaac1f1446a58640f",
+  "scope_contract": "hcq8-20260930/active-sweep-contract.json",
+  "panels": {
+    "append_speed_grid": {
+      "cells": 18,
+      "prompt_tokens": [
+        512,
+        2048,
+        4096
+      ],
+      "cached_depth_tokens": [
+        0,
+        32000,
+        64000,
+        120000,
+        192000,
+        256000
+      ],
+      "output_tokens": 512
+    },
+    "cold_prefix": {
+      "observations": 5,
+      "prefix_tokens": [
+        32000,
+        64000,
+        120000,
+        192000,
+        256000
+      ]
+    },
+    "short_fidelity": {
+      "windows": 16,
+      "input_tokens_per_window": 512,
+      "selected_tail_tokens_per_window": 128,
+      "positions": 2048,
+      "vocabulary": "full"
+    },
+    "he09_speed": {
+      "tasks": [
+        "HumanEval/0",
+        "HumanEval/1",
+        "HumanEval/2",
+        "HumanEval/3",
+        "HumanEval/4",
+        "HumanEval/5",
+        "HumanEval/6",
+        "HumanEval/7",
+        "HumanEval/8",
+        "HumanEval/9"
+      ],
+      "thinking": false,
+      "code_correctness_scored": false
+    },
+    "hard_tool_15": {
+      "tasks": [
+        "TC-70",
+        "TC-71",
+        "TC-72",
+        "TC-73",
+        "TC-74",
+        "TC-75",
+        "TC-76",
+        "TC-77",
+        "TC-78",
+        "TC-79",
+        "TC-80",
+        "TC-81",
+        "TC-82",
+        "TC-83",
+        "TC-84"
+      ],
+      "thinking": false
+    },
+    "hermesagent20": {
+      "passes": 2,
+      "tasks_per_pass": 20,
+      "thinking": true,
+      "case_wall_seconds": 1800
+    },
+    "memory_and_disk": {
+      "weight_asset_sizes": true,
+      "ready_and_peak_resources": true,
+      "uma_overlap_must_be_recorded": true
+    }
+  },
+  "host": "sozo",
+  "build_staging_host": "ciru",
+  "hardware": "Ryzen AI Max+ 395 / Radeon 8060S gfx1151 / 128GB UMA",
+  "weights": {
+    "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+    "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+    "quant": "UD-IQ4_XS",
+    "source_card_sha256": "9538227ff778ba7d8ba61b42cde3927487bf4c9c647ce18ac31d08a0b42998e6"
+  },
+  "serving": {
+    "context": 262144,
+    "concurrency": 1,
+    "backend": "HIP",
+    "rocm": "7.14.1",
+    "arch_default_kernels": true,
+    "tuning_table": "tools/hip/gfx1151-hipblaslt-100401.txt",
+    "optional_numeric_fast_kernels": false,
+    "prefill": 16384,
+    "kv": "int8",
+    "spec": 4,
+    "lookup_chain": 3,
+    "mtp_q4": "all",
+    "mtp_window": "default full",
+    "resident_experts": true
+  },
+  "samplers": {
+    "raw_counting": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "repeat_penalty": 1.0,
+      "seed": 20260930
+    },
+    "thinking_off": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "frequency_penalty": 0.0,
+      "repeat_penalty": 1.0,
+      "seed": 123
+    },
+    "thinking_on": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0,
+      "repeat_penalty": 1.0,
+      "seeds": {
+        "smoke": 160915,
+        "pass1": 160916,
+        "pass2": 160917
+      }
+    }
+  },
+  "first_attempt_only": true,
+  "retries": 0,
+  "baseline_generation_runs": 0,
+  "protocol_warmups": {
+    "raw_counting": "one retained 12960-input / 32-output warmup",
+    "he09": 0,
+    "hard_tools": "one retained 1-token transport probe; no model-specific repetitions",
+    "hermes": "required HA-01/HA-05/HA-20 smoke, then two passes of all 20"
+  },
+  "pre_generation_gates": [
+    "scope validator for exact panel",
+    "all prompts and requests pinned and validated",
+    "model/runtime/weights/templates and effective settings verified",
+    "exclusive GPU and 4.5GiB RAM floor",
+    "native cache, EOS and timing semantics verified"
+  ],
+  "adapter_work_needed": [
+    "Raw completion endpoint absent in stock HTTP API: add transparent raw token bridge, preserving exact prompt ids",
+    "Explicit cache_prompt=false absent in stock HTTP API: native reset control required for raw cold requests",
+    "Full-vocabulary native-pack logits are not exposed by stock --dump-logits: passive readback instrumentation required"
+  ],
+  "comparison_boundaries": [
+    "Different quants/runtimes are deployment comparisons, not engine-only causal claims",
+    "Old greedy/incorrect-fixture/bounded-agent protocols remain diagnostics",
+    "Carlos prior resident lookup history unrecovered; no fully controlled speedup claim against that archive",
+    "Native timing definitions must be shown separately; do not pool different first-token conventions"
+  ],
+  "server_restart_policy": "One fresh server per panel, no inference retries; HE cache disabled"
+}

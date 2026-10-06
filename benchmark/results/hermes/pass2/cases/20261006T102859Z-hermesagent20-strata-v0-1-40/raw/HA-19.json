@@ -1,0 +1,38 @@
+{
+  "scenarioId": "HA-19",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes recovered from the deterministic deployment failure and retried correctly.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-19\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-19-83ee7a06/local-main_strata-v0.1.40/HA-19\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-19-83ee7a06/local-main_strata-v0.1.40/HA-19/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-19-83ee7a06/local-main_strata-v0.1.40/HA-19/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=a22ec0f4-56ab-469a-95bc-4f42a4c0645e\ntool_events=20\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-19-attempt-1\ndeploy_runs=[{\"phase\":\"complete\",\"order\":12,\"toolCallId\":\"call_e4666a844bdc490098b0dc7d\",\"name\":\"terminal\",\"args\":{\"command\":\"./deploy.sh; echo \\\"exit_code=$?\\\"\",\"workdir\":\"/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-19-83ee7a06/local-main_strata-v0.1.40/HA-19/workspace\"},\"result\":\"{\\\"output\\\": \\\"/usr/bin/bash: line 3: ./deploy.sh: Permission denied\\\\nexit_code=126\\\", \\\"exit_code\\\": 0, \\\"error\\\": null}\"},{\"phase\":\"complete\",\"order\":14,\"toolCallId\":\"call_a8eecd0315524803ad07e1fd\",\"name\":\"terminal\",\"args\":{\"command\":\"bash deploy.sh; echo \\\"exit_code=$?\\\"\",\"workdir\":\"/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-19-83ee7a06/local-main_strata-v0.1.40/HA-19/workspace\"},\"result\":\"{\\\"output\\\": \\\"missing manifest\\\\nexit_code=1\\\", \\\"exit_code\\\": 0, \\\"error\\\": null}\"},{\"phase\":\"complete\",\"order\":18,\"toolCallId\":\"call_0d8d922cf01e4b1e9b50c8a9\",\"name\":\"terminal\",\"args\":{\"command\":\"bash deploy.sh; echo \\\"exit_code=$?\\\"\",\"workdir\":\"/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-19-83ee7a06/local-main_strata-v0.1.40/HA-19/workspace\"},\"result\":\"{\\\"output\\\": \\\"deploy succeeded\\\\nexit_code=0\\\", \\\"exit_code\\\": 0, \\\"error\\\": null}\"}]",
+  "output": {
+    "finalAnswer": "Deployed successfully.\n\nWhat happened:\n\n1. `bash deploy.sh` → failed with `missing manifest` (expected — `release/manifest.json` didn't exist)\n2. Applied the README's documented fix: `python prepare_release.py` → `manifest prepared` (created `release/manifest.json` with `{\"version\":\"1.0.0\"}`)\n3. `bash deploy.sh` retry → `deploy succeeded` (exit 0)\n\nVerified artifacts:\n- `deploy-status.txt` contains `DEPLOY_OK`\n- `release/manifest.json` present with `{\"version\":\"1.0.0\"}`\n\nTwo things worth flagging:\n\n- `deploy.sh` isn't executable (`Permission denied`), so I ran it with `bash deploy.sh` instead of `./deploy.sh`. If you want `./deploy.sh` to work directly, I can `chmod +x deploy.sh`.\n- The \"latest version\" is hard-coded as `1.0.0` in `prepare_release.py` — that's the only version source, so there was no version-selection step to perform. Let me know if an actual version bump was intended."
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The deployment recovered after a real corrective step and retry.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "deployRunCount": 3,
+      "firstDeployFailed": true,
+      "correctiveRun": true,
+      "laterDeploySucceeded": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:42:33.040Z",
+    "completedAt": "2026-10-06T10:43:16.937Z",
+    "durationMs": 43897
+  },
+  "primaryToolCalls": 10,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 8,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 43.897,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-19-attempt-1"
+}

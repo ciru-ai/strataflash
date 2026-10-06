@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-606a15dcf246434982753880",
+  "object": "chat.completion",
+  "created": 1791277418,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef separate_paren_groups(paren_string: str) -> List[str]:\n    \"\"\" Input to this function is a string containing multiple groups of nested parentheses. Your goal is to\n    separate those group into separate strings and return the list of those.\n    Separate groups are balanced (each open brace is properly closed) and not nested within each other\n    Ignore any spaces in the input string.\n    >>> separate_paren_groups('( ) (( )) (( )( ))')\n    ['()', '(())', '(()())']\n    \"\"\"\n    # Remove all spaces\n    s = paren_string.replace(\" \", \"\")\n    \n    result = []\n    current_group = \"\"\n    depth = 0\n    \n    for char in s:\n        if char == '(':\n            depth += 1\n            current_group += char\n        elif char == ')':\n            depth -= 1\n            current_group += char\n            if depth == 0:\n                # We've completed a balanced group\n                result.append(current_group)\n                current_group = \"\"\n    \n    return result\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 234,
+    "total_tokens": 360,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 126,
+    "prompt_ms": 807.6,
+    "prompt_per_token_ms": 6.41,
+    "prompt_per_second": 156.0,
+    "predicted_n": 234,
+    "predicted_ms": 3164.9,
+    "predicted_per_token_ms": 13.525,
+    "predicted_per_second": 73.9,
+    "draft_n": 204,
+    "draft_n_accepted": 184
+  }
+}

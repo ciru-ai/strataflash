@@ -1,0 +1,15 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are reviewing a past conversation transcript to help recall what happened. Summarize the conversation with a focus on the search topic. Include:\n1. What the user asked about or wanted to accomplish\n2. What actions were taken and what the outcomes were\n3. Key decisions, solutions found, or conclusions reached\n4. Any specific commands, files, URLs, or technical details that were important\n5. Anything left unresolved or notable\n\nBe thorough but concise. Preserve specific details (commands, paths, error messages) that would be useful to recall. Write in past tense as a factual recap."
+    },
+    {
+      "role": "user",
+      "content": "Search topic: Docker networking fix compose network_mode OR network OR bridge OR subnet\nSession source: benchlocal-hermesagent-20-seed\nSession date: October 06, 2026 at 10:15 AM\n\nCONVERSATION TRANSCRIPT:\n[USER]: Docker networking is broken again.\n\n[ASSISTANT]: The fix is to attach the api service to the backend network so it can reach db.\n\nSummarize this conversation with focus on: Docker networking fix compose network_mode OR network OR bridge OR subnet"
+    }
+  ],
+  "model": "strata-v0.1.40",
+  "max_tokens": 10000,
+  "temperature": 0.1
+}

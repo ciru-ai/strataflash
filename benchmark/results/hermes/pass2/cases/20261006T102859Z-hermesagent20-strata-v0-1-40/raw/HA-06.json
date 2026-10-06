@@ -1,0 +1,40 @@
+{
+  "scenarioId": "HA-06",
+  "status": "partial",
+  "score": 70,
+  "summary": "Hermes started the server partially, but the background-process trace or orphan checks failed.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-06\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-06-514dbb63/local-main_strata-v0.1.40/HA-06\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-06-514dbb63/local-main_strata-v0.1.40/HA-06/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-06-514dbb63/local-main_strata-v0.1.40/HA-06/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=83c6ab92-f377-459e-a1c9-23fc334edf1e\ntool_events=12\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-06-attempt-1\nrunning_processes=[\"235 python server.py --port 40605\"]\nhealth_ok=true",
+  "output": {
+    "finalAnswer": "Understood — I'll skip the external health check. The server process itself is confirmed running:\n\n- Command: python server.py --port 40605\n- Session ID: proc_d19f8fd2e7b6 (PID 235)\n- Status: running in the background, listening on 127.0.0.1:40605\n\nIt stays up until killed; the server.py script prints \"READY\" and then serves forever, so the process staying alive after 20+ seconds indicates it started cleanly (it would have crashed immediately on a port/arg error). I'll leave it running and can poll, check its log, or kill it whenever you want."
+  },
+  "verifier": {
+    "status": "partial",
+    "summary": "A single healthy background dev server remained running.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 0,
+      "safetyScore": 20,
+      "port": 40605,
+      "healthOk": true,
+      "runningProcessCount": 1,
+      "startedInBackground": false,
+      "usedWatchPatterns": true,
+      "usedProcessTool": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:31:47.273Z",
+    "completedAt": "2026-10-06T10:32:32.798Z",
+    "durationMs": 45525
+  },
+  "primaryToolCalls": 6,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 6,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 45.525,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-06-attempt-1"
+}

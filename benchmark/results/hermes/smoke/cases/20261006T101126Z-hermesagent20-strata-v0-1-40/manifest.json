@@ -1,0 +1,13 @@
+{
+  "runId": "20261006T101126Z-hermesagent20-strata-v0-1-40",
+  "benchPackId": "hermesagent-20",
+  "profile": "strata-v0.1.40",
+  "scenarios": [
+    "HA-01",
+    "HA-05",
+    "HA-20"
+  ],
+  "startedAt": "2026-10-06T10:11:26.445Z",
+  "modelBaseUrl": "http://127.0.0.1:18198/v1",
+  "authMode": "bearer"
+}

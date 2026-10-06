@@ -1,0 +1,198 @@
+[strata] sampling defaults from the config: temperature=1.0, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=1.0, frequency_penalty=0.0
+loading the model (the first start takes a minute or two) ...
+[strata] starting the engine: reading the model's weights ...
+[strata] loading the experts the GPU does not hold into RAM (of tens of GB) and locking part of them for the GPU.
+         YOUR PC CAN BE SLOW OR STOP RESPONDING FOR 1-3 MINUTES NOW - this is normal.
+         Please wait and don't close this window; the browser opens when it is ready.
+[strata] filling the GPU's expert cache (24576 experts, 55.43 GiB of VRAM) ...
+[strata] still starting (24 s) - please wait ...
+[strata] almost ready ...
+ready: http://127.0.0.1:18140/v1  (OpenAI: /v1/chat/completions, Anthropic: /v1/messages, context 262144 tokens)
+       open http://127.0.0.1:18140/ in a browser to chat; close this window to stop the model
+[strata] done: 1 tokens in 1 s (617.4 tok/s) (length, cancel=False)
+[strata] the reply reached max tokens while still thinking, so it has no answer: a thinking budget (reasoning_budget_tokens, in the request or in strata-<model>.json for every request) leaves room to answer
+[strata] reading the prompt: 536 of 543 tokens, 3 s so far
+[strata] done: 41 tokens in 4 s (60.0 tok/s) (stop, cancel=False)
+[strata] answering: 22 of max 261507 tokens, 44.7 tok/s, 1 s
+[strata] done: 37 tokens in 1 s (42.0 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,324 of 1,331 tokens, 3 s so far
+[strata] writing a tool call: search_files: 50 of max 260805 tokens, 57.7 tok/s, 4 s
+[strata] done: 89 tokens in 4 s (62.8 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,937 of 1,944 tokens, 2 s so far
+[strata] answering: 31 of max 260192 tokens, 33.9 tok/s, 3 s
+[strata] answering: 82 of max 260192 tokens, 41.9 tok/s, 4 s
+[strata] done: 120 tokens in 4 s (45.5 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,334 of 1,341 tokens, 3 s so far
+[strata] writing a tool call: search_files: 52 of max 260795 tokens, 57.1 tok/s, 4 s
+[strata] done: 85 tokens in 4 s (63.9 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,871 of 1,878 tokens, 1 s so far
+[strata] done: 47 tokens in 2 s (57.7 tok/s) (stop, cancel=False)
+[strata] answering: 5 of max 260101 tokens, 44.8 tok/s, 1 s
+[strata] done: 56 tokens in 2 s (54.8 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2,395 of 2,402 tokens, 1 s so far
+[strata] writing a tool call: read_file: 45 of max 259734 tokens, 51.1 tok/s, 2 s
+[strata] done: 51 tokens in 2 s (57.8 tok/s) (stop, cancel=False)
+[strata] answering: 1 of max 259542 tokens, 262144.0 tok/s, 1 s
+[strata] answering: 50 of max 259542 tokens, 48.3 tok/s, 2 s
+[strata] done: 81 tokens in 3 s (54.1 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2,979 of 2,986 tokens, 1 s so far
+[strata] answering: 37 of max 259150 tokens, 40.5 tok/s, 2 s
+[strata] writing a tool call: send_email: 82 of max 259150 tokens, 41.8 tok/s, 3 s
+[strata] writing a tool call: send_email: 144 of max 259150 tokens, 48.5 tok/s, 4 s
+[strata] writing a tool call: send_email: 179 of max 259150 tokens, 44.8 tok/s, 5 s
+[strata] writing a tool call: send_email: 225 of max 259150 tokens, 44.8 tok/s, 6 s
+[strata] done: 271 tokens in 7 s (45.7 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 3,428 of 3,429 tokens, 1 s so far
+[strata] answering: 45 of max 258707 tokens, 45.7 tok/s, 2 s
+[strata] answering: 88 of max 258707 tokens, 43.6 tok/s, 3 s
+[strata] answering: 142 of max 258707 tokens, 46.4 tok/s, 4 s
+[strata] answering: 193 of max 258707 tokens, 47.4 tok/s, 5 s
+[strata] done: 238 tokens in 6 s (48.3 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,349 of 1,356 tokens, 3 s so far
+[strata] writing a tool call: web_search: 45 of max 260780 tokens, 50.7 tok/s, 4 s
+[strata] done: 96 tokens in 5 s (56.8 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,979 of 1,986 tokens, 2 s so far
+[strata] answering: 32 of max 260150 tokens, 35.3 tok/s, 3 s
+[strata] writing a tool call: send_email: 95 of max 260150 tokens, 48.7 tok/s, 4 s
+[strata] writing a tool call: send_email: 157 of max 260150 tokens, 52.9 tok/s, 5 s
+[strata] writing a tool call: send_email: 205 of max 260150 tokens, 50.9 tok/s, 6 s
+[strata] writing a tool call: send_email: 254 of max 260150 tokens, 50.1 tok/s, 7 s
+[strata] done: 286 tokens in 7 s (50.5 tok/s) (stop, cancel=False)
+[strata] answering: 1 of max 259692 tokens, 102300.1 tok/s, 1 s
+[strata] answering: 56 of max 259692 tokens, 53.5 tok/s, 2 s
+[strata] answering: 106 of max 259692 tokens, 51.3 tok/s, 3 s
+[strata] answering: 156 of max 259692 tokens, 50.1 tok/s, 4 s
+[strata] done: 198 tokens in 5 s (49.7 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,338 of 1,345 tokens, 3 s so far
+[strata] done: 25 tokens in 3 s (60.4 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2 of max 260614 tokens, 27.1 tok/s, 1 s
+[strata] writing a tool call: create_calendar_event: 62 of max 260614 tokens, 56.3 tok/s, 2 s
+[strata] done: 96 tokens in 3 s (60.1 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,816 of 1,823 tokens, 1 s so far
+[strata] answering: 51 of max 260313 tokens, 57.0 tok/s, 2 s
+[strata] done: 97 tokens in 3 s (57.7 tok/s) (stop, cancel=False)
+[strata] writing a tool call: create_calendar_event: 55 of max 260193 tokens, 74.5 tok/s, 1 s
+[strata] done: 96 tokens in 2 s (74.7 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2,237 of 2,244 tokens, 1 s so far
+[strata] answering: 53 of max 259892 tokens, 59.0 tok/s, 2 s
+[strata] done: 82 tokens in 2 s (64.1 tok/s) (stop, cancel=False)
+[strata] writing a tool call: create_calendar_event: 52 of max 259791 tokens, 65.9 tok/s, 1 s
+[strata] done: 96 tokens in 2 s (65.8 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2,639 of 2,646 tokens, 1 s so far
+[strata] answering: 58 of max 259490 tokens, 66.6 tok/s, 2 s
+[strata] done: 82 tokens in 2 s (67.9 tok/s) (stop, cancel=False)
+[strata] done: 25 tokens in 1 s (56.3 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2,933 of 2,934 tokens, 1 s so far
+[strata] writing a tool call: create_calendar_event: 71 of max 259202 tokens, 69.7 tok/s, 2 s
+[strata] done: 105 tokens in 3 s (67.6 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 3,237 of 3,244 tokens, 1 s so far
+[strata] answering: 53 of max 258892 tokens, 59.4 tok/s, 2 s
+[strata] done: 73 tokens in 3 s (53.2 tok/s) (stop, cancel=False)
+[strata] writing a tool call: create_calendar_event: 39 of max 258783 tokens, 65.8 tok/s, 1 s
+[strata] done: 105 tokens in 2 s (68.2 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 3,656 of 3,663 tokens, 1 s so far
+[strata] writing a tool call: send_email: 56 of max 258473 tokens, 62.4 tok/s, 2 s
+[strata] writing a tool call: send_email: 117 of max 258473 tokens, 60.2 tok/s, 3 s
+[strata] done: 171 tokens in 4 s (61.2 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 3,993 of 3,994 tokens, 1 s so far
+[strata] answering: 57 of max 258142 tokens, 58.0 tok/s, 2 s
+[strata] done: 99 tokens in 3 s (56.7 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 476 of 483 tokens, 2 s so far
+[strata] answering: 35 of max 261653 tokens, 39.7 tok/s, 3 s
+[strata] answering: 84 of max 261653 tokens, 44.2 tok/s, 4 s
+[strata] done: 121 tokens in 4 s (47.1 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 546 of 553 tokens, 2 s so far
+[strata] writing a tool call: get_invoice: 37 of max 261583 tokens, 41.3 tok/s, 3 s
+[strata] done: 46 tokens in 3 s (47.2 tok/s) (stop, cancel=False)
+[strata] answering: 24 of max 261492 tokens, 48.2 tok/s, 1 s
+[strata] answering: 73 of max 261492 tokens, 48.6 tok/s, 2 s
+[strata] answering: 133 of max 261492 tokens, 53.0 tok/s, 3 s
+[strata] answering: 185 of max 261492 tokens, 52.3 tok/s, 4 s
+[strata] answering: 228 of max 261492 tokens, 49.7 tok/s, 5 s
+[strata] done: 235 tokens in 5 s (50.0 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 490 of 497 tokens, 2 s so far
+[strata] done: 3 tokens in 2 s (52.2 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 446 of 453 tokens, 2 s so far
+[strata] writing a tool call: get_stock_price: 70 of max 261683 tokens, 75.0 tok/s, 3 s
+[strata] done: 84 tokens in 3 s (74.6 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,032 of 1,039 tokens, 1 s so far
+[strata] done: 42 tokens in 2 s (62.3 tok/s) (stop, cancel=False)
+[strata] answering: 40 of max 261028 tokens, 58.3 tok/s, 1 s
+[strata] answering: 109 of max 261028 tokens, 63.5 tok/s, 2 s
+[strata] done: 119 tokens in 2 s (65.0 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 585 of 592 tokens, 2 s so far
+[strata] tool call complete: 48 of max 261544 tokens, 55.6 tok/s, 3 s
+[strata] done: 74 tokens in 3 s (57.9 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 991 of 998 tokens, 1 s so far
+[strata] answering: 53 of max 261138 tokens, 58.4 tok/s, 2 s
+[strata] writing a tool call: create_calendar_event: 112 of max 261138 tokens, 57.1 tok/s, 3 s
+[strata] done: 163 tokens in 4 s (60.7 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,331 of 1,332 tokens, 1 s so far
+[strata] answering: 56 of max 260804 tokens, 55.7 tok/s, 2 s
+[strata] answering: 101 of max 260804 tokens, 50.1 tok/s, 3 s
+[strata] answering: 167 of max 260804 tokens, 54.6 tok/s, 4 s
+[strata] done: 208 tokens in 5 s (53.3 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 602 of 609 tokens, 2 s so far
+[strata] done: 39 tokens in 3 s (56.1 tok/s) (stop, cancel=False)
+[strata] answering: 16 of max 261422 tokens, 53.6 tok/s, 1 s
+[strata] writing a tool call: check_availability: 77 of max 261422 tokens, 57.5 tok/s, 2 s
+[strata] done: 101 tokens in 2 s (61.3 tok/s) (stop, cancel=False)
+[strata] answering: 45 of max 261292 tokens, 68.4 tok/s, 1 s
+[strata] answering: 104 of max 261292 tokens, 60.8 tok/s, 2 s
+[strata] done: 137 tokens in 3 s (57.9 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 513 of 520 tokens, 2 s so far
+[strata] done: 26 tokens in 2 s (62.8 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 853 of 860 tokens, 1 s so far
+[strata] done: 27 tokens in 2 s (61.6 tok/s) (stop, cancel=False)
+[strata] answering: 3 of max 261129 tokens, 26.6 tok/s, 1 s
+[strata] answering: 60 of max 261129 tokens, 52.5 tok/s, 2 s
+[strata] done: 99 tokens in 3 s (52.2 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 555 of 562 tokens, 2 s so far
+[strata] done: 51 tokens in 3 s (71.2 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 823 of 824 tokens, 1 s so far
+[strata] writing a tool call: lookup_directory: 43 of max 261312 tokens, 44.0 tok/s, 2 s
+[strata] done: 55 tokens in 2 s (47.0 tok/s) (stop, cancel=False)
+[strata] answering: 20 of max 261215 tokens, 39.6 tok/s, 1 s
+[strata] writing a tool call: send_email: 71 of max 261215 tokens, 46.5 tok/s, 2 s
+[strata] writing a tool call: send_email: 135 of max 261215 tokens, 52.4 tok/s, 3 s
+[strata] done: 153 tokens in 3 s (54.2 tok/s) (stop, cancel=False)
+[strata] answering: 1 of max 260902 tokens, 144631.2 tok/s, 1 s
+[strata] answering: 41 of max 260902 tokens, 39.7 tok/s, 2 s
+[strata] answering: 100 of max 260902 tokens, 49.0 tok/s, 3 s
+[strata] answering: 140 of max 260902 tokens, 45.9 tok/s, 4 s
+[strata] done: 149 tokens in 4 s (45.5 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 498 of 505 tokens, 2 s so far
+[strata] done: 55 tokens in 3 s (71.0 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 911 of 918 tokens, 1 s so far
+[strata] done: 29 tokens in 2 s (66.4 tok/s) (stop, cancel=False)
+[strata] answering: 2 of max 261050 tokens, 36.6 tok/s, 1 s
+[strata] done: 57 tokens in 2 s (72.9 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 811 of 818 tokens, 2 s so far
+[strata] answering: 40 of max 261318 tokens, 46.7 tok/s, 3 s
+[strata] writing a tool call: search_slots: 111 of max 261318 tokens, 58.8 tok/s, 4 s
+[strata] writing a tool call: search_rooms: 177 of max 261318 tokens, 61.0 tok/s, 5 s
+[strata] done: 226 tokens in 6 s (61.6 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 1,635 of 1,642 tokens, 2 s so far
+[strata] answering: 40 of max 260494 tokens, 45.8 tok/s, 3 s
+[strata] writing a tool call: book_room: 110 of max 260494 tokens, 56.7 tok/s, 4 s
+[strata] done: 169 tokens in 5 s (60.5 tok/s) (stop, cancel=False)
+[strata] answering: 6 of max 260215 tokens, 52.4 tok/s, 1 s
+[strata] writing a tool call: book_room: 69 of max 260215 tokens, 60.7 tok/s, 2 s
+[strata] done: 147 tokens in 3 s (69.0 tok/s) (stop, cancel=False)
+[strata] writing a tool call: send_email: 36 of max 260034 tokens, 60.3 tok/s, 1 s
+[strata] writing a tool call: send_email: 86 of max 260034 tokens, 53.7 tok/s, 2 s
+[strata] writing a tool call: send_email: 142 of max 260034 tokens, 53.3 tok/s, 3 s
+[strata] tool call complete: 209 of max 260034 tokens, 55.9 tok/s, 4 s
+[strata] writing a tool call: send_email: 297 of max 260034 tokens, 61.8 tok/s, 5 s
+[strata] writing a tool call: send_email: 382 of max 260034 tokens, 65.7 tok/s, 6 s
+[strata] done: 393 tokens in 6 s (66.7 tok/s) (stop, cancel=False)
+[strata] reading the prompt: 2,796 of 2,803 tokens, 1 s so far
+[strata] answering: 40 of max 259333 tokens, 46.1 tok/s, 2 s
+[strata] answering: 95 of max 259333 tokens, 50.4 tok/s, 3 s
+[strata] answering: 153 of max 259333 tokens, 52.0 tok/s, 4 s
+[strata] answering: 210 of max 259333 tokens, 52.8 tok/s, 5 s
+[strata] answering: 258 of max 259333 tokens, 51.3 tok/s, 6 s
+[strata] done: 262 tokens in 6 s (51.5 tok/s) (stop, cancel=False)
+
+[strata] stopping (Ctrl+C again to end the engine at once) ...
+[strata] stopped

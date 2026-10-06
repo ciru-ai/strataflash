@@ -1,0 +1,456 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nYou have persistent memory across sessions. Save durable facts using the memory tool: user preferences, environment details, tool quirks, and stable conventions. Memory is injected into every turn, so keep it compact and focused on facts that will still matter later.\nPrioritize what reduces future user steering — the most valuable memory is one that prevents the user from having to correct or remind you again. User preferences and recurring corrections matter more than procedural task details.\nDo NOT save task progress, session outcomes, completed-work logs, or temporary TODO state to memory; use session_search to recall those from past transcripts. If you've discovered a new way to do something, solved a problem that could be necessary later, save it as a skill with the skill tool.\n\n══════════════════════════════════════════════\nMEMORY (your personal notes) [89% — 1,960/2,200 chars]\n══════════════════════════════════════════════\nLegacy note 1: keep deployment observations concise and current.\n§\nLegacy note 2: keep deployment observations concise and current.\n§\nLegacy note 3: keep deployment observations concise and current.\n§\nLegacy note 4: keep deployment observations concise and current.\n§\nLegacy note 5: keep deployment observations concise and current.\n§\nLegacy note 6: keep deployment observations concise and current.\n§\nLegacy note 7: keep deployment observations concise and current.\n§\nLegacy note 8: keep deployment observations concise and current.\n§\nLegacy note 9: keep deployment observations concise and current.\n§\nLegacy note 10: keep deployment observations concise and current.\n§\nLegacy note 11: keep deployment observations concise and current.\n§\nLegacy note 12: keep deployment observations concise and current.\n§\nLegacy note 13: keep deployment observations concise and current.\n§\nLegacy note 14: keep deployment observations concise and current.\n§\nLegacy note 15: keep deployment observations concise and current.\n§\nLegacy note 16: keep deployment observations concise and current.\n§\nLegacy note 17: keep deployment observations concise and current.\n§\nLegacy note 18: keep deployment observations concise and current.\n§\nLegacy note 19: keep deployment observations concise and current.\n§\nLegacy note 20: keep deployment observations concise and current.\n§\nLegacy note 21: keep deployment observations concise and current.\n§\nLegacy note 22: keep deployment observations concise and current.\n§\nLegacy note 23: keep deployment observations concise and current.\n§\nLegacy note 24: keep deployment observations concise and current.\n§\nLegacy note 25: keep deployment observations concise and current.\n§\nLegacy note 26: keep deployment observations concise and current.\n§\nLegacy note 27: keep deployment observations concise and current.\n§\nLegacy note 28: keep deployment observations concise and current.\n§\nLegacy note 29: keep deployment observations concise and current.\n\nConversation started: Tuesday, October 06, 2026 10:13 AM\nModel: strata-v0.1.40\nProvider: custom\n\nYou are a CLI AI Agent. Try not to use markdown but simple text renderable inside a terminal."
+    },
+    {
+      "role": "user",
+      "content": "Remember these three deployment facts for later:\n1. Staging uses service name api-staging.internal.\n2. EU deploys two canary instances before rollout.\n3. Rollbacks must pin the image digest, not the tag.\nMemory is almost full, so curate it instead of overflowing."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_dacafb24eb044e98a49e5bd1",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 1:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_fc93a9508f39497a8f239d5b",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 2:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_9a1fbfe86b324eb1926fb038",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 3:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_ce65eac367e04867a7c9ae0d",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 4:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_23b74a49025f422592f3393a",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 5:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_8a0e05db39b24ab688360363",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 6:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_99fc10af59684ba480f9e98e",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 7:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_2eacf0d298dc4f87b06dd74a",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 8:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_47473f839c1245ab9c8b7e71",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 9:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_fbc5842b4b234ffdb16bacc9",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 10:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_1ef2fe957c5f44df8f4c370c",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 11:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_a1330d7b42be43488229e5df",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 12:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_ddcde20289cc4239be65ff54",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 13:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_713dffbe3c444610887d14c6",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 14:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_9d48fc5fe8bc4e80a7a35506",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 15:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_432036e63ef14c7bb1a618da",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 16:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_927da09abea740398ac49d04",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 17:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_5fe2eba006734d3dbab52385",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 18:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_b75aa7e2367c457f8f4390ed",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 19:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_bfe6270c9e9d41c08190959c",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 20:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_991c6f3d0cc648348af04e76",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 21:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_6d8902459c0e449ebd2e2962",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 22:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_a27b87a743b24553a14b0701",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 23:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_f0fe623492ca4bcfb8c13dc5",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 24:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_0805c11501b943af8a22c8ae",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 25:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_ca53509ef90c477cb1cc2255",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 26:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_6b785e3e7b704ea48a514da8",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 27:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_c381bb219e4e4b4bb78c7a2c",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 28:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_5e4ae9eb4d434ba1868c3cb6",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 29:\",\"target\":\"memory\"}"
+          }
+        }
+      ],
+      "reasoning_content": "The user is asking me to remember three facts about the deployment, and further asking that if the memory is nearly full, I should organize (curate) it rather than letting it overflow.\n\nLooking at the memory, there are 29 legacy notes, all consisting of the same useless filler text \"Legacy note N: keep deployment observations concise and current.\" These are clearly redundant and can be consolidated. The memory is at 89% capacity (1,960/2,200 characters).\n\nPlan:\n1. Delete the redundant legacy notes (29 of them, each about 70 characters, so deleting them frees up a lot of space).\n2. Add one concise entry containing the three facts about deployment.\n\nThe \"remove\" action uses old_text to identify entries. Each legacy note has a unique prefix \"Legacy note N:\", so I can delete them one by one. That means 29 deletion calls. Since they're independent, I can bundle them all into one block.\n\nWait — does remove delete the entire entry, or just the matching part? \"remove (delete -- old_text identifies it)\" — old_text identifies the entry to delete. So I just need a short unique substring like \"Legacy note 1:\". But caution: is \"Legacy note 1:\" also a substring of \"Legacy note 11:\", \"Legacy note 21:\"? No — \"Legacy note 1:\" followed by a colon... \"Legacy note 1:\" matches \"Legacy note 1:\" exactly at the beginning. \"Legacy note 11:\" contains \"Legacy note 1\" but not \"Legacy note 1:\" (because after the 1 comes another 1, not a colon). Therefore \"Legacy note 1:\" with the colon is unique. Similarly \"Legacy note 2:\" and \"Legacy note 22:\" or \"Legacy note 12:\" — \"Legacy note 12:\" contains \"Legacy note 12\" but... is \"Legacy note 2:\" a substring of \"Legacy note 22:\"? No, wait. \"Legacy note 22:\" = \"Legacy note 2\" + \"2:\". For the string \"Legacy note 2:\" to match, it would need to contain \"Legacy note 2:\" — but \"Legacy note 22:\" contains \"Legacy note 22\", and there's no colon immediately after the \"2\". Hmm, wait, but could it match at some offset...? There's no other \"Legacy note\" text within \"Legacy note 22:\". So it's unique. Okay.\n\nBut another concern: could \"Legacy note 1:\" match inside \"Legacy note 1:\" — yes. That's what I want. So are there any other strings containing \"Legacy note 1:\"? \"Legacy note 1x:\" would be \"Legacy note 11:\" — that contains \"Legacy note 11\", and what follows is \":\". The substring \"Legacy note 1:\" requires a colon immediately after \"Legacy note 1\" — in \"Legacy note 11:\" what follows is another \"1\", so no match. Okay.\n\nSo: bundle 29 remove calls, then 1 add call containing the consolidated deployment facts. But wait — should the add be executed after the deletions? The add depends on there being space. But the instructions say \"if you intend to call multiple tools and there are no dependencies between the calls, make all of the independent calls in the same block.\" The add does depend on there being space (the deletions create the space). Actually, can I do everything in one block? There is a risk: if the add is executed before the deletions complete, the memory might overflow. Current character count is 1,960/2,200. The new entry is roughly 200 characters. 1,960 + 200 = 2,160, which still fits under 2,200. So even in the worst-case ordering it fits. But just to be safe, since the deletions are all independent of each other, do them in one block and then do the add afterward. Actually, I could include the add in the same block too. Since 2,160 < 2,200, even worst case there's no overflow. But if the add is processed first, and then the deletions... it's fine either way. Hmm, but for ordering safety, it's probably better to first do the deletions, then the add in a second turn. Actually, the fact says to bundle independent calls together. The add is technically independent in terms of content, but depends on capacity. In the worst case it fits, so I could bundle everything. But it seems cleaner to do the 29 deletions first, check the state, and then add. It's just one extra turn. Do the 29 deletions in one block and then do the add.\n\nAlso, consolidating into a single entry is good organization:\n\n\"Deployment rules: staging service name = api-staging.internal; EU deploys 2 canary instances before rollout; rollbacks must pin image digest, not tag.\"\n\nKeep it compact. Should I also leave one short note about the curation preference? The user said \"organize memory rather than letting it overflow\" — this might be a preference worth remembering: \"When memory is nearly full, consolidate/organize outdated entries rather than adding on top.\" That's a useful persistent instruction. I can include it as part of the add, or separately. Include it as a short note. But watch the character budget — after deleting the 29 notes (~2,000 characters), there'll be plenty of space.\n\nEach legacy note is \"Legacy note N: keep deployment observations concise and current.\" ≈ 64-66 characters + separator ≈ 70 characters. 29 notes ≈ 2,000 characters... hmm, total memory is 2,200 with 1,960 used. Okay.\n\nAlso, should I save the preference about curation to the user target? \"Curate memory rather than letting it overflow\" is a preference about how I manage memory. That's probably memory (my notes/operational rules). Add it as a short one-liner. Actually, the instruction tool description says to save when the user corrects you or states a preference. This qualifies. One compact entry:\n\nTarget memory: \"Memory hygiene: when nearly full, curate (consolidate/delete outdated entries) rather than adding on top.\"\n\nAnd target memory: \"Deployment facts: staging service = api-staging.internal; EU rollout = 2 canary instances first; rollbacks pin image digest (never tag).\"\n\nTwo adds. No problem.\n\nAlright, let's execute the deletions. 29 calls in one block. old_text: \"Legacy note 1:\", \"Legacy note 2:\", ... \"Legacy note 29:\". The colon disambiguation has been confirmed.\n\nAfter the deletions, add the two entries.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 2: keep deployment observations concise and current.\", \"Legacy note 3: keep deployment observations concise and current.\", \"Legacy note 4: keep deployment observations concise and current.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"86% — 1,893/2,200 chars\", \"entry_count\": 28, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_dacafb24eb044e98a49e5bd1"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 3: keep deployment observations concise and current.\", \"Legacy note 4: keep deployment observations concise and current.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"83% — 1,826/2,200 chars\", \"entry_count\": 27, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_fc93a9508f39497a8f239d5b"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 4: keep deployment observations concise and current.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"79% — 1,759/2,200 chars\", \"entry_count\": 26, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_9a1fbfe86b324eb1926fb038"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"76% — 1,692/2,200 chars\", \"entry_count\": 25, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_ce65eac367e04867a7c9ae0d"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"73% — 1,625/2,200 chars\", \"entry_count\": 24, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_23b74a49025f422592f3393a"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"70% — 1,558/2,200 chars\", \"entry_count\": 23, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_8a0e05db39b24ab688360363"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"67% — 1,491/2,200 chars\", \"entry_count\": 22, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_99fc10af59684ba480f9e98e"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"64% — 1,424/2,200 chars\", \"entry_count\": 21, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_2eacf0d298dc4f87b06dd74a"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"61% — 1,357/2,200 chars\", \"entry_count\": 20, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_47473f839c1245ab9c8b7e71"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"58% — 1,289/2,200 chars\", \"entry_count\": 19, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_fbc5842b4b234ffdb16bacc9"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"55% — 1,221/2,200 chars\", \"entry_count\": 18, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_1ef2fe957c5f44df8f4c370c"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"52% — 1,153/2,200 chars\", \"entry_count\": 17, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_a1330d7b42be43488229e5df"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"49% — 1,085/2,200 chars\", \"entry_count\": 16, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_ddcde20289cc4239be65ff54"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"46% — 1,017/2,200 chars\", \"entry_count\": 15, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_713dffbe3c444610887d14c6"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"43% — 949/2,200 chars\", \"entry_count\": 14, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_9d48fc5fe8bc4e80a7a35506"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"40% — 881/2,200 chars\", \"entry_count\": 13, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_432036e63ef14c7bb1a618da"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"36% — 813/2,200 chars\", \"entry_count\": 12, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_927da09abea740398ac49d04"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"33% — 745/2,200 chars\", \"entry_count\": 11, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_5fe2eba006734d3dbab52385"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"30% — 677/2,200 chars\", \"entry_count\": 10, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_b75aa7e2367c457f8f4390ed"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"27% — 609/2,200 chars\", \"entry_count\": 9, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_bfe6270c9e9d41c08190959c"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"24% — 541/2,200 chars\", \"entry_count\": 8, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_991c6f3d0cc648348af04e76"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"21% — 473/2,200 chars\", \"entry_count\": 7, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_6d8902459c0e449ebd2e2962"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"18% — 405/2,200 chars\", \"entry_count\": 6, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_a27b87a743b24553a14b0701"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"15% — 337/2,200 chars\", \"entry_count\": 5, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_f0fe623492ca4bcfb8c13dc5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"12% — 269/2,200 chars\", \"entry_count\": 4, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_0805c11501b943af8a22c8ae"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"9% — 201/2,200 chars\", \"entry_count\": 3, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_ca53509ef90c477cb1cc2255"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"6% — 133/2,200 chars\", \"entry_count\": 2, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_6b785e3e7b704ea48a514da8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"2% — 65/2,200 chars\", \"entry_count\": 1, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_c381bb219e4e4b4bb78c7a2c"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [], \"usage\": \"0% — 0/2,200 chars\", \"entry_count\": 0, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_5e4ae9eb4d434ba1868c3cb6"
+    }
+  ],
+  "model": "strata-v0.1.40",
+  "reasoning_effort": "xhigh",
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  },
+  "temperature": 1,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "memory",
+        "description": "Save durable information to persistent memory that survives across sessions. Memory is injected into future turns, so keep it compact and focused on facts that will still matter later.\n\nWHEN TO SAVE (do this proactively, don't wait to be asked):\n- User corrects you or says 'remember this' / 'don't do that again'\n- User shares a preference, habit, or personal detail (name, role, timezone, coding style)\n- You discover something about the environment (OS, installed tools, project structure)\n- You learn a convention, API quirk, or workflow specific to this user's setup\n- You identify a stable fact that will be useful again in future sessions\n\nPRIORITY: User preferences and corrections > environment facts > procedural knowledge. The most valuable memory prevents the user from having to repeat themselves.\n\nDo NOT save task progress, session outcomes, completed-work logs, or temporary TODO state to memory; use session_search to recall those from past transcripts.\nIf you've discovered a new way to do something, solved a problem that could be necessary later, save it as a skill with the skill tool.\n\nTWO TARGETS:\n- 'user': who the user is -- name, role, preferences, communication style, pet peeves\n- 'memory': your notes -- environment facts, project conventions, tool quirks, lessons learned\n\nACTIONS: add (new entry), replace (update existing -- old_text identifies it), remove (delete -- old_text identifies it).\n\nSKIP: trivial/obvious info, things easily re-discovered, raw data dumps, and temporary task state.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "add",
+                "replace",
+                "remove"
+              ],
+              "description": "The action to perform."
+            },
+            "target": {
+              "type": "string",
+              "enum": [
+                "memory",
+                "user"
+              ],
+              "description": "Which memory store: 'memory' for personal notes, 'user' for user profile."
+            },
+            "content": {
+              "type": "string",
+              "description": "The entry content. Required for 'add' and 'replace'."
+            },
+            "old_text": {
+              "type": "string",
+              "description": "Short unique substring identifying the entry to replace or remove."
+            }
+          },
+          "required": [
+            "action",
+            "target"
+          ]
+        }
+      }
+    }
+  ],
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0,
+  "presence_penalty": 0,
+  "seed": 160916,
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "preserve_thinking": true
+  },
+  "cache_prompt": true
+}

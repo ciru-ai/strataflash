@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "path": "/props",
+  "start_monotonic": 70245.360100224,
+  "agent_request_rewritten": false,
+  "status": 200,
+  "content_type": "application/json",
+  "first_byte_seconds": 0.0010118069913005456,
+  "wall_seconds": 0.001064465002855286
+}

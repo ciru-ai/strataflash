@@ -1,0 +1,118 @@
+{
+  "model": "strata-v0.1.40",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant with access to the tools provided.\n\nRules:\n- Use a tool ONLY when it is necessary to fulfill the user's request.\n- If you can answer directly from your own knowledge, do so without calling a tool.\n- If a tool call fails, explain the failure and suggest an alternative approach.\n- Never invent information that a tool should provide.\n\nBenchmark context: today is 2026-03-20 (Friday). Use this date for any relative time request."
+    },
+    {
+      "role": "user",
+      "content": "Send the launch checklist to my manager."
+    }
+  ],
+  "max_tokens": -1,
+  "temperature": 0.7,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_memory",
+        "description": "Read stored user memory.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "key"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "lookup_directory",
+        "description": "Look up current organization relationships.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_files",
+        "description": "Search files.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "send_email",
+        "description": "Send email.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "to": {
+              "type": "string",
+              "description": "Email address"
+            },
+            "subject": {
+              "type": "string"
+            },
+            "body": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "to",
+            "subject",
+            "body"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "seed": 123,
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "preserve_thinking": true
+  },
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0,
+  "presence_penalty": 1.5,
+  "frequency_penalty": 0.0,
+  "repeat_penalty": 1.0,
+  "cache_prompt": true,
+  "stream": true
+}

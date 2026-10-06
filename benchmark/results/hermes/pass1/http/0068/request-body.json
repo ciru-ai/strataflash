@@ -1,0 +1,345 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nConversation started: Tuesday, October 06, 2026 10:17 AM\nModel: strata-v0.1.40\nProvider: custom\n\nYou are a CLI AI Agent. Try not to use markdown but simple text renderable inside a terminal."
+    },
+    {
+      "role": "user",
+      "content": "Summarize the JSON incident records under data/incidents into reports/summary.json.\nWrite valid JSON with exactly these keys:\ntotalIncidents\ntotalSeverity\ntopOffenders (up to 3 objects with owner and count, sorted by count desc then owner asc)\nduplicateIssueIds (sorted ascending)"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_a999536771fb4c468d435a28",
+          "type": "function",
+          "function": {
+            "name": "search_files",
+            "arguments": "{\"path\":\"data/incidents\",\"pattern\":\"*\",\"target\":\"files\"}"
+          }
+        }
+      ],
+      "reasoning_content": "Let's start by examining the data/incidents directory to get a grasp of the structure.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"total_count\": 50, \"files\": [\"data/incidents/199.json\", \"data/incidents/198.json\", \"data/incidents/197.json\", \"data/incidents/196.json\", \"data/incidents/195.json\", \"data/incidents/194.json\", \"data/incidents/193.json\", \"data/incidents/192.json\", \"data/incidents/191.json\", \"data/incidents/190.json\", \"data/incidents/189.json\", \"data/incidents/188.json\", \"data/incidents/187.json\", \"data/incidents/186.json\", \"data/incidents/185.json\", \"data/incidents/184.json\", \"data/incidents/183.json\", \"data/incidents/182.json\", \"data/incidents/181.json\", \"data/incidents/180.json\", \"data/incidents/179.json\", \"data/incidents/178.json\", \"data/incidents/177.json\", \"data/incidents/176.json\", \"data/incidents/175.json\", \"data/incidents/174.json\", \"data/incidents/173.json\", \"data/incidents/172.json\", \"data/incidents/171.json\", \"data/incidents/170.json\", \"data/incidents/169.json\", \"data/incidents/168.json\", \"data/incidents/167.json\", \"data/incidents/166.json\", \"data/incidents/165.json\", \"data/incidents/164.json\", \"data/incidents/163.json\", \"data/incidents/162.json\", \"data/incidents/161.json\", \"data/incidents/160.json\", \"data/incidents/159.json\", \"data/incidents/158.json\", \"data/incidents/157.json\", \"data/incidents/156.json\", \"data/incidents/155.json\", \"data/incidents/154.json\", \"data/incidents/153.json\", \"data/incidents/152.json\", \"data/incidents/151.json\", \"data/incidents/150.json\"]}",
+      "tool_call_id": "call_a999536771fb4c468d435a28"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_6671f44ef4e84888a4b865d2",
+          "type": "function",
+          "function": {
+            "name": "execute_code",
+            "arguments": "{\"code\":\"from hermes_tools import read_file\\nimport os\\nfiles = sorted(os.listdir('data/incidents'))\\nprint(len(files), files[:3], files[-3:])\\nr = read_file('data/incidents/150.json')\\nprint(r['content'][:2000])\\n\"}"
+          }
+        }
+      ],
+      "reasoning_content": "There might be more than 50 files. Let's check the complete list and try examining the structure of one file.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"status\": \"error\", \"output\": \"\\n--- stderr ---\\nTraceback (most recent call last):\\n  File \\\"/tmp/hermes_sandbox_6q29zfhk/script.py\\\", line 3, in <module>\\n    files = sorted(os.listdir('data/incidents'))\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nFileNotFoundError: [Errno 2] No such file or directory: 'data/incidents'\\n\", \"tool_calls_made\": 0, \"duration_seconds\": 0.21, \"error\": \"Traceback (most recent call last):\\n  File \\\"/tmp/hermes_sandbox_6q29zfhk/script.py\\\", line 3, in <module>\\n    files = sorted(os.listdir('data/incidents'))\\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nFileNotFoundError: [Errno 2] No such file or directory: 'data/incidents'\\n\"}",
+      "tool_call_id": "call_6671f44ef4e84888a4b865d2"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_681199e011644e13b3614a69",
+          "type": "function",
+          "function": {
+            "name": "execute_code",
+            "arguments": "{\"code\":\"import os\\nprint(os.getcwd())\\nfor root, dirs, files in os.walk('.'):\\n    if 'incidents' in dirs:\\n        print('found:', root)\\n    if root.count(os.sep) > 3:\\n        del dirs[:]\\n\"}"
+          }
+        }
+      ],
+      "reasoning_content": "The working directory of the execute_code sandbox might be different. Let's try to find the current directory using os.getcwd and list things from there.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"status\": \"success\", \"output\": \"/tmp/hermes_sandbox_ahgerz16\\n\", \"tool_calls_made\": 0, \"duration_seconds\": 0.21}",
+      "tool_call_id": "call_681199e011644e13b3614a69"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_0aef244546844ac8825f6f5b",
+          "type": "function",
+          "function": {
+            "name": "execute_code",
+            "arguments": "{\"code\":\"import os, glob\\nhits = glob.glob(os.path.expanduser('~') + '/**/data/incidents', recursive=True)\\nprint(hits[:5])\\nprint(glob.glob('/workspace/**/data/incidents', recursive=True)[:5])\\nprint(glob.glob('/home/**/data/incidents', recursive=True)[:5])\\n\"}"
+          }
+        }
+      ],
+      "reasoning_content": "The sandbox's working directory is /tmp/hermes_sandbox_ahgerz16, and the files aren't found. However, the search_files tool was able to find files under data/incidents — that tool operates relative to the cwd of the agent's workspace. The sandbox cwd for execute_code is different. Let me find the actual workspace path. Maybe search_files is operating relative to a different path. Let me check where the files actually are on disk — try common paths like ~ or /workspace.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"status\": \"success\", \"output\": \"[]\\n[]\\n[]\\n\", \"tool_calls_made\": 0, \"duration_seconds\": 0.21}",
+      "tool_call_id": "call_0aef244546844ac8825f6f5b"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_c77985ac2d0249f4b5c0076e",
+          "type": "function",
+          "function": {
+            "name": "execute_code",
+            "arguments": "{\"code\":\"import os\\nprint(os.environ.get('PWD'), os.environ.get('HERMES_WORKSPACE'), os.environ.get('WORKSPACE'), os.environ.get('HOME'))\\nprint(os.listdir(os.path.expanduser('~'))[:30])\\nprint(os.listdir('/tmp/hermes_sandbox_ahgerz16')[:30])\\nd = '/tmp/hermes_sandbox_ahgerz16'\\nfor name in os.listdir(d):\\n    p = os.path.join(d, name)\\n    if os.path.isdir(p):\\n        print(name, '->', os.path.realpath(p))\\n\"}"
+          }
+        }
+      ],
+      "reasoning_content": "glob might be slow due to permission issues. Instead, I'll read using the read_file tool, which was able to resolve data/incidents properly. In other words, the read_file tool's path resolution is based on the agent's workspace. However, the os module inside execute_code is a different cwd. Probably hermes_tools' read_file can handle the relative path correctly (it worked before? actually, in my first execute_code call read_file wasn't executed, os.listdir failed before that). Should I try os.path.abspath via hermes_tools, or... more simply: check if there's an environment variable indicating the workspace, or use search_files to get the absolute path. search_files returned the relative path \"data/incidents/199.json\". Let me look for the workspace root: I'll check the contents of ~.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"status\": \"error\", \"output\": \"None None None /tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-07-e4159a96/local-main_strata-v0.1.40/HA-07/hermes-home/home\\n['.bash_profile']\\n\\n--- stderr ---\\nTraceback (most recent call last):\\n  File \\\"/tmp/hermes_sandbox_5t_ocouh/script.py\\\", line 4, in <module>\\n    print(os.listdir('/tmp/hermes_sandbox_ahgerz16')[:30])\\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/hermes_sandbox_ahgerz16'\\n\", \"tool_calls_made\": 0, \"duration_seconds\": 0.21, \"error\": \"Traceback (most recent call last):\\n  File \\\"/tmp/hermes_sandbox_5t_ocouh/script.py\\\", line 4, in <module>\\n    print(os.listdir('/tmp/hermes_sandbox_ahgerz16')[:30])\\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/hermes_sandbox_ahgerz16'\\n\"}",
+      "tool_call_id": "call_c77985ac2d0249f4b5c0076e"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_4c1ffff5dd0f4e6695424aec",
+          "type": "function",
+          "function": {
+            "name": "search_files",
+            "arguments": "{\"limit\":500,\"output_mode\":\"files_only\",\"path\":\"data/incidents\",\"pattern\":\"*.json\",\"target\":\"files\"}"
+          }
+        },
+        {
+          "id": "call_a1a2b2265dd247f89145a117",
+          "type": "function",
+          "function": {
+            "name": "read_file",
+            "arguments": "{\"path\":\"data/incidents/150.json\"}"
+          }
+        }
+      ],
+      "reasoning_content": "Each execute_code runs in a new /tmp/hermes_sandbox_XXXX sandbox — the sandbox filesystem is separate from the workspace that the tools (read_file, search_files, write_file, patch) operate on. So os.listdir won't work. Instead, I have to use the hermes_tools functions (read_file, search_files, etc.) that resolve workspace-relative paths.\n\nTherefore the plan: use search_files/write_file/read_file from hermes_tools. However, I need to read 50 JSON files. Within a single script, I can loop and call hermes_tools' read_file — these built-in tools go through the tool bridge, which resolves paths correctly. Let's do that.\n\nBut first, check the total number of files — search_files' limit is 50, but there might be more than 50 files. Should I use search_files with a higher limit? The limit parameter's default is 50; is there a max? Set the limit higher, say 500, and try the pattern '*.json' against files.\n\nAlso, I need the JSON structure of each file. First, read one file with read_file.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"total_count\": 200, \"files\": [\"data/incidents/199.json\", \"data/incidents/198.json\", \"data/incidents/197.json\", \"data/incidents/196.json\", \"data/incidents/195.json\", \"data/incidents/194.json\", \"data/incidents/193.json\", \"data/incidents/192.json\", \"data/incidents/191.json\", \"data/incidents/190.json\", \"data/incidents/189.json\", \"data/incidents/188.json\", \"data/incidents/187.json\", \"data/incidents/186.json\", \"data/incidents/185.json\", \"data/incidents/184.json\", \"data/incidents/183.json\", \"data/incidents/182.json\", \"data/incidents/181.json\", \"data/incidents/180.json\", \"data/incidents/179.json\", \"data/incidents/178.json\", \"data/incidents/177.json\", \"data/incidents/176.json\", \"data/incidents/175.json\", \"data/incidents/174.json\", \"data/incidents/173.json\", \"data/incidents/172.json\", \"data/incidents/171.json\", \"data/incidents/170.json\", \"data/incidents/169.json\", \"data/incidents/168.json\", \"data/incidents/167.json\", \"data/incidents/166.json\", \"data/incidents/165.json\", \"data/incidents/164.json\", \"data/incidents/163.json\", \"data/incidents/162.json\", \"data/incidents/161.json\", \"data/incidents/160.json\", \"data/incidents/159.json\", \"data/incidents/158.json\", \"data/incidents/157.json\", \"data/incidents/156.json\", \"data/incidents/155.json\", \"data/incidents/154.json\", \"data/incidents/153.json\", \"data/incidents/152.json\", \"data/incidents/151.json\", \"data/incidents/150.json\", \"data/incidents/149.json\", \"data/incidents/148.json\", \"data/incidents/147.json\", \"data/incidents/146.json\", \"data/incidents/145.json\", \"data/incidents/144.json\", \"data/incidents/143.json\", \"data/incidents/142.json\", \"data/incidents/141.json\", \"data/incidents/140.json\", \"data/incidents/139.json\", \"data/incidents/138.json\", \"data/incidents/137.json\", \"data/incidents/136.json\", \"data/incidents/135.json\", \"data/incidents/134.json\", \"data/incidents/133.json\", \"data/incidents/132.json\", \"data/incidents/131.json\", \"data/incidents/130.json\", \"data/incidents/129.json\", \"data/incidents/128.json\", \"data/incidents/127.json\", \"data/incidents/126.json\", \"data/incidents/125.json\", \"data/incidents/124.json\", \"data/incidents/123.json\", \"data/incidents/122.json\", \"data/incidents/121.json\", \"data/incidents/120.json\", \"data/incidents/119.json\", \"data/incidents/118.json\", \"data/incidents/117.json\", \"data/incidents/116.json\", \"data/incidents/115.json\", \"data/incidents/114.json\", \"data/incidents/113.json\", \"data/incidents/112.json\", \"data/incidents/111.json\", \"data/incidents/110.json\", \"data/incidents/109.json\", \"data/incidents/108.json\", \"data/incidents/107.json\", \"data/incidents/106.json\", \"data/incidents/105.json\", \"data/incidents/104.json\", \"data/incidents/103.json\", \"data/incidents/102.json\", \"data/incidents/101.json\", \"data/incidents/100.json\", \"data/incidents/099.json\", \"data/incidents/098.json\", \"data/incidents/097.json\", \"data/incidents/096.json\", \"data/incidents/095.json\", \"data/incidents/094.json\", \"data/incidents/093.json\", \"data/incidents/092.json\", \"data/incidents/091.json\", \"data/incidents/090.json\", \"data/incidents/089.json\", \"data/incidents/088.json\", \"data/incidents/087.json\", \"data/incidents/086.json\", \"data/incidents/085.json\", \"data/incidents/084.json\", \"data/incidents/083.json\", \"data/incidents/082.json\", \"data/incidents/081.json\", \"data/incidents/080.json\", \"data/incidents/079.json\", \"data/incidents/078.json\", \"data/incidents/077.json\", \"data/incidents/076.json\", \"data/incidents/075.json\", \"data/incidents/074.json\", \"data/incidents/073.json\", \"data/incidents/072.json\", \"data/incidents/071.json\", \"data/incidents/070.json\", \"data/incidents/069.json\", \"data/incidents/068.json\", \"data/incidents/067.json\", \"data/incidents/066.json\", \"data/incidents/065.json\", \"data/incidents/064.json\", \"data/incidents/063.json\", \"data/incidents/062.json\", \"data/incidents/061.json\", \"data/incidents/060.json\", \"data/incidents/059.json\", \"data/incidents/058.json\", \"data/incidents/057.json\", \"data/incidents/056.json\", \"data/incidents/055.json\", \"data/incidents/054.json\", \"data/incidents/053.json\", \"data/incidents/052.json\", \"data/incidents/051.json\", \"data/incidents/050.json\", \"data/incidents/049.json\", \"data/incidents/048.json\", \"data/incidents/047.json\", \"data/incidents/046.json\", \"data/incidents/045.json\", \"data/incidents/044.json\", \"data/incidents/043.json\", \"data/incidents/042.json\", \"data/incidents/041.json\", \"data/incidents/040.json\", \"data/incidents/039.json\", \"data/incidents/038.json\", \"data/incidents/037.json\", \"data/incidents/036.json\", \"data/incidents/035.json\", \"data/incidents/034.json\", \"data/incidents/033.json\", \"data/incidents/032.json\", \"data/incidents/031.json\", \"data/incidents/030.json\", \"data/incidents/029.json\", \"data/incidents/028.json\", \"data/incidents/027.json\", \"data/incidents/026.json\", \"data/incidents/025.json\", \"data/incidents/024.json\", \"data/incidents/023.json\", \"data/incidents/022.json\", \"data/incidents/021.json\", \"data/incidents/020.json\", \"data/incidents/019.json\", \"data/incidents/018.json\", \"data/incidents/017.json\", \"data/incidents/016.json\", \"data/incidents/015.json\", \"data/incidents/014.json\", \"data/incidents/013.json\", \"data/incidents/012.json\", \"data/incidents/011.json\", \"data/incidents/010.json\", \"data/incidents/009.json\", \"data/incidents/008.json\", \"data/incidents/007.json\", \"data/incidents/006.json\", \"data/incidents/005.json\", \"data/incidents/004.json\", \"data/incidents/003.json\", \"data/incidents/002.json\", \"data/incidents/001.json\", \"data/incidents/000.json\"]}",
+      "tool_call_id": "call_4c1ffff5dd0f4e6695424aec"
+    },
+    {
+      "role": "tool",
+      "content": "{\"content\": \"     1|{\\n     2|  \\\"issueId\\\": \\\"ISS-150\\\",\\n     3|  \\\"owner\\\": \\\"carol\\\",\\n     4|  \\\"severity\\\": 1\\n     5|}\\n     6|\", \"total_lines\": 5, \"file_size\": 64, \"truncated\": false, \"is_binary\": false, \"is_image\": false}",
+      "tool_call_id": "call_a1a2b2265dd247f89145a117"
+    }
+  ],
+  "model": "strata-v0.1.40",
+  "reasoning_effort": "xhigh",
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  },
+  "temperature": 1,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "execute_code",
+        "description": "Run a Python script that can call Hermes tools programmatically. Use this when you need 3+ tool calls with processing logic between them, need to filter/reduce large tool outputs before they enter your context, need conditional branching (if X then Y else Z), or need to loop (fetch N pages, process N files, retry on failure).\n\nUse normal tool calls instead when: single tool call with no processing, you need to see the full result and apply complex reasoning, or the task requires interactive user input.\n\nAvailable via `from hermes_tools import ...`:\n\n  read_file(path: str, offset: int = 1, limit: int = 500) -> dict\n    Lines are 1-indexed. Returns {\"content\": \"...\", \"total_lines\": N}\n  write_file(path: str, content: str) -> dict\n    Always overwrites the entire file.\n  search_files(pattern: str, target=\"content\", path=\".\", file_glob=None, limit=50) -> dict\n    target: \"content\" (search inside files) or \"files\" (find files by name). Returns {\"matches\": [...]}\n  patch(path: str, old_string: str, new_string: str, replace_all: bool = False) -> dict\n    Replaces old_string with new_string in the file.\n\nLimits: 5-minute timeout, 50KB stdout cap, max 50 tool calls per script. terminal() is foreground-only (no background or pty).\n\nPrint your final result to stdout. Use Python stdlib (json, re, math, csv, datetime, collections, etc.) for processing between tool calls.\n\nAlso available (no import needed — built into hermes_tools):\n  json_parse(text: str) — json.loads with strict=False; use for terminal() output with control chars\n  shell_quote(s: str) — shlex.quote(); use when interpolating dynamic strings into shell commands\n  retry(fn, max_attempts=3, delay=2) — retry with exponential backoff for transient failures",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "description": "Python code to execute. Import tools with `from hermes_tools import patch, read_file, ...` and print your final result to stdout."
+            }
+          },
+          "required": [
+            "code"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "patch",
+        "description": "Targeted find-and-replace edits in files. Use this instead of sed/awk in terminal. Uses fuzzy matching (9 strategies) so minor whitespace/indentation differences won't break it. Returns a unified diff. Auto-runs syntax checks after editing.\n\nReplace mode (default): find a unique string and replace it.\nPatch mode: apply V4A multi-file patches for bulk changes.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": [
+                "replace",
+                "patch"
+              ],
+              "description": "Edit mode: 'replace' for targeted find-and-replace, 'patch' for V4A multi-file patches",
+              "default": "replace"
+            },
+            "path": {
+              "type": "string",
+              "description": "File path to edit (required for 'replace' mode)"
+            },
+            "old_string": {
+              "type": "string",
+              "description": "Text to find in the file (required for 'replace' mode). Must be unique in the file unless replace_all=true. Include enough surrounding context to ensure uniqueness."
+            },
+            "new_string": {
+              "type": "string",
+              "description": "Replacement text (required for 'replace' mode). Can be empty string to delete the matched text."
+            },
+            "replace_all": {
+              "type": "boolean",
+              "description": "Replace all occurrences instead of requiring a unique match (default: false)",
+              "default": false
+            },
+            "patch": {
+              "type": "string",
+              "description": "V4A format patch content (required for 'patch' mode). Format:\n*** Begin Patch\n*** Update File: path/to/file\n@@ context hint @@\n context line\n-removed line\n+added line\n*** End Patch"
+            }
+          },
+          "required": [
+            "mode"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "read_file",
+        "description": "Read a text file with line numbers and pagination. Use this instead of cat/head/tail in terminal. Output format: 'LINE_NUM|CONTENT'. Suggests similar filenames if not found. Use offset and limit for large files. Reads exceeding ~100K characters are rejected; use offset and limit to read specific sections of large files. NOTE: Cannot read images or binary files — use vision_analyze for images.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Path to the file to read (absolute, relative, or ~/path)"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Line number to start reading from (1-indexed, default: 1)",
+              "default": 1,
+              "minimum": 1
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Maximum number of lines to read (default: 500, max: 2000)",
+              "default": 500,
+              "maximum": 2000
+            }
+          },
+          "required": [
+            "path"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_files",
+        "description": "Search file contents or find files by name. Use this instead of grep/rg/find/ls in terminal. Ripgrep-backed, faster than shell equivalents.\n\nContent search (target='content'): Regex search inside files. Output modes: full matches with line numbers, file paths only, or match counts.\n\nFile search (target='files'): Find files by glob pattern (e.g., '*.py', '*config*'). Also use this instead of ls — results sorted by modification time.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "pattern": {
+              "type": "string",
+              "description": "Regex pattern for content search, or glob pattern (e.g., '*.py') for file search"
+            },
+            "target": {
+              "type": "string",
+              "enum": [
+                "content",
+                "files"
+              ],
+              "description": "'content' searches inside file contents, 'files' searches for files by name",
+              "default": "content"
+            },
+            "path": {
+              "type": "string",
+              "description": "Directory or file to search in (default: current working directory)",
+              "default": "."
+            },
+            "file_glob": {
+              "type": "string",
+              "description": "Filter files by pattern in grep mode (e.g., '*.py' to only search Python files)"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Maximum number of results to return (default: 50)",
+              "default": 50
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Skip first N results for pagination (default: 0)",
+              "default": 0
+            },
+            "output_mode": {
+              "type": "string",
+              "enum": [
+                "content",
+                "files_only",
+                "count"
+              ],
+              "description": "Output format for grep mode: 'content' shows matching lines with line numbers, 'files_only' lists file paths, 'count' shows match counts per file",
+              "default": "content"
+            },
+            "context": {
+              "type": "integer",
+              "description": "Number of context lines before and after each match (grep mode only)",
+              "default": 0
+            }
+          },
+          "required": [
+            "pattern"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "write_file",
+        "description": "Write content to a file, completely replacing existing content. Use this instead of echo/cat heredoc in terminal. Creates parent directories automatically. OVERWRITES the entire file — use 'patch' for targeted edits.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Path to the file to write (will be created if it doesn't exist, overwritten if it does)"
+            },
+            "content": {
+              "type": "string",
+              "description": "Complete content to write to the file"
+            }
+          },
+          "required": [
+            "path",
+            "content"
+          ]
+        }
+      }
+    }
+  ],
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0,
+  "presence_penalty": 0,
+  "seed": 160916,
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "preserve_thinking": true
+  },
+  "cache_prompt": true
+}

@@ -1,0 +1,6 @@
+  ┊ 🔍 recall    "Docker networking fix OR compose OR network_mode OR DNS"  0.0s
+  ┊ 🔎 find      *compose*.y*ml  1.0s
+  ┊ 🔍 recall    ""  0.0s
+  ┊ 🔍 recall    "docker OR container OR bridge OR port OR iptables OR ipv6"  4.8s
+  ┊ 📖 read      ./docker-compose.yml  0.8s
+  ┊ 🔧 patch     ./docker-compose.yml  0.8s

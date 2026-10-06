@@ -1,0 +1,50 @@
+{
+  "scenarioId": "HA-17",
+  "status": "fail",
+  "score": 70,
+  "summary": "Hermes failed the parallel delegation scenario.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-17\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-17-21e5a357/local-main_strata-v0.1.40/HA-17\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-17-21e5a357/local-main_strata-v0.1.40/HA-17/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-17-21e5a357/local-main_strata-v0.1.40/HA-17/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=a07b0443-04c0-4b00-be13-996bc1706952\ntool_events=10\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-17-attempt-1\nsummary={\"a_sum\":10,\"b_sorted\":[\"alpha\",\"beta\",\"zeta\"],\"c_duplicate_counts\":{\"2\":2,\"5\":3}}\nnormalized_summary={}",
+  "output": {
+    "finalAnswer": "Done. Three subtasks ran in parallel via subagents, results verified against the raw files, and merged into results/summary.json:\n\n  results/summary.json\n  {\n    \"a_sum\": 10,\n    \"b_sorted\": [\"alpha\", \"beta\", \"zeta\"],\n    \"c_duplicate_counts\": { \"2\": 2, \"5\": 3 }\n  }\n\nDetails:\n1. inputs/a.txt (1,2,3,4) -> sum = 10\n2. inputs/b.txt (zeta, alpha, beta) -> sorted = alpha, beta, zeta\n3. inputs/c.txt (2,5,2,5,5,7) -> repeats only: 2 appears 2x, 5 appears 3x (7 excluded, appears once)",
+    "summary": {
+      "a_sum": 10,
+      "b_sorted": [
+        "alpha",
+        "beta",
+        "zeta"
+      ],
+      "c_duplicate_counts": {
+        "2": 2,
+        "5": 3
+      }
+    }
+  },
+  "verifier": {
+    "status": "fail",
+    "summary": "The merged delegation artifact is wrong or missing.",
+    "details": {
+      "outcomeSatisfied": false,
+      "outcomeScore": 20,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "exactMatch": false,
+      "delegateCount": 1,
+      "batchedDelegate": true,
+      "normalizedSummary": {}
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:40:16.178Z",
+    "completedAt": "2026-10-06T10:42:12.773Z",
+    "durationMs": 116595
+  },
+  "primaryToolCalls": 5,
+  "nestedToolCalls": 3,
+  "primaryApiCalls": 4,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 116.595,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-17-attempt-1"
+}

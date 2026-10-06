@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "path": "/api/tags",
+  "start_monotonic": 70727.627921102,
+  "agent_request_rewritten": false,
+  "status": 404,
+  "content_type": "application/json",
+  "first_byte_seconds": 0.0018803400016622618,
+  "wall_seconds": 0.0019076589960604906
+}

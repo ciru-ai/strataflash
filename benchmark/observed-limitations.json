@@ -1,0 +1,25 @@
+{
+  "status": "OBSERVED_DURING_FIRST_VALID_RUN",
+  "request_protocol": "Unchanged original 24-request resident schedule, card defaults, one warmup, five cold primers, then three appends each; no refresh/retry",
+  "limitations": [
+    {
+      "kind": "Checkpoint granularity",
+      "example": "P2048 at requested D32000 restored 16384 prefix tokens, so native PP includes rereading 15616 old tokens",
+      "reporting": "Expose actual reused/prompt_read tokens and useful append P/prompt_ms. These are observed stack behavior under the same request schedule; do not label them as exact-D fully cached PP.",
+      "extra_experiment": "A separate exact-D checkpoint/reprime protocol would require user scope extension; not added"
+    },
+    {
+      "kind": "Raw counting output",
+      "example": "Initial D0 cells emitted deviations, including reasoning markup in P2048",
+      "reporting": "Preserve first output and validity; native throughput of an invalid counting response is diagnostic for that output"
+    }
+  ],
+  "mismatched_native_clocks": "See timing-definition-addendum.json; do not pool with llama.cpp first-token exclusion",
+  "build_failure": "Unoptimized HIP attempt is quarantined, not a model quality score or scored race delay",
+  "zero_replay_correction": {
+    "authorized": true,
+    "source": "Latest direct user instruction",
+    "protocol": "zero-replay-contract.json",
+    "prior_counting": "Diagnostic only; corrected results kept at results/counting-zero-replay"
+  }
+}

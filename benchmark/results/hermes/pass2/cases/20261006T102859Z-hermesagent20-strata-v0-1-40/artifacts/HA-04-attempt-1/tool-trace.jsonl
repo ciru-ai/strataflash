@@ -1,0 +1,12 @@
+{"elapsedSeconds": 7.053775932989083, "name": "session_search", "order": 1, "phase": "start", "toolCallId": "call_16d7cb50adfb46eca7b02fef"}
+{"elapsedSeconds": 7.053901668987237, "name": "search_files", "order": 2, "phase": "start", "toolCallId": "call_dc0156fb46e3459f9ee0a35e"}
+{"actionResultSha256": "89190f0bf64670e09219517e873e58bcf40a1b4fcadb2d503fd62b3ded231e08", "elapsedSeconds": 8.091495267988648, "name": "session_search", "order": 3, "phase": "complete", "toolCallId": "call_16d7cb50adfb46eca7b02fef"}
+{"actionResultSha256": "ab8743c76beafc22e1c01a87c89d6e5f4769d6261492f6e8780337156b65bec0", "elapsedSeconds": 8.091708240986918, "name": "search_files", "order": 4, "phase": "complete", "toolCallId": "call_dc0156fb46e3459f9ee0a35e"}
+{"elapsedSeconds": 10.484325509998598, "name": "session_search", "order": 5, "phase": "start", "toolCallId": "call_45cdc252279242c7932fa564"}
+{"elapsedSeconds": 10.484640279988525, "name": "session_search", "order": 6, "phase": "start", "toolCallId": "call_7675b708bfbd4927a8bfd43d"}
+{"actionResultSha256": "eb28e7c8bee942fa4b412076dca0f13cfb1ec631b8c7b0dc93337833d092c29c", "elapsedSeconds": 15.31810979299189, "name": "session_search", "order": 7, "phase": "complete", "toolCallId": "call_45cdc252279242c7932fa564"}
+{"actionResultSha256": "72eba95bedd43ee8133e989b82bfa8f8e39a394e01699681d6dbab78fb733e5e", "elapsedSeconds": 15.318286547990283, "name": "session_search", "order": 8, "phase": "complete", "toolCallId": "call_7675b708bfbd4927a8bfd43d"}
+{"elapsedSeconds": 22.291817380988505, "name": "read_file", "order": 9, "phase": "start", "toolCallId": "call_22d3c4ba47344d6789d90fc8"}
+{"actionResultSha256": "44b9de00a6acca7abcb21da32452bb8a605016087d26638d8bb70b917807fcff", "elapsedSeconds": 23.122200626996346, "name": "read_file", "order": 10, "phase": "complete", "toolCallId": "call_22d3c4ba47344d6789d90fc8"}
+{"elapsedSeconds": 27.692778668992105, "name": "patch", "order": 11, "phase": "start", "toolCallId": "call_3e60e4cc569c4568b4e5de44"}
+{"actionResultSha256": "5803967c91666c505f02a93a0d72119b4201f267c4e37309b102b62c56bf1579", "elapsedSeconds": 28.521437490999233, "name": "patch", "order": 12, "phase": "complete", "toolCallId": "call_3e60e4cc569c4568b4e5de44"}

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-07e7bcd3f11d4a4cadfd35a3",
+  "object": "chat.completion",
+  "created": 1791277424,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef below_zero(operations: List[int]) -> bool:\n    \"\"\" You're given a list of deposit and withdrawal operations on a bank account that starts with\n    zero balance. Your task is to detect if at any point the balance of account falls below zero, and\n    at that point function should return True. Otherwise it should return False.\n    >>> below_zero([1, 2, 3])\n    False\n    >>> below_zero([1, 2, -4, 5])\n    True\n    \"\"\"\n    balance = 0\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n    return False\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 156,
+    "total_tokens": 285,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 129,
+    "prompt_ms": 862.2,
+    "prompt_per_token_ms": 6.684,
+    "prompt_per_second": 149.6,
+    "predicted_n": 156,
+    "predicted_ms": 1904.6,
+    "predicted_per_token_ms": 12.209,
+    "predicted_per_second": 81.9,
+    "draft_n": 132,
+    "draft_n_accepted": 130
+  }
+}

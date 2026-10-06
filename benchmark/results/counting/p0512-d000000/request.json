@@ -1,0 +1,19 @@
+{
+  "model": "strata-v0.1.40",
+  "prompt": " one work there from her public will import per return con type void have des year but else can one use sup have would like inter result who set set get function type con cont man other new all out res with about get there have int not case end all some not add was per function str list pro val let function like with str you than for one class been for just you type con one has acc result let add public with val who use her val her self const off function your will her act for that into about were will file pro end name are been time const get const man time would null not int over des public are his ass const any true would val you null there have value part res var had have return for were inter pre val comm them act all man else inter that not pro const file than out sup been also public your false act get function var which any self was had act list your var our type com than what comm pre year other been use dis been name let than part get sup acc has int was var dis else def name public case false like the about sup some import list not part var res com not like value the for other ass var val than any set for your app just import year function list out are all add will per sup pos would app value our con the app value cont else ass com all list inter acc use over class there had about act pre sup class inter like let your just sup all false app pro sup that str there his one return else but from first comm first just con pos new with just case has more use res str sup all has use int off for about our string but the year who off all there data com the per have public was sup con ass null pro pre null but been res get first year result with other there value class man will true result will app her class let else time end their add var with been all ass else else res ass man pro pre this act this their use that were any void self man first function pro end else who int year you import con you string val cont more there their string list with for sup about than this and return result comm for true name you\nContinue the ascending integers with commas until 1000:\n1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,",
+  "max_tokens": 512,
+  "stream": true,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0.0,
+  "seed": 20260930,
+  "presence_penalty": 0.0,
+  "frequency_penalty": 0.0,
+  "stream_options": {
+    "include_usage": true
+  },
+  "cache_prompt": false,
+  "ignore_eos": true,
+  "repeat_penalty": 1.0
+}

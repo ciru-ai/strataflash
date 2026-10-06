@@ -1,0 +1,239 @@
+{
+  "ok": true,
+  "sessionId": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+  "finalResponse": "Updated the \"health-check\" cron (7c93bc8af64a):\n\n- Schedule: every 120m -> every 30m\n- Skill attached: healthcheck\n- Next run: 2026-10-06 11:09 UTC\n\nEverything else (prompt, repeat forever, delivery to origin) is unchanged.",
+  "completed": true,
+  "partial": false,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Change that health-check cron to every 30 minutes and attach the healthcheck skill."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "The user is referring to a \"health check cron\" — I need to find it. First, let me list the cron jobs.\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_0fdf39ae93b6496e99b67665",
+          "call_id": "call_0fdf39ae93b6496e99b67665",
+          "response_item_id": "fc_0fdf39ae93b6496e99b67665",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"7c93bc8af64a\",\n      \"name\": \"health-check\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Check the local health endpoint.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 120m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-06T12:39:23.193254+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}",
+      "tool_call_id": "call_0fdf39ae93b6496e99b67665"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "Found the job: \"health-check\", ID 7c93bc8af64a, schedule \"every 120 minutes\". Need to update it to every 30 minutes and attach the \"healthcheck\" skill.\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_a8ff53a691b047619510d270",
+          "call_id": "call_a8ff53a691b047619510d270",
+          "response_item_id": "fc_a8ff53a691b047619510d270",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"update\",\"job_id\":\"7c93bc8af64a\",\"schedule\":\"every 30m\",\"skills\":[\"healthcheck\"]}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"7c93bc8af64a\",\n    \"name\": \"health-check\",\n    \"skill\": \"healthcheck\",\n    \"skills\": [\n      \"healthcheck\"\n    ],\n    \"prompt_preview\": \"Check the local health endpoint.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 30m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T11:09:31.316348+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}",
+      "tool_call_id": "call_a8ff53a691b047619510d270"
+    },
+    {
+      "role": "assistant",
+      "content": "Updated the \"health-check\" cron (7c93bc8af64a):\n\n- Schedule: every 120m -> every 30m\n- Skill attached: healthcheck\n- Next run: 2026-10-06 11:09 UTC\n\nEverything else (prompt, repeat forever, delivery to origin) is unchanged.",
+      "reasoning": "Done. Confirm briefly.\n",
+      "finish_reason": "stop"
+    }
+  ],
+  "toolEvents": [
+    {
+      "phase": "start",
+      "order": 1,
+      "toolCallId": "call_0fdf39ae93b6496e99b67665",
+      "name": "cronjob",
+      "args": {
+        "action": "list"
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 2,
+      "toolCallId": "call_0fdf39ae93b6496e99b67665",
+      "name": "cronjob",
+      "args": {
+        "action": "list"
+      },
+      "result": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"7c93bc8af64a\",\n      \"name\": \"health-check\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Check the local health endpoint.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 120m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-06T12:39:23.193254+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}"
+    },
+    {
+      "phase": "start",
+      "order": 3,
+      "toolCallId": "call_a8ff53a691b047619510d270",
+      "name": "cronjob",
+      "args": {
+        "action": "update",
+        "job_id": "7c93bc8af64a",
+        "schedule": "every 30m",
+        "skills": [
+          "healthcheck"
+        ]
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 4,
+      "toolCallId": "call_a8ff53a691b047619510d270",
+      "name": "cronjob",
+      "args": {
+        "action": "update",
+        "job_id": "7c93bc8af64a",
+        "schedule": "every 30m",
+        "skills": [
+          "healthcheck"
+        ]
+      },
+      "result": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"7c93bc8af64a\",\n    \"name\": \"health-check\",\n    \"skill\": \"healthcheck\",\n    \"skills\": [\n      \"healthcheck\"\n    ],\n    \"prompt_preview\": \"Check the local health endpoint.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 30m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T11:09:31.316348+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}"
+    }
+  ],
+  "approvalEvents": [],
+  "clarifyEvents": [],
+  "storedMessages": [
+    {
+      "id": 1,
+      "session_id": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+      "role": "user",
+      "content": "Change that health-check cron to every 30 minutes and attach the healthcheck skill.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283174.327539,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 2,
+      "session_id": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_0fdf39ae93b6496e99b67665",
+          "call_id": "call_0fdf39ae93b6496e99b67665",
+          "response_item_id": "fc_0fdf39ae93b6496e99b67665",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791283174.3283286,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "The user is referring to a \"health check cron\" — I need to find it. First, let me list the cron jobs.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 3,
+      "session_id": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"7c93bc8af64a\",\n      \"name\": \"health-check\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Check the local health endpoint.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 120m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-06T12:39:23.193254+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}",
+      "tool_call_id": "call_0fdf39ae93b6496e99b67665",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283174.3290532,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 4,
+      "session_id": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_a8ff53a691b047619510d270",
+          "call_id": "call_a8ff53a691b047619510d270",
+          "response_item_id": "fc_a8ff53a691b047619510d270",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"update\",\"job_id\":\"7c93bc8af64a\",\"schedule\":\"every 30m\",\"skills\":[\"healthcheck\"]}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791283174.3296888,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "Found the job: \"health-check\", ID 7c93bc8af64a, schedule \"every 120 minutes\". Need to update it to every 30 minutes and attach the \"healthcheck\" skill.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 5,
+      "session_id": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"7c93bc8af64a\",\n    \"name\": \"health-check\",\n    \"skill\": \"healthcheck\",\n    \"skills\": [\n      \"healthcheck\"\n    ],\n    \"prompt_preview\": \"Check the local health endpoint.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 30m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T11:09:31.316348+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}",
+      "tool_call_id": "call_a8ff53a691b047619510d270",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283174.3302035,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 6,
+      "session_id": "0cfce851-2d1c-428c-9ba0-bd3e9f36f078",
+      "role": "assistant",
+      "content": "Updated the \"health-check\" cron (7c93bc8af64a):\n\n- Schedule: every 120m -> every 30m\n- Skill attached: healthcheck\n- Next run: 2026-10-06 11:09 UTC\n\nEverything else (prompt, repeat forever, delivery to origin) is unchanged.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283174.3307374,
+      "token_count": null,
+      "finish_reason": "stop",
+      "reasoning": "Done. Confirm briefly.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    }
+  ],
+  "apiCalls": 3,
+  "provider": "custom",
+  "model": "strata-v0.1.40",
+  "inputTokens": 1708,
+  "outputTokens": 279,
+  "toolCallsCompleted": 2,
+  "nestedToolCallsCompleted": 0,
+  "loopStop": null
+}

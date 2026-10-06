@@ -1,0 +1,62 @@
+{
+  "name": "p4096-d064000",
+  "scored": true,
+  "prompt": 4096,
+  "depth": 64000,
+  "usage": {
+    "prompt_tokens": 68096,
+    "completion_tokens": 512,
+    "total_tokens": 68608
+  },
+  "native_timings": {
+    "generated": 512,
+    "prompt_tokens": 68096,
+    "prompt_ms": 6739.0,
+    "decode_ms": 8226.5,
+    "finish": "length",
+    "drafts_accepted": 382,
+    "drafts_offered": 387,
+    "reused": 64000,
+    "hits": 0,
+    "lookups": 0,
+    "ram_blobs": 0,
+    "file_blobs": 0,
+    "file_mb": 0.0,
+    "prompt_read": 4096,
+    "offloaded": 0
+  },
+  "timings": {
+    "cache_n": 64000,
+    "prompt_n": 4096,
+    "prompt_ms": 6739.0,
+    "prompt_per_token_ms": 1.645,
+    "prompt_per_second": 607.8,
+    "predicted_n": 512,
+    "predicted_ms": 8226.5,
+    "predicted_per_token_ms": 16.067,
+    "predicted_per_second": 62.2,
+    "draft_n": 387,
+    "draft_n_accepted": 382
+  },
+  "native_pp": 607.8053123608844,
+  "useful_append_pp": 607.8053123608844,
+  "native_tg": 62.23788974655078,
+  "ttfp_seconds": 6.983024733010097,
+  "wall_seconds": 15.174188940000022,
+  "memory": {
+    "min_ram_available": 47277662208,
+    "max_ram_used": 87032016896,
+    "uma_overlap": true
+  },
+  "output_audit": {
+    "clean_counting": false,
+    "exact_Carlos_output": false,
+    "output_sha256": "f83717d7a620073907345900b60d846215ea9c874b56217300957ba76f4474d4",
+    "reasoning_markup": false,
+    "tool_markup": false,
+    "completed_integer_count": 117,
+    "first_outcome_preserved": true,
+    "retry_performed": false
+  },
+  "cached_prefix_replayed_tokens": 0
+}

@@ -1,0 +1,99 @@
+{
+  "scenarioId": "HA-07",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes used execute_code to produce the exact deterministic batch summary.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-07\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-07-e4159a96/local-main_strata-v0.1.40/HA-07\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-07-e4159a96/local-main_strata-v0.1.40/HA-07/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-07-e4159a96/local-main_strata-v0.1.40/HA-07/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=bae2894a-c5a3-4040-86e5-e8f468be60fc\ntool_events=36\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-07-attempt-1\nexpected={\"totalIncidents\":200,\"totalSeverity\":600,\"topOffenders\":[{\"owner\":\"alice\",\"count\":50},{\"owner\":\"bob\",\"count\":50},{\"owner\":\"carol\",\"count\":50}],\"duplicateIssueIds\":[\"DUP-0\"]}\nactual={\"totalIncidents\":200,\"totalSeverity\":600,\"topOffenders\":[{\"owner\":\"alice\",\"count\":50},{\"owner\":\"bob\",\"count\":50},{\"owner\":\"carol\",\"count\":50}],\"duplicateIssueIds\":[\"DUP-0\"]}",
+  "output": {
+    "finalAnswer": "Done. Wrote reports/summary.json (valid JSON, exactly the 4 required keys).\n\nFindings from data/incidents (200 records, 000–199):\n\n- totalIncidents: 200\n- totalSeverity: 600 (severity cycles 1–5 across the 200 files)\n- topOffenders: all four owners (alice, bob, carol, dave) are tied at 50 each, so the top 3 are the first three alphabetically:\n    alice 50, bob 50, carol 50 (dave 50 excluded by the 3-item cap)\n- duplicateIssueIds: [\"DUP-0\"] — appears in files 000.json and 185.json; every other issueId is unique (DUP–1..4 appear once each)\n\nThe file round-tripped through a JSON parser successfully after writing.",
+    "report": {
+      "totalIncidents": 200,
+      "totalSeverity": 600,
+      "topOffenders": [
+        {
+          "owner": "alice",
+          "count": 50
+        },
+        {
+          "owner": "bob",
+          "count": 50
+        },
+        {
+          "owner": "carol",
+          "count": 50
+        }
+      ],
+      "duplicateIssueIds": [
+        "DUP-0"
+      ]
+    }
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The generated report matches the deterministic recomputation.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "exactMatch": true,
+      "executeCodeUsed": true,
+      "expected": {
+        "totalIncidents": 200,
+        "totalSeverity": 600,
+        "topOffenders": [
+          {
+            "owner": "alice",
+            "count": 50
+          },
+          {
+            "owner": "bob",
+            "count": 50
+          },
+          {
+            "owner": "carol",
+            "count": 50
+          }
+        ],
+        "duplicateIssueIds": [
+          "DUP-0"
+        ]
+      },
+      "actual": {
+        "totalIncidents": 200,
+        "totalSeverity": 600,
+        "topOffenders": [
+          {
+            "owner": "alice",
+            "count": 50
+          },
+          {
+            "owner": "bob",
+            "count": 50
+          },
+          {
+            "owner": "carol",
+            "count": 50
+          }
+        ],
+        "duplicateIssueIds": [
+          "DUP-0"
+        ]
+      }
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:17:24.593Z",
+    "completedAt": "2026-10-06T10:21:11.556Z",
+    "durationMs": 226963
+  },
+  "primaryToolCalls": 18,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 14,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 226.963,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-07-attempt-1"
+}

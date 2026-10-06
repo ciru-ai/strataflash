@@ -1,0 +1,12 @@
+{"elapsedSeconds": 6.70381527900463, "name": "terminal", "order": 1, "phase": "start", "toolCallId": "call_41523f3a06d84d55b0f700c9"}
+{"actionResultSha256": "3acbad799130b5ba9056b728803248b11a86fbeac315f4eddd9f3f7dbff88333", "elapsedSeconds": 8.807127980995574, "name": "terminal", "order": 2, "phase": "complete", "toolCallId": "call_41523f3a06d84d55b0f700c9"}
+{"elapsedSeconds": 12.110630210008821, "name": "terminal", "order": 3, "phase": "start", "toolCallId": "call_39a92a0270b64d4fa9ba0c6b"}
+{"actionResultSha256": "282d6d68731fae02a014dcb3f243eb7b512a7ba5569a2615a65e5b1b0666c083", "elapsedSeconds": 12.166269145003753, "name": "terminal", "order": 4, "phase": "complete", "toolCallId": "call_39a92a0270b64d4fa9ba0c6b"}
+{"elapsedSeconds": 14.580391081995913, "name": "process", "order": 5, "phase": "start", "toolCallId": "call_73154578627e4d8bb705606c"}
+{"actionResultSha256": "6dab4a35693ced2cf76d525f59a6475a5150bc2da597238a0e86d7ad9c9c1525", "elapsedSeconds": 29.582924386006198, "name": "process", "order": 6, "phase": "complete", "toolCallId": "call_73154578627e4d8bb705606c"}
+{"elapsedSeconds": 32.81354428800114, "name": "process", "order": 7, "phase": "start", "toolCallId": "call_7caf0f55e16246f89b18825e"}
+{"actionResultSha256": "ac9604abfcdf28e860e69a1f841dea5eedf87b190d99ccfe75a89aa34c1f2de0", "elapsedSeconds": 32.81384117800917, "name": "process", "order": 8, "phase": "complete", "toolCallId": "call_7caf0f55e16246f89b18825e"}
+{"elapsedSeconds": 33.814458606997505, "name": "terminal", "order": 9, "phase": "start", "toolCallId": "call_5584dddb097745cc88f39548"}
+{"actionResultSha256": "06f4cdf8574bdb62292292d8016df5d970e494bd66ef911336bab5e6dc987175", "elapsedSeconds": 34.12331187300151, "name": "terminal", "order": 10, "phase": "complete", "toolCallId": "call_5584dddb097745cc88f39548"}
+{"elapsedSeconds": 36.9009581499995, "name": "terminal", "order": 11, "phase": "start", "toolCallId": "call_cab59f77feca4fc6a7d9e1fd"}
+{"actionResultSha256": "4ca6c378f32c100de9df34fc403bc31007a942651292dc483906336c0ad2d70f", "elapsedSeconds": 36.999461016996065, "name": "terminal", "order": 13, "phase": "complete", "toolCallId": "call_cab59f77feca4fc6a7d9e1fd"}

@@ -1,0 +1,194 @@
+{
+  "model": "strata-v0.1.40",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant with access to the tools provided.\n\nRules:\n- Use a tool ONLY when it is necessary to fulfill the user's request.\n- If you can answer directly from your own knowledge, do so without calling a tool.\n- If a tool call fails, explain the failure and suggest an alternative approach.\n- Never invent information that a tool should provide.\n\nBenchmark context: today is 2026-03-20 (Friday). Use this date for any relative time request."
+    },
+    {
+      "role": "user",
+      "content": "Find a 45-minute slot next Wednesday afternoon for Elena and Ravi, use the Berlin office only, book the smallest room that fits three people, attach the agenda, and email both attendees."
+    }
+  ],
+  "max_tokens": -1,
+  "temperature": 0.7,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_contacts",
+        "description": "Look up contacts.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_slots",
+        "description": "Search meeting slots.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string"
+            },
+            "period": {
+              "type": "string"
+            },
+            "duration_minutes": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "date",
+            "period",
+            "duration_minutes"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_rooms",
+        "description": "Search rooms.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "office": {
+              "type": "string"
+            },
+            "minimum_capacity": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "office",
+            "minimum_capacity"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_files",
+        "description": "Search files.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "book_room",
+        "description": "Book a room.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "room_id": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            },
+            "duration_minutes": {
+              "type": "integer"
+            },
+            "attendees": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "description": "Email address"
+              }
+            }
+          },
+          "required": [
+            "room_id",
+            "date",
+            "time",
+            "duration_minutes",
+            "attendees"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "send_email",
+        "description": "Send email.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "to": {
+              "type": "string",
+              "description": "Email address"
+            },
+            "subject": {
+              "type": "string"
+            },
+            "body": {
+              "type": "string"
+            },
+            "attachments": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "to",
+            "subject",
+            "body"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "seed": 123,
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "preserve_thinking": true
+  },
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0,
+  "presence_penalty": 1.5,
+  "frequency_penalty": 0.0,
+  "repeat_penalty": 1.0,
+  "cache_prompt": true,
+  "stream": true
+}

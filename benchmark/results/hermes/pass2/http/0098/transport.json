@@ -1,0 +1,10 @@
+{
+  "method": "GET",
+  "path": "/v1/models",
+  "start_monotonic": 71651.183069303,
+  "agent_request_rewritten": false,
+  "status": 200,
+  "content_type": "application/json",
+  "first_byte_seconds": 0.003765171000850387,
+  "wall_seconds": 0.0038058399950386956
+}

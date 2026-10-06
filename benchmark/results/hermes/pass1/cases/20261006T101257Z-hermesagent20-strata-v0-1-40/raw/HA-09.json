@@ -1,0 +1,39 @@
+{
+  "scenarioId": "HA-09",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes created a valid skill from the completed workflow.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-09\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-09-8db5549f/local-main_strata-v0.1.40/HA-09\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-09-8db5549f/local-main_strata-v0.1.40/HA-09/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-09-8db5549f/local-main_strata-v0.1.40/HA-09/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=126a6f5e-2c5f-48b7-9744-50bb28d2290c\ntool_events=6\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-09-attempt-1\nskill_files=[\"data-processing/incident-summary-report/SKILL.md\"]",
+  "output": {
+    "finalAnswer": "Saved the skill as `incident-summary-report` under the `data-processing` category.\n\nIt documents the workflow from notes/workflow.md with the four sections you asked for:\n\n- When to Use — tasks asking for incident stats over data/incidents/ with output to reports/summary.json\n- Procedure — the 4 steps from the notes (read all incident JSONs, compute count/severity/duplicate IDs, write summary, verify), with concrete details like recursive globbing and write-once semantics\n- Pitfalls — silent JSON parse skips, missing nested dirs, cross-file duplicate detection, missing severity fields, stale overwrites, dedup'd duplicate lists\n- Verification — re-read and parse the output, independently recount metrics, spot-check duplicate IDs, and only report done after inspecting the file\n\nI kept the notes as the ground truth and added the pitfalls/verification items that made the run go well. If any of those specifics don't match how you actually ran it (e.g., how missing severity values were handled), tell me and I'll patch the skill.",
+    "skillFile": "data-processing/incident-summary-report/SKILL.md"
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "A valid reusable skill was created.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "skillFile": "data-processing/incident-summary-report/SKILL.md",
+      "hasFrontmatter": true,
+      "hasRequiredSections": true,
+      "createEvent": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:21:55.164Z",
+    "completedAt": "2026-10-06T10:22:36.426Z",
+    "durationMs": 41262
+  },
+  "primaryToolCalls": 3,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 4,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 41.262,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-09-attempt-1"
+}

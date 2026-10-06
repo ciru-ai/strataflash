@@ -1,0 +1,57 @@
+[
+  {
+    "model": "strata-v0.1.40",
+    "choices": [
+      {
+        "index": 0,
+        "text": " public",
+        "finish_reason": null
+      }
+    ]
+  },
+  {
+    "model": "strata-v0.1.40",
+    "choices": [
+      {
+        "index": 0,
+        "text": "",
+        "finish_reason": "length"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 192000,
+      "completion_tokens": 1,
+      "total_tokens": 192001
+    },
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 192000,
+      "prompt_ms": 304261.0,
+      "prompt_per_token_ms": 1.585,
+      "prompt_per_second": 631.0,
+      "predicted_n": 1,
+      "predicted_ms": 40.3,
+      "predicted_per_token_ms": 40.3,
+      "predicted_per_second": 24.8,
+      "draft_n": 0,
+      "draft_n_accepted": 0
+    },
+    "native_timings": {
+      "generated": 1,
+      "prompt_tokens": 192000,
+      "prompt_ms": 304261.0,
+      "decode_ms": 40.3,
+      "finish": "length",
+      "drafts_accepted": 0,
+      "drafts_offered": 0,
+      "reused": 0,
+      "hits": 0,
+      "lookups": 0,
+      "ram_blobs": 0,
+      "file_blobs": 0,
+      "file_mb": 0.0,
+      "prompt_read": 192000,
+      "offloaded": 0
+    }
+  }
+]

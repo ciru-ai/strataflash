@@ -1,0 +1,12 @@
+{
+  "status": "BUILT",
+  "revision": "1735d6471df29b42c26170efaac1f1446a58640f",
+  "all_hip_commands_optimized": true,
+  "hip_commands": 64,
+  "hip_release_flags": "-O3 -DNDEBUG",
+  "binaries": {
+    "strata": "80176b25e7e72fc004bfb6d169ef24ed0c8ad4a2d2cb7d25c04e18ac553ea4ad",
+    "strata-benchmark": "3ca1a86ca6c4d9847ff73aaf8b0b75d312ea0d7b2af830d28e6b3e734ccbd714"
+  },
+  "compile_commands_sha256": "db76e02696b2ec67926b6aa00bb627b1b433ac23b1257a983f377481701f7793"
+}

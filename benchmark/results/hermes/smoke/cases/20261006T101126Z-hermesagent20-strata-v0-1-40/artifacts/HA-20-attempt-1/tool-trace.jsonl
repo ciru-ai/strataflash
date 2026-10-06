@@ -1,0 +1,20 @@
+{"elapsedSeconds": 7.546724900996196, "name": "terminal", "order": 1, "phase": "start", "toolCallId": "call_bda79f0ad8eb41f4a82cc7f1"}
+{"actionResultSha256": "a92e256219cb732addce953361ef20ea5bb6df7f33ee5251550944526a9e3c7e", "elapsedSeconds": 9.674153587999172, "name": "terminal", "order": 2, "phase": "complete", "toolCallId": "call_bda79f0ad8eb41f4a82cc7f1"}
+{"elapsedSeconds": 10.67452082199452, "name": "terminal", "order": 3, "phase": "start", "toolCallId": "call_faa14e7a138a4892b1440dfc"}
+{"actionResultSha256": "73d1eba6a35b5112330c33c2fd6864096b4c4ddffe42fbf7b0f0bfeae55dd13c", "elapsedSeconds": 10.981245712988311, "name": "terminal", "order": 4, "phase": "complete", "toolCallId": "call_faa14e7a138a4892b1440dfc"}
+{"elapsedSeconds": 12.823766119996435, "name": "terminal", "order": 5, "phase": "start", "toolCallId": "call_36f6452e97a44f30ad5a7d05"}
+{"actionResultSha256": "7a92ae17cf3907c597b184b80e5114e47b5a5cacc40f21045b1a0cfdfa20efc6", "elapsedSeconds": 13.079531417999533, "name": "terminal", "order": 6, "phase": "complete", "toolCallId": "call_36f6452e97a44f30ad5a7d05"}
+{"elapsedSeconds": 16.041352802989422, "name": "terminal", "order": 7, "phase": "start", "toolCallId": "call_804916e3466d4f8cafa5be92"}
+{"actionResultSha256": "7feec12c4bae52c9f13014c6e053f71159215b1e2b909b33ffd83dfec9ae5ec6", "elapsedSeconds": 16.296228530991357, "name": "terminal", "order": 8, "phase": "complete", "toolCallId": "call_804916e3466d4f8cafa5be92"}
+{"elapsedSeconds": 19.915539030000218, "name": "terminal", "order": 9, "phase": "start", "toolCallId": "call_5b15efd07e1e4e0cb95e3827"}
+{"actionResultSha256": "60034f50fbf4dc71a8e61b735632528d84909d883277bfad48f1ac2af6390ba8", "elapsedSeconds": 20.20703519998642, "name": "terminal", "order": 10, "phase": "complete", "toolCallId": "call_5b15efd07e1e4e0cb95e3827"}
+{"elapsedSeconds": 27.993140801991103, "name": "clarify", "order": 11, "phase": "start", "toolCallId": "call_b420092857874545bb4237e7"}
+{"actionResultSha256": "879e5a8398eb4f04e18ab732eea5160931a37bcf146827d3d603de23dd619c45", "elapsedSeconds": 27.993394103992614, "name": "clarify", "order": 13, "phase": "complete", "toolCallId": "call_b420092857874545bb4237e7"}
+{"elapsedSeconds": 31.53539663499396, "name": "terminal", "order": 14, "phase": "start", "toolCallId": "call_6647ced01afb4b8891cf0b76"}
+{"actionResultSha256": "7be6475ce141ab36f23148fbfc372c603f165e466f6771f8e64a55ab1575a4e3", "elapsedSeconds": 31.82544928799325, "name": "terminal", "order": 15, "phase": "complete", "toolCallId": "call_6647ced01afb4b8891cf0b76"}
+{"elapsedSeconds": 33.71457470698806, "name": "terminal", "order": 16, "phase": "start", "toolCallId": "call_f4d52fdf06974074972274c8"}
+{"actionResultSha256": "4dc5762f9a5c1b017f8df9c61c800c2c039ad466103db1e6f1b921a1c15a3008", "elapsedSeconds": 33.96903828698851, "name": "terminal", "order": 17, "phase": "complete", "toolCallId": "call_f4d52fdf06974074972274c8"}
+{"elapsedSeconds": 37.86809797899332, "name": "terminal", "order": 18, "phase": "start", "toolCallId": "call_e2b3413c81c04fa6ad53cf69"}
+{"actionResultSha256": "fae3a071f9d65081656657b3d027d685ba6bf989b6e3750f52230713372dbadc", "elapsedSeconds": 38.15491167998698, "name": "terminal", "order": 19, "phase": "complete", "toolCallId": "call_e2b3413c81c04fa6ad53cf69"}
+{"elapsedSeconds": 41.44867409399012, "name": "terminal", "order": 20, "phase": "start", "toolCallId": "call_0ce4a03fdf134b89a4e6f515"}
+{"actionResultSha256": "6f26bc9eaaaf9d2f9e60cd41d3d3e475641f2a46fd70482bbbaadd52d287de0a", "elapsedSeconds": 41.70594524499029, "name": "terminal", "order": 21, "phase": "complete", "toolCallId": "call_0ce4a03fdf134b89a4e6f515"}

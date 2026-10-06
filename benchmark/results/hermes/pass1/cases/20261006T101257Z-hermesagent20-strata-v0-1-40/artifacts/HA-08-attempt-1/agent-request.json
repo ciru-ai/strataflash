@@ -1,0 +1,38 @@
+{
+  "workspaceDir": "/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-08-f7cb2a9f/local-main_strata-v0.1.40/HA-08/workspace",
+  "hermesHomeDir": "/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-08-f7cb2a9f/local-main_strata-v0.1.40/HA-08/hermes-home",
+  "prompt": "Open the local admin dashboard at http://127.0.0.1:35527/, log in with the credentials in README.md, then export the users CSV into exports/users.csv.\nUse the browser to reach the export page and copy the CSV preview text into that file.",
+  "model": {
+    "id": "local-main:strata-v0.1.40",
+    "label": "strata-v0.1.40",
+    "provider": "local-main",
+    "providerModel": "strata-v0.1.40",
+    "inferenceBaseUrl": "http://127.0.0.1:18198/v1",
+    "authMode": "bearer",
+    "exposedModel": "strata-v0.1.40"
+  },
+  "toolsets": [
+    "browser",
+    "file"
+  ],
+  "maxTurns": 2147483647,
+  "resultPath": "/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-08-f7cb2a9f/local-main_strata-v0.1.40/HA-08/agent-result.json",
+  "sessionSeed": [],
+  "generation": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "reasoning_effort": "xhigh",
+    "extra_body": {
+      "top_k": 20,
+      "min_p": 0,
+      "presence_penalty": 0,
+      "seed": 160916,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      },
+      "cache_prompt": true
+    }
+  },
+  "followUps": {}
+}

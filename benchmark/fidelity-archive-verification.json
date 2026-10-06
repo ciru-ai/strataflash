@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "source": "sozo-usb4:/srv/llm/work/strata-v0140-20261006",
+  "destination": "/benchmark-storage",
+  "transport": "Ciru-to-Sozo USB4",
+  "files": {
+    "candidate.f32le": {
+      "path": "benchmark/results/fidelity/candidate.f32le",
+      "bytes": 2034237440,
+      "sha256": "0ce14b597dff51ef0fc3a83ec89220155969724e209400364a9dd9520bfef804"
+    },
+    "fidelity-capture.bin": {
+      "path": "benchmark/results/fidelity/fidelity-capture.bin",
+      "bytes": 2034270208,
+      "sha256": "bce43fcb7b59c3d630767861c63c71897b733272df814102443e626c3d8f6de3"
+    }
+  },
+  "source_receipt_sha256": "e9274e472b29e9cef4a18755c9a4556347e79497ff7669672bcd98e686bd2985"
+}

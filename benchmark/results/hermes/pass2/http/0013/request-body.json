@@ -1,0 +1,456 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nYou have persistent memory across sessions. Save durable facts using the memory tool: user preferences, environment details, tool quirks, and stable conventions. Memory is injected into every turn, so keep it compact and focused on facts that will still matter later.\nPrioritize what reduces future user steering — the most valuable memory is one that prevents the user from having to correct or remind you again. User preferences and recurring corrections matter more than procedural task details.\nDo NOT save task progress, session outcomes, completed-work logs, or temporary TODO state to memory; use session_search to recall those from past transcripts. If you've discovered a new way to do something, solved a problem that could be necessary later, save it as a skill with the skill tool.\n\n══════════════════════════════════════════════\nMEMORY (your personal notes) [89% — 1,960/2,200 chars]\n══════════════════════════════════════════════\nLegacy note 1: keep deployment observations concise and current.\n§\nLegacy note 2: keep deployment observations concise and current.\n§\nLegacy note 3: keep deployment observations concise and current.\n§\nLegacy note 4: keep deployment observations concise and current.\n§\nLegacy note 5: keep deployment observations concise and current.\n§\nLegacy note 6: keep deployment observations concise and current.\n§\nLegacy note 7: keep deployment observations concise and current.\n§\nLegacy note 8: keep deployment observations concise and current.\n§\nLegacy note 9: keep deployment observations concise and current.\n§\nLegacy note 10: keep deployment observations concise and current.\n§\nLegacy note 11: keep deployment observations concise and current.\n§\nLegacy note 12: keep deployment observations concise and current.\n§\nLegacy note 13: keep deployment observations concise and current.\n§\nLegacy note 14: keep deployment observations concise and current.\n§\nLegacy note 15: keep deployment observations concise and current.\n§\nLegacy note 16: keep deployment observations concise and current.\n§\nLegacy note 17: keep deployment observations concise and current.\n§\nLegacy note 18: keep deployment observations concise and current.\n§\nLegacy note 19: keep deployment observations concise and current.\n§\nLegacy note 20: keep deployment observations concise and current.\n§\nLegacy note 21: keep deployment observations concise and current.\n§\nLegacy note 22: keep deployment observations concise and current.\n§\nLegacy note 23: keep deployment observations concise and current.\n§\nLegacy note 24: keep deployment observations concise and current.\n§\nLegacy note 25: keep deployment observations concise and current.\n§\nLegacy note 26: keep deployment observations concise and current.\n§\nLegacy note 27: keep deployment observations concise and current.\n§\nLegacy note 28: keep deployment observations concise and current.\n§\nLegacy note 29: keep deployment observations concise and current.\n\nConversation started: Tuesday, October 06, 2026 10:29 AM\nModel: strata-v0.1.40\nProvider: custom\n\nYou are a CLI AI Agent. Try not to use markdown but simple text renderable inside a terminal."
+    },
+    {
+      "role": "user",
+      "content": "Remember these three deployment facts for later:\n1. Staging uses service name api-staging.internal.\n2. EU deploys two canary instances before rollout.\n3. Rollbacks must pin the image digest, not the tag.\nMemory is almost full, so curate it instead of overflowing."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_2d8ddb99d7e24a869b32ae43",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"replace\",\"content\":\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\",\"old_text\":\"Legacy note 1:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_462154abd4264c0c872892c8",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 2:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_8a4b3f0b058a4b9b92aeaa77",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 3:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_dde9c5a8a58944dfbc4bf2c5",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 4:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_98d8719f49ef47f499069f92",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 5:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_15b5e51e896a473380620012",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 6:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_40c49ef5653743d4abb4d14b",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 7:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_15a01349857d44b9adfc814d",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 8:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_e4d5810c3cbc4af690938951",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 9:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_dfb9c506586448959df2fc54",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 10:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_831e5e731dfa493ead3d6308",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 11:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_577b270ca5b7446fa8a47fe3",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 12:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_8f33c89064d949bb85421cdc",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 13:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_37c99511061a44739e45b538",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 14:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_ae3f958ea4854da882452f85",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 15:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_4f0f534d3acd4c2681b00ff7",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 16:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_b211433b6f074d8fbbd7456f",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 17:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_1bfd54ad8b5b4b86b31cfc04",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 18:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_0015e698e87349e2a8a861ae",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 19:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_a132225e5e494ccabd0aa931",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 20:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_13a4ae5eda464078bd1f0571",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 21:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_b990d510bb6245a1bf344f34",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 22:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_356632da5b894a099e169b94",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 23:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_17f036cf127348c09afceb2c",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 24:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_91719539df2a46088cd6c82b",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 25:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_f2c6a996e04040a3963e4e61",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 26:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_390c5670d6e541d2be1ccf5b",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 27:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_d32733ee73144174a7d161c8",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 28:\",\"target\":\"memory\"}"
+          }
+        },
+        {
+          "id": "call_248a9ae8dda64d318d08ec81",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"remove\",\"old_text\":\"Legacy note 29:\",\"target\":\"memory\"}"
+          }
+        }
+      ],
+      "reasoning_content": "The user wants me to remember three facts about deployment. But the memory is nearly full (89%), and there are 29 legacy notes, all of which say \"Keep deployment observations concise and up-to-date.\" These legacy notes look like duplicates/junk, so I should organize (curate) them.\n\nThe best approach: bulk delete the legacy notes (or replace some of them), then add the three facts. However, the memory tool's delete/replace operations identify entries by old_text. Since all the legacy notes have identical content \"Legacy note N: keep deployment observations concise and current.\"—each one has a unique number, so I can identify each one with a unique substring like \"Legacy note 1:\".\n\nPlan: delete the 29 legacy notes and add one consolidated deployment facts entry containing the three facts. That's quite a lot of calls. Alternatively, I could replace one legacy note with the consolidated facts and delete the rest. But I still need to delete the other 28.\n\nThe tool calls are independent of each other, so I can bundle multiple calls into a single block. Delete all 29 legacy notes, and add the consolidated entry. Actually, I could also replace legacy note 1 with the consolidated content and delete notes 2-29. Either way works.\n\nLet me execute in one block: 29 deletes + 1 add. Or replace note 1 + 28 deletes. Let's go with this: replace \"Legacy note 1:\" with the consolidated deployment facts entry, then delete notes 2-29.\n\nWait—carefully: replace uses old_text to identify the entry, and content becomes the new entry. Then delete 2 through 29.\n\nThat's 28 delete calls + 1 replace call. All independent? The replace targets note 1, and the deletes target different notes, so they're independent. Bundle them all into one block.\n\nFormat for the consolidated content:\n\n\"Deployment playbook: staging service = api-staging.internal; EU rollout = first deploy 2 canary instances; rollback = pin image digest (not tag).\"\n\nKeep it concise. After that, check memory usage—should have plenty of headroom.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 2: keep deployment observations concise and current.\", \"Legacy note 3: keep deployment observations concise and current.\", \"Legacy note 4: keep deployment observations concise and current.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"92% — 2,045/2,200 chars\", \"entry_count\": 29, \"message\": \"Entry replaced.\"}",
+      "tool_call_id": "call_2d8ddb99d7e24a869b32ae43"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 3: keep deployment observations concise and current.\", \"Legacy note 4: keep deployment observations concise and current.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"89% — 1,978/2,200 chars\", \"entry_count\": 28, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_462154abd4264c0c872892c8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 4: keep deployment observations concise and current.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"86% — 1,911/2,200 chars\", \"entry_count\": 27, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_8a4b3f0b058a4b9b92aeaa77"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 5: keep deployment observations concise and current.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"83% — 1,844/2,200 chars\", \"entry_count\": 26, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_dde9c5a8a58944dfbc4bf2c5"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 6: keep deployment observations concise and current.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"80% — 1,777/2,200 chars\", \"entry_count\": 25, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_98d8719f49ef47f499069f92"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 7: keep deployment observations concise and current.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"77% — 1,710/2,200 chars\", \"entry_count\": 24, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_15b5e51e896a473380620012"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 8: keep deployment observations concise and current.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"74% — 1,643/2,200 chars\", \"entry_count\": 23, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_40c49ef5653743d4abb4d14b"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 9: keep deployment observations concise and current.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"71% — 1,576/2,200 chars\", \"entry_count\": 22, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_15a01349857d44b9adfc814d"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 10: keep deployment observations concise and current.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"68% — 1,509/2,200 chars\", \"entry_count\": 21, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_e4d5810c3cbc4af690938951"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 11: keep deployment observations concise and current.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"65% — 1,441/2,200 chars\", \"entry_count\": 20, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_dfb9c506586448959df2fc54"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 12: keep deployment observations concise and current.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"62% — 1,373/2,200 chars\", \"entry_count\": 19, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_831e5e731dfa493ead3d6308"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 13: keep deployment observations concise and current.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"59% — 1,305/2,200 chars\", \"entry_count\": 18, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_577b270ca5b7446fa8a47fe3"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 14: keep deployment observations concise and current.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"56% — 1,237/2,200 chars\", \"entry_count\": 17, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_8f33c89064d949bb85421cdc"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 15: keep deployment observations concise and current.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"53% — 1,169/2,200 chars\", \"entry_count\": 16, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_37c99511061a44739e45b538"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 16: keep deployment observations concise and current.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"50% — 1,101/2,200 chars\", \"entry_count\": 15, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_ae3f958ea4854da882452f85"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 17: keep deployment observations concise and current.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"46% — 1,033/2,200 chars\", \"entry_count\": 14, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_4f0f534d3acd4c2681b00ff7"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 18: keep deployment observations concise and current.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"43% — 965/2,200 chars\", \"entry_count\": 13, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_b211433b6f074d8fbbd7456f"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 19: keep deployment observations concise and current.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"40% — 897/2,200 chars\", \"entry_count\": 12, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_1bfd54ad8b5b4b86b31cfc04"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 20: keep deployment observations concise and current.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"37% — 829/2,200 chars\", \"entry_count\": 11, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_0015e698e87349e2a8a861ae"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 21: keep deployment observations concise and current.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"34% — 761/2,200 chars\", \"entry_count\": 10, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_a132225e5e494ccabd0aa931"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 22: keep deployment observations concise and current.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"31% — 693/2,200 chars\", \"entry_count\": 9, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_13a4ae5eda464078bd1f0571"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 23: keep deployment observations concise and current.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"28% — 625/2,200 chars\", \"entry_count\": 8, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_b990d510bb6245a1bf344f34"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 24: keep deployment observations concise and current.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"25% — 557/2,200 chars\", \"entry_count\": 7, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_356632da5b894a099e169b94"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 25: keep deployment observations concise and current.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"22% — 489/2,200 chars\", \"entry_count\": 6, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_17f036cf127348c09afceb2c"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 26: keep deployment observations concise and current.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"19% — 421/2,200 chars\", \"entry_count\": 5, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_91719539df2a46088cd6c82b"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 27: keep deployment observations concise and current.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"16% — 353/2,200 chars\", \"entry_count\": 4, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_f2c6a996e04040a3963e4e61"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 28: keep deployment observations concise and current.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"12% — 285/2,200 chars\", \"entry_count\": 3, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_390c5670d6e541d2be1ccf5b"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\", \"Legacy note 29: keep deployment observations concise and current.\"], \"usage\": \"9% — 217/2,200 chars\", \"entry_count\": 2, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_d32733ee73144174a7d161c8"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Deployment playbook: staging service = api-staging.internal; EU rollout = 2 canary instances before rollout; rollbacks = pin image digest, never tag.\"], \"usage\": \"6% — 149/2,200 chars\", \"entry_count\": 1, \"message\": \"Entry removed.\"}",
+      "tool_call_id": "call_248a9ae8dda64d318d08ec81"
+    }
+  ],
+  "model": "strata-v0.1.40",
+  "reasoning_effort": "xhigh",
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  },
+  "temperature": 1,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "memory",
+        "description": "Save durable information to persistent memory that survives across sessions. Memory is injected into future turns, so keep it compact and focused on facts that will still matter later.\n\nWHEN TO SAVE (do this proactively, don't wait to be asked):\n- User corrects you or says 'remember this' / 'don't do that again'\n- User shares a preference, habit, or personal detail (name, role, timezone, coding style)\n- You discover something about the environment (OS, installed tools, project structure)\n- You learn a convention, API quirk, or workflow specific to this user's setup\n- You identify a stable fact that will be useful again in future sessions\n\nPRIORITY: User preferences and corrections > environment facts > procedural knowledge. The most valuable memory prevents the user from having to repeat themselves.\n\nDo NOT save task progress, session outcomes, completed-work logs, or temporary TODO state to memory; use session_search to recall those from past transcripts.\nIf you've discovered a new way to do something, solved a problem that could be necessary later, save it as a skill with the skill tool.\n\nTWO TARGETS:\n- 'user': who the user is -- name, role, preferences, communication style, pet peeves\n- 'memory': your notes -- environment facts, project conventions, tool quirks, lessons learned\n\nACTIONS: add (new entry), replace (update existing -- old_text identifies it), remove (delete -- old_text identifies it).\n\nSKIP: trivial/obvious info, things easily re-discovered, raw data dumps, and temporary task state.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "add",
+                "replace",
+                "remove"
+              ],
+              "description": "The action to perform."
+            },
+            "target": {
+              "type": "string",
+              "enum": [
+                "memory",
+                "user"
+              ],
+              "description": "Which memory store: 'memory' for personal notes, 'user' for user profile."
+            },
+            "content": {
+              "type": "string",
+              "description": "The entry content. Required for 'add' and 'replace'."
+            },
+            "old_text": {
+              "type": "string",
+              "description": "Short unique substring identifying the entry to replace or remove."
+            }
+          },
+          "required": [
+            "action",
+            "target"
+          ]
+        }
+      }
+    }
+  ],
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0,
+  "presence_penalty": 0,
+  "seed": 160917,
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "preserve_thinking": true
+  },
+  "cache_prompt": true
+}

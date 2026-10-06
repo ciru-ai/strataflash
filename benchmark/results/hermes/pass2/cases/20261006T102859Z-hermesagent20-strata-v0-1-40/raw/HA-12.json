@@ -1,0 +1,37 @@
+{
+  "scenarioId": "HA-12",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes added the supporting skill file in the correct allowed subdirectory.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-12\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-12-bbb0dfd7/local-main_strata-v0.1.40/HA-12\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-12-bbb0dfd7/local-main_strata-v0.1.40/HA-12/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-12-bbb0dfd7/local-main_strata-v0.1.40/HA-12/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=a3cfe7bb-a91e-4dc3-be4d-7b973c868561\ntool_events=6\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-12-attempt-1\nsupporting_path=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-12-bbb0dfd7/local-main_strata-v0.1.40/HA-12/hermes-home/skills/release-check/scripts/validate_release.py",
+  "output": {
+    "finalAnswer": "Done. The script from notes/validate_release.py is now part of the release-check skill at scripts/validate_release.py:\n\n    def validate_release(tag: str) -> bool:\n        return tag.startswith('v') and len(tag) > 1\n\nWritten to: .../skills/release-check/scripts/validate_release.py\n\nThe skill's SKILL.md already says \"Use the validation helper,\" so it's consistent — though I could update the procedure to explicitly reference `scripts/validate_release.py` if you'd like."
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The supporting skill file was written to the allowed scripts/ path.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "supportingPath": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-12-bbb0dfd7/local-main_strata-v0.1.40/HA-12/hermes-home/skills/release-check/scripts/validate_release.py",
+      "exactContent": true,
+      "writeFileEvent": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:37:44.011Z",
+    "completedAt": "2026-10-06T10:38:04.040Z",
+    "durationMs": 20029
+  },
+  "primaryToolCalls": 3,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 3,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 20.029,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-12-attempt-1"
+}

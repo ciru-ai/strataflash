@@ -1,0 +1,26 @@
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": null}]}
+
+: keep-alive
+
+: keep-alive
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "id": "call_d21986d214464d379f4c4c9e", "type": "function", "function": {"name": "search_files", "arguments": ""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "{"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\"query\":"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "travel"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " policy"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "}"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-17baa8a089ca4cac8a73a8ed", "object": "chat.completion.chunk", "created": 1791281350, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {}, "finish_reason": "tool_calls"}], "usage": {"prompt_tokens": 520, "completion_tokens": 26, "total_tokens": 546, "prompt_tokens_details": {"cached_tokens": 0}}, "timings": {"cache_n": 0, "prompt_n": 520, "prompt_ms": 1812.2, "prompt_per_token_ms": 3.485, "prompt_per_second": 286.9, "predicted_n": 26, "predicted_ms": 448.5, "predicted_per_token_ms": 17.25, "predicted_per_second": 58.0, "draft_n": 24, "draft_n_accepted": 21}}
+
+data: [DONE]
+

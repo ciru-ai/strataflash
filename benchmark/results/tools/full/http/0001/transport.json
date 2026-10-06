@@ -1,0 +1,9 @@
+{
+  "method": "POST",
+  "path": "/v1/chat/completions",
+  "classification": "scored",
+  "request_validated_before_generation": true,
+  "status": 200,
+  "first_byte_seconds": 0.006420075995265506,
+  "wall_seconds": 3.8063438209937885
+}

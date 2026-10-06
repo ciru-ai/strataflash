@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "panel": "fidelity",
+  "native_requests": 16,
+  "native_responses": 16,
+  "effective_wire_sampler_checked": true,
+  "first_attempt_only": true,
+  "restoration": {
+    "before": {
+      "ActiveState": "active",
+      "UnitFileState": "enabled",
+      "MainPID": "95105"
+    },
+    "after": {
+      "ActiveState": "active",
+      "UnitFileState": "enabled",
+      "MainPID": "95849"
+    },
+    "benchmark_gpu_released": true,
+    "main_active_state_restored": true,
+    "hardware_unchanged": true
+  }
+}

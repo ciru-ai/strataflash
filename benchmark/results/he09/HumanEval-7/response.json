@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-633fabf36d624636ba95135e",
+  "object": "chat.completion",
+  "created": 1791277436,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\" Filter an input list of strings only for ones that contain given substring\n    >>> filter_by_substring([], 'a')\n    []\n    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')\n    ['abc', 'bacd', 'array']\n    \"\"\"\n    return [s for s in strings if substring in s]\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 112,
+    "total_tokens": 216,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 104,
+    "prompt_ms": 743.4,
+    "prompt_per_token_ms": 7.148,
+    "prompt_per_second": 139.9,
+    "predicted_n": 112,
+    "predicted_ms": 1339.0,
+    "predicted_per_token_ms": 11.955,
+    "predicted_per_second": 83.6,
+    "draft_n": 96,
+    "draft_n_accepted": 92
+  }
+}

@@ -1,0 +1,32 @@
+title = "Strix Showdown: preserve public hashes and benchmark correlation IDs"
+[extend]
+useDefault = true
+[[rules]]
+id = "generic-api-key"
+[[rules.allowlists]]
+description = "Public SHA256 hashes retained for provenance"
+regexTarget = "match"
+regexes = ['''(?:sha256|tokenizer\.json|api\.py|served_hip_api_trace\.csv)[^
+]{0,12}[a-f0-9]{64}''']
+[[rules.allowlists]]
+description = "Nested-agent correlation IDs, generated inside synthetic fixtures"
+regexTarget = "match"
+regexes = ['''childKey[^
+]{0,8}[a-f0-9]{32}''']
+[[rules.allowlists]]
+description = "HTML chart control attributes"
+regexTarget = "match"
+regexes = ['''data-key=[^
+]{0,2}[a-z][a-z0-9-]+''']
+[[rules.allowlists]]
+description = "Reviewed Python expression matched across the API variable and following string"
+paths = ['''run_he09_gufo\.py$''']
+
+[[rules.allowlists]]
+description = "Reviewed upstream GGUF tensor names, not credentials"
+regexTarget = "secret"
+regexes = ['^(?:blk\.1\.ple_key\.weight|blk\.11\.ffn_gate_exps\.weight|blk\.0\.attn_qkv\.weight)$']
+[[rules.allowlists]]
+description = "Public saved API documentation SHA256 receipt"
+regexTarget = "match"
+regexes = ['openai-api\.html[^\n]{0,8}[a-f0-9]{64}']

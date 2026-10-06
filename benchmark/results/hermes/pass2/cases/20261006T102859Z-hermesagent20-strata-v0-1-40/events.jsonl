@@ -1,0 +1,23 @@
+{"type": "run_started", "at": "2026-10-06T10:28:59.056Z", "profile": "strata-v0.1.40"}
+{"type": "model_ready", "at": "2026-10-06T10:28:59.058Z", "profile": "strata-v0.1.40", "exposedModel": "strata-v0.1.40"}
+{"type": "scenario_result", "at": "2026-10-06T10:29:09.714Z", "scenarioId": "HA-01", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:30:31.738Z", "scenarioId": "HA-02", "attempt": 1, "status": "fail", "score": 50, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:30:42.194Z", "scenarioId": "HA-03", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:31:17.208Z", "scenarioId": "HA-04", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:31:47.249Z", "scenarioId": "HA-05", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:32:32.798Z", "scenarioId": "HA-06", "attempt": 1, "status": "partial", "score": 70, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:35:08.194Z", "scenarioId": "HA-07", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:35:53.053Z", "scenarioId": "HA-08", "attempt": 1, "status": "partial", "score": 80, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:36:35.113Z", "scenarioId": "HA-09", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:37:09.769Z", "scenarioId": "HA-10", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:37:43.986Z", "scenarioId": "HA-11", "attempt": 1, "status": "partial", "score": 50, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:38:04.040Z", "scenarioId": "HA-12", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:39:23.102Z", "scenarioId": "HA-13", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:39:34.495Z", "scenarioId": "HA-14", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:40:02.517Z", "scenarioId": "HA-15", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:40:16.154Z", "scenarioId": "HA-16", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:42:12.773Z", "scenarioId": "HA-17", "attempt": 1, "status": "fail", "score": 70, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:42:33.016Z", "scenarioId": "HA-18", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:43:16.937Z", "scenarioId": "HA-19", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:43:42.140Z", "scenarioId": "HA-20", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "run_completed", "at": "2026-10-06T10:43:42.304Z", "profile": "strata-v0.1.40", "totalScore": 91}

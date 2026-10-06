@@ -1,0 +1,17 @@
+  ┊ 💬 I'll start by getting oriented — I don't yet know what project this is or how it deploys.
+  ┊ 💻 $         pwd && echo "---" && ls -la  2.2s
+  ┊ 🔎 find      *  0.8s
+  ┊ 💬 Small workspace. Let me read all three files.
+  ┊ 📖 read      README.md  0.8s
+  ┊ 📖 read      deploy.sh  0.8s
+  ┊ 📖 read      prepare_release.py  0.8s
+  ┊ 💬 The README gives me the recovery path. Let me run the deploy and see what happens.
+  ┊ 💻 $         ./deploy.sh; echo "exit_code=$?"  0.3s
+  ┊ 💬 Not executable. I'll invoke it via bash rather than modifying file permissions.
+  ┊ 💻 $         bash deploy.sh; echo "exit_code=$?"  0.3s
+  ┊ 💬 Exactly the failure the README documents. Following its instructions: prepare the release, then retry.
+  ┊ 💻 $         command -v python python3 2>/dev/null; echo "--- running prepare_release ---"; (python prepare_release.py || python3 prepare_release.py); echo "exit_code=$?"  0.3s
+  ┊ 💬 Manifest is in place. Retrying the deploy.
+  ┊ 💻 $         bash deploy.sh; echo "exit_code=$?"  0.3s
+  ┊ 💬 Verifying the artifacts it should have produced.
+  ┊ 💻 $         echo "== deploy-status.txt =="; cat deploy-status.txt; echo "== release/manifest.json =="; cat release/manifest.json; echo "== tree =="; find . -type f | sort  0.3s

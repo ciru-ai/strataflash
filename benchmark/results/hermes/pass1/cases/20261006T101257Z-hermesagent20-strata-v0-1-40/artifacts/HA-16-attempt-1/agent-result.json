@@ -1,0 +1,292 @@
+{
+  "ok": true,
+  "sessionId": "969464b0-dae3-495f-816e-0558297aaad9",
+  "finalResponse": "Sent to the engineering channel:\n\n\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\"",
+  "completed": true,
+  "partial": false,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Send the contents of summary.txt to the engineering channel."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "The user wants to send the contents of summary.txt to the engineering channel. First, I need to read the file and check the available destinations. Let me check the available destinations and read the file in parallel.\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_7d849381cd1948a4b359c1a0",
+          "call_id": "call_7d849381cd1948a4b359c1a0",
+          "response_item_id": "fc_7d849381cd1948a4b359c1a0",
+          "type": "function",
+          "function": {
+            "name": "read_file",
+            "arguments": "{\"path\":\"summary.txt\"}"
+          }
+        },
+        {
+          "id": "call_8b9a11f4813c4b5a8b5fe841",
+          "call_id": "call_8b9a11f4813c4b5a8b5fe841",
+          "response_item_id": "fc_8b9a11f4813c4b5a8b5fe841",
+          "type": "function",
+          "function": {
+            "name": "send_message",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"content\": \"     1|Weekly benchmark summary: 3 regressions fixed, 0 new failures.\\n     2|\", \"total_lines\": 1, \"file_size\": 63, \"truncated\": false, \"is_binary\": false, \"is_image\": false}",
+      "tool_call_id": "call_7d849381cd1948a4b359c1a0"
+    },
+    {
+      "role": "tool",
+      "content": "{\"targets\": \"Available messaging targets:\\n\\nHomeassistant:\\n  homeassistant:engineering channel (channel)\\n  homeassistant:sales channel (channel)\\n\\nUse these as the \\\"target\\\" parameter when sending.\\nBare platform name (e.g. \\\"telegram\\\") sends to home channel.\"}",
+      "tool_call_id": "call_8b9a11f4813c4b5a8b5fe841"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "There is an \"Engineering Channel\" in the home assistant. Please send the file contents there.\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_280af4e97bb842de9dc5542a",
+          "call_id": "call_280af4e97bb842de9dc5542a",
+          "response_item_id": "fc_280af4e97bb842de9dc5542a",
+          "type": "function",
+          "function": {
+            "name": "send_message",
+            "arguments": "{\"action\":\"send\",\"target\":\"homeassistant:engineering channel\",\"message\":\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"platform\": \"homeassistant\", \"chat_id\": \"9001\"}",
+      "tool_call_id": "call_280af4e97bb842de9dc5542a"
+    },
+    {
+      "role": "assistant",
+      "content": "Sent to the engineering channel:\n\n\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\"",
+      "reasoning": "Successfully sent. Please confirm with the user.\n",
+      "finish_reason": "stop"
+    }
+  ],
+  "toolEvents": [
+    {
+      "phase": "start",
+      "order": 1,
+      "toolCallId": "call_7d849381cd1948a4b359c1a0",
+      "name": "read_file",
+      "args": {
+        "path": "summary.txt"
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 2,
+      "toolCallId": "call_7d849381cd1948a4b359c1a0",
+      "name": "read_file",
+      "args": {
+        "path": "summary.txt"
+      },
+      "result": "{\"content\": \"     1|Weekly benchmark summary: 3 regressions fixed, 0 new failures.\\n     2|\", \"total_lines\": 1, \"file_size\": 63, \"truncated\": false, \"is_binary\": false, \"is_image\": false}"
+    },
+    {
+      "phase": "start",
+      "order": 3,
+      "toolCallId": "call_8b9a11f4813c4b5a8b5fe841",
+      "name": "send_message",
+      "args": {
+        "action": "list"
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 4,
+      "toolCallId": "call_8b9a11f4813c4b5a8b5fe841",
+      "name": "send_message",
+      "args": {
+        "action": "list"
+      },
+      "result": "{\"targets\": \"Available messaging targets:\\n\\nHomeassistant:\\n  homeassistant:engineering channel (channel)\\n  homeassistant:sales channel (channel)\\n\\nUse these as the \\\"target\\\" parameter when sending.\\nBare platform name (e.g. \\\"telegram\\\") sends to home channel.\"}"
+    },
+    {
+      "phase": "start",
+      "order": 5,
+      "toolCallId": "call_280af4e97bb842de9dc5542a",
+      "name": "send_message",
+      "args": {
+        "action": "send",
+        "target": "homeassistant:engineering channel",
+        "message": "Weekly benchmark summary: 3 regressions fixed, 0 new failures."
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 6,
+      "toolCallId": "call_280af4e97bb842de9dc5542a",
+      "name": "send_message",
+      "args": {
+        "action": "send",
+        "target": "homeassistant:engineering channel",
+        "message": "Weekly benchmark summary: 3 regressions fixed, 0 new failures."
+      },
+      "result": "{\"success\": true, \"platform\": \"homeassistant\", \"chat_id\": \"9001\"}"
+    }
+  ],
+  "approvalEvents": [],
+  "clarifyEvents": [],
+  "storedMessages": [
+    {
+      "id": 1,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "user",
+      "content": "Send the contents of summary.txt to the engineering channel.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791282422.0074196,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 2,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_7d849381cd1948a4b359c1a0",
+          "call_id": "call_7d849381cd1948a4b359c1a0",
+          "response_item_id": "fc_7d849381cd1948a4b359c1a0",
+          "type": "function",
+          "function": {
+            "name": "read_file",
+            "arguments": "{\"path\":\"summary.txt\"}"
+          }
+        },
+        {
+          "id": "call_8b9a11f4813c4b5a8b5fe841",
+          "call_id": "call_8b9a11f4813c4b5a8b5fe841",
+          "response_item_id": "fc_8b9a11f4813c4b5a8b5fe841",
+          "type": "function",
+          "function": {
+            "name": "send_message",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791282422.0081441,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "The user wants to send the contents of summary.txt to the engineering channel. First, I need to read the file and check the available destinations. Let me check the available destinations and read the file in parallel.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 3,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "tool",
+      "content": "{\"content\": \"     1|Weekly benchmark summary: 3 regressions fixed, 0 new failures.\\n     2|\", \"total_lines\": 1, \"file_size\": 63, \"truncated\": false, \"is_binary\": false, \"is_image\": false}",
+      "tool_call_id": "call_7d849381cd1948a4b359c1a0",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791282422.0086927,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 4,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "tool",
+      "content": "{\"targets\": \"Available messaging targets:\\n\\nHomeassistant:\\n  homeassistant:engineering channel (channel)\\n  homeassistant:sales channel (channel)\\n\\nUse these as the \\\"target\\\" parameter when sending.\\nBare platform name (e.g. \\\"telegram\\\") sends to home channel.\"}",
+      "tool_call_id": "call_8b9a11f4813c4b5a8b5fe841",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791282422.0092247,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 5,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_280af4e97bb842de9dc5542a",
+          "call_id": "call_280af4e97bb842de9dc5542a",
+          "response_item_id": "fc_280af4e97bb842de9dc5542a",
+          "type": "function",
+          "function": {
+            "name": "send_message",
+            "arguments": "{\"action\":\"send\",\"target\":\"homeassistant:engineering channel\",\"message\":\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\"}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791282422.0097136,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "There is an \"Engineering Channel\" in the home assistant. Please send the file contents there.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 6,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "tool",
+      "content": "{\"success\": true, \"platform\": \"homeassistant\", \"chat_id\": \"9001\"}",
+      "tool_call_id": "call_280af4e97bb842de9dc5542a",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791282422.0101862,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 7,
+      "session_id": "969464b0-dae3-495f-816e-0558297aaad9",
+      "role": "assistant",
+      "content": "Sent to the engineering channel:\n\n\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\"",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791282422.0106547,
+      "token_count": null,
+      "finish_reason": "stop",
+      "reasoning": "Successfully sent. Please confirm with the user.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    }
+  ],
+  "apiCalls": 3,
+  "provider": "custom",
+  "model": "strata-v0.1.40",
+  "inputTokens": 2177,
+  "outputTokens": 224,
+  "toolCallsCompleted": 3,
+  "nestedToolCallsCompleted": 0,
+  "loopStop": null
+}

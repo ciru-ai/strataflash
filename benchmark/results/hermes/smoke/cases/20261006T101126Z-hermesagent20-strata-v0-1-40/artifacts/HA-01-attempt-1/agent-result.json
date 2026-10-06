@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "sessionId": "dcea5775-fe6b-4f7c-8626-a684ae271742",
+  "finalResponse": "Done. The PostgreSQL note has been replaced. Current memory for this project:\n\n- Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\n- CI runs on Linux runners.",
+  "completed": true,
+  "partial": false,
+  "messages": [
+    {
+      "role": "user",
+      "content": "We moved from PostgreSQL to CockroachDB last week.\nRemember that for this project.\nReplace outdated conflicting memory rather than keeping both facts."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "The user says they migrated from PostgreSQL to CockroachDB last week, and wants me to update memory. The existing memory says \"All production and local deployments use PostgreSQL for the project.\" This is contradictory, so I should replace it.\n\nAlso, CI is being run on a Linux runner — this doesn't contradict, so I'll leave it as is.\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_77aae1c80613463d9399b528",
+          "call_id": "call_77aae1c80613463d9399b528",
+          "response_item_id": "fc_77aae1c80613463d9399b528",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"replace\",\"target\":\"memory\",\"old_text\":\"Project uses PostgreSQL for all production and local deployments.\",\"content\":\"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\", \"CI runs on Linux runners.\"], \"usage\": \"6% — 144/2,200 chars\", \"entry_count\": 2, \"message\": \"Entry replaced.\"}",
+      "tool_call_id": "call_77aae1c80613463d9399b528"
+    },
+    {
+      "role": "assistant",
+      "content": "Done. The PostgreSQL note has been replaced. Current memory for this project:\n\n- Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\n- CI runs on Linux runners.",
+      "reasoning": "Done. I'll confirm briefly, without markdown.\n",
+      "finish_reason": "stop"
+    }
+  ],
+  "toolEvents": [
+    {
+      "phase": "start",
+      "order": 1,
+      "toolCallId": "call_77aae1c80613463d9399b528",
+      "name": "memory",
+      "args": {
+        "action": "replace",
+        "target": "memory",
+        "old_text": "Project uses PostgreSQL for all production and local deployments.",
+        "content": "Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026)."
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 2,
+      "toolCallId": "call_77aae1c80613463d9399b528",
+      "name": "memory",
+      "args": {
+        "action": "replace",
+        "target": "memory",
+        "old_text": "Project uses PostgreSQL for all production and local deployments.",
+        "content": "Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026)."
+      },
+      "result": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\", \"CI runs on Linux runners.\"], \"usage\": \"6% — 144/2,200 chars\", \"entry_count\": 2, \"message\": \"Entry replaced.\"}"
+    }
+  ],
+  "approvalEvents": [],
+  "clarifyEvents": [],
+  "storedMessages": [
+    {
+      "id": 1,
+      "session_id": "dcea5775-fe6b-4f7c-8626-a684ae271742",
+      "role": "user",
+      "content": "We moved from PostgreSQL to CockroachDB last week.\nRemember that for this project.\nReplace outdated conflicting memory rather than keeping both facts.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791281497.517719,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 2,
+      "session_id": "dcea5775-fe6b-4f7c-8626-a684ae271742",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_77aae1c80613463d9399b528",
+          "call_id": "call_77aae1c80613463d9399b528",
+          "response_item_id": "fc_77aae1c80613463d9399b528",
+          "type": "function",
+          "function": {
+            "name": "memory",
+            "arguments": "{\"action\":\"replace\",\"target\":\"memory\",\"old_text\":\"Project uses PostgreSQL for all production and local deployments.\",\"content\":\"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\"}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791281497.5185409,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "The user says they migrated from PostgreSQL to CockroachDB last week, and wants me to update memory. The existing memory says \"All production and local deployments use PostgreSQL for the project.\" This is contradictory, so I should replace it.\n\nAlso, CI is being run on a Linux runner — this doesn't contradict, so I'll leave it as is.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 3,
+      "session_id": "dcea5775-fe6b-4f7c-8626-a684ae271742",
+      "role": "tool",
+      "content": "{\"success\": true, \"target\": \"memory\", \"entries\": [\"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\", \"CI runs on Linux runners.\"], \"usage\": \"6% — 144/2,200 chars\", \"entry_count\": 2, \"message\": \"Entry replaced.\"}",
+      "tool_call_id": "call_77aae1c80613463d9399b528",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791281497.5191088,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 4,
+      "session_id": "dcea5775-fe6b-4f7c-8626-a684ae271742",
+      "role": "assistant",
+      "content": "Done. The PostgreSQL note has been replaced. Current memory for this project:\n\n- Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\n- CI runs on Linux runners.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791281497.5196943,
+      "token_count": null,
+      "finish_reason": "stop",
+      "reasoning": "Done. I'll confirm briefly, without markdown.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    }
+  ],
+  "apiCalls": 2,
+  "provider": "custom",
+  "model": "strata-v0.1.40",
+  "inputTokens": 1417,
+  "outputTokens": 234,
+  "toolCallsCompleted": 1,
+  "nestedToolCallsCompleted": 0,
+  "loopStop": null
+}

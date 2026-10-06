@@ -1,0 +1,16 @@
+  ┊ 📚 skill     incident-summary  0.0s
+  ┊ 💬 Yes — the `incident-summary` skill exists and matches this workflow. Loading it and following its procedure now.
+  ┊ 🔎 find      *.json  1.0s
+  ┊ 📖 read      data/incidents/0.json  0.8s
+  ┊ 📖 read      data/incidents/1.json  0.6s
+  ┊ 📖 read      data/incidents/2.json  0.8s
+  ┊ 💬 All three files read. Each contains one incident record:
+
+- 0.json: ISS-001, owner alice
+- 1.json: ISS-002, owner alice
+- 2.json: ISS-001, owner bob
+
+Computed: TOTAL=3 rows; owner counts alice=2, bob=1 → top owner alice:2; ISS-001 appears twice → duplicates = ISS-001. Writing the report per the skill's exact three-line format:
+  ┊ ✍️  write     reports/summary.txt  0.6s
+  ┊ 💬 Written. Verifying per the skill's verification step:
+  ┊ 📖 read      reports/summary.txt  0.8s

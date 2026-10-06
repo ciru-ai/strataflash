@@ -1,0 +1,37 @@
+{
+  "id": "qwen-api",
+  "model": "Qwen3.8 Flash API",
+  "he09_native_tg": null,
+  "he09_wall": null,
+  "tools_score": null,
+  "fidelity_kl": null,
+  "fidelity_top1": null,
+  "fidelity_ppl": null,
+  "hermes_score": 98.5,
+  "hermes_pass_scores": [
+    98,
+    99
+  ],
+  "hermes_mean_case_wall": 876.456,
+  "source_passes": [
+    {
+      "pass_number": 1,
+      "score": 98,
+      "case_wall_sum_seconds": 958.778,
+      "source": "evidence/local/Qwen3.8flash/token-plan-qwen38-20261002/remote/amended-pass1/summary.json",
+      "sha256": "10e51e7e00ef6fcd8185137d149e25588e22231615a8813650d36cb6e72fc18b",
+      "selected_adapter_amendment": "HA-04",
+      "excludes_between_case_repair_gaps": true
+    },
+    {
+      "pass_number": 2,
+      "score": 99,
+      "case_wall_sum_seconds": 794.134,
+      "source": "evidence/local/Qwen3.8flash/token-plan-qwen38-20261002/remote/hermes-pass2/cases/20261002T154143Z-hermesagent20-token-plan-qwen3-8-flash/summary.json",
+      "sha256": "ddafdaec174e192980b3a8a7835f66a4d6d3cb3bee7600f0576b3d831f6f5667",
+      "selected_adapter_amendment": null,
+      "excludes_between_case_repair_gaps": true
+    }
+  ],
+  "note": "Reuse the existing hosted run. Each pass has all20; pass1 uses the user-authorized HA04 adapter correction. No API rerun or repair pause enters scored case wall."
+}

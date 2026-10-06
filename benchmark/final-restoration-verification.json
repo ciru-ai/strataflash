@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "at": 1791283473.1352901,
+  "main_service": {
+    "ActiveState": "active",
+    "UnitFileState": "enabled",
+    "MainPID": "97710"
+  },
+  "health": {
+    "status": "ok"
+  },
+  "http_status": 200,
+  "gpu_owners": [
+    97710
+  ],
+  "benchmark_gpu_released": true,
+  "hardware_unchanged": true,
+  "inference_performed": false
+}

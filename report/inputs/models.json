@@ -1,0 +1,63 @@
+{
+  "ciru44": {
+    "name": "Ciru v4.4.1",
+    "short": "Ciru v4.4.1",
+    "color": "#c063ba",
+    "tag": "v4.4.1",
+    "host": "Sozo"
+  },
+  "ciru5": {
+    "name": "Ciru v5.0",
+    "short": "Ciru v5",
+    "color": "#ea3c3f",
+    "tag": "v5.0",
+    "host": "Sozo"
+  },
+  "orca": {
+    "name": "Ciru-Orca",
+    "short": "Ciru-Orca",
+    "color": "#1ea87b",
+    "tag": "v5.0",
+    "host": "Sozo"
+  },
+  "halobox": {
+    "name": "HaloBox HIP",
+    "short": "HaloBox",
+    "color": "#b98a00",
+    "tag": "HIP",
+    "host": "Sozo"
+  },
+  "gufo": {
+    "name": "Gufo",
+    "short": "Gufo",
+    "color": "#00a2ce",
+    "tag": "native",
+    "host": "Sozo"
+  },
+  "agention": {
+    "name": "AgentionAI AP-Q5_K_XL",
+    "short": "AgentionAI",
+    "color": "#8a63de",
+    "tag": "AP-Q5_K_XL",
+    "host": "Sozo"
+  },
+  "halogen": {
+    "name": "Halogen",
+    "short": "Halogen",
+    "color": "#de6f00",
+    "tag": "0.14.2",
+    "host": "Sozo"
+  },
+  "carlos": {
+    "name": "ROCmFPX2",
+    "short": "ROCmFPX2",
+    "color": "#4c7dd9",
+    "tag": "HC-Q8",
+    "host": "Sozo"
+  },
+  "qwenapi": {
+    "name": "Qwen3.8 Flash \u00b7 API",
+    "short": "Qwen API",
+    "color": "#b09aff"
+  }
+}

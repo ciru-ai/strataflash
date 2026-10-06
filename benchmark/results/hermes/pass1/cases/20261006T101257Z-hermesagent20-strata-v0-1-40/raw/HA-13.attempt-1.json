@@ -1,0 +1,38 @@
+{
+  "scenarioId": "HA-13",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes created a valid cron job and preserved the origin delivery target.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-13\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-13-7348ca20/local-main_strata-v0.1.40/HA-13\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-13-7348ca20/local-main_strata-v0.1.40/HA-13/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-13-7348ca20/local-main_strata-v0.1.40/HA-13/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=ad3d7341-91fe-48a5-af50-96ed8f93d97e\ntool_events=8\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-13-attempt-1\nenv_HERMES_SESSION_PLATFORM=homeassistant\nenv_HERMES_SESSION_CHAT_ID=notify_origin\nenv_HERMES_SESSION_CHAT_NAME=Benchmark Origin\njobs=[{\"id\":\"0ddfc4e0f43b\",\"name\":\"health-check-42911\",\"prompt\":\"Daily health check for the local service at http://127.0.0.1:42911/health.\\n\\nStep 1 — Probe it now using whatever shell/exec tool you have:\\ncurl -sS -m 10 -o /dev/null -w '%{http_code}' http://127.0.0.1:42911/health\\nIf curl is unavailable, fetch the URL with an equivalent method (e.g. python3 -c \\\"import urllib.request; print(urllib.request.urlopen('http://127.0.0.1:42911/health', timeout=10).status)\\\").\\n\\nStep 2 — Report:\\n- If the request succeeds with HTTP 2xx: the service is UP. Reply with exactly NO_REPLY and nothing else. Do not send an alert.\\n- If it returns a non-2xx status, times out, or the connection fails: send a short alert starting with \\\"⚠️ HEALTH CHECK FAILED:\\\" followed by the endpoint (127.0.0.1:42911/health), the HTTP status or error reason, and a note that it was detected during the 8am check.\\n\\nDo not schedule any new cron jobs. Only respond as described above.\",\"skills\":[],\"skill\":null,\"model\":null,\"provider\":null,\"base_url\":null,\"script\":null,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"display\":\"0 8 * * *\"},\"schedule_display\":\"0 8 * * *\",\"repeat\":{\"times\":null,\"completed\":0},\"enabled\":true,\"state\":\"scheduled\",\"paused_at\":null,\"paused_reason\":null,\"created_at\":\"2026-10-06T10:25:32.093465+00:00\",\"next_run_at\":\"2026-10-06T10:26:03.738593+00:00\",\"last_run_at\":null,\"last_status\":null,\"last_error\":null,\"last_delivery_error\":null,\"deliver\":\"origin\",\"origin\":{\"platform\":\"homeassistant\",\"chat_id\":\"notify_origin\",\"chat_name\":\"Benchmark Origin\",\"thread_id\":null}}]",
+  "output": {
+    "finalAnswer": "Done. Your daily health check is set up:\n\n  Job:      health-check-42911 (id 0ddfc4e0f43b)\n  Schedule: every day at 08:00\n  Checks:   http://127.0.0.1:42911/health (10s timeout)\n  Alerts:   delivered to this chat, only when the check fails\n\nBehavior:\n- UP (HTTP 2xx): stays quiet — no alert sent.\n- DOWN (non-2xx, timeout, or connection refused): you'll get a \"⚠️ HEALTH CHECK FAILED\" message here with the error reason.\n\nI also triggered a test run just now, so its result (silence or an alert) should land here shortly — that will confirm the pipeline works and tell you the service's current status.\n\nOne note: if you do happen to see a bare \"NO_REPLY\" message from the job, that's just its quiet \"all good\" signal — ignore it. Want me to change that to always send a short all-clear ping instead?"
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "A valid cron job was created with origin delivery preserved.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "jobId": "0ddfc4e0f43b",
+      "scheduleLooksRight": true,
+      "deliverOrigin": true,
+      "createEvent": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:24:16.568Z",
+    "completedAt": "2026-10-06T10:26:12.067Z",
+    "durationMs": 115499
+  },
+  "primaryToolCalls": 4,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 4,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 115.499,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-13-attempt-1"
+}

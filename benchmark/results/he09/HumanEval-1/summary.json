@@ -1,0 +1,53 @@
+{
+  "task": "HumanEval/1",
+  "valid_speed_case": true,
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 234,
+    "total_tokens": 360,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 126,
+    "prompt_ms": 807.6,
+    "prompt_per_token_ms": 6.41,
+    "prompt_per_second": 156.0,
+    "predicted_n": 234,
+    "predicted_ms": 3164.9,
+    "predicted_per_token_ms": 13.525,
+    "predicted_per_second": 73.9,
+    "draft_n": 204,
+    "draft_n_accepted": 184
+  },
+  "native_timings": {
+    "generated": 234,
+    "prompt_tokens": 126,
+    "prompt_ms": 807.6,
+    "decode_ms": 3164.9,
+    "finish": "stop",
+    "drafts_accepted": 184,
+    "drafts_offered": 204,
+    "reused": 0,
+    "hits": 0,
+    "lookups": 0,
+    "ram_blobs": 0,
+    "file_blobs": 0,
+    "file_mb": 0.0,
+    "prompt_read": 126,
+    "offloaded": 0
+  },
+  "native_tg": 73.93598533918923,
+  "native_pp": 156.01783060921247,
+  "wall_seconds": 3.982107541989535,
+  "memory": {
+    "min_ram_available": 47952035840,
+    "max_ram_used": 86357643264,
+    "uma_overlap": true
+  },
+  "content_sha256": "293ebd47f07a67d73f23cd992e69e70af69272adbd77b7122bbba6a29d39d8a4",
+  "first_attempt": true
+}

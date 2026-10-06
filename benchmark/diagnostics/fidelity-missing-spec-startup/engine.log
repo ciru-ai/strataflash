@@ -1,0 +1,4 @@
+[strata] 2026-10-06 05:55:05 engine started: benchmark/bin/strata-benchmark --serve --native benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf --pack benchmark/pack --max-context 262144 --prefill 16384 --kv int8 --resident-experts --expert-profile benchmark/source/data/expert-profile.bin --prompt-cache 6
+strata: gfx1151 (Strix Halo): 18 exact speed switches on by default (STRATA_GFX1151_DEFAULTS=0 turns them off; a switch you set is kept): GDN_HEAD GDN_PP GDN_CONVL2 GDN_NOY CVEC_FUSE HCD_EXACT PF_PAD Q8_PACKED Q6_PACKED MMVF_ROWS ATTN_LANECELL EXPERT_V2 TSUM LFUSE GDN_SPLIT QFUSE PLE_BATCH SH_STREAM
+strata generate: PCIe probe: 82.2 GB/s host->device (best of 82.1 82.2 82.1 82.1) -> pcie_frac 0.55 (default 0.55)
+strata generate: benchmark/pack is a native (IQ) pack: it needs --native SHARD1, --spec T (T >= 2) and --prefill CHUNK

@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-aaf35f9eae994e2d93b85c53",
+  "object": "chat.completion",
+  "created": 1791277441,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef rolling_max(numbers: List[int]) -> List[int]:\n    \"\"\" From a given list of integers, generate a list of rolling maximum element found until given moment\n    in the sequence.\n    >>> rolling_max([1, 2, 3, 2, 3, 4, 2])\n    [1, 2, 3, 3, 3, 4, 4]\n    \"\"\"\n    if not numbers:\n        return []\n    \n    result = []\n    current_max = numbers[0]\n    for num in numbers:\n        if num > current_max:\n            current_max = num\n        result.append(current_max)\n    return result\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 110,
+    "completion_tokens": 159,
+    "total_tokens": 269,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 110,
+    "prompt_ms": 752.9,
+    "prompt_per_token_ms": 6.845,
+    "prompt_per_second": 146.1,
+    "predicted_n": 159,
+    "predicted_ms": 2339.1,
+    "predicted_per_token_ms": 14.711,
+    "predicted_per_second": 68.0,
+    "draft_n": 144,
+    "draft_n_accepted": 126
+  }
+}

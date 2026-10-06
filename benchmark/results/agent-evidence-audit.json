@@ -1,0 +1,12 @@
+{
+  "status": "AUDITED",
+  "tools_cases": 15,
+  "hermes_smoke_cases": 3,
+  "hermes_scored_cases": 40,
+  "tools_execution_count": 49,
+  "hermes_execution_count": 250,
+  "hermes_pass_scores": [
+    91,
+    91
+  ]
+}

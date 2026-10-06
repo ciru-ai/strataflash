@@ -1,0 +1,231 @@
+{
+  "ok": true,
+  "sessionId": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+  "finalResponse": "Triggered the daily-report job (0e6f8114d90b). It's queued to run now, and its output will be delivered to this chat automatically. The next scheduled run remains on its normal 24-hour cadence.",
+  "completed": true,
+  "partial": false,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Run the daily report job now."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "The user wants to run the daily report job right now. First, I should find the cron job. Let me list the cron jobs to find the one named \"daily report\".\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_bb9aaca52d394fd381dde52b",
+          "call_id": "call_bb9aaca52d394fd381dde52b",
+          "response_item_id": "fc_bb9aaca52d394fd381dde52b",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"0e6f8114d90b\",\n      \"name\": \"daily-report\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Reply with exactly: Daily report: systems nominal.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 1440m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-07T10:39:34.572749+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}",
+      "tool_call_id": "call_bb9aaca52d394fd381dde52b"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "Found the job \"daily-report\" with ID 0e6f8114d90b. Triggering it to execute now.\n",
+      "finish_reason": "tool_calls",
+      "tool_calls": [
+        {
+          "id": "call_b0cd9cce331c43c4b41e655e",
+          "call_id": "call_b0cd9cce331c43c4b41e655e",
+          "response_item_id": "fc_b0cd9cce331c43c4b41e655e",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"run\",\"job_id\":\"0e6f8114d90b\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"0e6f8114d90b\",\n    \"name\": \"daily-report\",\n    \"skill\": null,\n    \"skills\": [],\n    \"prompt_preview\": \"Reply with exactly: Daily report: systems nominal.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 1440m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T10:39:42.033099+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}",
+      "tool_call_id": "call_b0cd9cce331c43c4b41e655e"
+    },
+    {
+      "role": "assistant",
+      "content": "Triggered the daily-report job (0e6f8114d90b). It's queued to run now, and its output will be delivered to this chat automatically. The next scheduled run remains on its normal 24-hour cadence.",
+      "reasoning": "The job has been triggered. The execution runs asynchronously, and its output will be automatically delivered to the original chat. The next_run_at has been updated to the current time (in other words, this means it's about to run right now). I should report what I did.\n",
+      "finish_reason": "stop"
+    }
+  ],
+  "toolEvents": [
+    {
+      "phase": "start",
+      "order": 1,
+      "toolCallId": "call_bb9aaca52d394fd381dde52b",
+      "name": "cronjob",
+      "args": {
+        "action": "list"
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 2,
+      "toolCallId": "call_bb9aaca52d394fd381dde52b",
+      "name": "cronjob",
+      "args": {
+        "action": "list"
+      },
+      "result": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"0e6f8114d90b\",\n      \"name\": \"daily-report\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Reply with exactly: Daily report: systems nominal.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 1440m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-07T10:39:34.572749+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}"
+    },
+    {
+      "phase": "start",
+      "order": 3,
+      "toolCallId": "call_b0cd9cce331c43c4b41e655e",
+      "name": "cronjob",
+      "args": {
+        "action": "run",
+        "job_id": "0e6f8114d90b"
+      }
+    },
+    {
+      "phase": "complete",
+      "order": 4,
+      "toolCallId": "call_b0cd9cce331c43c4b41e655e",
+      "name": "cronjob",
+      "args": {
+        "action": "run",
+        "job_id": "0e6f8114d90b"
+      },
+      "result": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"0e6f8114d90b\",\n    \"name\": \"daily-report\",\n    \"skill\": null,\n    \"skills\": [],\n    \"prompt_preview\": \"Reply with exactly: Daily report: systems nominal.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 1440m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T10:39:42.033099+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}"
+    }
+  ],
+  "approvalEvents": [],
+  "clarifyEvents": [],
+  "storedMessages": [
+    {
+      "id": 1,
+      "session_id": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+      "role": "user",
+      "content": "Run the daily report job now.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283185.6359682,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 2,
+      "session_id": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_bb9aaca52d394fd381dde52b",
+          "call_id": "call_bb9aaca52d394fd381dde52b",
+          "response_item_id": "fc_bb9aaca52d394fd381dde52b",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791283185.636716,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "The user wants to run the daily report job right now. First, I should find the cron job. Let me list the cron jobs to find the one named \"daily report\".\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 3,
+      "session_id": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"0e6f8114d90b\",\n      \"name\": \"daily-report\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Reply with exactly: Daily report: systems nominal.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 1440m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-07T10:39:34.572749+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}",
+      "tool_call_id": "call_bb9aaca52d394fd381dde52b",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283185.6373055,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 4,
+      "session_id": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+      "role": "assistant",
+      "content": "",
+      "tool_call_id": null,
+      "tool_calls": [
+        {
+          "id": "call_b0cd9cce331c43c4b41e655e",
+          "call_id": "call_b0cd9cce331c43c4b41e655e",
+          "response_item_id": "fc_b0cd9cce331c43c4b41e655e",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"run\",\"job_id\":\"0e6f8114d90b\"}"
+          }
+        }
+      ],
+      "tool_name": null,
+      "timestamp": 1791283185.6378922,
+      "token_count": null,
+      "finish_reason": "tool_calls",
+      "reasoning": "Found the job \"daily-report\" with ID 0e6f8114d90b. Triggering it to execute now.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 5,
+      "session_id": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"0e6f8114d90b\",\n    \"name\": \"daily-report\",\n    \"skill\": null,\n    \"skills\": [],\n    \"prompt_preview\": \"Reply with exactly: Daily report: systems nominal.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 1440m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T10:39:42.033099+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}",
+      "tool_call_id": "call_b0cd9cce331c43c4b41e655e",
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283185.6384082,
+      "token_count": null,
+      "finish_reason": null,
+      "reasoning": null,
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    },
+    {
+      "id": 6,
+      "session_id": "c9184ae2-79d1-4f95-993b-872ec99d264d",
+      "role": "assistant",
+      "content": "Triggered the daily-report job (0e6f8114d90b). It's queued to run now, and its output will be delivered to this chat automatically. The next scheduled run remains on its normal 24-hour cadence.",
+      "tool_call_id": null,
+      "tool_calls": null,
+      "tool_name": null,
+      "timestamp": 1791283185.638928,
+      "token_count": null,
+      "finish_reason": "stop",
+      "reasoning": "The job has been triggered. The execution runs asynchronously, and its output will be automatically delivered to the original chat. The next_run_at has been updated to the current time (in other words, this means it's about to run right now). I should report what I did.\n",
+      "reasoning_details": null,
+      "codex_reasoning_items": null
+    }
+  ],
+  "apiCalls": 3,
+  "provider": "custom",
+  "model": "strata-v0.1.40",
+  "inputTokens": 1701,
+  "outputTokens": 263,
+  "toolCallsCompleted": 2,
+  "nestedToolCallsCompleted": 0,
+  "loopStop": null
+}

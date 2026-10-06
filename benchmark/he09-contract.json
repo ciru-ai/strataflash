@@ -1,0 +1,263 @@
+{
+  "schema": "ciru.flash.he09.card-nonthinking.v1",
+  "classification": "Card-sampling speed/completion integrity; no code correctness score",
+  "sampling_policy": "Each model uses its own card recommendation for this mode. Values coincide for the cards inspected; this is not a universal temperature override.",
+  "shared": {
+    "task_ids": [
+      "HumanEval/0",
+      "HumanEval/1",
+      "HumanEval/2",
+      "HumanEval/3",
+      "HumanEval/4",
+      "HumanEval/5",
+      "HumanEval/6",
+      "HumanEval/7",
+      "HumanEval/8",
+      "HumanEval/9"
+    ],
+    "dataset_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+    "prompt_sha256": {
+      "HumanEval/0": "00b2e074e127a6a9d1376278bef732933760ab706057ec755a8c2642217b557a",
+      "HumanEval/1": "ba4d0641a184fb3cdd632060a25d6408a7e91fe9d79b5c341407e74b80536327",
+      "HumanEval/2": "fecb9ddd4f103f1c3e9d9c7d6c3b948a4b1285b50c3498437c85a9d604d957eb",
+      "HumanEval/3": "430706f794ffabb60ec5818ca7c9fdbd281b97ef9d3ac6d6ba140a7a2498f5a5",
+      "HumanEval/4": "2717edd5d203ea22a6eebf62263effd9b792e1a2ef93e017868cedaac7b5ef10",
+      "HumanEval/5": "388474ac71e5b893802f5971102df2e4ea82ddf2f916a4a55361c19370f54012",
+      "HumanEval/6": "39b4ae7cbb22820ff04ffe8a3cbe4bd4332d16046130335d78f36d75a5c3cf4c",
+      "HumanEval/7": "5eecb2c6bb2b4fcd70989d66291a7c4c02d3afbf31591ad684e926a1e60ee969",
+      "HumanEval/8": "84dc98e731928675a91c68cbff1f89d0677596f849fa0e6b34fa9b40335fce03",
+      "HumanEval/9": "583b281fbe1bf261fbade6e1a03119de96084ac87b508387f0d23c3b0cfdbbdb"
+    },
+    "thinking": false,
+    "context": 262144,
+    "concurrency": 1,
+    "fresh_server": true,
+    "generative_warmups": 0,
+    "first_attempt_only": true,
+    "retries": 0,
+    "timeout_seconds": 180,
+    "output_policy": "Natural EOS; no explicit max_tokens or custom stop",
+    "request_settings": {
+      "seed": 123,
+      "stream": false,
+      "cache_prompt": false,
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "measurement": "Native timing; record first-token convention per backend. HC-Q8 uses sum(predicted_n-1)/sum(predicted_ms/1000). Do not pool different timing definitions.",
+    "hardware_policy": "Exclusive inference on gfx1151 with 128 GiB RAM; record machine, clocks, power policy and runtime. Differences must be visible in comparisons."
+  },
+  "models": {
+    "HC-Q8": {
+      "api_model": "qwen38-flash-next-hcq8",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "cafonez/Qwen3.8-Flash-Next-HC-Q8",
+        "revision": "986da0f41c04a303ad98002608b3ccad73760ddf",
+        "card_sha256": "67b850cef977bf289d26be0e1ad7afba31dd654f4533a6caa583d1e78a166611"
+      },
+      "sampler_card": {
+        "repo": "Qwen/Qwen3.8-Flash-Next",
+        "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+        "card_sha256": "35ca37ccc366f1ba478dab33841a2c0c18ce53fd62f291ca05341f7728b225b2",
+        "lastModified": "2026-08-27T05:03:36.000Z"
+      },
+      "sampler_inheritance": "Derivative card has no sampler; inherit pinned Qwen base card explicitly",
+      "comparison_status": "VALIDATED"
+    },
+    "Ciru v4.4.1": {
+      "api_model": "v4.4",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "jcbtc/Qwen3.8-Flash-CIRU-STRIX-IU4",
+        "revision": "f3db41e1bdd2b47e5a807ed24d529c58e2dd0596",
+        "card_sha256": "b8a227cb06a830cb920d0e86ac0f563b08e5d27a3dcd87ac597c9e707a9eb27e",
+        "url": "https://huggingface.co/jcbtc/Qwen3.8-Flash-CIRU-STRIX-IU4/resolve/f3db41e1bdd2b47e5a807ed24d529c58e2dd0596/README.md"
+      },
+      "sampler_card": {
+        "repo": "Qwen/Qwen3.8-Flash-Next",
+        "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+        "card_sha256": "35ca37ccc366f1ba478dab33841a2c0c18ce53fd62f291ca05341f7728b225b2",
+        "lastModified": "2026-08-27T05:03:36.000Z"
+      },
+      "sampler_inheritance": "Derivative card has no sampler; inherit pinned Qwen base card explicitly",
+      "comparison_status": "Historical greedy results excluded; no card-sampling result available"
+    },
+    "Ciru v5.0": {
+      "api_model": "v5.0",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "jcbtc/Qwen3.8-Flash-CIRU-STRIX-IU4",
+        "revision": "f3db41e1bdd2b47e5a807ed24d529c58e2dd0596",
+        "card_sha256": "b8a227cb06a830cb920d0e86ac0f563b08e5d27a3dcd87ac597c9e707a9eb27e",
+        "url": "https://huggingface.co/jcbtc/Qwen3.8-Flash-CIRU-STRIX-IU4/resolve/f3db41e1bdd2b47e5a807ed24d529c58e2dd0596/README.md"
+      },
+      "sampler_card": {
+        "repo": "Qwen/Qwen3.8-Flash-Next",
+        "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+        "card_sha256": "35ca37ccc366f1ba478dab33841a2c0c18ce53fd62f291ca05341f7728b225b2",
+        "lastModified": "2026-08-27T05:03:36.000Z"
+      },
+      "sampler_inheritance": "Derivative card has no sampler; inherit pinned Qwen base card explicitly",
+      "comparison_status": "Historical greedy results excluded; no card-sampling result available"
+    },
+    "HaloBox HIP": {
+      "api_model": "HaloBox",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+        "card_sha256": "9538227ff778ba7d8ba61b42cde3927487bf4c9c647ce18ac31d08a0b42998e6",
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/38bb39ee97821de2c9009abb7e93950eec396e66/README.md"
+      },
+      "sampler_card": {
+        "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+        "card_sha256": "9538227ff778ba7d8ba61b42cde3927487bf4c9c647ce18ac31d08a0b42998e6",
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/38bb39ee97821de2c9009abb7e93950eec396e66/README.md"
+      },
+      "sampler_inheritance": "Non-thinking sampler published directly in the pinned derivative card",
+      "comparison_status": "Historical greedy results excluded; no card-sampling result available"
+    },
+    "Gufo": {
+      "api_model": "Gufo",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+        "card_sha256": "9538227ff778ba7d8ba61b42cde3927487bf4c9c647ce18ac31d08a0b42998e6",
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/38bb39ee97821de2c9009abb7e93950eec396e66/README.md"
+      },
+      "sampler_card": {
+        "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+        "card_sha256": "9538227ff778ba7d8ba61b42cde3927487bf4c9c647ce18ac31d08a0b42998e6",
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/38bb39ee97821de2c9009abb7e93950eec396e66/README.md"
+      },
+      "sampler_inheritance": "Non-thinking sampler published directly in the pinned derivative card",
+      "comparison_status": "Historical greedy results excluded; no card-sampling result available"
+    },
+    "AgentionAI AP-Q5_K_XL": {
+      "api_model": "AgentionAI AP-Q5_K_XL",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "agentionai/Qwen3.8-Flash-Next-AP-GGUF",
+        "revision": "0061a60e46ad672a73cec31cb627dc841d4760a4",
+        "card_sha256": "69ba48837702744c75ff6fc7630f2a42c7a29a09aa8ced0ddae99649af5c3676",
+        "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-AP-GGUF/resolve/0061a60e46ad672a73cec31cb627dc841d4760a4/README.md"
+      },
+      "sampler_card": {
+        "repo": "agentionai/Qwen3.8-Flash-Next-AP-GGUF",
+        "revision": "0061a60e46ad672a73cec31cb627dc841d4760a4",
+        "card_sha256": "69ba48837702744c75ff6fc7630f2a42c7a29a09aa8ced0ddae99649af5c3676",
+        "url": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-AP-GGUF/resolve/0061a60e46ad672a73cec31cb627dc841d4760a4/README.md"
+      },
+      "sampler_inheritance": "Non-thinking sampler published directly in the pinned derivative card",
+      "comparison_status": "Historical greedy results excluded; no card-sampling result available"
+    },
+    "Halogen": {
+      "api_model": "Halogen",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "peonist-ai/halogen-qwen3.8-flash-next",
+        "revision": "aea24edbbea1e889df62b62f9d40a8b4e574671c",
+        "card_sha256": "f87beff1a78e45a6dd67e9eb7d9b4e9c6c678f1c336079e66dbadf7e0fcdc683",
+        "url": "https://huggingface.co/peonist-ai/halogen-qwen3.8-flash-next/resolve/aea24edbbea1e889df62b62f9d40a8b4e574671c/README.md"
+      },
+      "sampler_card": {
+        "repo": "Qwen/Qwen3.8-Flash-Next",
+        "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+        "card_sha256": "35ca37ccc366f1ba478dab33841a2c0c18ce53fd62f291ca05341f7728b225b2",
+        "lastModified": "2026-08-27T05:03:36.000Z"
+      },
+      "sampler_inheritance": "Derivative card has no sampler; inherit pinned Qwen base card explicitly",
+      "comparison_status": "Historical greedy results excluded; no card-sampling result available",
+      "backend_request_fields": {
+        "drafter": "mtp"
+      },
+      "adapter_note": "Preflight must establish that cache_prompt=false is honored or provide a verified fresh-cache adapter; otherwise exclude."
+    },
+    "Strata v0.1.40": {
+      "api_model": "strata-v0.1.40",
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "frequency_penalty": 0.0,
+        "repeat_penalty": 1.0
+      },
+      "model_card": {
+        "repo": "unsloth/Qwen3.8-Flash-Next-GGUF",
+        "revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+        "card_sha256": "9538227ff778ba7d8ba61b42cde3927487bf4c9c647ce18ac31d08a0b42998e6"
+      },
+      "sampler_card": {
+        "repo": "Qwen/Qwen3.8-Flash-Next",
+        "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+        "card_sha256": "35ca37ccc366f1ba478dab33841a2c0c18ce53fd62f291ca05341f7728b225b2",
+        "lastModified": "2026-08-27T05:03:36.000Z"
+      },
+      "sampler_inheritance": "Use pinned Qwen base-card nonthinking recommendation; deployment is Unsloth UD-IQ4_XS through Strata v0.1.40 HIP",
+      "comparison_status": "PLANNED"
+    }
+  }
+}

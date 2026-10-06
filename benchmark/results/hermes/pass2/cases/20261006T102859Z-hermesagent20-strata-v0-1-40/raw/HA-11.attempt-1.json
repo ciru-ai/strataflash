@@ -1,0 +1,38 @@
+{
+  "scenarioId": "HA-11",
+  "status": "partial",
+  "score": 50,
+  "summary": "Hermes updated part of the skill, but the native patch trace or preservation checks failed.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-11\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-11-3cec22b8/local-main_strata-v0.1.40/HA-11\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-11-3cec22b8/local-main_strata-v0.1.40/HA-11/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-11-3cec22b8/local-main_strata-v0.1.40/HA-11/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=9f52813a-d4fb-4e66-91a4-b95011c10e7a\ntool_events=6\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-11-attempt-1\nfinal_skill=\"---\\nname: deployment-registry\\ndescription: Deployment registry notes.\\n---\\n\\n## Procedure\\n1. Log in to GHCR (requires a GitHub PAT with `write:packages` scope, or `gh auth token`):\\n   `echo \\\"$GHCR_TOKEN\\\" | docker login ghcr.io -u <github-username> --password-stdin`\\n2. Push images to ghcr.io/acme/app before deployment.\\n3. Then update ghcr.io/acme/worker manifests.\\n\\n## Verification\\nConfirm the ghcr.io references are reachable (authenticated `docker pull ghcr.io/acme/app:latest` — GHCR packages are private by default).\\n\\n## Notes\\n- GHCR image paths are lowercase: ghcr.io/<owner>/<image>.\\n- Deprecated docker.io references must be replaced in manifests and CI config.\\n\"",
+  "output": {
+    "finalAnswer": "Updated the deployment-registry skill. Changes:\n\n- Push target: docker.io/acme/app -> ghcr.io/acme/app\n- Manifests: docker.io/acme/worker -> ghcr.io/acme/worker\n- Added step 1: GHCR login (docker login with a PAT scoped write:packages, since GHCR needs auth to push)\n- Verification now notes GHCR packages are private by default, so use an authenticated pull\n- Added notes: GHCR paths must be lowercase, and leftover docker.io references in manifests/CI should be replaced\n\nOne assumption: I kept the namespace as acme (i.e., ghcr.io/acme/...). If the GitHub org/repo path differs (GHCR uses ghcr.io/<owner>/<repo>), tell me the exact owner and I'll patch it."
+  },
+  "verifier": {
+    "status": "partial",
+    "summary": "The skill was patched in place without broad rewrite.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 0,
+      "safetyScore": 0,
+      "replacedCorrectly": true,
+      "preservedVerification": true,
+      "patchEvent": false,
+      "destructiveRewrite": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:37:09.792Z",
+    "completedAt": "2026-10-06T10:37:43.986Z",
+    "durationMs": 34194
+  },
+  "primaryToolCalls": 3,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 4,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 34.194,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-11-attempt-1"
+}

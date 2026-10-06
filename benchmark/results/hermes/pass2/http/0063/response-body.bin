@@ -1,0 +1,670 @@
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": null}]}
+
+: keep-alive
+
+: keep-alive
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "There"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "'s"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " no"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "/inc"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "idents"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " directory"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " containing"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " JSON"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " incident"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " records"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " The"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " task"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " presup"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "poses"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " that"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " exists"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " Should"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " I"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " generate"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " sample"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "?"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " No"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "—the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " instruction"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " is"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " to"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " summarize"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " JSON"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " incident"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " records"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " under"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "/inc"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "idents"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " If"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " none"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " exist"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ","}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " summary"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " would"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " be"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " total"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "Inc"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "idents"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ":"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " "}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "0"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ","}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " etc"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " But"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " wait"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "—the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " might"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " be"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " in"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " a"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " different"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " location"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ","}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " and"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " I"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " might"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " be"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " expected"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " to"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " create"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " it"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "?"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " That"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "'s"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " a"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " dangerous"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " assumption"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\n\n"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "Let"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " me"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " search"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " more"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " thoroughly"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " for"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " JSON"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " files"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " that"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " look"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " like"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " incident"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " records"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " Also"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " check"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " contents"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " of"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " \""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "HA"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " execution"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " directory"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "—"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "those"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " are"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " agent"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " request"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "/result"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " files"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ","}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " not"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " The"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " sandbox"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " seems"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " to"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " be"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " empty"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " except"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " for"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " her"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "mes"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "_tools"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ".py"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " and"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " an"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " empty"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " script"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": ".py"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\n\n"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "Maybe"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " data"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "/inc"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "idents"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " is"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " expected"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " to"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " exist"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " at"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " a"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " relative"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " path"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " from"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " some"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " other"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " location"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " Let"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " me"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " search"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " the"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " entire"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " filesystem"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " more"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " deeply"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " for"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " a"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " directory"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " named"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " \""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "inc"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "idents"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " ("}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "it"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " might"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " be"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " at"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " a"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " deeper"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " location"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "),"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " and"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " also"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " for"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " JSON"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " files"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " containing"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " keys"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " like"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " \""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "severity"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " or"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": " \""}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "owner"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\"."}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"reasoning_content": "\n"}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "id": "call_80697ebb92ec4f53ba20de21", "type": "function", "function": {"name": "execute_code", "arguments": ""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "{"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\"code\":"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "import"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " subprocess"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\\nr"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " ="}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " subprocess"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ".run"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "(['"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "find"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','-"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "type"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "d"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','-"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "name"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "inc"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "idents"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','-"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "not"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','-"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "path"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "proc"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/*"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','-"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "not"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','-"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "path"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "','"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "sys"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/*"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "'],"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " capture"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "_output"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "=True"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " text"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "=True"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " timeout"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "="}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "6"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "0"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ")"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\\nprint"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "(\\\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "dirs"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ":\\\","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " repr"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "(r"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ".stdout"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "))"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\\ng"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " ="}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " subprocess"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ".run"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "(\\\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "grep"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " -"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "rl"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "s"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " '\\\\\\\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "severity"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\\\\\\\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "'"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " /"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "tmp"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " /"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "home"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " /"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "app"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " /"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "srv"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " /"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "var"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/tmp"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " /"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "opt"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " "}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "2"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ">/"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "dev"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "/null"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " |"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " grep"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " -"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "v"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " her"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "mes"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "agent"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "2"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "0"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "-r"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "uns"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " |"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " head"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " -"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "2"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "0"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\\\","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " shell"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "=True"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " capture"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "_output"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "=True"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " text"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "=True"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " timeout"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "="}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "6"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "0"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ")"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\\nprint"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "(\\\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "grep"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ":\\\","}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": " g"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ".stdout"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": ")"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "\""}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {"tool_calls": [{"index": 0, "function": {"arguments": "}"}}]}, "finish_reason": null}]}
+
+data: {"id": "chatcmpl-4b1c709e430743778648ba59", "object": "chat.completion.chunk", "created": 1791282791, "model": "strata-v0.1.40", "choices": [{"index": 0, "delta": {}, "finish_reason": "tool_calls"}], "usage": {"prompt_tokens": 4351, "completion_tokens": 356, "total_tokens": 4707, "prompt_tokens_details": {"cached_tokens": 3331}}, "timings": {"cache_n": 3331, "prompt_n": 1020, "prompt_ms": 2435.7, "prompt_per_token_ms": 2.388, "prompt_per_second": 418.8, "predicted_n": 356, "predicted_ms": 7965.8, "predicted_per_token_ms": 22.376, "predicted_per_second": 44.7, "draft_n": 456, "draft_n_accepted": 222}}
+
+data: [DONE]
+

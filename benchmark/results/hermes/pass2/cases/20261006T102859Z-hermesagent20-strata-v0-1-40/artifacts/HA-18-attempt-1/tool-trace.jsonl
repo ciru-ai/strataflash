@@ -1,0 +1,6 @@
+{"elapsedSeconds": 6.473568725006771, "name": "terminal", "order": 1, "phase": "start", "toolCallId": "call_59ca1cb9aa4d4e4f9f663166"}
+{"actionResultSha256": "13c007fe92121590cc5854df89903cce70c9fb56a0f63b3c5c6540adb701ada4", "elapsedSeconds": 8.60799550700176, "name": "terminal", "order": 2, "phase": "complete", "toolCallId": "call_59ca1cb9aa4d4e4f9f663166"}
+{"elapsedSeconds": 12.90990793799574, "name": "terminal", "order": 3, "phase": "start", "toolCallId": "call_bd1e7183e2f54c11a0285c68"}
+{"actionResultSha256": "1545d5018f01864bd3f4fd5a204b1d7209c43f04e126c0cc8838e9ecb89cff83", "elapsedSeconds": 13.200496449004277, "name": "terminal", "order": 4, "phase": "complete", "toolCallId": "call_bd1e7183e2f54c11a0285c68"}
+{"elapsedSeconds": 16.54269058299542, "name": "terminal", "order": 5, "phase": "start", "toolCallId": "call_4e591b74125a42dd975a9d04"}
+{"actionResultSha256": "a3da384fce90607492a848623f2c492dda639bf483143799d3cc966706da6fc6", "elapsedSeconds": 16.83039256000484, "name": "terminal", "order": 7, "phase": "complete", "toolCallId": "call_4e591b74125a42dd975a9d04"}

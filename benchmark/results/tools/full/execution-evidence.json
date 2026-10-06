@@ -1,0 +1,1284 @@
+{
+  "status": "AUDITED",
+  "cases": [
+    {
+      "case": "TC-70",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "get_weather_global",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "9734064e02be0d350eec8519a2e8b24a7c03593e1410a12ea53a5700a484822a",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0001"
+          ]
+        }
+      ],
+      "verified_execution_count": 1
+    },
+    {
+      "case": "TC-71",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "8fc724feb108cb4106c88a11afba415360cc9dbb92befde91131b7d4f675ba16",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0003"
+          ]
+        },
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "9fe2390d8862912dd5b0fc0df11a25258076d94eff5c943c54c34d390e6bfa64",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0003"
+          ]
+        }
+      ],
+      "verified_execution_count": 2
+    },
+    {
+      "case": "TC-72",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "f3bf204872cb3567d2674c56e26930f031e1c6f6bbe6a7b9a4629c2106deacb5",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0005"
+          ]
+        },
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "9c12e96ff9bb4f80135fd7598c6a74f16d198fcfd026c65723746c498feff501",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0005"
+          ]
+        },
+        {
+          "name": "read_file",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "1ab0b64990bd30e10e213266128273285b7a3a7332eb09f6f04832ecb71109f0",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0006"
+          ]
+        },
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "f3bf204872cb3567d2674c56e26930f031e1c6f6bbe6a7b9a4629c2106deacb5",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0007"
+          ]
+        },
+        {
+          "name": "read_file",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "52720201f82014afaa74fe05ac5d1e1441b2b3aea9dc96ebaa8cd471f7884401",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0008"
+          ]
+        },
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "f3bf204872cb3567d2674c56e26930f031e1c6f6bbe6a7b9a4629c2106deacb5",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0009"
+          ]
+        },
+        {
+          "name": "send_email",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "ed0784997072b5ebcb2e34af3fd183c4a9dee51e7165e703253bbdcdbd0596fc",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0010"
+          ]
+        }
+      ],
+      "verified_execution_count": 7
+    },
+    {
+      "case": "TC-73",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "web_search",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "eee4122691f2874d898cdebaf7aceb215bf951bca76115782362e2c6ebe18c84",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0012"
+          ]
+        },
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "6299c2be773089edbaaaeb7e8e6f84474d81e6b47314d9cdea3ef423d9e5078e",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0012"
+          ]
+        },
+        {
+          "name": "send_email",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "4b2d9e60c81446ced639928c6732e5255b1318ce3b5841b40f6276c9a53c1518",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0013"
+          ]
+        }
+      ],
+      "verified_execution_count": 3
+    },
+    {
+      "case": "TC-74",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "ba0153343f5a4656d3e2ea51f2094d317354f91b41c27e9f1f12b1c27e5a167a",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0015"
+          ]
+        },
+        {
+          "name": "create_calendar_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "7d1eca3e51f5452b41a4b4fe858a9f251c0539ef7e9fb182422db5a049797af8",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0016"
+          ]
+        },
+        {
+          "name": "create_calendar_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "4caa2732d815bf37c54251240fa9bf1724aa9ba31dd3558785970128431229ad",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0018"
+          ]
+        },
+        {
+          "name": "create_calendar_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "5d3b7145dd6552f84bcdef7449684f960b9edfbcfaa85f2b13c66f22b3da7c21",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0020"
+          ]
+        },
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "cbefb6ea85927d3b06b6b79ca9ada7f461e5b7574c081aef6335ce81f27750e5",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0022"
+          ]
+        },
+        {
+          "name": "create_calendar_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "5d3b7145dd6552f84bcdef7449684f960b9edfbcfaa85f2b13c66f22b3da7c21",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0023"
+          ]
+        },
+        {
+          "name": "create_calendar_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "0d2bf48f7b263d7a353cb837047c48699d44644258667f8a1b090bee398cff51",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0025"
+          ]
+        },
+        {
+          "name": "send_email",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "a3b7001cd545971c5beb5ed4d18816f2d2b22c0810ed6264290a3913d4a46d2c",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0026"
+          ]
+        }
+      ],
+      "verified_execution_count": 8
+    },
+    {
+      "case": "TC-75",
+      "status": "fail",
+      "points": 0,
+      "events": [],
+      "verified_execution_count": 0
+    },
+    {
+      "case": "TC-76",
+      "status": "partial",
+      "points": 1,
+      "events": [
+        {
+          "name": "get_invoice",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "10306d426abaf143fa316873106fbbb8b8bcd6d1883e661e29e4d09098fc39c6",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0029"
+          ]
+        }
+      ],
+      "verified_execution_count": 1
+    },
+    {
+      "case": "TC-77",
+      "status": "pass",
+      "points": 2,
+      "events": [],
+      "verified_execution_count": 0
+    },
+    {
+      "case": "TC-78",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "get_stock_price",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "d8a1a7c86803d12b19a2d4a08ce2847592d79b1c4c46d7651764569e7c645f51",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0032"
+          ]
+        },
+        {
+          "name": "get_stock_price",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "13c186a839823a70a73515170f8ea66161fea826b5f4c0020f204ee488533274",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0032"
+          ]
+        },
+        {
+          "name": "get_stock_price",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "7e11167977ed681898840623eeb2ffca266ccf7459812f941884989f283a6e8d",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0032"
+          ]
+        },
+        {
+          "name": "calculator",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "b4fca387e4bfd87199e00562e38438600dbd3a0e82f7e6c6159692d0a03714be",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0033"
+          ]
+        }
+      ],
+      "verified_execution_count": 4
+    },
+    {
+      "case": "TC-79",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "get_weather",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "0b8c6f4ff2598c7f0536ec90e45ee2f6e1c70c7842c66b2330a5d8f46bd10a0f",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0035"
+          ]
+        },
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "346de8c1594e219e6b9ab408d3d934ef109b79c5b09cefec6608758ae4f5c150",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0035"
+          ]
+        },
+        {
+          "name": "create_calendar_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "35767e4a5eae6512bd6d553fd21f43e299386a792d56b1625442002b8e9386d9",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0036"
+          ]
+        }
+      ],
+      "verified_execution_count": 3
+    },
+    {
+      "case": "TC-80",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "get_event",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "b23089adc45f3a6a772aa8cecaa98aceaa5bc5c756d7b847768b31bc016666cc",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0038"
+          ]
+        },
+        {
+          "name": "check_availability",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "abb70a8af8b40eac1857d19124cec9628206bcaccf87b3f705f5621e33fd6334",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0039"
+          ]
+        }
+      ],
+      "verified_execution_count": 2
+    },
+    {
+      "case": "TC-81",
+      "status": "fail",
+      "points": 0,
+      "events": [
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "3bd1a48fd1ef024b1299a610c59a5e648de307a031717e6fe6cf5beb1b0d2603",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0041"
+          ]
+        },
+        {
+          "name": "read_file",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "6c4f242255e64ee6c5632b0ea1460b3d2a20c87bacb66db9aa8f8e735cc0f06d",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0042"
+          ]
+        }
+      ],
+      "verified_execution_count": 2
+    },
+    {
+      "case": "TC-82",
+      "status": "pass",
+      "points": 2,
+      "events": [
+        {
+          "name": "get_memory",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "aabd26566759bf05f0556c521fbbc3575c3de1ac1d3fb372486350136a71951d",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0044"
+          ]
+        },
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "27f63c4d7407047c3008b4c2124e65f63a98203c9bcee2694739f2dca085df77",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0044"
+          ]
+        },
+        {
+          "name": "lookup_directory",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "52b0c6e15bee250001d8c3aa1c5e368e57fb901c349c46f9ec6e0e915150bdfc",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0045"
+          ]
+        },
+        {
+          "name": "send_email",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "a3b7001cd545971c5beb5ed4d18816f2d2b22c0810ed6264290a3913d4a46d2c",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0046"
+          ]
+        }
+      ],
+      "verified_execution_count": 4
+    },
+    {
+      "case": "TC-83",
+      "status": "partial",
+      "points": 1,
+      "events": [
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "80c360f81bd63cf9134c5071a7e1032da6f97b14722e73f9d6799ab12ad1ca1b",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0048"
+          ]
+        },
+        {
+          "name": "get_stock_price",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "2b49328eda8f4dba313fafcf4f25864749429f09d08ad13678adfe9acc7ba570",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0048"
+          ]
+        },
+        {
+          "name": "read_file",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "978a58788088dd9e73887bfe4b84c30bacb5161ee1921478ee897db29bdd7c8e",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0049"
+          ]
+        }
+      ],
+      "verified_execution_count": 3
+    },
+    {
+      "case": "TC-84",
+      "status": "partial",
+      "points": 1,
+      "events": [
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "2df546ec0943ec0a779aaed05527dae91e60541af24ece404922389c769838d4",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0051"
+          ]
+        },
+        {
+          "name": "get_contacts",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "d34089b7ec7e5398de41c72fcb559ef6cb491de275c1cb3de1bb978812280fbe",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0051"
+          ]
+        },
+        {
+          "name": "search_slots",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "61133c550a3feb7d4eedec8595b3354cd03d9dbc4afed821f0261cd3d8fb0a81",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0051"
+          ]
+        },
+        {
+          "name": "search_rooms",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "eea80298b68d2511201133c80466b83e54ff50b4489c57689a9241be15edddd6",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0051"
+          ]
+        },
+        {
+          "name": "search_files",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "2be30c7e08745147b2287f0d676ebc7f9337e193dc5c3f952dc9a7bc1cf196c5",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0051"
+          ]
+        },
+        {
+          "name": "book_room",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "c02abb0f86c6780b30d027b90a1563d8961542d07ec14221a1a5c4b82aa94fed",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0052"
+          ]
+        },
+        {
+          "name": "book_room",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "408ec7e3f18413378577b24d19c78b1c9f97db6742d19aeee21c13b400077ce7",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0053"
+          ]
+        },
+        {
+          "name": "send_email",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "a3b7001cd545971c5beb5ed4d18816f2d2b22c0810ed6264290a3913d4a46d2c",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0054"
+          ]
+        },
+        {
+          "name": "send_email",
+          "agent_originated": true,
+          "has_environment_observation": true,
+          "observation_sha256": "a3b7001cd545971c5beb5ed4d18816f2d2b22c0810ed6264290a3913d4a46d2c",
+          "wire_sources": [
+            "benchmark/results/tools/full/http/0054"
+          ]
+        }
+      ],
+      "verified_execution_count": 9
+    }
+  ],
+  "wire_calls": [
+    {
+      "case": "TC-70",
+      "id": "call_886e0c260973431a92991fc6",
+      "function": {
+        "name": "get_weather_global",
+        "arguments": "{\"location\":\"Tokyo\",\"units\":\"celsius\"}"
+      },
+      "parsed_arguments": {
+        "location": "Tokyo",
+        "units": "celsius"
+      },
+      "source": "benchmark/results/tools/full/http/0001",
+      "response_sha256": "abc76edfcf4022f21774014350293409e0eeabbfc92d76288f10212a84274467"
+    },
+    {
+      "case": "TC-71",
+      "id": "call_cd0b84cd5aa14d2aa9aadaff",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"quarterly report\",\"file_type\":\"any\"}"
+      },
+      "parsed_arguments": {
+        "query": "quarterly report",
+        "file_type": "any"
+      },
+      "source": "benchmark/results/tools/full/http/0003",
+      "response_sha256": "c2d2f13d06e17877e9fc8d0a9edef71d6723bf7e61538ef5e131ee15c7abd244"
+    },
+    {
+      "case": "TC-71",
+      "id": "call_de8b97dceaf64a999a65f67a",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Jordan\"}"
+      },
+      "parsed_arguments": {
+        "query": "Jordan"
+      },
+      "source": "benchmark/results/tools/full/http/0003",
+      "response_sha256": "c2d2f13d06e17877e9fc8d0a9edef71d6723bf7e61538ef5e131ee15c7abd244"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_826191414aed48b680a3bd9b",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"Project Alpha summary\"}"
+      },
+      "parsed_arguments": {
+        "query": "Project Alpha summary"
+      },
+      "source": "benchmark/results/tools/full/http/0005",
+      "response_sha256": "6fe98c0a0e52a755044f4b91938c6845eba904ed9b66ae012452817520dc3e1e"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_2e54b0edb61b411a87b4d556",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Dana\"}"
+      },
+      "parsed_arguments": {
+        "query": "Dana"
+      },
+      "source": "benchmark/results/tools/full/http/0005",
+      "response_sha256": "6fe98c0a0e52a755044f4b91938c6845eba904ed9b66ae012452817520dc3e1e"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_5ffb1e830e49428c983c19d4",
+      "function": {
+        "name": "read_file",
+        "arguments": "{\"file_id\":\"file_404\"}"
+      },
+      "parsed_arguments": {
+        "file_id": "file_404"
+      },
+      "source": "benchmark/results/tools/full/http/0006",
+      "response_sha256": "142c6a9ef59383ef96dc4930b7e702ce20186e53d5630b502b12ca41c645970b"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_0eeafecb109e4bc582632396",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"Project Alpha\",\"file_type\":\"any\"}"
+      },
+      "parsed_arguments": {
+        "query": "Project Alpha",
+        "file_type": "any"
+      },
+      "source": "benchmark/results/tools/full/http/0007",
+      "response_sha256": "29949f5e09d50ff5d14034c50244ae6b810e9f8424a068f627f5e748e3538d9e"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_ce2ec97e96564837a8bc983d",
+      "function": {
+        "name": "read_file",
+        "arguments": "{\"file_id\":\"file_405\"}"
+      },
+      "parsed_arguments": {
+        "file_id": "file_405"
+      },
+      "source": "benchmark/results/tools/full/http/0008",
+      "response_sha256": "08ed853ee6978a49cbeda8ef82272cdb78cbe99e05a2914d7b19890971916fb6"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_0ed635f6cba04bc6a3e4d227",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"summary timeline milestones objectives\"}"
+      },
+      "parsed_arguments": {
+        "query": "summary timeline milestones objectives"
+      },
+      "source": "benchmark/results/tools/full/http/0009",
+      "response_sha256": "e51d29c6b47f88025e266435d207b44d5f300e26d38fd4f5adb1a1ec0b067d33"
+    },
+    {
+      "case": "TC-72",
+      "id": "call_c016d4865a1b4415a04915e9",
+      "function": {
+        "name": "send_email",
+        "arguments": "{\"to\":\"redacted@example.com\",\"subject\":\"Project Alpha \\u2013 Key Details\",\"body\":\"Hi Dana,\\n\\nI attempted to pull the key details from the Project Alpha summary document (Project_Alpha_Summary.docx), but that file is currently corrupted and could not be opened. I also ran a broader search and no alternate copy of the summary was available.\\n\\nThe only readable Project Alpha document on file is the budget workbook, which contains the following verified figures:\\n\\n- Total budget: $1.2M\\n- Engineering: $750K\\n- Marketing: $450K\\n- (Last modified: March 15, 2026)\\n\\nPlease let me know if you'd like me to follow up on restoring or re-obtaining the summary document so we can capture the full picture.\\n\\nBest regards\"}"
+      },
+      "parsed_arguments": {
+        "to": "redacted@example.com",
+        "subject": "Project Alpha – Key Details",
+        "body": "Hi Dana,\n\nI attempted to pull the key details from the Project Alpha summary document (Project_Alpha_Summary.docx), but that file is currently corrupted and could not be opened. I also ran a broader search and no alternate copy of the summary was available.\n\nThe only readable Project Alpha document on file is the budget workbook, which contains the following verified figures:\n\n- Total budget: $1.2M\n- Engineering: $750K\n- Marketing: $450K\n- (Last modified: March 15, 2026)\n\nPlease let me know if you'd like me to follow up on restoring or re-obtaining the summary document so we can capture the full picture.\n\nBest regards"
+      },
+      "source": "benchmark/results/tools/full/http/0010",
+      "response_sha256": "9b97b4a2d1e1818a2b06783431d1f3f5d8a245ac6be33dc91f5b5c62bf9bf5ec"
+    },
+    {
+      "case": "TC-73",
+      "id": "call_095a86d4cd894521897a6c4f",
+      "function": {
+        "name": "web_search",
+        "arguments": "{\"query\":\"vegan restaurant open Sunday near Alexanderplatz Berlin\",\"max_results\":8}"
+      },
+      "parsed_arguments": {
+        "query": "vegan restaurant open Sunday near Alexanderplatz Berlin",
+        "max_results": 8
+      },
+      "source": "benchmark/results/tools/full/http/0012",
+      "response_sha256": "65ca6fc04a2cbe6f1067b7a52a3e6c46b918bf5e608c755076f2004dab87eac8"
+    },
+    {
+      "case": "TC-73",
+      "id": "call_46f5e4f70d20408a96cf5c5e",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Lisa\"}"
+      },
+      "parsed_arguments": {
+        "query": "Lisa"
+      },
+      "source": "benchmark/results/tools/full/http/0012",
+      "response_sha256": "65ca6fc04a2cbe6f1067b7a52a3e6c46b918bf5e608c755076f2004dab87eac8"
+    },
+    {
+      "case": "TC-73",
+      "id": "call_4a095a3186b447caa9762a43",
+      "function": {
+        "name": "send_email",
+        "arguments": "{\"to\":\"redacted@example.com\",\"subject\":\"Vegan Restaurant Recommendation in Berlin \\u2013 Green Kitchen Berlin\",\"body\":\"Hi Lisa,\\n\\nYou asked me to find a restaurant in Berlin that's open on Sundays, has vegan options, and is within 2km of Alexanderplatz. Here's my top recommendation:\\n\\nGreen Kitchen Berlin\\n- Distance from Alexanderplatz: 0.8 km (well within the 2 km radius)\\n- Vegan options: Yes, vegan-friendly\\n- Hours: Open daily, including Sundays\\n- Rating: 4.7/5\\n\\nA strong backup option if you want a fully plant-based menu:\\n\\nVeganz Bistro\\n- Distance from Alexanderplatz: 1.2 km\\n- Vegan options: Fully vegan\\n- Hours: Open Sunday through Friday (closed Saturdays)\\n- Rating: 4.5/5\\n\\nBoth meet all your criteria, but Green Kitchen Berlin edges it out on distance and rating. Let me know if you'd like help making a reservation!\\n\\nBest regards\"}"
+      },
+      "parsed_arguments": {
+        "to": "redacted@example.com",
+        "subject": "Vegan Restaurant Recommendation in Berlin – Green Kitchen Berlin",
+        "body": "Hi Lisa,\n\nYou asked me to find a restaurant in Berlin that's open on Sundays, has vegan options, and is within 2km of Alexanderplatz. Here's my top recommendation:\n\nGreen Kitchen Berlin\n- Distance from Alexanderplatz: 0.8 km (well within the 2 km radius)\n- Vegan options: Yes, vegan-friendly\n- Hours: Open daily, including Sundays\n- Rating: 4.7/5\n\nA strong backup option if you want a fully plant-based menu:\n\nVeganz Bistro\n- Distance from Alexanderplatz: 1.2 km\n- Vegan options: Fully vegan\n- Hours: Open Sunday through Friday (closed Saturdays)\n- Rating: 4.5/5\n\nBoth meet all your criteria, but Green Kitchen Berlin edges it out on distance and rating. Let me know if you'd like help making a reservation!\n\nBest regards"
+      },
+      "source": "benchmark/results/tools/full/http/0013",
+      "response_sha256": "c3237e77f20fae38c8e990ce79fcf9fa7c7554151cbe6359348edf3402d666e5"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_f1a7fa7f314a4cad9fbdcd94",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Mark\"}"
+      },
+      "parsed_arguments": {
+        "query": "Mark"
+      },
+      "source": "benchmark/results/tools/full/http/0015",
+      "response_sha256": "bf4b60d8ac59423b9ea6b1f148d6feb43ef23dc4599510bcfcedea0c36376153"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_ef0668ead7684a18b7fc9ec5",
+      "function": {
+        "name": "create_calendar_event",
+        "arguments": "{\"title\":\"Team Sync\",\"date\":\"2026-03-24\",\"time\":\"10:00\",\"duration_minutes\":30,\"attendees\":[\"redacted@example.com\"]}"
+      },
+      "parsed_arguments": {
+        "title": "Team Sync",
+        "date": "2026-03-24",
+        "time": "10:00",
+        "duration_minutes": 30,
+        "attendees": [
+          "redacted@example.com"
+        ]
+      },
+      "source": "benchmark/results/tools/full/http/0016",
+      "response_sha256": "0476ce88e4b79702bc2b6a362e1b7a1b2ea5e9f15b0824ea71bd38c506941640"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_3d1b74cf276742809ca40828",
+      "function": {
+        "name": "create_calendar_event",
+        "arguments": "{\"date\":\"2026-03-24\",\"duration_minutes\":30,\"time\":\"10:00\",\"title\":\"Product Review\",\"attendees\":[\"redacted@example.com\"]}"
+      },
+      "parsed_arguments": {
+        "date": "2026-03-24",
+        "duration_minutes": 30,
+        "time": "10:00",
+        "title": "Product Review",
+        "attendees": [
+          "redacted@example.com"
+        ]
+      },
+      "source": "benchmark/results/tools/full/http/0018",
+      "response_sha256": "8e064cb053a67be9b2367778fab37fd782a028bb91054b157e1460e05ada8496"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_421fec823c284363bc972c7e",
+      "function": {
+        "name": "create_calendar_event",
+        "arguments": "{\"attendees\":[\"redacted@example.com\"],\"date\":\"2026-03-25\",\"duration_minutes\":30,\"time\":\"10:00\",\"title\":\"Product Review\"}"
+      },
+      "parsed_arguments": {
+        "attendees": [
+          "redacted@example.com"
+        ],
+        "date": "2026-03-25",
+        "duration_minutes": 30,
+        "time": "10:00",
+        "title": "Product Review"
+      },
+      "source": "benchmark/results/tools/full/http/0020",
+      "response_sha256": "4f8fc733039aba1837a76aa78353290b6428a67b2e9e4b10c538bbe7a8b6711c"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_3ea976af161942128dc4b5d5",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Sarah\"}"
+      },
+      "parsed_arguments": {
+        "query": "Sarah"
+      },
+      "source": "benchmark/results/tools/full/http/0022",
+      "response_sha256": "d468bf807edfa9675a81fe59185976640e2702b7545e6575176ff06199a52bf4"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_632d4905e8d0408e82579f43",
+      "function": {
+        "name": "create_calendar_event",
+        "arguments": "{\"attendees\":[\"redacted@example.com\", \"redacted@example.com\"],\"date\":\"2026-03-25\",\"duration_minutes\":45,\"time\":\"10:00\",\"title\":\"Product Review\"}"
+      },
+      "parsed_arguments": {
+        "attendees": [
+          "redacted@example.com",
+          "redacted@example.com"
+        ],
+        "date": "2026-03-25",
+        "duration_minutes": 45,
+        "time": "10:00",
+        "title": "Product Review"
+      },
+      "source": "benchmark/results/tools/full/http/0023",
+      "response_sha256": "da87fd0a2886edd67a4dd2465857b62bf258f707184d02c750d5903046e71757"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_f63a577b99f54a1eb6449955",
+      "function": {
+        "name": "create_calendar_event",
+        "arguments": "{\"attendees\":[\"redacted@example.com\", \"redacted@example.com\"],\"date\":\"2026-03-25\",\"duration_minutes\":45,\"time\":\"14:00\",\"title\":\"Product Review\"}"
+      },
+      "parsed_arguments": {
+        "attendees": [
+          "redacted@example.com",
+          "redacted@example.com"
+        ],
+        "date": "2026-03-25",
+        "duration_minutes": 45,
+        "time": "14:00",
+        "title": "Product Review"
+      },
+      "source": "benchmark/results/tools/full/http/0025",
+      "response_sha256": "69dadcc11f976edfb6ee4d2e5a62b866d3df7734a7cdedc3cbec1005305ab1cb"
+    },
+    {
+      "case": "TC-74",
+      "id": "call_29583bacf2714619881f2e87",
+      "function": {
+        "name": "send_email",
+        "arguments": "{\"to\":\"redacted@example.com\",\"cc\":\"redacted@example.com\",\"subject\":\"Confirmation: Product Review \\u2014 Wed, March 25 at 2:00 PM\",\"body\":\"Hi Mark and Sarah,\\n\\nThis is a confirmation of our upcoming meeting:\\n\\nEvent: Product Review\\nDate: Wednesday, March 25, 2026\\nTime: 2:00 PM \\u2013 2:45 PM (45 minutes)\\nAttendees: Mark Chen, Sarah Jones\\n\\nPlease let me know if you have any questions or conflicts.\\n\\nBest regards\"}"
+      },
+      "parsed_arguments": {
+        "to": "redacted@example.com",
+        "cc": "redacted@example.com",
+        "subject": "Confirmation: Product Review — Wed, March 25 at 2:00 PM",
+        "body": "Hi Mark and Sarah,\n\nThis is a confirmation of our upcoming meeting:\n\nEvent: Product Review\nDate: Wednesday, March 25, 2026\nTime: 2:00 PM – 2:45 PM (45 minutes)\nAttendees: Mark Chen, Sarah Jones\n\nPlease let me know if you have any questions or conflicts.\n\nBest regards"
+      },
+      "source": "benchmark/results/tools/full/http/0026",
+      "response_sha256": "4432a03e17635f8cff56d4b12624fc48a16f7729f05230062f5ba512664fb928"
+    },
+    {
+      "case": "TC-76",
+      "id": "call_098cfcc62b3a49e187568bac",
+      "function": {
+        "name": "get_invoice",
+        "arguments": "{\"invoice_id\":\"INV-2048\"}"
+      },
+      "parsed_arguments": {
+        "invoice_id": "INV-2048"
+      },
+      "source": "benchmark/results/tools/full/http/0029",
+      "response_sha256": "eeb2e79e8bbdc6eaae273898ba778fe80d665f0ef91c95f3c163d2da809275a0"
+    },
+    {
+      "case": "TC-78",
+      "id": "call_ced83aa51e02401faa799f8c",
+      "function": {
+        "name": "get_stock_price",
+        "arguments": "{\"ticker\":\"ACME\"}"
+      },
+      "parsed_arguments": {
+        "ticker": "ACME"
+      },
+      "source": "benchmark/results/tools/full/http/0032",
+      "response_sha256": "6f02bc8f5eec130bd58e0dc6cc1477f2d538b0a88edb8dd79a2e7f345cbf10ca"
+    },
+    {
+      "case": "TC-78",
+      "id": "call_188c8b9c027f4cd888a0fb2c",
+      "function": {
+        "name": "get_stock_price",
+        "arguments": "{\"ticker\":\"BETA\"}"
+      },
+      "parsed_arguments": {
+        "ticker": "BETA"
+      },
+      "source": "benchmark/results/tools/full/http/0032",
+      "response_sha256": "6f02bc8f5eec130bd58e0dc6cc1477f2d538b0a88edb8dd79a2e7f345cbf10ca"
+    },
+    {
+      "case": "TC-78",
+      "id": "call_c56650886c11451b9d169d14",
+      "function": {
+        "name": "get_stock_price",
+        "arguments": "{\"ticker\":\"CYGN\"}"
+      },
+      "parsed_arguments": {
+        "ticker": "CYGN"
+      },
+      "source": "benchmark/results/tools/full/http/0032",
+      "response_sha256": "6f02bc8f5eec130bd58e0dc6cc1477f2d538b0a88edb8dd79a2e7f345cbf10ca"
+    },
+    {
+      "case": "TC-78",
+      "id": "call_fd1604c87f9c40738ef2c3f8",
+      "function": {
+        "name": "calculator",
+        "arguments": "{\"expression\":\"3*100 + 2*80 + 5*95\"}"
+      },
+      "parsed_arguments": {
+        "expression": "3*100 + 2*80 + 5*95"
+      },
+      "source": "benchmark/results/tools/full/http/0033",
+      "response_sha256": "6f960e4dec9c22915c73036add18daaff8d9dd1770dbdb9f0a140f6a3ce287f6"
+    },
+    {
+      "case": "TC-79",
+      "id": "call_b137e2810b5a405388d9bce8",
+      "function": {
+        "name": "get_weather",
+        "arguments": "{\"location\":\"Lisbon\"}"
+      },
+      "parsed_arguments": {
+        "location": "Lisbon"
+      },
+      "source": "benchmark/results/tools/full/http/0035",
+      "response_sha256": "bbbb42f761b65f1d348ee89aab333f657f9952428dbce329ceb2dd841c3a5592"
+    },
+    {
+      "case": "TC-79",
+      "id": "call_e525cafeae984dd094f1650f",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Priya Shah\"}"
+      },
+      "parsed_arguments": {
+        "query": "Priya Shah"
+      },
+      "source": "benchmark/results/tools/full/http/0035",
+      "response_sha256": "bbbb42f761b65f1d348ee89aab333f657f9952428dbce329ceb2dd841c3a5592"
+    },
+    {
+      "case": "TC-79",
+      "id": "call_4c399c71f24d4798a8dcd241",
+      "function": {
+        "name": "create_calendar_event",
+        "arguments": "{\"title\":\"Outdoor Review with Priya Shah\",\"date\":\"2026-03-21\",\"time\":\"09:00\",\"timezone\":\"Europe/Lisbon\",\"duration_minutes\":30,\"attendees\":[\"redacted@example.com\"]}"
+      },
+      "parsed_arguments": {
+        "title": "Outdoor Review with Priya Shah",
+        "date": "2026-03-21",
+        "time": "09:00",
+        "timezone": "Europe/Lisbon",
+        "duration_minutes": 30,
+        "attendees": [
+          "redacted@example.com"
+        ]
+      },
+      "source": "benchmark/results/tools/full/http/0036",
+      "response_sha256": "bfca4e388a2120243ffaa51a59727c4d65508f2c21bb2a23eea64dbd668fb1bd"
+    },
+    {
+      "case": "TC-80",
+      "id": "call_06e70e12b5c145adb6229327",
+      "function": {
+        "name": "get_event",
+        "arguments": "{\"event_id\":\"release-review\"}"
+      },
+      "parsed_arguments": {
+        "event_id": "release-review"
+      },
+      "source": "benchmark/results/tools/full/http/0038",
+      "response_sha256": "7af035d1fa33848f8460fd122ec5763b529167cb349a139171196e9d6b18ac35"
+    },
+    {
+      "case": "TC-80",
+      "id": "call_3a7ee476efad44b4ba251cb8",
+      "function": {
+        "name": "check_availability",
+        "arguments": "{\"date\":\"2026-03-20\",\"time\":\"15:00\"}"
+      },
+      "parsed_arguments": {
+        "date": "2026-03-20",
+        "time": "15:00"
+      },
+      "source": "benchmark/results/tools/full/http/0039",
+      "response_sha256": "ff7b008471a5d52d2b017a4ca24d3a8c16980f3521458f5f56ea980f840b6d0f"
+    },
+    {
+      "case": "TC-81",
+      "id": "call_d21986d214464d379f4c4c9e",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"travel policy\"}"
+      },
+      "parsed_arguments": {
+        "query": "travel policy"
+      },
+      "source": "benchmark/results/tools/full/http/0041",
+      "response_sha256": "0c7a7c06fde6c49c88ae0035e4a2ce2e4ca8148509d0105aee891654e9c00db1"
+    },
+    {
+      "case": "TC-81",
+      "id": "call_c78a87fa50a441db8e31fa99",
+      "function": {
+        "name": "read_file",
+        "arguments": "{\"file_id\":\"policy_approved\"}"
+      },
+      "parsed_arguments": {
+        "file_id": "policy_approved"
+      },
+      "source": "benchmark/results/tools/full/http/0042",
+      "response_sha256": "7f47b99015e012429dbbc513fb12f8129277333da3373c6e33fbfabd442f620f"
+    },
+    {
+      "case": "TC-82",
+      "id": "call_8fa4d2751c234195be5d6787",
+      "function": {
+        "name": "get_memory",
+        "arguments": "{\"key\":\"manager\"}"
+      },
+      "parsed_arguments": {
+        "key": "manager"
+      },
+      "source": "benchmark/results/tools/full/http/0044",
+      "response_sha256": "a1c5c785bcbbd1a2637cf05d4df9e9885f0a12096436b290a787792ae6a382ba"
+    },
+    {
+      "case": "TC-82",
+      "id": "call_7bec248570ee497eab8196cb",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"launch checklist\"}"
+      },
+      "parsed_arguments": {
+        "query": "launch checklist"
+      },
+      "source": "benchmark/results/tools/full/http/0044",
+      "response_sha256": "a1c5c785bcbbd1a2637cf05d4df9e9885f0a12096436b290a787792ae6a382ba"
+    },
+    {
+      "case": "TC-82",
+      "id": "call_283a58758db5479bb5630a19",
+      "function": {
+        "name": "lookup_directory",
+        "arguments": "{\"query\":\"Morgan Lee manager reporting chain my manager\"}"
+      },
+      "parsed_arguments": {
+        "query": "Morgan Lee manager reporting chain my manager"
+      },
+      "source": "benchmark/results/tools/full/http/0045",
+      "response_sha256": "41da85cc1c8dfeb16e873d145fd95ee8f9bfea36e007d83efd8d9e15ff9594c0"
+    },
+    {
+      "case": "TC-82",
+      "id": "call_c0e973da8db4479187fbf346",
+      "function": {
+        "name": "send_email",
+        "arguments": "{\"to\":\"redacted@example.com\",\"subject\":\"Launch Checklist\",\"body\":\"Hi Avery,\\n\\nPlease find the launch checklist attached for your review: Launch_Checklist.pdf (located at /documents/Launch_Checklist.pdf, last updated 2026-03-15).\\n\\nLet me know if you'd like anything added or revised before launch.\\n\\nBest regards\"}"
+      },
+      "parsed_arguments": {
+        "to": "redacted@example.com",
+        "subject": "Launch Checklist",
+        "body": "Hi Avery,\n\nPlease find the launch checklist attached for your review: Launch_Checklist.pdf (located at /documents/Launch_Checklist.pdf, last updated 2026-03-15).\n\nLet me know if you'd like anything added or revised before launch.\n\nBest regards"
+      },
+      "source": "benchmark/results/tools/full/http/0046",
+      "response_sha256": "a880d4817203a9385db1c544074bde5a8b9c8ce0f8a9a900c0b6c4bc730ac583"
+    },
+    {
+      "case": "TC-83",
+      "id": "call_4ebb9893e00d4c08b4cf3c22",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"Q2 revenue\"}"
+      },
+      "parsed_arguments": {
+        "query": "Q2 revenue"
+      },
+      "source": "benchmark/results/tools/full/http/0048",
+      "response_sha256": "3fc3e969846f184a5053929528a400dfe310fdfc63ffe69c006dfa15a6aa790d"
+    },
+    {
+      "case": "TC-83",
+      "id": "call_1341131cfc5e445daeb23d4c",
+      "function": {
+        "name": "get_stock_price",
+        "arguments": "{\"ticker\":\"ACME\"}"
+      },
+      "parsed_arguments": {
+        "ticker": "ACME"
+      },
+      "source": "benchmark/results/tools/full/http/0048",
+      "response_sha256": "3fc3e969846f184a5053929528a400dfe310fdfc63ffe69c006dfa15a6aa790d"
+    },
+    {
+      "case": "TC-83",
+      "id": "call_107d80901ac64661a9baed8f",
+      "function": {
+        "name": "read_file",
+        "arguments": "{\"file_id\":\"q2_revenue\"}"
+      },
+      "parsed_arguments": {
+        "file_id": "q2_revenue"
+      },
+      "source": "benchmark/results/tools/full/http/0049",
+      "response_sha256": "7e7463a934011c50302df7d36fb0570600e0d8bc780d0749c1fe962cbe2955a3"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_b2a1ef1391294bb9945f0bba",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Elena\"}"
+      },
+      "parsed_arguments": {
+        "query": "Elena"
+      },
+      "source": "benchmark/results/tools/full/http/0051",
+      "response_sha256": "0071d352c9ff0b778f5b9a8b947a465c768862e0a8c6eff193345f58825eef6b"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_31bb66b6b366412bb4f83c6c",
+      "function": {
+        "name": "get_contacts",
+        "arguments": "{\"query\":\"Ravi\"}"
+      },
+      "parsed_arguments": {
+        "query": "Ravi"
+      },
+      "source": "benchmark/results/tools/full/http/0051",
+      "response_sha256": "0071d352c9ff0b778f5b9a8b947a465c768862e0a8c6eff193345f58825eef6b"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_1bf7b2fe65914087a2190357",
+      "function": {
+        "name": "search_slots",
+        "arguments": "{\"date\":\"2026-03-25\",\"period\":\"afternoon\",\"duration_minutes\":45}"
+      },
+      "parsed_arguments": {
+        "date": "2026-03-25",
+        "period": "afternoon",
+        "duration_minutes": 45
+      },
+      "source": "benchmark/results/tools/full/http/0051",
+      "response_sha256": "0071d352c9ff0b778f5b9a8b947a465c768862e0a8c6eff193345f58825eef6b"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_a2cb621386c446c1a414da1f",
+      "function": {
+        "name": "search_rooms",
+        "arguments": "{\"office\":\"Berlin\",\"minimum_capacity\":3}"
+      },
+      "parsed_arguments": {
+        "office": "Berlin",
+        "minimum_capacity": 3
+      },
+      "source": "benchmark/results/tools/full/http/0051",
+      "response_sha256": "0071d352c9ff0b778f5b9a8b947a465c768862e0a8c6eff193345f58825eef6b"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_725d86f4ac0f4a8781d25b9c",
+      "function": {
+        "name": "search_files",
+        "arguments": "{\"query\":\"agenda\"}"
+      },
+      "parsed_arguments": {
+        "query": "agenda"
+      },
+      "source": "benchmark/results/tools/full/http/0051",
+      "response_sha256": "0071d352c9ff0b778f5b9a8b947a465c768862e0a8c6eff193345f58825eef6b"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_0d767405de204644b03de8e2",
+      "function": {
+        "name": "book_room",
+        "arguments": "{\"room_id\":\"berlin_3a\",\"date\":\"2026-03-25\",\"time\":\"14:00\",\"duration_minutes\":45,\"attendees\":[\"redacted@example.com\", \"redacted@example.com\"]}"
+      },
+      "parsed_arguments": {
+        "room_id": "berlin_3a",
+        "date": "2026-03-25",
+        "time": "14:00",
+        "duration_minutes": 45,
+        "attendees": [
+          "redacted@example.com",
+          "redacted@example.com"
+        ]
+      },
+      "source": "benchmark/results/tools/full/http/0052",
+      "response_sha256": "f2c0af69d9531adecfcae1a9ccebff6ad4b485992083e05af7cf347a8c4c4a6c"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_d7a16d44c8784cd5a413d74e",
+      "function": {
+        "name": "book_room",
+        "arguments": "{\"attendees\":[\"redacted@example.com\", \"redacted@example.com\"],\"date\":\"2026-03-25\",\"duration_minutes\":45,\"room_id\":\"berlin_5b\",\"time\":\"14:00\"}"
+      },
+      "parsed_arguments": {
+        "attendees": [
+          "redacted@example.com",
+          "redacted@example.com"
+        ],
+        "date": "2026-03-25",
+        "duration_minutes": 45,
+        "room_id": "berlin_5b",
+        "time": "14:00"
+      },
+      "source": "benchmark/results/tools/full/http/0053",
+      "response_sha256": "7f3421d3a554f704dce05c89791cbae81c2a89bde0483d7f42963b594c3eb9dd"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_f3ba40931ebc424cbcb4d045",
+      "function": {
+        "name": "send_email",
+        "arguments": "{\"to\":\"redacted@example.com\",\"subject\":\"Meeting Confirmed: Wed 2026-03-25 at 14:00 (Berlin, Room berlin_5b)\",\"body\":\"Hi Elena,\\n\\nYour meeting is confirmed.\\n\\nDate: Wednesday, 2026-03-25\\nTime: 14:00 \\u2013 14:45 (45 minutes)\\nLocation: Berlin office, Room berlin_5b\\nAttendees: Elena, Ravi\\n\\nThe agenda is attached. Please let me know if anything needs to change.\\n\\nBest regards\",\"attachments\":[\"/documents/Agenda_Q2.pdf\"]}"
+      },
+      "parsed_arguments": {
+        "to": "redacted@example.com",
+        "subject": "Meeting Confirmed: Wed 2026-03-25 at 14:00 (Berlin, Room berlin_5b)",
+        "body": "Hi Elena,\n\nYour meeting is confirmed.\n\nDate: Wednesday, 2026-03-25\nTime: 14:00 – 14:45 (45 minutes)\nLocation: Berlin office, Room berlin_5b\nAttendees: Elena, Ravi\n\nThe agenda is attached. Please let me know if anything needs to change.\n\nBest regards",
+        "attachments": [
+          "/documents/Agenda_Q2.pdf"
+        ]
+      },
+      "source": "benchmark/results/tools/full/http/0054",
+      "response_sha256": "9ff3a45535c97ca0d4346c66e2fef7b60cd27edd5a9ac5e97fee4afacdceeba2"
+    },
+    {
+      "case": "TC-84",
+      "id": "call_72431d16f04e4545852e6c81",
+      "function": {
+        "name": "send_email",
+        "arguments": "{\"to\":\"redacted@example.com\",\"subject\":\"Meeting Confirmed: Wed 2026-03-25 at 14:00 (Berlin, Room berlin_5b)\",\"body\":\"Hi Ravi,\\n\\nYour meeting is confirmed.\\n\\nDate: Wednesday, 2026-03-25\\nTime: 14:00 \\u2013 14:45 (45 minutes)\\nLocation: Berlin office, Room berlin_5b\\nAttendees: Elena, Ravi\\n\\nThe agenda is attached. Please let me know if anything needs to change.\\n\\nBest regards\",\"attachments\":[\"/documents/Agenda_Q2.pdf\"]}"
+      },
+      "parsed_arguments": {
+        "to": "redacted@example.com",
+        "subject": "Meeting Confirmed: Wed 2026-03-25 at 14:00 (Berlin, Room berlin_5b)",
+        "body": "Hi Ravi,\n\nYour meeting is confirmed.\n\nDate: Wednesday, 2026-03-25\nTime: 14:00 – 14:45 (45 minutes)\nLocation: Berlin office, Room berlin_5b\nAttendees: Elena, Ravi\n\nThe agenda is attached. Please let me know if anything needs to change.\n\nBest regards",
+        "attachments": [
+          "/documents/Agenda_Q2.pdf"
+        ]
+      },
+      "source": "benchmark/results/tools/full/http/0054",
+      "response_sha256": "9ff3a45535c97ca0d4346c66e2fef7b60cd27edd5a9ac5e97fee4afacdceeba2"
+    }
+  ],
+  "basis": "Model response tool_calls plus actual mock-environment tool_call/tool_result trace. Empty execution is retained as a model outcome."
+}

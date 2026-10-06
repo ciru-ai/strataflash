@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-7d88570a6624402b8aad7143",
+  "object": "chat.completion",
+  "created": 1791277414,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef has_close_elements(numbers: List[float], threshold: float) -> bool:\n    \"\"\" Check if in given list of numbers, are any two numbers closer to each other than\n    given threshold.\n    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)\n    False\n    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)\n    True\n    \"\"\"\n    sorted_numbers = sorted(numbers)\n    for i in range(len(sorted_numbers) - 1):\n        if abs(sorted_numbers[i] - sorted_numbers[i + 1]) < threshold:\n            return True\n    return False\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 177,
+    "total_tokens": 311,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 134,
+    "prompt_ms": 1056.5,
+    "prompt_per_token_ms": 7.884,
+    "prompt_per_second": 126.8,
+    "predicted_n": 177,
+    "predicted_ms": 2487.0,
+    "predicted_per_token_ms": 14.051,
+    "predicted_per_second": 71.2,
+    "draft_n": 166,
+    "draft_n_accepted": 142
+  }
+}

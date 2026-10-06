@@ -1,0 +1,2 @@
+[console_scripts]
+tool-eval-bench = tool_eval_bench.cli.bench:main

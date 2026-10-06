@@ -1,0 +1,134 @@
+{
+  "model": "strata-v0.1.40",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant with access to the tools provided.\n\nRules:\n- Use a tool ONLY when it is necessary to fulfill the user's request.\n- If you can answer directly from your own knowledge, do so without calling a tool.\n- If a tool call fails, explain the failure and suggest an alternative approach.\n- Never invent information that a tool should provide.\n\nBenchmark context: today is 2026-03-20 (Friday). Use this date for any relative time request."
+    },
+    {
+      "role": "user",
+      "content": "Using current prices, calculate the value of 3 ACME shares, 2 BETA shares, and 5 CYGN shares."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_ced83aa51e02401faa799f8c",
+          "type": "function",
+          "function": {
+            "name": "get_stock_price",
+            "arguments": "{\"ticker\":\"ACME\"}"
+          }
+        },
+        {
+          "id": "call_188c8b9c027f4cd888a0fb2c",
+          "type": "function",
+          "function": {
+            "name": "get_stock_price",
+            "arguments": "{\"ticker\":\"BETA\"}"
+          }
+        },
+        {
+          "id": "call_c56650886c11451b9d169d14",
+          "type": "function",
+          "function": {
+            "name": "get_stock_price",
+            "arguments": "{\"ticker\":\"CYGN\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ced83aa51e02401faa799f8c",
+      "content": "{\"ticker\": \"ACME\", \"price_usd\": 100.0, \"timestamp\": \"2026-03-20T16:00:00Z\", \"exchange\": \"NASDAQ\", \"volume\": 52314800, \"market_cap\": \"2.89T\", \"pe_ratio\": 28.4, \"day_high\": 0.0, \"day_low\": 0.0, \"week_52_high\": 0.0, \"week_52_low\": 0.0, \"previous_close\": -1.23, \"after_hours\": null, \"request_id\": \"req_sp_8c1d4e2a\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_188c8b9c027f4cd888a0fb2c",
+      "content": "{\"ticker\": \"BETA\", \"price_usd\": 80.0, \"timestamp\": \"2026-03-20T16:00:00Z\", \"exchange\": \"NASDAQ\", \"volume\": 52314800, \"market_cap\": \"2.89T\", \"pe_ratio\": 28.4, \"day_high\": 0.0, \"day_low\": 0.0, \"week_52_high\": 0.0, \"week_52_low\": 0.0, \"previous_close\": -1.23, \"after_hours\": null, \"request_id\": \"req_sp_8c1d4e2a\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_c56650886c11451b9d169d14",
+      "content": "{\"ticker\": \"CYGN\", \"price_usd\": 95.0, \"timestamp\": \"2026-03-20T16:00:00Z\", \"exchange\": \"NASDAQ\", \"volume\": 52314800, \"market_cap\": \"2.89T\", \"pe_ratio\": 28.4, \"day_high\": 0.0, \"day_low\": 0.0, \"week_52_high\": 0.0, \"week_52_low\": 0.0, \"previous_close\": -1.23, \"after_hours\": null, \"request_id\": \"req_sp_8c1d4e2a\"}"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_fd1604c87f9c40738ef2c3f8",
+          "type": "function",
+          "function": {
+            "name": "calculator",
+            "arguments": "{\"expression\":\"3*100 + 2*80 + 5*95\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fd1604c87f9c40738ef2c3f8",
+      "content": "{\"result\": 935.0}"
+    }
+  ],
+  "max_tokens": -1,
+  "temperature": 0.7,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_stock_price",
+        "description": "Get the current stock price for a ticker.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ticker": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ticker"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "calculator",
+        "description": "Perform arithmetic.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "expression": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "expression"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "seed": 123,
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "preserve_thinking": true
+  },
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0,
+  "presence_penalty": 1.5,
+  "frequency_penalty": 0.0,
+  "repeat_penalty": 1.0,
+  "cache_prompt": true
+}

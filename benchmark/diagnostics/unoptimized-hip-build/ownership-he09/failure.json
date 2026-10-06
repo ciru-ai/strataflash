@@ -1,0 +1,5 @@
+{
+  "type": "CalledProcessError",
+  "message": "Command '['benchmark/python/bin/python3', 'benchmark/run_he09.py']' returned non-zero exit status 1.",
+  "retry": false
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "from": "he09/http/0174",
+    "to": "hermes-pass1/http/0174",
+    "reason": "Folder stage captured before helper adapter refreshed stage; actual submitted seed establishes panel"
+  },
+  {
+    "from": "hermes-pass1/http/0223",
+    "to": "hermes-pass2/http/0223",
+    "reason": "Folder stage captured before helper adapter refreshed stage; actual submitted seed establishes panel"
+  }
+]

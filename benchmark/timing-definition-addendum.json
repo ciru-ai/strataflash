@@ -1,0 +1,8 @@
+{
+  "status": "SOURCE_AUDITED",
+  "runtime_revision": "1735d6471df29b42c26170efaac1f1446a58640f",
+  "corrects": "The timing_boundary prose in the initial HE protocol lock; requests and measured values are unchanged",
+  "prompt_clock": "Source line8993 stops prompt_ms before the first verify window. The final input token is processed in decode. Native prompt_read reports n-reused, including that final input token. Native PP is retained as prompt_read/prompt_ms.",
+  "decode_clock": "Source line9024 starts decode clock before the first output prediction; line9782 stops it after the generation loop. generated/decode_ms includes first prediction and terminal EOS token. This differs from llama.cpp (predicted_n-1)/predicted_ms.",
+  "comparison": "Keep each native timing definition visible, and use wall times and completion validity alongside rates; do not calculate a causal engine speedup across different weights/runtimes."
+}

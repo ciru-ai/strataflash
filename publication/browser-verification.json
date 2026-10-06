@@ -1,0 +1,435 @@
+{
+  "status": "PASS",
+  "default": {
+    "race": {
+      "mode": "toolsRec",
+      "time": 289.25,
+      "duration": 289.25,
+      "playing": false,
+      "speed": 10,
+      "lanes": [
+        {
+          "id": "strata",
+          "total": 15,
+          "done": 15,
+          "score": "23"
+        },
+        {
+          "id": "ciru5",
+          "total": 15,
+          "done": 15,
+          "score": "24"
+        },
+        {
+          "id": "halobox",
+          "total": 15,
+          "done": 15,
+          "score": "21"
+        },
+        {
+          "id": "gufo",
+          "total": 15,
+          "done": 15,
+          "score": "22"
+        },
+        {
+          "id": "agention",
+          "total": 15,
+          "done": 15,
+          "score": "25"
+        },
+        {
+          "id": "halogen",
+          "total": 15,
+          "done": 15,
+          "score": "24"
+        },
+        {
+          "id": "carlos",
+          "total": 15,
+          "done": 15,
+          "score": "22"
+        }
+      ]
+    },
+    "charts": {
+      "charts": [
+        "chart-quality",
+        "chart-agent-wall",
+        "chart-decode",
+        "chart-he-wall",
+        "chart-cold",
+        "chart-append",
+        "chart-append-tg",
+        "chart-ttfp",
+        "chart-kl",
+        "chart-top1",
+        "chart-ppl",
+        "chart-assets",
+        "chart-memory"
+      ],
+      "quality": "hermes",
+      "wall": "hermes",
+      "appendSize": 4096,
+      "modelCount": 10
+    },
+    "overflow": false
+  },
+  "tools": {
+    "mode": "toolsRec",
+    "time": 289.25,
+    "duration": 289.25,
+    "playing": false,
+    "speed": 10,
+    "lanes": [
+      {
+        "id": "strata",
+        "total": 15,
+        "done": 15,
+        "score": "23"
+      },
+      {
+        "id": "ciru5",
+        "total": 15,
+        "done": 15,
+        "score": "24"
+      },
+      {
+        "id": "halobox",
+        "total": 15,
+        "done": 15,
+        "score": "21"
+      },
+      {
+        "id": "gufo",
+        "total": 15,
+        "done": 15,
+        "score": "22"
+      },
+      {
+        "id": "agention",
+        "total": 15,
+        "done": 15,
+        "score": "25"
+      },
+      {
+        "id": "halogen",
+        "total": 15,
+        "done": 15,
+        "score": "24"
+      },
+      {
+        "id": "carlos",
+        "total": 15,
+        "done": 15,
+        "score": "22"
+      }
+    ]
+  },
+  "passes": {
+    "hermesMean": {
+      "mode": "hermesMean",
+      "time": 2734.6920000000005,
+      "duration": 2734.6920000000005,
+      "playing": false,
+      "speed": 10,
+      "lanes": [
+        {
+          "id": "strata",
+          "total": 20,
+          "done": 20,
+          "score": "91.0"
+        },
+        {
+          "id": "ciru44",
+          "total": 20,
+          "done": 20,
+          "score": "97.0"
+        },
+        {
+          "id": "ciru5",
+          "total": 20,
+          "done": 20,
+          "score": "96.0"
+        },
+        {
+          "id": "halobox",
+          "total": 20,
+          "done": 20,
+          "score": "96.0"
+        },
+        {
+          "id": "gufo",
+          "total": 20,
+          "done": 20,
+          "score": "90.0"
+        },
+        {
+          "id": "agention",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "halogen",
+          "total": 20,
+          "done": 20,
+          "score": "96.5"
+        },
+        {
+          "id": "carlos",
+          "total": 20,
+          "done": 20,
+          "score": "95.0"
+        },
+        {
+          "id": "orca",
+          "total": 20,
+          "done": 20,
+          "score": "94.5"
+        },
+        {
+          "id": "qwenapi",
+          "total": 20,
+          "done": 20,
+          "score": "98.5"
+        }
+      ]
+    },
+    "hermes1": {
+      "mode": "hermes1",
+      "time": 2149.871,
+      "duration": 2149.871,
+      "playing": false,
+      "speed": 10,
+      "lanes": [
+        {
+          "id": "strata",
+          "total": 20,
+          "done": 20,
+          "score": "91.0"
+        },
+        {
+          "id": "ciru44",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "ciru5",
+          "total": 20,
+          "done": 20,
+          "score": "93.0"
+        },
+        {
+          "id": "halobox",
+          "total": 20,
+          "done": 20,
+          "score": "98.0"
+        },
+        {
+          "id": "gufo",
+          "total": 20,
+          "done": 20,
+          "score": "89.0"
+        },
+        {
+          "id": "agention",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "halogen",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "carlos",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "orca",
+          "total": 20,
+          "done": 20,
+          "score": "96.0"
+        },
+        {
+          "id": "qwenapi",
+          "total": 20,
+          "done": 20,
+          "score": "98.0"
+        }
+      ]
+    },
+    "hermes2": {
+      "mode": "hermes2",
+      "time": 3319.5129999999995,
+      "duration": 3319.5129999999995,
+      "playing": false,
+      "speed": 10,
+      "lanes": [
+        {
+          "id": "strata",
+          "total": 20,
+          "done": 20,
+          "score": "91.0"
+        },
+        {
+          "id": "ciru44",
+          "total": 20,
+          "done": 20,
+          "score": "95.0"
+        },
+        {
+          "id": "ciru5",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "halobox",
+          "total": 20,
+          "done": 20,
+          "score": "94.0"
+        },
+        {
+          "id": "gufo",
+          "total": 20,
+          "done": 20,
+          "score": "91.0"
+        },
+        {
+          "id": "agention",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        },
+        {
+          "id": "halogen",
+          "total": 20,
+          "done": 20,
+          "score": "94.0"
+        },
+        {
+          "id": "carlos",
+          "total": 20,
+          "done": 20,
+          "score": "91.0"
+        },
+        {
+          "id": "orca",
+          "total": 20,
+          "done": 20,
+          "score": "93.0"
+        },
+        {
+          "id": "qwenapi",
+          "total": 20,
+          "done": 20,
+          "score": "99.0"
+        }
+      ]
+    }
+  },
+  "interactive": {
+    "charts": [
+      "chart-quality",
+      "chart-agent-wall",
+      "chart-decode",
+      "chart-he-wall",
+      "chart-cold",
+      "chart-append",
+      "chart-append-tg",
+      "chart-ttfp",
+      "chart-kl",
+      "chart-top1",
+      "chart-ppl",
+      "chart-assets",
+      "chart-memory"
+    ],
+    "quality": "tools",
+    "wall": "tools",
+    "appendSize": 512,
+    "modelCount": 10
+  },
+  "mobile": {
+    "overflow": false,
+    "charts": {
+      "charts": [
+        "chart-quality",
+        "chart-agent-wall",
+        "chart-decode",
+        "chart-he-wall",
+        "chart-cold",
+        "chart-append",
+        "chart-append-tg",
+        "chart-ttfp",
+        "chart-kl",
+        "chart-top1",
+        "chart-ppl",
+        "chart-assets",
+        "chart-memory"
+      ],
+      "quality": "tools",
+      "wall": "tools",
+      "appendSize": 512,
+      "modelCount": 10
+    },
+    "race": {
+      "mode": "toolsRec",
+      "time": 1.7989999997615815,
+      "duration": 289.25,
+      "playing": true,
+      "speed": 10,
+      "lanes": [
+        {
+          "id": "strata",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        },
+        {
+          "id": "ciru5",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        },
+        {
+          "id": "halobox",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        },
+        {
+          "id": "gufo",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        },
+        {
+          "id": "agention",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        },
+        {
+          "id": "halogen",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        },
+        {
+          "id": "carlos",
+          "total": 15,
+          "done": 0,
+          "score": "0"
+        }
+      ]
+    }
+  },
+  "errors": []
+}

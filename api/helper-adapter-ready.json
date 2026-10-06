@@ -1,0 +1,6 @@
+{
+  "port": 18739,
+  "runner_sha256": "33cb54c674c7ef1251725de11267ebc51eef6514b28c727333421d570f766fd3",
+  "correction": "Match pinned local proxy normalization for child tool-agent requests; preserve internal session summarizer limit",
+  "no_scored_case_repeated": true
+}

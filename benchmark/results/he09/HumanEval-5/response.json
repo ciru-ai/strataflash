@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-98d94455650b4d62be8f8800",
+  "object": "chat.completion",
+  "created": 1791277430,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\" Insert a number 'delimeter' between every two consecutive elements of input list `numbers'\n    >>> intersperse([], 4)\n    []\n    >>> intersperse([1, 2, 3], 4)\n    [1, 4, 2, 4, 3]\n    \"\"\"\n    if not numbers:\n        return []\n    \n    result = [numbers[0]]\n    for num in numbers[1:]:\n        result.append(delimeter)\n        result.append(num)\n    return result\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 145,
+    "total_tokens": 249,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 104,
+    "prompt_ms": 743.1,
+    "prompt_per_token_ms": 7.145,
+    "prompt_per_second": 140.0,
+    "predicted_n": 145,
+    "predicted_ms": 1945.0,
+    "predicted_per_token_ms": 13.414,
+    "predicted_per_second": 74.6,
+    "draft_n": 129,
+    "draft_n_accepted": 117
+  }
+}

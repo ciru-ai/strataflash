@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-d3beae0d47c84e26b2c996fc",
+  "object": "chat.completion",
+  "created": 1791277427,
+  "model": "strata-v0.1.40",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```python\nfrom typing import List\n\n\ndef mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\" For a given list of input numbers, calculate Mean Absolute Deviation\n    around the mean of this dataset.\n    Mean Absolute Deviation is the average absolute difference between each\n    element and a centerpoint (mean in this case):\n    MAD = average | x - x_mean |\n    >>> mean_absolute_deviation([1.0, 2.0, 3.0, 4.0])\n    1.0\n    \"\"\"\n    if not numbers:\n        return 0.0\n    \n    n = len(numbers)\n    mean = sum(numbers) / n\n    mad = sum(abs(x - mean) for x in numbers) / n\n    return mad\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 172,
+    "total_tokens": 300,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 128,
+    "prompt_ms": 820.4,
+    "prompt_per_token_ms": 6.409,
+    "prompt_per_second": 156.0,
+    "predicted_n": 172,
+    "predicted_ms": 2139.0,
+    "predicted_per_token_ms": 12.436,
+    "predicted_per_second": 80.4,
+    "draft_n": 147,
+    "draft_n_accepted": 140
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "scenarioId": "HA-13",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes created a valid cron job and preserved the origin delivery target.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-13\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-13-3e2a9691/local-main_strata-v0.1.40/HA-13\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-13-3e2a9691/local-main_strata-v0.1.40/HA-13/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-13-3e2a9691/local-main_strata-v0.1.40/HA-13/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=47874800-f363-4602-9aec-54df591e8a03\ntool_events=4\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-13-attempt-1\nenv_HERMES_SESSION_PLATFORM=homeassistant\nenv_HERMES_SESSION_CHAT_ID=notify_origin\nenv_HERMES_SESSION_CHAT_NAME=Benchmark Origin\njobs=[{\"id\":\"c2091d079463\",\"name\":\"health-check-34669\",\"prompt\":\"You are a scheduled morning health check. Perform this exact check: run the shell command `curl -s -o /dev/null -m 10 -w '%{http_code}' http://127.0.0.1:34669/health`. Interpretation: if curl exits successfully AND the HTTP status code is in the 200-399 range, the service is UP. Any other result (connection refused, timeout, DNS error, or HTTP status 400+ or empty) means the service is DOWN. If the service is DOWN, reply with an alert message that starts with 'HEALTH ALERT:' followed by the endpoint URL, the exact failure reason (error message or HTTP status code), and the current date/time. If the service is UP, your final response must be completely empty — output no text at all so that no notification is delivered to the user.\",\"skills\":[],\"skill\":null,\"model\":null,\"provider\":null,\"base_url\":null,\"script\":null,\"schedule\":{\"kind\":\"cron\",\"expr\":\"0 8 * * *\",\"display\":\"0 8 * * *\"},\"schedule_display\":\"0 8 * * *\",\"repeat\":{\"times\":null,\"completed\":0},\"enabled\":true,\"state\":\"scheduled\",\"paused_at\":null,\"paused_reason\":null,\"created_at\":\"2026-10-06T10:39:11.013821+00:00\",\"next_run_at\":\"2026-10-07T08:00:00+00:00\",\"last_run_at\":null,\"last_status\":null,\"last_error\":null,\"last_delivery_error\":null,\"deliver\":\"origin\",\"origin\":{\"platform\":\"homeassistant\",\"chat_id\":\"notify_origin\",\"chat_name\":\"Benchmark Origin\",\"thread_id\":null}}]",
+  "output": {
+    "finalAnswer": "Done. Scheduled job \"health-check-34669\" (id c2091d079463):\n\n- Schedule: daily at 08:00 (`0 8 * * *`), next run 2026-10-07 08:00\n- Check: curls http://127.0.0.1:34669/health with a 10s timeout; anything other than HTTP 2xx/3xx (connection refused, timeout, 4xx/5xx) counts as DOWN\n- Alerts: delivered to this chat with the failure reason and timestamp; silent when healthy\n\nOne note: I tried to put the probe in a reusable script under ~/.hermes/scripts/, but that directory is write-protected here, so the curl check is embedded directly in the job prompt — same behavior.\n\nWant me to trigger a test run now to verify the check end-to-end?"
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "A valid cron job was created with origin delivery preserved.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "jobId": "c2091d079463",
+      "scheduleLooksRight": true,
+      "deliverOrigin": true,
+      "createEvent": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:38:04.064Z",
+    "completedAt": "2026-10-06T10:39:23.102Z",
+    "durationMs": 79038
+  },
+  "primaryToolCalls": 2,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 3,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 79.038,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-13-attempt-1"
+}

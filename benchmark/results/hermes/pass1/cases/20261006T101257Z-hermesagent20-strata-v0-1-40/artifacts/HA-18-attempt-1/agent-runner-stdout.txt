@@ -1,0 +1,2 @@
+  ┊ 💻 $         pwd && ls -la && find . -maxdepth 3 -type d -name "build-cache" 2>/dev/null  2.2s
+  ┊ 💻 $         rm -rf ./build-cache && ls -la  0.3s

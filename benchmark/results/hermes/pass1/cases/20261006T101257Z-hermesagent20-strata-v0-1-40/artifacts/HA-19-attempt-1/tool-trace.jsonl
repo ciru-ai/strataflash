@@ -1,0 +1,14 @@
+{"elapsedSeconds": 8.397179840001627, "name": "search_files", "order": 1, "phase": "start", "toolCallId": "call_b9358431382b4d0f9998fe35"}
+{"actionResultSha256": "65f469f7c0e94b73410a6aa683260deda9c8de857f9d9d3529be4abf0cc35509", "elapsedSeconds": 9.43181461399945, "name": "search_files", "order": 2, "phase": "complete", "toolCallId": "call_b9358431382b4d0f9998fe35"}
+{"elapsedSeconds": 10.432722330006072, "name": "terminal", "order": 3, "phase": "start", "toolCallId": "call_4215d93c5e374155b925e3be"}
+{"actionResultSha256": "2f0b192bca9772dab9ab9c6c1e7e17372ae9b473013a5b806765cf668abc5856", "elapsedSeconds": 12.33217753500503, "name": "terminal", "order": 4, "phase": "complete", "toolCallId": "call_4215d93c5e374155b925e3be"}
+{"elapsedSeconds": 15.586362620000727, "name": "read_file", "order": 5, "phase": "start", "toolCallId": "call_66faef2d721e431fb3527461"}
+{"elapsedSeconds": 15.586460165999597, "name": "read_file", "order": 6, "phase": "start", "toolCallId": "call_15ae1a34baea4eec99d42e77"}
+{"elapsedSeconds": 15.586474786003237, "name": "read_file", "order": 7, "phase": "start", "toolCallId": "call_ea9c1a6044ad4a2e8ea883d0"}
+{"actionResultSha256": "7a0d5ebbd755d0060ebdfbf7765c4dda21d37be8f0c1721c70ef4f386538ccc1", "elapsedSeconds": 16.422829140996328, "name": "read_file", "order": 8, "phase": "complete", "toolCallId": "call_66faef2d721e431fb3527461"}
+{"actionResultSha256": "6ba8b2b5deb079310862675fbd665ca42fcd5e8cfaab7bf157b68542801917f0", "elapsedSeconds": 16.423287306999555, "name": "read_file", "order": 9, "phase": "complete", "toolCallId": "call_15ae1a34baea4eec99d42e77"}
+{"actionResultSha256": "ebf2669c7895c82311dd6fd32b6557320c282962d50ba799cc02787cff33af28", "elapsedSeconds": 16.423378024002886, "name": "read_file", "order": 10, "phase": "complete", "toolCallId": "call_ea9c1a6044ad4a2e8ea883d0"}
+{"elapsedSeconds": 21.15607286800514, "name": "terminal", "order": 11, "phase": "start", "toolCallId": "call_6ce29c683cf54ce4a77ba731"}
+{"actionResultSha256": "f81964c709ceb2ade18410ae33b8833a36e6cc4f075e7e611fac7b1b8b53f541", "elapsedSeconds": 21.446843921003165, "name": "terminal", "order": 12, "phase": "complete", "toolCallId": "call_6ce29c683cf54ce4a77ba731"}
+{"elapsedSeconds": 23.711582749005174, "name": "terminal", "order": 13, "phase": "start", "toolCallId": "call_e0d8cb31e6514a9897a13533"}
+{"actionResultSha256": "4a75e2426e49f2ab4159fda45c800db68870741eaf148c12b530a8a5a5de9f9c", "elapsedSeconds": 24.004034929996124, "name": "terminal", "order": 14, "phase": "complete", "toolCallId": "call_e0d8cb31e6514a9897a13533"}

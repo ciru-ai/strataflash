@@ -1,0 +1,75 @@
+: heartbeat
+
+: heartbeat
+
+: heartbeat
+
+: heartbeat
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "Now", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " let", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "'s", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " look", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " at", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " tools", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "/", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "measure", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "_re", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "visions", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".py", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " tools", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "/", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "confirm", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "_timing", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".py", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " tools", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "/check", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "_consumer", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".py", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " to", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " understand", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " the", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " timing", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " harness", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " And", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " check", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " the", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " remote", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "", "finish_reason": "length"}], "usage": {"prompt_tokens": 12960, "completion_tokens": 32, "total_tokens": 12992}, "timings": {"cache_n": 0, "prompt_n": 12960, "prompt_ms": 17964.1, "prompt_per_token_ms": 1.386, "prompt_per_second": 721.4, "predicted_n": 32, "predicted_ms": 664.0, "predicted_per_token_ms": 20.75, "predicted_per_second": 48.2, "draft_n": 34, "draft_n_accepted": 21}, "native_timings": {"generated": 32, "prompt_tokens": 12960, "prompt_ms": 17964.1, "decode_ms": 664.0, "finish": "length", "drafts_accepted": 21, "drafts_offered": 34, "reused": 0, "hits": 0, "lookups": 0, "ram_blobs": 0, "file_blobs": 0, "file_mb": 0.0, "prompt_read": 12960, "offloaded": 0}}
+
+data: [DONE]

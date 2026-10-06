@@ -1,0 +1,24 @@
+{
+  "case": "HA-09-attempt-1",
+  "status": "valid-agent-evidence",
+  "issues": [],
+  "completed": true,
+  "model": "strata-v0.1.40",
+  "api_calls": 4,
+  "max_turns": 2147483647,
+  "input_tokens": 3866,
+  "output_tokens": 1246,
+  "tools": [
+    "read_file",
+    "skills_list",
+    "search_files",
+    "skill_manage"
+  ],
+  "no_tool_trace": false,
+  "has_final_response": true,
+  "has_assistant_output": true,
+  "forced_budget_summary": false,
+  "client_error_lines": [],
+  "request_sha256": "6f507749da00880d0d4c37963d02281a753cbd65d262c66744f0eb4cbd172759",
+  "result_sha256": "0358d6979599bb7ce6448604a676392a33c440bdcc9d2e04cdbf72cd6ef0a556"
+}

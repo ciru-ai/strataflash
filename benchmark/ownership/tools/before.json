@@ -1,0 +1,27 @@
+{
+  "main": {
+    "ActiveState": "active",
+    "UnitFileState": "enabled",
+    "MainPID": "95849"
+  },
+  "hardware": {
+    "host": "sozo",
+    "performance_level": "auto",
+    "cpu_governors": [
+      "powersave"
+    ],
+    "power_limits": {}
+  },
+  "resources": {
+    "at": 1791281178.1234188,
+    "ram_total": 134309679104,
+    "ram_available": 31913680896,
+    "ram_used": 102395998208,
+    "gpu": {
+      "mem_info_gtt_used": 94918676480,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 204980224,
+      "mem_info_vram_total": 536870912
+    }
+  }
+}

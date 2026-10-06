@@ -1,0 +1,51 @@
+{"event": "READY", "panel": "he09", "meta": {"engine_info": {"version": "0.1.40", "context": 262144, "kv": "int8", "kv_resident": 0, "expert_slots": 24576, "expert_cache_mib": 56762, "expert_slots_primary": 24576, "expert_cache_primary_mib": 56762, "spec": 7, "mtp_max": 4, "lookup": 3, "vram_free_mib": 46100, "cvec": 0, "arena_mib": 6653, "pool_workers": 15, "pcie_frac": "0.55", "spec_min_p": "0.00", "conversation_cache_mib": 0, "conversation_cache_slots": 4, "conversation_cache_min_free_mib": 2560, "tail_role_token": -1, "vram_elastic": 0, "engine": "0.1.40"}, "native_pid": 90910, "args": ["--native", "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf", "--pack", "benchmark/pack", "--max-context", "262144", "--prefill", "16384", "--kv", "int8", "--resident-experts", "--expert-profile", "benchmark/source/data/expert-profile.bin", "--prompt-cache", "0", "--mtp", "benchmark/mtp/rt", "--spec", "4", "--lookup-chain", "3", "--mtp-q4", "all"], "exe": "benchmark/bin/strata", "last": {}, "journal": "benchmark/ownership/he09/native-journal.jsonl", "context": 262144, "generation_count": 0}}
+{"scope_check": "PASS", "panel_id": "he09_speed", "inference_performed": false, "conditions_check_still_required": true}
+Traceback (most recent call last):
+  File "benchmark/run_he09.py", line 55, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "benchmark/run_he09.py", line 38, in main
+    with request('/v1/chat/completions',payload,180) as response:raw=response.read()
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "benchmark/benchmark_common.py", line 13, in request
+    return urllib.request.urlopen(req,timeout=timeout)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "benchmark/python/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "benchmark/python/lib/python3.13/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "benchmark/python/lib/python3.13/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "benchmark/python/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "benchmark/python/lib/python3.13/urllib/request.py", line 1348, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "benchmark/python/lib/python3.13/urllib/request.py", line 1323, in do_open
+    r = h.getresponse()
+  File "benchmark/python/lib/python3.13/http/client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "benchmark/python/lib/python3.13/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "benchmark/python/lib/python3.13/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "benchmark/python/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+Traceback (most recent call last):
+  File "benchmark/run_owner.py", line 107, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "benchmark/run_owner.py", line 75, in main
+    if client.exists():subprocess.run([str(TASK/'python/bin/python3'),str(client)],check=True)
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "benchmark/python/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['benchmark/python/bin/python3', 'benchmark/run_he09.py']' returned non-zero exit status 1.

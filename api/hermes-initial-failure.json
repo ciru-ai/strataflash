@@ -1,0 +1,6 @@
+{
+  "type": "AssertionError",
+  "error": "Remote harness exit 1: evidence/local/Qwen3.8flash/token-plan-qwen38-20261002/hermes-pass1/runner.log",
+  "stage": "hermes-pass1",
+  "retries": 0
+}

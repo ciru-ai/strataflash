@@ -1,0 +1,39 @@
+{
+  "scenarioId": "HA-15",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes triggered the cron job correctly and let the scheduler deliver the result exactly once.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-15\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-15-ae018354/local-main_strata-v0.1.40/HA-15\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-15-ae018354/local-main_strata-v0.1.40/HA-15/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-15-ae018354/local-main_strata-v0.1.40/HA-15/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nenv_HASS_TOKEN=bench-token\nenv_HASS_URL=http://127.0.0.1:35589\nagent_exit_code=0\nsession_id=c9184ae2-79d1-4f95-993b-872ec99d264d\ntool_events=4\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-15-attempt-1\ndeliveries=[{\"method\":\"POST\",\"url\":\"/api/services/notify/notify\",\"headers\":{\"host\":\"127.0.0.1:35589\",\"authorization\":\"Bearer REDACTED\",\"content-type\":\"application/json\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"Python/3.11 aiohttp/3.14.1\",\"content-length\":\"206\"},\"body\":{\"message\":\"Cronjob Response: daily-report\\n-------------\\n\\nDaily report: systems nominal.\\n\\nNote: The agent cannot see this message, and therefore cannot respond to it.\",\"target\":\"notify_engineering\"}}]\noutputs=[\"0e6f8114d90b/2026-10-06_10-40-02.md\"]",
+  "output": {
+    "finalAnswer": "Triggered the daily-report job (0e6f8114d90b). It's queued to run now, and its output will be delivered to this chat automatically. The next scheduled run remains on its normal 24-hour cadence."
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The cron job was triggered, archived output, and auto-delivered exactly once.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "jobId": "0e6f8114d90b",
+      "deliveryCount": 1,
+      "outputCount": 1,
+      "runEvent": true,
+      "manualSend": 0
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:39:34.518Z",
+    "completedAt": "2026-10-06T10:40:02.517Z",
+    "durationMs": 27999
+  },
+  "primaryToolCalls": 2,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 3,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 27.999,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-15-attempt-1"
+}

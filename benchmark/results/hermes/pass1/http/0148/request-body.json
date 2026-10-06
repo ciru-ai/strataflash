@@ -1,0 +1,142 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nConversation started: Tuesday, October 06, 2026 10:26 AM\nModel: strata-v0.1.40\nProvider: custom\n\nYou are a CLI AI Agent. Try not to use markdown but simple text renderable inside a terminal."
+    },
+    {
+      "role": "user",
+      "content": "Change that health-check cron to every 30 minutes and attach the healthcheck skill."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_f19d3c175c0948e287b66087",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ],
+      "reasoning_content": "The user is referring to \"that health-check cron,\" so in order to find it, I need to check the existing cron jobs. Let me start by listing the cron jobs.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"count\": 1,\n  \"jobs\": [\n    {\n      \"job_id\": \"a3ccc31a9a98\",\n      \"name\": \"health-check\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"Check the local health endpoint.\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"every 120m\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-10-06T12:26:12.145985+00:00\",\n      \"last_run_at\": null,\n      \"last_status\": null,\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    }\n  ]\n}",
+      "tool_call_id": "call_f19d3c175c0948e287b66087"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_ab756465c7144d41b57f7afb",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"update\",\"job_id\":\"a3ccc31a9a98\",\"schedule\":\"every 30m\",\"skills\":[\"healthcheck\"]}"
+          }
+        }
+      ],
+      "reasoning_content": "Found one job: \"health-check\", id a3ccc31a9a98, schedule every 120 minutes. Update to every 30 minutes and attach the \"healthcheck\" skill.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"job\": {\n    \"job_id\": \"a3ccc31a9a98\",\n    \"name\": \"health-check\",\n    \"skill\": \"healthcheck\",\n    \"skills\": [\n      \"healthcheck\"\n    ],\n    \"prompt_preview\": \"Check the local health endpoint.\",\n    \"model\": null,\n    \"provider\": null,\n    \"base_url\": null,\n    \"schedule\": \"every 30m\",\n    \"repeat\": \"forever\",\n    \"deliver\": \"origin\",\n    \"next_run_at\": \"2026-10-06T10:56:20.544455+00:00\",\n    \"last_run_at\": null,\n    \"last_status\": null,\n    \"last_delivery_error\": null,\n    \"enabled\": true,\n    \"state\": \"scheduled\",\n    \"paused_at\": null,\n    \"paused_reason\": null\n  }\n}",
+      "tool_call_id": "call_ab756465c7144d41b57f7afb"
+    }
+  ],
+  "model": "strata-v0.1.40",
+  "reasoning_effort": "xhigh",
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  },
+  "temperature": 1,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "cronjob",
+        "description": "Manage scheduled cron jobs with a single compressed tool.\n\nUse action='create' to schedule a new job from a prompt or one or more skills.\nUse action='list' to inspect jobs.\nUse action='update', 'pause', 'resume', 'remove', or 'run' to manage an existing job.\n\nJobs run in a fresh session with no current-chat context, so prompts must be self-contained.\nIf skills are provided on create, the future cron run loads those skills in order, then follows the prompt as the task instruction.\nOn update, passing skills=[] clears attached skills.\n\nNOTE: The agent's final response is auto-delivered to the target. Put the primary\nuser-facing content in the final response. Cron jobs run autonomously with no user\npresent — they cannot ask questions or request clarification.\n\nImportant safety rule: cron-run sessions should not recursively schedule more cron jobs.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "description": "One of: create, list, update, pause, resume, remove, run"
+            },
+            "job_id": {
+              "type": "string",
+              "description": "Required for update/pause/resume/remove/run"
+            },
+            "prompt": {
+              "type": "string",
+              "description": "For create: the full self-contained prompt. If skills are also provided, this becomes the task instruction paired with those skills."
+            },
+            "schedule": {
+              "type": "string",
+              "description": "For create/update: '30m', 'every 2h', '0 9 * * *', or ISO timestamp"
+            },
+            "name": {
+              "type": "string",
+              "description": "Optional human-friendly name"
+            },
+            "repeat": {
+              "type": "integer",
+              "description": "Optional repeat count. Omit for defaults (once for one-shot, forever for recurring)."
+            },
+            "deliver": {
+              "type": "string",
+              "description": "Omit this parameter to auto-deliver back to the current chat and topic (recommended). Auto-detection preserves thread/topic context. Only set explicitly when the user asks to deliver somewhere OTHER than the current conversation. Values: 'origin' (same as omitting), 'local' (no delivery, save only), or platform:chat_id:thread_id for a specific destination. Examples: 'telegram:-1001234567890:17585', 'discord:#engineering', 'sms:+15551234567'. WARNING: 'platform:chat_id' without :thread_id loses topic targeting."
+            },
+            "skills": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Optional ordered list of skill names to load before executing the cron prompt. On update, pass an empty array to clear attached skills."
+            },
+            "model": {
+              "type": "object",
+              "description": "Optional per-job model override. If provider is omitted, the current main provider is pinned at creation time so the job stays stable.",
+              "properties": {
+                "provider": {
+                  "type": "string",
+                  "description": "Provider name (e.g. 'openrouter', 'anthropic'). Omit to use and pin the current provider."
+                },
+                "model": {
+                  "type": "string",
+                  "description": "Model name (e.g. 'anthropic/claude-sonnet-4', 'claude-sonnet-4')"
+                }
+              },
+              "required": [
+                "model"
+              ]
+            },
+            "script": {
+              "type": "string",
+              "description": "Optional path to a Python script that runs before each cron job execution. Its stdout is injected into the prompt as context. Use for data collection and change detection. Relative paths resolve under ~/.hermes/scripts/. On update, pass empty string to clear."
+            }
+          },
+          "required": [
+            "action"
+          ]
+        }
+      }
+    }
+  ],
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0,
+  "presence_penalty": 0,
+  "seed": 160916,
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "preserve_thinking": true
+  },
+  "cache_prompt": true
+}

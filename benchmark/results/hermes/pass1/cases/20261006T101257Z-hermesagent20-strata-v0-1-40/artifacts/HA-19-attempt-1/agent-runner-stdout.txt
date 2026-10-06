@@ -1,0 +1,8 @@
+  ┊ 🔎 find      *  1.0s
+  ┊ 💻 $         pwd && git status 2>&1 | head -20 && git log --oneline -5 2>&1  1.9s [exit 128]
+  ┊ 📖 read      ./README.md  0.8s
+  ┊ 📖 read      ./deploy.sh  0.8s
+  ┊ 📖 read      ./prepare_release.py  0.6s
+  ┊ 💻 $         ./deploy.sh || (echo '--- deploy failed, preparing release ---' && python prepare_release.py && ./deploy.sh)  0.3s [exit 126]
+  ┊ 💬 deploy.sh isn't executable — running it via bash instead:
+  ┊ 💻 $         bash deploy.sh && chmod +x deploy.sh && cat deploy-status.txt  0.3s

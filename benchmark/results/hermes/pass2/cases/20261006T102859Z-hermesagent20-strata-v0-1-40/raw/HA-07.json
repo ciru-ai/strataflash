@@ -1,0 +1,99 @@
+{
+  "scenarioId": "HA-07",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes used execute_code to produce the exact deterministic batch summary.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-07\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-07-54a7bf96/local-main_strata-v0.1.40/HA-07\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-07-54a7bf96/local-main_strata-v0.1.40/HA-07/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-07-54a7bf96/local-main_strata-v0.1.40/HA-07/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=d951d43a-658d-4e2e-a718-5da654f0695d\ntool_events=22\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-07-attempt-1\nexpected={\"totalIncidents\":200,\"totalSeverity\":600,\"topOffenders\":[{\"owner\":\"alice\",\"count\":50},{\"owner\":\"bob\",\"count\":50},{\"owner\":\"carol\",\"count\":50}],\"duplicateIssueIds\":[\"DUP-0\"]}\nactual={\"totalIncidents\":200,\"totalSeverity\":600,\"topOffenders\":[{\"owner\":\"alice\",\"count\":50},{\"owner\":\"bob\",\"count\":50},{\"owner\":\"carol\",\"count\":50}],\"duplicateIssueIds\":[\"DUP-0\"]}",
+  "output": {
+    "finalAnswer": "Done. Processed 200 JSON records from data/incidents and wrote reports/summary.json:\n\n{\n  \"totalIncidents\": 200,\n  \"totalSeverity\": 600,\n  \"topOffenders\": [\n    { \"owner\": \"alice\", \"count\": 50 },\n    { \"owner\": \"bob\", \"count\": 50 },\n    { \"owner\": \"carol\", \"count\": 50 }\n  ],\n  \"duplicateIssueIds\": [\"DUP-0\"]\n}\n\nNotes:\n- All 200 files parsed cleanly (keys: issueId, owner, severity; no bad records).\n- Owners were in a four-way tie at 50 each, so the top 3 were chosen by owner ascending (alice, bob, carol); dave (50) is excluded by the 3-entry cap.\n- Only \"DUP-0\" appears on more than one record (2 occurrences).\n- Output validated as parseable JSON with exactly the four required keys.",
+    "report": {
+      "totalIncidents": 200,
+      "totalSeverity": 600,
+      "topOffenders": [
+        {
+          "owner": "alice",
+          "count": 50
+        },
+        {
+          "owner": "bob",
+          "count": 50
+        },
+        {
+          "owner": "carol",
+          "count": 50
+        }
+      ],
+      "duplicateIssueIds": [
+        "DUP-0"
+      ]
+    }
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The generated report matches the deterministic recomputation.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "exactMatch": true,
+      "executeCodeUsed": true,
+      "expected": {
+        "totalIncidents": 200,
+        "totalSeverity": 600,
+        "topOffenders": [
+          {
+            "owner": "alice",
+            "count": 50
+          },
+          {
+            "owner": "bob",
+            "count": 50
+          },
+          {
+            "owner": "carol",
+            "count": 50
+          }
+        ],
+        "duplicateIssueIds": [
+          "DUP-0"
+        ]
+      },
+      "actual": {
+        "totalIncidents": 200,
+        "totalSeverity": 600,
+        "topOffenders": [
+          {
+            "owner": "alice",
+            "count": 50
+          },
+          {
+            "owner": "bob",
+            "count": 50
+          },
+          {
+            "owner": "carol",
+            "count": 50
+          }
+        ],
+        "duplicateIssueIds": [
+          "DUP-0"
+        ]
+      }
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:32:32.827Z",
+    "completedAt": "2026-10-06T10:35:08.194Z",
+    "durationMs": 155367
+  },
+  "primaryToolCalls": 11,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 12,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 155.367,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-07-attempt-1"
+}

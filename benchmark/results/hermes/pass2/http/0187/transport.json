@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "path": "/v1/chat/completions",
+  "start_monotonic": 71927.498419867,
+  "agent_request_rewritten": true,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "first_byte_seconds": 0.020547217995044775,
+  "wall_seconds": 37.732075040999916
+}

@@ -1,0 +1,8 @@
+  ┊ 💬 I'll load the skill first and read the notes file to see what we're working with.
+  ┊ 📚 skill     release-check  0.0s
+  ┊ 📖 read      notes/validate_release.py  1.0s
+  ┊ 💬 The script is small and simple. Adding it to the skill's scripts/ directory now:
+  ┊ ⚡ skill_man release-check  0.0s
+  ┊ 💬 Script added. Now updating the skill's SKILL.md so the "validation helper" reference points to the actual script path:
+  ┊ ⚡ skill_man release-check  0.0s
+  ┊ 📚 skill     release-check  0.0s

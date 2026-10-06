@@ -1,0 +1,47 @@
+{
+  "scenarioId": "HA-01",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes replaced stale project memory through the native memory tool.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-01\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-01-d1596309/local-main_strata-v0.1.40/HA-01\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-01-d1596309/local-main_strata-v0.1.40/HA-01/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-01-d1596309/local-main_strata-v0.1.40/HA-01/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=372472f8-c12b-4adb-a99c-c3aae928446a\ntool_events=2\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-01-attempt-1\nmemory_entries=[\"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\",\"CI runs on Linux runners.\"]",
+  "output": {
+    "finalAnswer": "Done. Replaced the outdated PostgreSQL entry — memory now reads: \"Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).\" The CI note was unaffected.",
+    "memoryEntries": [
+      "Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).",
+      "CI runs on Linux runners."
+    ]
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "Contradictory memory was updated correctly.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "memoryPath": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-01-d1596309/local-main_strata-v0.1.40/HA-01/hermes-home/memories/MEMORY.md",
+      "entries": [
+        "Project uses CockroachDB for all production and local deployments (migrated from PostgreSQL in late September 2026).",
+        "CI runs on Linux runners."
+      ],
+      "withinLimit": true,
+      "memoryToolUsed": true,
+      "hasCockroach": true,
+      "removedStale": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:29:00.211Z",
+    "completedAt": "2026-10-06T10:29:09.714Z",
+    "durationMs": 9503
+  },
+  "primaryToolCalls": 1,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 2,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 9.503,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-01-attempt-1"
+}

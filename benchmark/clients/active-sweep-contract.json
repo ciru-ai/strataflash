@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-01T05:51:07.190295+00:00",
+  "scope": "September28 six-stack comparison and September29 recommended-thinking Hermes correction; HC-Q8 extension",
+  "scope_source": {
+    "path": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/latest-suite.json",
+    "sha256": "bd3d05859b497066be7bd62fbda1e3ea52177aea88a2093cf5e60d1c5f220dbd"
+  },
+  "original_model_identities": [
+    {
+      "model": "Ciru v4.4.1",
+      "runtime": "original deployed Ciru v4.4.1",
+      "runtime_server_sha256": "d043c046f911680bef100c711cf825a06e457ad2b163abcc5f30e19dc3e5074d",
+      "weights": "deployed Q4_1",
+      "batch": 8192,
+      "mtp_cap": 3
+    },
+    {
+      "model": "Ciru v5.0",
+      "runtime": "native Ciru, optional fused long-context scorer",
+      "weights_sha256": "745bf5b48ef5bd4ded36b3136cde3d35145b2ec5a3aabf03da0e5a792bc5a27d",
+      "weights": "frozen fitted compact 4.5175-bpw expert format, historical C1 names",
+      "batch": 16384,
+      "mtp_cap": 3
+    },
+    {
+      "model": "HaloBox HIP",
+      "runtime_revision": "ec01a7dfc26b8930ebb1e8dce1a5c60efa444420d",
+      "runtime": "HaloBox HIP",
+      "weights": "Unsloth UD-Q4_K_XL",
+      "weights_revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+      "mtp": "shared Q8 head, adaptive ceiling7"
+    },
+    {
+      "model": "Gufo",
+      "runtime_revision": "982bffea86fd5568759a420c4808c5b2123161c8",
+      "weights": "same Unsloth UD-Q4_K_XL as HaloBox",
+      "weights_revision": "38bb39ee97821de2c9009abb7e93950eec396e66",
+      "mtp": "shared Q8 head"
+    },
+    {
+      "model": "AgentionAI AP-Q5_K_XL",
+      "runtime": "HaloBox HIP",
+      "runtime_revision": "ec01a7dfc26b8930ebb1e8dce1a5c60efa444420d",
+      "weights": "AP-Q5_K_XL",
+      "weights_revision": "0061a60e46ad672a73cec31cb627dc841d4760a4",
+      "weights_size_bytes": 120809145216,
+      "mtp": "shared Q8 head"
+    },
+    {
+      "model": "Halogen",
+      "runtime": "Halogen0.14.2",
+      "weights": "W4B + default quality overlay",
+      "weights_revision": "aea24edbbea1e889df62b62f9d40a8b4e574671c",
+      "mtp": "native MTP",
+      "attention_budget_blocks": 512,
+      "composable_context": false
+    }
+  ],
+  "model_name_note": "The retained sweep identifies the older Ciru baseline as v4.4.1; its exact runtime hash is preserved here.",
+  "hermes_source": {
+    "path": "evidence/local/Qwen3.8flash/hcq8-20260930/report/RESULTS.md",
+    "sha256": "e3cb0f9974a05f16a40fda87e2a95117d7f604cf25efc398a9897e0889b98737",
+    "policy": "Use completed recommended-thinking two-pass campaign, not older greedy/bounded Hermes diagnostics."
+  },
+  "required_panels": {
+    "append_speed_grid": {
+      "cells": 18,
+      "prompt_tokens": [
+        512,
+        2048,
+        4096
+      ],
+      "cached_depth_tokens": [
+        0,
+        32000,
+        64000,
+        120000,
+        192000,
+        256000
+      ],
+      "output_tokens": 512
+    },
+    "cold_prefix": {
+      "observations": 5,
+      "prefix_tokens": [
+        32000,
+        64000,
+        120000,
+        192000,
+        256000
+      ]
+    },
+    "short_fidelity": {
+      "windows": 16,
+      "input_tokens_per_window": 512,
+      "selected_tail_tokens_per_window": 128,
+      "positions": 2048,
+      "vocabulary": "full"
+    },
+    "he09_speed": {
+      "tasks": [
+        "HumanEval/0",
+        "HumanEval/1",
+        "HumanEval/2",
+        "HumanEval/3",
+        "HumanEval/4",
+        "HumanEval/5",
+        "HumanEval/6",
+        "HumanEval/7",
+        "HumanEval/8",
+        "HumanEval/9"
+      ],
+      "thinking": false,
+      "code_correctness_scored": false
+    },
+    "hard_tool_15": {
+      "tasks": [
+        "TC-70",
+        "TC-71",
+        "TC-72",
+        "TC-73",
+        "TC-74",
+        "TC-75",
+        "TC-76",
+        "TC-77",
+        "TC-78",
+        "TC-79",
+        "TC-80",
+        "TC-81",
+        "TC-82",
+        "TC-83",
+        "TC-84"
+      ],
+      "thinking": false
+    },
+    "hermesagent20": {
+      "passes": 2,
+      "tasks_per_pass": 20,
+      "thinking": true,
+      "case_wall_seconds": 1800
+    },
+    "memory_and_disk": {
+      "weight_asset_sizes": true,
+      "ready_and_peak_resources": true,
+      "uma_overlap_must_be_recorded": true
+    }
+  },
+  "excluded_panels": [
+    "terminal_core19",
+    "pagoda_garden_long_output",
+    "engineering_wide_fidelity",
+    "humaneval164",
+    "humaneval_plus164"
+  ],
+  "sampling_policy": "Use each pinned model card for the selected thinking mode; explicitly record base-card inheritance.",
+  "pre_generation_requirements": [
+    "Panel must be in this whitelist.",
+    "Pin exact prompts, datasets, harness and model/runtime identity.",
+    "Match thinking mode, context, request order, cache/reset/warmup policy, concurrency, seed, boundaries, retry policy and timing definition.",
+    "Validate every actual request before generation and verify effective runtime settings.",
+    "A scope PASS does not certify matching conditions. Resolve material protocol mismatches before generation."
+  ],
+  "run_state_source": "remaining-suite/status.json; run state is recorded separately from the frozen scope."
+}

@@ -1,0 +1,325 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nWhen the user references something from a past conversation or you suspect relevant cross-session context exists, use session_search to recall it before asking them to repeat themselves.\n\nConversation started: Tuesday, October 06, 2026 10:30 AM\nModel: strata-v0.1.40\nProvider: custom\n\nYou are a CLI AI Agent. Try not to use markdown but simple text renderable inside a terminal."
+    },
+    {
+      "role": "user",
+      "content": "Apply the same Docker networking fix we used last time to this compose file."
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_16d7cb50adfb46eca7b02fef",
+          "type": "function",
+          "function": {
+            "name": "session_search",
+            "arguments": "{\"query\":\"Docker networking fix OR compose OR network_mode OR DNS\"}"
+          }
+        },
+        {
+          "id": "call_dc0156fb46e3459f9ee0a35e",
+          "type": "function",
+          "function": {
+            "name": "search_files",
+            "arguments": "{\"pattern\":\"*compose*.y*ml\",\"target\":\"files\"}"
+          }
+        }
+      ],
+      "reasoning_content": "The user is referencing a previous conversation about \"that Docker network fix we used last time.\" I should search session memory to recall what that fix was. Also, I need to find \"this compose file\" — probably in the current working directory. Let me do both in parallel: session_search and file search for the compose file.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"query\": \"Docker networking fix OR compose OR network_mode OR DNS\", \"results\": [], \"count\": 0, \"message\": \"No matching sessions found.\"}",
+      "tool_call_id": "call_16d7cb50adfb46eca7b02fef"
+    },
+    {
+      "role": "tool",
+      "content": "{\"total_count\": 1, \"files\": [\"./docker-compose.yml\"]}",
+      "tool_call_id": "call_dc0156fb46e3459f9ee0a35e"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_45cdc252279242c7932fa564",
+          "type": "function",
+          "function": {
+            "name": "session_search",
+            "arguments": "{}"
+          }
+        },
+        {
+          "id": "call_7675b708bfbd4927a8bfd43d",
+          "type": "function",
+          "function": {
+            "name": "session_search",
+            "arguments": "{\"query\":\"docker OR container OR bridge OR port OR iptables OR ipv6\"}"
+          }
+        }
+      ],
+      "reasoning_content": "No session was found for that query. Let me try other keywords and browse recent sessions too.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"mode\": \"recent\", \"results\": [{\"session_id\": \"seed-docker-fix\", \"title\": null, \"source\": \"benchlocal-hermesagent-20-seed\", \"started_at\": 1791282642.7799737, \"last_active\": 1791282642.7810407, \"message_count\": 2, \"preview\": \"Docker networking is broken again.\"}], \"count\": 1, \"message\": \"Showing 1 most recent sessions. Use a keyword query to search specific topics.\"}",
+      "tool_call_id": "call_45cdc252279242c7932fa564"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"query\": \"docker OR container OR bridge OR port OR iptables OR ipv6\", \"results\": [{\"session_id\": \"seed-docker-fix\", \"when\": \"October 06, 2026 at 10:30 AM\", \"source\": \"benchlocal-hermesagent-20-seed\", \"model\": \"strata-v0.1.40\", \"summary\": \"The user reported that Docker networking was broken again. The assistant concluded that the fix was to attach the `api` service to the `backend` network so it could reach the `db` service. No commands, files, URLs, or additional technical details were provided, and no further troubleshooting or verification was shown.\"}], \"count\": 1, \"sessions_searched\": 1}",
+      "tool_call_id": "call_7675b708bfbd4927a8bfd43d"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_22d3c4ba47344d6789d90fc8",
+          "type": "function",
+          "function": {
+            "name": "read_file",
+            "arguments": "{\"path\":\"./docker-compose.yml\"}"
+          }
+        }
+      ],
+      "reasoning_content": "According to the previous session: the fix was to connect the `api` service to the `backend` network so it could reach the `db` service. Let me check the current docker-compose.yml and apply the same fix.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"content\": \"     1|services:\\n     2|  api:\\n     3|    image: ghcr.io/acme/api:latest\\n     4|    depends_on:\\n     5|      - db\\n     6|  db:\\n     7|    image: postgres:16\\n     8|    networks:\\n     9|      - backend\\n    10|\\n    11|networks:\\n    12|  backend:\\n    13|    driver: bridge\\n    14|\", \"total_lines\": 13, \"file_size\": 179, \"truncated\": false, \"is_binary\": false, \"is_image\": false}",
+      "tool_call_id": "call_22d3c4ba47344d6789d90fc8"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "tool_calls": [
+        {
+          "id": "call_3e60e4cc569c4568b4e5de44",
+          "type": "function",
+          "function": {
+            "name": "patch",
+            "arguments": "{\"new_string\":\"  api:\\n    image: ghcr.io/acme/api:latest\\n    depends_on:\\n      - db\\n    networks:\\n      - backend\",\"old_string\":\"  api:\\n    image: ghcr.io/acme/api:latest\\n    depends_on:\\n      - db\",\"path\":\"./docker-compose.yml\"}"
+          }
+        }
+      ],
+      "reasoning_content": "According to the previous fix, we needed to connect the `api` service to the `backend` network so it could reach `db`. Currently, `api` doesn't specify any network (it's implicitly connected to the `default` network), but `db` is connected only to `backend`. In other words, they can't communicate with each other. Fix: add `networks: - backend` to `api`.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"diff\": \"--- a/./docker-compose.yml\\n+++ b/./docker-compose.yml\\n@@ -3,6 +3,8 @@\\n     image: ghcr.io/acme/api:latest\\n     depends_on:\\n       - db\\n+    networks:\\n+      - backend\\n   db:\\n     image: postgres:16\\n     networks:\\n\", \"files_modified\": [\"./docker-compose.yml\"], \"lint\": {\"status\": \"skipped\", \"message\": \"No linter for .yml files\"}}",
+      "tool_call_id": "call_3e60e4cc569c4568b4e5de44"
+    }
+  ],
+  "model": "strata-v0.1.40",
+  "reasoning_effort": "xhigh",
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  },
+  "temperature": 1,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "patch",
+        "description": "Targeted find-and-replace edits in files. Use this instead of sed/awk in terminal. Uses fuzzy matching (9 strategies) so minor whitespace/indentation differences won't break it. Returns a unified diff. Auto-runs syntax checks after editing.\n\nReplace mode (default): find a unique string and replace it.\nPatch mode: apply V4A multi-file patches for bulk changes.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": [
+                "replace",
+                "patch"
+              ],
+              "description": "Edit mode: 'replace' for targeted find-and-replace, 'patch' for V4A multi-file patches",
+              "default": "replace"
+            },
+            "path": {
+              "type": "string",
+              "description": "File path to edit (required for 'replace' mode)"
+            },
+            "old_string": {
+              "type": "string",
+              "description": "Text to find in the file (required for 'replace' mode). Must be unique in the file unless replace_all=true. Include enough surrounding context to ensure uniqueness."
+            },
+            "new_string": {
+              "type": "string",
+              "description": "Replacement text (required for 'replace' mode). Can be empty string to delete the matched text."
+            },
+            "replace_all": {
+              "type": "boolean",
+              "description": "Replace all occurrences instead of requiring a unique match (default: false)",
+              "default": false
+            },
+            "patch": {
+              "type": "string",
+              "description": "V4A format patch content (required for 'patch' mode). Format:\n*** Begin Patch\n*** Update File: path/to/file\n@@ context hint @@\n context line\n-removed line\n+added line\n*** End Patch"
+            }
+          },
+          "required": [
+            "mode"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "read_file",
+        "description": "Read a text file with line numbers and pagination. Use this instead of cat/head/tail in terminal. Output format: 'LINE_NUM|CONTENT'. Suggests similar filenames if not found. Use offset and limit for large files. Reads exceeding ~100K characters are rejected; use offset and limit to read specific sections of large files. NOTE: Cannot read images or binary files — use vision_analyze for images.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Path to the file to read (absolute, relative, or ~/path)"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Line number to start reading from (1-indexed, default: 1)",
+              "default": 1,
+              "minimum": 1
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Maximum number of lines to read (default: 500, max: 2000)",
+              "default": 500,
+              "maximum": 2000
+            }
+          },
+          "required": [
+            "path"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "search_files",
+        "description": "Search file contents or find files by name. Use this instead of grep/rg/find/ls in terminal. Ripgrep-backed, faster than shell equivalents.\n\nContent search (target='content'): Regex search inside files. Output modes: full matches with line numbers, file paths only, or match counts.\n\nFile search (target='files'): Find files by glob pattern (e.g., '*.py', '*config*'). Also use this instead of ls — results sorted by modification time.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "pattern": {
+              "type": "string",
+              "description": "Regex pattern for content search, or glob pattern (e.g., '*.py') for file search"
+            },
+            "target": {
+              "type": "string",
+              "enum": [
+                "content",
+                "files"
+              ],
+              "description": "'content' searches inside file contents, 'files' searches for files by name",
+              "default": "content"
+            },
+            "path": {
+              "type": "string",
+              "description": "Directory or file to search in (default: current working directory)",
+              "default": "."
+            },
+            "file_glob": {
+              "type": "string",
+              "description": "Filter files by pattern in grep mode (e.g., '*.py' to only search Python files)"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Maximum number of results to return (default: 50)",
+              "default": 50
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Skip first N results for pagination (default: 0)",
+              "default": 0
+            },
+            "output_mode": {
+              "type": "string",
+              "enum": [
+                "content",
+                "files_only",
+                "count"
+              ],
+              "description": "Output format for grep mode: 'content' shows matching lines with line numbers, 'files_only' lists file paths, 'count' shows match counts per file",
+              "default": "content"
+            },
+            "context": {
+              "type": "integer",
+              "description": "Number of context lines before and after each match (grep mode only)",
+              "default": 0
+            }
+          },
+          "required": [
+            "pattern"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "session_search",
+        "description": "Search your long-term memory of past conversations, or browse recent sessions. This is your recall -- every past session is searchable, and this tool summarizes what happened.\n\nTWO MODES:\n1. Recent sessions (no query): Call with no arguments to see what was worked on recently. Returns titles, previews, and timestamps. Zero LLM cost, instant. Start here when the user asks what were we working on or what did we do recently.\n2. Keyword search (with query): Search for specific topics across all past sessions. Returns LLM-generated summaries of matching sessions.\n\nUSE THIS PROACTIVELY when:\n- The user says 'we did this before', 'remember when', 'last time', 'as I mentioned'\n- The user asks about a topic you worked on before but don't have in current context\n- The user references a project, person, or concept that seems familiar but isn't in memory\n- You want to check if you've solved a similar problem before\n- The user asks 'what did we do about X?' or 'how did we fix Y?'\n\nDon't hesitate to search when it is actually cross-session -- it's fast and cheap. Better to search and confirm than to guess or ask the user to repeat themselves.\n\nSearch syntax: keywords joined with OR for broad recall (elevenlabs OR baseten OR funding), phrases for exact match (\"docker networking\"), boolean (python NOT java), prefix (deploy*). IMPORTANT: Use OR between keywords for best results — FTS5 defaults to AND which misses sessions that only mention some terms. If a broad OR query returns nothing, try individual keyword searches in parallel. Returns summaries of the top matching sessions.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "Search query — keywords, phrases, or boolean expressions to find in past sessions. Omit this parameter entirely to browse recent sessions instead (returns titles, previews, timestamps with no LLM cost)."
+            },
+            "role_filter": {
+              "type": "string",
+              "description": "Optional: only search messages from specific roles (comma-separated). E.g. 'user,assistant' to skip tool outputs."
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Max sessions to summarize (default: 3, max: 5).",
+              "default": 3
+            }
+          },
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "write_file",
+        "description": "Write content to a file, completely replacing existing content. Use this instead of echo/cat heredoc in terminal. Creates parent directories automatically. OVERWRITES the entire file — use 'patch' for targeted edits.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Path to the file to write (will be created if it doesn't exist, overwritten if it does)"
+            },
+            "content": {
+              "type": "string",
+              "description": "Complete content to write to the file"
+            }
+          },
+          "required": [
+            "path",
+            "content"
+          ]
+        }
+      }
+    }
+  ],
+  "top_p": 0.95,
+  "top_k": 20,
+  "min_p": 0,
+  "presence_penalty": 0,
+  "seed": 160917,
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "preserve_thinking": true
+  },
+  "cache_prompt": true
+}

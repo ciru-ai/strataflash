@@ -1,0 +1,207 @@
+{
+  "frozen_utc": "2026-09-29T12:16:49.970659+00:00",
+  "classification": "local-custom-recommended-thinking",
+  "benchmark": {
+    "name": "HermesAgent-20",
+    "benchmark_commit": "57d7766bf3db8c40696e3ed937d43c8c85f4cd6c",
+    "agent_commit": "ea74f61d983ebdfd6a863c45761d1b38081f1d08",
+    "scenario_ids": [
+      "HA-01",
+      "HA-02",
+      "HA-03",
+      "HA-04",
+      "HA-05",
+      "HA-06",
+      "HA-07",
+      "HA-08",
+      "HA-09",
+      "HA-10",
+      "HA-11",
+      "HA-12",
+      "HA-13",
+      "HA-14",
+      "HA-15",
+      "HA-16",
+      "HA-17",
+      "HA-18",
+      "HA-19",
+      "HA-20"
+    ],
+    "scoring": "Unchanged frozen verifier scenarios and pass/partial/fail rubric",
+    "source_url": "https://github.com/stevibe/HermesAgent-20",
+    "compiled_benchmark_sha256": "ec0114da7eae8b02e3193adb7d345620be928f6e7cf0d062f3e21171a04e53d0"
+  },
+  "run": {
+    "models": [
+      {
+        "display_name": "Ciru v4.4.1",
+        "target_sha256": [
+          "c0ea11e4e24d0f909720b6c4e7462aa1e6fbf5e0f6acc796063f2aed4cf46ed0"
+        ],
+        "weight_file_bytes": 135962765922,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      },
+      {
+        "display_name": "Ciru v5.0",
+        "target_sha256": [
+          "745bf5b48ef5bd4ded36b3136cde3d35145b2ec5a3aabf03da0e5a792bc5a27d"
+        ],
+        "weight_file_bytes": 128677280514,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      },
+      {
+        "display_name": "HaloBox HIP",
+        "target_sha256": [
+          "4448186216b3af4cc558bbce2c3213f01608f8f8b2e5267a9767971dd3ec8082",
+          "3f342f1c1580473f1ee94ddd5b28206e8c07a70fa1a366f59d1d6c922919a6c9",
+          "56758f40269cad5cd9b0d3d6fbae0f40f6d5be6de49e4ab392dbe83157d9cbd3",
+          "753bda48b98ba4f1636134a90a967de1b2d3908a236c026e464777342e53510a"
+        ],
+        "weight_file_bytes": 114121223040,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      },
+      {
+        "display_name": "Gufo",
+        "target_sha256": [
+          "4448186216b3af4cc558bbce2c3213f01608f8f8b2e5267a9767971dd3ec8082",
+          "3f342f1c1580473f1ee94ddd5b28206e8c07a70fa1a366f59d1d6c922919a6c9",
+          "56758f40269cad5cd9b0d3d6fbae0f40f6d5be6de49e4ab392dbe83157d9cbd3",
+          "753bda48b98ba4f1636134a90a967de1b2d3908a236c026e464777342e53510a"
+        ],
+        "weight_file_bytes": 114121223040,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      },
+      {
+        "display_name": "AgentionAI AP-Q5_K_XL",
+        "target_sha256": [
+          "6e804526ea3bf312d752c2fce9beebc55156880fe15500f9f3d23004459857ac"
+        ],
+        "weight_file_bytes": 123595713472,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      },
+      {
+        "display_name": "Halogen",
+        "target_sha256": [
+          null
+        ],
+        "weight_file_bytes": 126640550464,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      },
+      {
+        "display_name": "Orca v4.4.1",
+        "target_sha256": [
+          "c2596055edc45003be20028fa9755d4cdbb46bf18a1035285a88729c8878451e"
+        ],
+        "weight_file_bytes": 135962766306,
+        "weight_receipt": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/disk-sizes.json"
+      }
+    ],
+    "passes_per_model": 2,
+    "first_trajectory_only": true,
+    "fetch_retries": 0,
+    "scenario_wall_timeout_seconds": 1800,
+    "whole_pass_wall": "Measured, not a scoring threshold",
+    "tool_turns": "No effective turn cap. Hermes numeric sentinel 2,147,483,647; 30-minute case wall clock and semantic loop watcher govern.",
+    "loop_stop": {
+      "action_result_cycle": "4 identical single tool calls, or 3 repeats of a 2–4 call cycle, each including exactly matching tool arguments and results",
+      "classification": "Stopped loop is a failed first trajectory; preserve verifier score before override and tool trace"
+    },
+    "timing": "Per-case wall from dispatch to verifier result, including agent and tools; pass wall separately",
+    "counts": "Primary-agent completed tool calls and API calls; proxy request count is an additional all-agent inference measure",
+    "harness_fault": "Stop queue, mark invalid-harness; do not score a missing or empty model response"
+  },
+  "generation": {
+    "thinking": true,
+    "context_tokens": 262144,
+    "max_tokens_per_response": null,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "seed": {
+      "smoke": 160915,
+      "pass1": 160916,
+      "pass2": 160917
+    },
+    "mtp": "Retain each pinned runtime configuration",
+    "scenario_prompts": "Unchanged; verify rendered prompt hashes against September 28 archive",
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "recommendation_source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices",
+    "model_specific_sources": {
+      "AgentionAI AP-Q5_K_XL": "https://huggingface.co/agentionai/Qwen3.8-Flash-Next-AP-GGUF",
+      "v4.4": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices",
+      "v5.0": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices",
+      "HaloBox": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices",
+      "Gufo": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices",
+      "Halogen": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices",
+      "Orca": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next#best-practices"
+    },
+    "recommendation_note": "All seven weights derive from Qwen3.8-Flash-Next. Qwen thinking-mode recommendations coincide with the historical 98.5 IU4 v4.3 sampler; AP publishes the same values. Runtime-specific MTP and weights remain pinned per stack.",
+    "preserve_thinking": true,
+    "reasoning_effort": "xhigh"
+  },
+  "hosts": {
+    "inference": "Sozo gfx1151, one owned GPU server at a time",
+    "harness": "Ciru, verifier in isolated Docker container, USB4 tunnel to Sozo"
+  },
+  "verifier_image": "sha256:8ded31e7e20c6bee17f53eb17e75e7677606ac7cdb82f0e22266bafebdf85bd8",
+  "source_files": [
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/source/verification/core.mjs",
+      "bytes": 86833,
+      "sha256": "338c519a90c155e03ebee027e1e111bf87e93bd5e292abdb45b3fa25224722c1"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/source/verification/agent-runner.py",
+      "bytes": 11665,
+      "sha256": "e90eef8189dbfb8f774c5b9e5d320434b56ad5652c619eb100b9f28998f3f070"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/source/run-hermesagent20-sweep.mjs",
+      "bytes": 24249,
+      "sha256": "47bf1484575a68ca7c103063b5186c4c920e42244f5aeed3f89040dc3aad09fb"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/patched/verification/core.mjs",
+      "bytes": 87030,
+      "sha256": "b2474d4741b5673bdf4e9ce0ae7e723414f2e7fce79cfba0e66e0ea602698c32"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/patched/verification/agent-runner.py",
+      "bytes": 14623,
+      "sha256": "90ac6fe4018d59444efdc0e678f7c741e098a821b5fbe7a2d5f0b7a55eabbfbe"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/patched/verification/hermes-runtime.mjs",
+      "bytes": 12175,
+      "sha256": "9d114fcacba30d61de844ccc12815644b3f8d83f0c90c17f97c1cdbcc1b3b159"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/patched/run-hermesagent20-sweep.mjs",
+      "bytes": 26021,
+      "sha256": "b9b5bf526c71f7336aa1ec2b6196f59a6196db7aba93e009ca81e8305e0c7c75"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/patched/audit_hermes.py",
+      "bytes": 3296,
+      "sha256": "7e532774e28576c01e5b573f1423e148a9fefcdabc71dbb84d66014e46d0b48a"
+    },
+    {
+      "path": "evidence/local/Qwen3.8flash/hermesagent-unlimited-20260929/patched/run_owned_hermes.py",
+      "bytes": 12124,
+      "sha256": "45bedd7bc168edd4ee6df52ad8c089c15eccaeb4726c403d9845242da38c590a"
+    }
+  ],
+  "live_identity": "Each model server receipt and chat-template hash will be frozen in the per-model smoke lock before launch.",
+  "supersedes_for_model_comparison": "20260929-flash-hermes-unlimited was a temperature-0/top-k-1 greedy diagnostic and was stopped after AP pass1 plus a partial AP pass2; its scores are not the recommended-sampling comparison.",
+  "authorization": "[REDACTED_SECRET]",
+  "historical_98_5_reference": {
+    "model": "CIRU IU4 v4.3",
+    "pass": 2,
+    "score": 98.5,
+    "protocol": "evidence/local/Qwen3.8flash/agent-validation-20260915/turn32/iu4-protocol/protocol.lock.json",
+    "active_case_wall_seconds": 1071.971,
+    "difference": "Historical agent turn allowance was 32; replacement has no effective tool-turn cap. Weight and runtime versions differ."
+  }
+}

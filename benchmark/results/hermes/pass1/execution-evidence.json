@@ -1,0 +1,1797 @@
+{
+  "status": "AUDITED",
+  "stage": "pass1",
+  "cases": 20,
+  "official_score": 91,
+  "summary_path": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/summary.json",
+  "summary_sha256": "71140409210150667b58a352bdc6356a62483abfef7e54ea36accb6efe2bb7eb",
+  "case_wall_sum_seconds": 958.357,
+  "verified_tool_executions": 129,
+  "case_evidence": [
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-01-attempt-1/agent-result.json",
+      "sha256": "990e76c88836716dfa2c444be38c4399c1fdd4c9d939fbbbefcb7cfd992584f8",
+      "agent_call_count": 1,
+      "reported_completed": 1,
+      "completed_events": 1,
+      "verified_completed_count": 1,
+      "tool_names": [
+        "memory"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "memory",
+          "call_id": "call_2c1ab58807494e6ba1829e72",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "407bf8b0572961f7244496fa8a5dad82e5106bb7a570de0338ed1450d44d66e2"
+        }
+      ],
+      "case": "HA-01",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 10.54
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-02-attempt-1/agent-result.json",
+      "sha256": "81420baf439094e6b5597102ca21b09dd18df4ebda8ecaa3819a3c28a32d0831",
+      "agent_call_count": 31,
+      "reported_completed": 31,
+      "completed_events": 31,
+      "verified_completed_count": 31,
+      "tool_names": [
+        "memory"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "memory",
+          "call_id": "call_dacafb24eb044e98a49e5bd1",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "d8b3d2d06e2da86bfc5b6bf316c7f9d8534925a90b762d714e67dea99734e0e4"
+        },
+        {
+          "order": 4,
+          "name": "memory",
+          "call_id": "call_fc93a9508f39497a8f239d5b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "941d71bfcd6bb479c813ebaffc097e9ad5160757c8e26af2e7c33e6b392290ab"
+        },
+        {
+          "order": 6,
+          "name": "memory",
+          "call_id": "call_9a1fbfe86b324eb1926fb038",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5d340d7f16bb8cb8918ffc0dee409d6d26a3d51fe83481d6cf3a8b4e72b80cf1"
+        },
+        {
+          "order": 8,
+          "name": "memory",
+          "call_id": "call_ce65eac367e04867a7c9ae0d",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b8144548309fbf75bcdb5b9253c0e0bc245414027d63ba721e797aa786e3bbac"
+        },
+        {
+          "order": 10,
+          "name": "memory",
+          "call_id": "call_23b74a49025f422592f3393a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b02a45dd5eec9d92b0365e8a404ffdf9c7c611cc9c2f6eed956fe1711a02ff07"
+        },
+        {
+          "order": 12,
+          "name": "memory",
+          "call_id": "call_8a0e05db39b24ab688360363",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ac64b3a0ac0800b293fbc07f43b25c8817e7e0d9a222e34272634c6c81b94d02"
+        },
+        {
+          "order": 14,
+          "name": "memory",
+          "call_id": "call_99fc10af59684ba480f9e98e",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "74a2f330c8555cfff8a04568a60368647b20c3d56ab989eedced77d881954413"
+        },
+        {
+          "order": 16,
+          "name": "memory",
+          "call_id": "call_2eacf0d298dc4f87b06dd74a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c8ae566ea8aeeac24f12d1bbd95b3f9d3584d62503066061d627724c0f46e45a"
+        },
+        {
+          "order": 18,
+          "name": "memory",
+          "call_id": "call_47473f839c1245ab9c8b7e71",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "78dbce96171d8d9578939f204c4fc7815a336e7f2ff728002c7ede60c6190a8f"
+        },
+        {
+          "order": 20,
+          "name": "memory",
+          "call_id": "call_fbc5842b4b234ffdb16bacc9",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "213526dc18525fefb6b8284b493823a76088e1cbdfe0690bb776c429b05ffc8a"
+        },
+        {
+          "order": 22,
+          "name": "memory",
+          "call_id": "call_1ef2fe957c5f44df8f4c370c",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "abf1b2639713cee5618952ed13e9a3f7e29171f4e44d4b29157cf24e2ec0eac7"
+        },
+        {
+          "order": 24,
+          "name": "memory",
+          "call_id": "call_a1330d7b42be43488229e5df",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5f6d85c69ff44b3d07cf0e7b15df461fd779db2c8605376b75f16a4f10f36d21"
+        },
+        {
+          "order": 26,
+          "name": "memory",
+          "call_id": "call_ddcde20289cc4239be65ff54",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "376b49a23c1a397acde67969abc6740dc81b168dcbef6d75478acaeb7edb3fcc"
+        },
+        {
+          "order": 28,
+          "name": "memory",
+          "call_id": "call_713dffbe3c444610887d14c6",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "447b36cedefd1d5a3b2a5f8a2d175ab3e58f056af470085806280dc5a9cd9561"
+        },
+        {
+          "order": 30,
+          "name": "memory",
+          "call_id": "call_9d48fc5fe8bc4e80a7a35506",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5d8a88c7f21abe4ad49984433986c775c26fb1ec8421254e97355a7d508e3702"
+        },
+        {
+          "order": 32,
+          "name": "memory",
+          "call_id": "call_432036e63ef14c7bb1a618da",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "98035e607f3df3d3aebd39b9767d498ace441a3f9dfc10dd7cbf08423e44a020"
+        },
+        {
+          "order": 34,
+          "name": "memory",
+          "call_id": "call_927da09abea740398ac49d04",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e7a66ceaf33e9c5ba0b4bda2594248b47886c1a4f16b2ad6d8f4ccd66f4cc82a"
+        },
+        {
+          "order": 36,
+          "name": "memory",
+          "call_id": "call_5fe2eba006734d3dbab52385",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "066fc75ea1d4baaea39f6504bc4670622209024c79b6481913aa05bfde1d50e0"
+        },
+        {
+          "order": 38,
+          "name": "memory",
+          "call_id": "call_b75aa7e2367c457f8f4390ed",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "a50385ab59d4453f56df642ea357d3e6b8980741d924d0574325812fcbf7c8d2"
+        },
+        {
+          "order": 40,
+          "name": "memory",
+          "call_id": "call_bfe6270c9e9d41c08190959c",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "3c9c806b9e3fe94ef3cad0e272ae70371fbfe6e25e2ef80b509c3049bf10c489"
+        },
+        {
+          "order": 42,
+          "name": "memory",
+          "call_id": "call_991c6f3d0cc648348af04e76",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "2bb0a6ccc1e92c5329c779592c8ca93d34c3362b581f472ce68986f8f5de1948"
+        },
+        {
+          "order": 44,
+          "name": "memory",
+          "call_id": "call_6d8902459c0e449ebd2e2962",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c05cd1e6489c7e29cc852d2074a3b3526b6a2c4ba60755eca1ae3a56c3c2106c"
+        },
+        {
+          "order": 46,
+          "name": "memory",
+          "call_id": "call_a27b87a743b24553a14b0701",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "97a8f782e1c1517b6c5f568eb7287a774e1e268fc6317337b6414ab1819f71e6"
+        },
+        {
+          "order": 48,
+          "name": "memory",
+          "call_id": "call_f0fe623492ca4bcfb8c13dc5",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "6f8ddc2eb71d8afbe1f1d90fe833d7f5c173aad23d413fc81a78fd065c00dd15"
+        },
+        {
+          "order": 50,
+          "name": "memory",
+          "call_id": "call_0805c11501b943af8a22c8ae",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "30f9e9279d442df643c4d6bfbe82c19ecac5cd7be31bf06be2e0e910943a94bb"
+        },
+        {
+          "order": 52,
+          "name": "memory",
+          "call_id": "call_ca53509ef90c477cb1cc2255",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "f52ab74ee75c5c3d63bd35f1057b6110e829f1b45df4aa41fbc43773b0152d2d"
+        },
+        {
+          "order": 54,
+          "name": "memory",
+          "call_id": "call_6b785e3e7b704ea48a514da8",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "49738fb1b538cc7ebd75342710b5419b683ff50bd6a9fbbb7f5213053ef64c6c"
+        },
+        {
+          "order": 56,
+          "name": "memory",
+          "call_id": "call_c381bb219e4e4b4bb78c7a2c",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "3b936dcf095e7e8224874827d1ed89cec9579fe985583d44bab19e87a6bc43fe"
+        },
+        {
+          "order": 58,
+          "name": "memory",
+          "call_id": "call_5e4ae9eb4d434ba1868c3cb6",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "da53232b8497a9c2cd7465195546370b872399224215a5516e2ca7f754e3d20e"
+        },
+        {
+          "order": 60,
+          "name": "memory",
+          "call_id": "call_fa1d1b0addbe4914903bc35a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e920367d07cdb5049ddd31a4db393d9cb16853410fe6aed93b106154d79d311d"
+        },
+        {
+          "order": 62,
+          "name": "memory",
+          "call_id": "call_32dd67910ca54b2bb565f508",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "109545528ec38fbbd3a7915ad630b51ff03472ac1efb393efe9f599cd665ba0f"
+        }
+      ],
+      "case": "HA-02",
+      "status": "fail",
+      "score": 50,
+      "wall_seconds": 110.747
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-03-attempt-1/agent-result.json",
+      "sha256": "81f0a59a221e04b178d574666b79d2ff44cbdf12dbd83a779428edd48d03516d",
+      "agent_call_count": 0,
+      "reported_completed": 0,
+      "completed_events": 0,
+      "verified_completed_count": 0,
+      "tool_names": [],
+      "events": [],
+      "case": "HA-03",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 6.994
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-04-attempt-1/agent-result.json",
+      "sha256": "5bcccb707a3634ac9f03d0fb17f900e0c9adda8d04597ad1d1ec1192b98d9ab0",
+      "agent_call_count": 4,
+      "reported_completed": 4,
+      "completed_events": 4,
+      "verified_completed_count": 4,
+      "tool_names": [
+        "patch",
+        "read_file",
+        "search_files",
+        "session_search"
+      ],
+      "events": [
+        {
+          "order": 3,
+          "name": "session_search",
+          "call_id": "call_2ff0d0742e184abca1c9b594",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e814cc3baccfb63d79affe71c58d1a7ec2deb7b390214a9280fb8d2639eabcf8"
+        },
+        {
+          "order": 4,
+          "name": "search_files",
+          "call_id": "call_6913f5d7021249f48470cc2b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ed2b366ec5669adf0e40c85bd4aa2733859b87709d0823caec2e8af6dc4d954e"
+        },
+        {
+          "order": 6,
+          "name": "read_file",
+          "call_id": "call_0be5aef90b4c4bb2bb528e03",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ddd51c510e984ba45351e96fe087cb5ebba4e7a7e71c8c4c2d941c084ef745d8"
+        },
+        {
+          "order": 8,
+          "name": "patch",
+          "call_id": "call_aeec04ba00b4408ba18abffa",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5e93cbc0160cf9048d18e4a89a2b0f6d76e7029af81258a84c3fb24c480052a7"
+        }
+      ],
+      "case": "HA-04",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 32.752
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-05-attempt-1/agent-result.json",
+      "sha256": "5498fae6a845a0b62a60e17c6ad1b291377b0014d4b01d6db26c8f3567382230",
+      "agent_call_count": 6,
+      "reported_completed": 6,
+      "completed_events": 6,
+      "verified_completed_count": 6,
+      "tool_names": [
+        "patch",
+        "read_file",
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "terminal",
+          "call_id": "call_1c52269bf77b4c87a6d8bc06",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "4a3de4817426a452da15b2e7c8ab6175dfb138a38364ac31438cb7ca2147002d"
+        },
+        {
+          "order": 5,
+          "name": "read_file",
+          "call_id": "call_81039ebe52014f23bbbc5e54",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "d24c1dd528559171145052cff74f6f9a9bdb0c897fed73ae6326d9e93046e23c"
+        },
+        {
+          "order": 6,
+          "name": "read_file",
+          "call_id": "call_bdabb1122248456bad924afc",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b6550ad3511f0a14a4e00909e1bb046a09bb2d168473062ff00a273a154d070d"
+        },
+        {
+          "order": 8,
+          "name": "terminal",
+          "call_id": "call_345ad74d18034ba9ae696d24",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "d831760845b569d5601b971121a14cb0ebb3750a1a8a85b3194c661fbad35fef"
+        },
+        {
+          "order": 10,
+          "name": "patch",
+          "call_id": "call_7a69d307ee3a4ce9aa5fc252",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "870aad7163ab43661f1e2878565bc1b42a63c24a6dcee4d1b4e1d983cb820c4f"
+        },
+        {
+          "order": 12,
+          "name": "terminal",
+          "call_id": "call_e0efb5bf0aa44d36b4a6ddc7",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "67e0171cc432dba509e0c46dc3d10904dd3aca4b841a6e5dfd0d2856e5319020"
+        }
+      ],
+      "case": "HA-05",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 32.079
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-06-attempt-1/agent-result.json",
+      "sha256": "eb3c17958603a059baa91a0fde1d7107ec242dc1d4838971057e922e7e451116",
+      "agent_call_count": 11,
+      "reported_completed": 10,
+      "completed_events": 10,
+      "verified_completed_count": 10,
+      "tool_names": [
+        "process",
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "terminal",
+          "call_id": "call_d9b7411a5ea84e9bbcfb2d6e",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "9aee868a6fe26c2e8715543654b946457fa1518de92c37b2ee976ed09dfb2402"
+        },
+        {
+          "order": 4,
+          "name": "terminal",
+          "call_id": "call_e793f65ab235419e8a036335",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "14d5584a1e305bb7a39401327ca77ecdb542560ca36c9385e2c696effca8cf52"
+        },
+        {
+          "order": 6,
+          "name": "terminal",
+          "call_id": "call_c2f45461b8f044b7a7bfdede",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "8678b9f3aed8bb6faa5fb71f0c8d09c2b2c0187e97517313681fc7ae520bf891"
+        },
+        {
+          "order": 8,
+          "name": "process",
+          "call_id": "call_445cf45f9d414b33b568588a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "7974fab878d5c06c85fe0e495cfd339c885467e3cc1052e86f54902599d2b7ea"
+        },
+        {
+          "order": 10,
+          "name": "process",
+          "call_id": "call_6f6b0479d92c4d11bdeb5801",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "4f9cffc857a9d29dc5211a9a088e6cfdd3810c15677068b829896fe16ad68d01"
+        },
+        {
+          "order": 12,
+          "name": "terminal",
+          "call_id": "call_09e2d6649ffe4d21a977b0d0",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "9c93bac1f372421a894daf7ea91a6483f44f4babf84e879ea764ad706708a055"
+        },
+        {
+          "order": 15,
+          "name": "terminal",
+          "call_id": "call_7d0a274ee44c458dac39671e",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "dbd0f2ed1456f17a35a80f80f0ee79ffd13125c76aac961fc84a2fee7078d708"
+        },
+        {
+          "order": 17,
+          "name": "terminal",
+          "call_id": "call_0aa041ee7f2646f18292e8f4",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b5f687d1e1863ebef93b0c1043551acbe0a449e603fede55da3df15c938f6ff4"
+        },
+        {
+          "order": 19,
+          "name": "process",
+          "call_id": "call_d8a5cd5c855643aaa0c54740",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b2096ce55552005eee427eb7c6118744fda2e06dcbd3187038cad119bcb8dc9f"
+        },
+        {
+          "order": 21,
+          "name": "terminal",
+          "call_id": "call_48f96a1fabea40ffbadb0d45",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b696384a56ea85cacd68c4aeab16aa7bdd2a2adad0aa4c6ac188baec1ba2bd57"
+        }
+      ],
+      "case": "HA-06",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 72.644
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-07-attempt-1/agent-result.json",
+      "sha256": "caeeb97c236b6bbe32883b5c00258c1cf8fb6e2121896ab9e4f2f66fbf05373a",
+      "agent_call_count": 18,
+      "reported_completed": 18,
+      "completed_events": 18,
+      "verified_completed_count": 18,
+      "tool_names": [
+        "execute_code",
+        "read_file",
+        "search_files"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "search_files",
+          "call_id": "call_a999536771fb4c468d435a28",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "4e785b1fa566c6fdc0375eaff417c28dadba4d9ef84537e08b326ef3f6e0790a"
+        },
+        {
+          "order": 4,
+          "name": "execute_code",
+          "call_id": "call_6671f44ef4e84888a4b865d2",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "daf20f4dcf6d46a607723313e08249deabc9f0de1c660186a13050fb184a4b30"
+        },
+        {
+          "order": 6,
+          "name": "execute_code",
+          "call_id": "call_681199e011644e13b3614a69",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "381fbac343a259b51540dab00179d2afc17499952130c53d646917b27ecd7746"
+        },
+        {
+          "order": 8,
+          "name": "execute_code",
+          "call_id": "call_0aef244546844ac8825f6f5b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "7301c8c7a3b9c5b5fa07834d9cd06cbce7e2ec5d0bb88c61508a3cfde0aee75f"
+        },
+        {
+          "order": 10,
+          "name": "execute_code",
+          "call_id": "call_c77985ac2d0249f4b5c0076e",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ff7f7c3b095c6e5dfadc81197049322c1b3263003664e86f30c241ff10917ccd"
+        },
+        {
+          "order": 13,
+          "name": "search_files",
+          "call_id": "call_4c1ffff5dd0f4e6695424aec",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c22c2d5c1ff968e517708b0975e73bfe1bb03a84d1d1033d14badd0201edb25c"
+        },
+        {
+          "order": 14,
+          "name": "read_file",
+          "call_id": "call_a1a2b2265dd247f89145a117",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ffddd8692a8fb1ca31d26473e2da03cc03da34312614200ad7738f5b36d8d4b1"
+        },
+        {
+          "order": 16,
+          "name": "search_files",
+          "call_id": "call_7791b1d3577a497d85d45002",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "633946440793d831a203118dd7c2c58d05dd6a5efc4027b049d5974724489360"
+        },
+        {
+          "order": 19,
+          "name": "search_files",
+          "call_id": "call_a0bacc365c3e4e6b8c82d2ef",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e8669b524bec1bb7ff69d4d0d0af0e3116d9c9821830abd9a9dfffaea26b09c2"
+        },
+        {
+          "order": 20,
+          "name": "search_files",
+          "call_id": "call_eb557c0b09124f7c9b3c4863",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "82849471366a6c1798cc86a0f9fdce7546687d44dc26dfdad9d81d5877e1692c"
+        },
+        {
+          "order": 23,
+          "name": "search_files",
+          "call_id": "call_66d0399226af43b69dcb25ee",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e8669b524bec1bb7ff69d4d0d0af0e3116d9c9821830abd9a9dfffaea26b09c2"
+        },
+        {
+          "order": 24,
+          "name": "search_files",
+          "call_id": "call_2bee08ea038048f0a7258d30",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e8669b524bec1bb7ff69d4d0d0af0e3116d9c9821830abd9a9dfffaea26b09c2"
+        },
+        {
+          "order": 28,
+          "name": "search_files",
+          "call_id": "call_584ad4dd557144628bcdeb48",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "f776cb337bc7f818456f02c4261165e873b4569ed6d2cc510b60efbf478a8c4b"
+        },
+        {
+          "order": 29,
+          "name": "search_files",
+          "call_id": "call_cfe09cae35094a36a24cdb74",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "dc5bd47bfe2aa503c5c744da1b749d57b1eaad1b6619b1334aad868dafeea5b6"
+        },
+        {
+          "order": 30,
+          "name": "search_files",
+          "call_id": "call_ef7f3e493b9e40d593c2161d",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "967d051f9114f079384791be262416a03545be1154d6cce6c3e7cc5112a16ede"
+        },
+        {
+          "order": 32,
+          "name": "execute_code",
+          "call_id": "call_9d753c3b547748a99e0f8c7b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "1bc21d52e13b8ce8c062ba81a0069db9dfd19e1ae3c67e522c8ab107fcda3c18"
+        },
+        {
+          "order": 34,
+          "name": "read_file",
+          "call_id": "call_bbca289e14d04a7e840df0ac",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "8ea0a4e153bce4960933ed022d95034b73f27b663b99ae1c7c08d1cb3186ae71"
+        },
+        {
+          "order": 36,
+          "name": "execute_code",
+          "call_id": "call_d5aba6fa2a5e4cfeaec78a8a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "0819d3b80e1eaa5d6aa8cad8d9f2bef3c79ef17ec54040824d8a56d5fe8f79b9"
+        }
+      ],
+      "case": "HA-07",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 226.963
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-08-attempt-1/agent-result.json",
+      "sha256": "8bd75eba1cd3a06fd9b7167216929a255914fec260de662d0933cd684e29f2ed",
+      "agent_call_count": 12,
+      "reported_completed": 12,
+      "completed_events": 12,
+      "verified_completed_count": 12,
+      "tool_names": [
+        "browser_click",
+        "browser_console",
+        "browser_navigate",
+        "browser_snapshot",
+        "browser_type",
+        "read_file",
+        "search_files",
+        "write_file"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "search_files",
+          "call_id": "call_d109547bb3504c4f9dbfd7b9",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c7929f3c35c0d6202b3928cbff4573221563e5cf2b8217fcf2e4f4ae7930704e"
+        },
+        {
+          "order": 4,
+          "name": "browser_navigate",
+          "call_id": "call_64cd8fd3d88f4da0b2e9a4fe",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "56c4e10746e0f7ca1eca01e109ec90d720a47f6629c7492e7de61bce9b2f87aa"
+        },
+        {
+          "order": 6,
+          "name": "read_file",
+          "call_id": "call_3c165176013d4b069220fb3b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c529fe8c4d85e41521425f4a63512733b11f72a169fcf18c55393cdb93fe5ea8"
+        },
+        {
+          "order": 8,
+          "name": "browser_type",
+          "call_id": "call_41da7197b7af4069bf0d9717",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "58ad8314a50f327b79c97026504bee0e995471cd315c8daac9dee68aefa7bd37"
+        },
+        {
+          "order": 10,
+          "name": "browser_type",
+          "call_id": "call_2e672736593145b690354b65",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "1b6a8026598b6d30118ad7d3d3337fec2f8bd0d6d02372ea029a6e856dfa709c"
+        },
+        {
+          "order": 12,
+          "name": "browser_click",
+          "call_id": "call_a231ddd80e974ffbbd99ad2b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "6631247ce1b12552596d46593a58f5ce21c071a64645c6de1315ace575f6a67c"
+        },
+        {
+          "order": 14,
+          "name": "browser_snapshot",
+          "call_id": "call_40e48d25eac14725bb5ca1c8",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ebf369d9da2abd42b44f3f9da18fcba66b3baa9b7abba110c62dbd2ede301b06"
+        },
+        {
+          "order": 16,
+          "name": "browser_click",
+          "call_id": "call_8f1ad38b77f4405eb0dd303b",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "7714f0506339bd95b3a796625c9bcadfeddd329edcb3c48795473766aaedcd64"
+        },
+        {
+          "order": 18,
+          "name": "browser_snapshot",
+          "call_id": "call_99527a8ad98e4026bac217b7",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "f4b9109dffae520aa2610a9028ed5b706777afb8f3f139fcbb6b1b77ce831309"
+        },
+        {
+          "order": 20,
+          "name": "browser_console",
+          "call_id": "call_959e88eb5ca74a3ab3a254ed",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "bfde2ac249d3d903f99807eaceabc6fe28ae4ba9ef6b5de00c6e7eceb5760d1e"
+        },
+        {
+          "order": 22,
+          "name": "write_file",
+          "call_id": "call_075df9fc4b244f9a870f36d6",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "0912cf76340688f8a8cd86fb5b6cfb11f56099adf833816f389129f08a2f6e06"
+        },
+        {
+          "order": 24,
+          "name": "read_file",
+          "call_id": "call_33906c2964044027a43a8991",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "7d26d0881f29a850e73adc79130808a113d891a0d5514749e6a489ccdfa31e24"
+        }
+      ],
+      "case": "HA-08",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 43.557
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-09-attempt-1/agent-result.json",
+      "sha256": "0177583272dfde86f094c67ec46d5ee4907191a28a5552ac3f94a897becfe2f8",
+      "agent_call_count": 3,
+      "reported_completed": 3,
+      "completed_events": 3,
+      "verified_completed_count": 3,
+      "tool_names": [
+        "read_file",
+        "skill_manage",
+        "skills_list"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "read_file",
+          "call_id": "call_a40f3e2ff8d24fd3bb65f0e5",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c8f2cdf83ac8f9201bbeb690f68aa5eb810c60227f17ce3e7923d8505d920f65"
+        },
+        {
+          "order": 4,
+          "name": "skills_list",
+          "call_id": "call_80d19453835e485f841e435a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5f8cf0f620633c89550e459b5a116f6a68090b1f5e0c2ce030efecfec2f3240c"
+        },
+        {
+          "order": 6,
+          "name": "skill_manage",
+          "call_id": "call_de5f695252304b51b2989b53",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "3bcbba2f954232f4b9fede987b7588277d4d326d51fce4896eb7277821c79cbc"
+        }
+      ],
+      "case": "HA-09",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 41.262
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-10-attempt-1/agent-result.json",
+      "sha256": "fb545a7cdc2fb522c6b6159c585a0325ecbb998d9733a06da110ac8ec51554f7",
+      "agent_call_count": 7,
+      "reported_completed": 7,
+      "completed_events": 7,
+      "verified_completed_count": 7,
+      "tool_names": [
+        "read_file",
+        "search_files",
+        "skill_view",
+        "write_file"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "skill_view",
+          "call_id": "call_2cb34c774ad3486b9d7f570a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "0b8923c9651a2c617a86875bef2c1223073ffc989bc4b5fd24430579f738222d"
+        },
+        {
+          "order": 4,
+          "name": "search_files",
+          "call_id": "call_407508acd9ef4442bb31564c",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "4726a58598310f947edf4201b3fdb0f776cc4b49e27ca5361ffb01c76bb04e2b"
+        },
+        {
+          "order": 8,
+          "name": "read_file",
+          "call_id": "call_2e16a3f8fe37473799fbda66",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "1f1ab9dd7ea87dd17593f7d0ba94d6a743e1fc7a0737f9e18c2b54d7880c808c"
+        },
+        {
+          "order": 9,
+          "name": "read_file",
+          "call_id": "call_dc43a476451a4d3981f163fc",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "69f6c9b0a22fbbc4264112dbdd8210ebbf3e419b7c527da6f081995f783b24aa"
+        },
+        {
+          "order": 10,
+          "name": "read_file",
+          "call_id": "call_bfe73ca507f743e0af0da9b6",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "794d951a7db5903156aa8474f0b4e16ef28f11bcf7ca6eaec94b9de699ef99bd"
+        },
+        {
+          "order": 12,
+          "name": "write_file",
+          "call_id": "call_9f356a628c684722857a283c",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "1d1c4f1fda9288a9d1447f383acea76c7599a0792f4af674622518ab2dc57184"
+        },
+        {
+          "order": 14,
+          "name": "read_file",
+          "call_id": "call_88386861cf2d4b6f8659c2f6",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "bd32b18f313ab107d8105f1f668765bcb33f46f4840c3e212e6e15a53d8e2993"
+        }
+      ],
+      "case": "HA-10",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 28.842
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-11-attempt-1/agent-result.json",
+      "sha256": "c96667392e7881cd417d061893457ea8cc2e8e73aa4467cdefc7e1982bb7072a",
+      "agent_call_count": 3,
+      "reported_completed": 3,
+      "completed_events": 3,
+      "verified_completed_count": 3,
+      "tool_names": [
+        "skill_manage",
+        "skill_view"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "skill_view",
+          "call_id": "call_f95574603dde40f18320ee24",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "2d7a5c1d556b45d4b55a4f34e16e642ba46970b788bf200b8778bff051bffa4a"
+        },
+        {
+          "order": 4,
+          "name": "skill_manage",
+          "call_id": "call_5107c5e43e4b403b9e6e47ab",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "f9439d75bc0d2b77ee42f5c27d601f472ebf1d79cdae7162dd4948f74606dd8d"
+        },
+        {
+          "order": 6,
+          "name": "skill_view",
+          "call_id": "call_dd4c6a44b16e4d32a66d983f",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "4cc6bdeca6d59ab178d489d7d1c47459761be88b8d92c36b6339b03611c69a83"
+        }
+      ],
+      "case": "HA-11",
+      "status": "partial",
+      "score": 50,
+      "wall_seconds": 39.722
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-12-attempt-1/agent-result.json",
+      "sha256": "7f33f577f1aac938805c5424f9fd637f60a46b523cc79ae3ce7b66b9f5b8acc1",
+      "agent_call_count": 5,
+      "reported_completed": 5,
+      "completed_events": 5,
+      "verified_completed_count": 5,
+      "tool_names": [
+        "read_file",
+        "skill_manage",
+        "skill_view"
+      ],
+      "events": [
+        {
+          "order": 3,
+          "name": "skill_view",
+          "call_id": "call_b28173f11b1d40f2b279287f",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "480e41dc31ef672cce3a0912567e8570877565a4b906060c41e1bf86e114a8fe"
+        },
+        {
+          "order": 4,
+          "name": "read_file",
+          "call_id": "call_32ce34320be6445abd62ec24",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "9a5d7a3db42f00e9a5787dbde71b0d11565e738a7c1545357d3cde6e8c30ddd6"
+        },
+        {
+          "order": 6,
+          "name": "skill_manage",
+          "call_id": "call_9ebedcfa934b4412bf309dc8",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b55f2525a994b25259c38dbacea5a13be2c386e81fe146738286b7f5e852fbbe"
+        },
+        {
+          "order": 8,
+          "name": "skill_manage",
+          "call_id": "call_a16045c944f545ac8249b773",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "eb79ace28341dfb2bc24b3b4413b557f802da060a4cecb0961b695d31c405b02"
+        },
+        {
+          "order": 10,
+          "name": "skill_view",
+          "call_id": "call_1603f75456b44ce2839ba200",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "40c8478d1d18132ff96d300b41bd9419f937c8e2f54e0c513a30e547c4dbc544"
+        }
+      ],
+      "case": "HA-12",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 31.472
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-13-attempt-1/agent-result.json",
+      "sha256": "c3843084c4c83524cfebffcaa366c4c79d66002db223bb78bc1cacf27d5e8f23",
+      "agent_call_count": 4,
+      "reported_completed": 4,
+      "completed_events": 4,
+      "verified_completed_count": 4,
+      "tool_names": [
+        "cronjob",
+        "write_file"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "write_file",
+          "call_id": "call_cd462e09c0ba42878921dd66",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5b8e111887ffc59d6183fb08382ea276e1c0ac4e74c72f380ca90d9fbc7d095d"
+        },
+        {
+          "order": 4,
+          "name": "cronjob",
+          "call_id": "call_40c85f163f0c443e9ae1d196",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "6757885f88846cc8b87deb1b62df40f4d10c711d8fb9cd13e7c7d309bfdcad3b"
+        },
+        {
+          "order": 6,
+          "name": "cronjob",
+          "call_id": "call_2d20a3de547f421785f8e889",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ff20d50aba98d6b021e58a3bdbd81ffa075c08c37722f59250e2e0777409afb9"
+        },
+        {
+          "order": 8,
+          "name": "cronjob",
+          "call_id": "call_2876881fd5334c8fa2243b84",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "bb12f6ac46f1124682c88d2dae7368ffe8ece5ea90e97b5a8a72e329dcdb6171"
+        }
+      ],
+      "case": "HA-13",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 115.499
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-14-attempt-1/agent-result.json",
+      "sha256": "74b4af0011b9c05dc2e4cfaf75e1ccc61f6b0485375e193d644864decd4f3e77",
+      "agent_call_count": 2,
+      "reported_completed": 2,
+      "completed_events": 2,
+      "verified_completed_count": 2,
+      "tool_names": [
+        "cronjob"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "cronjob",
+          "call_id": "call_f19d3c175c0948e287b66087",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "2887ee4095ff6cd13d665a689b08dd18bb1f9c23fac90b7b605e66a3abd221f9"
+        },
+        {
+          "order": 4,
+          "name": "cronjob",
+          "call_id": "call_ab756465c7144d41b57f7afb",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "6483e1f751961c904136142ed6413deda54b8c9833f5067a205d9f03def28b46"
+        }
+      ],
+      "case": "HA-14",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 11.701
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-15-attempt-1/agent-result.json",
+      "sha256": "87f07453af3d70e29ac66b7371d5b2ed498b376ca43d8f5e4a8fbd517e22a5ae",
+      "agent_call_count": 2,
+      "reported_completed": 2,
+      "completed_events": 2,
+      "verified_completed_count": 2,
+      "tool_names": [
+        "cronjob"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "cronjob",
+          "call_id": "call_4bd8f494283f497cabadc43f",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b19f9b278e18be67ccfdf96279dbccfea998c6f76889b129630fed9b5c22fc27"
+        },
+        {
+          "order": 4,
+          "name": "cronjob",
+          "call_id": "call_1a4145cdf5ce43f4ad4d08bf",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "270dbb03badb52162d71799cc2a7ff4d527f8b4e046cb2d18e6018ab579afd1a"
+        }
+      ],
+      "case": "HA-15",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 25.347
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-16-attempt-1/agent-result.json",
+      "sha256": "2af1df8ec5c30725655064dee58042feffbd09679781ddc3f4b01a75868179e7",
+      "agent_call_count": 3,
+      "reported_completed": 3,
+      "completed_events": 3,
+      "verified_completed_count": 3,
+      "tool_names": [
+        "read_file",
+        "send_message"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "read_file",
+          "call_id": "call_7d849381cd1948a4b359c1a0",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c88f373431a5df0e6b47ecd91379b365aa47a6b5fa901a35640cf83564d9827a"
+        },
+        {
+          "order": 4,
+          "name": "send_message",
+          "call_id": "call_8b9a11f4813c4b5a8b5fe841",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "40d2e2f5734668d52060fc692a9c24ba4e11a752c6cb53cd431c3f3de167367c"
+        },
+        {
+          "order": 6,
+          "name": "send_message",
+          "call_id": "call_280af4e97bb842de9dc5542a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "ee1fda5eae7eb267747cceba2403870dd2834ed0add588d00952cb9f71ff6d53"
+        }
+      ],
+      "case": "HA-16",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 13.556
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-17-attempt-1/agent-result.json",
+      "sha256": "7e86eab3e0e85247340e9503485c8fb9ebb1ea293fa0623111be6bf02599943a",
+      "agent_call_count": 4,
+      "reported_completed": 4,
+      "completed_events": 4,
+      "verified_completed_count": 4,
+      "tool_names": [
+        "read_file",
+        "write_file"
+      ],
+      "events": [
+        {
+          "order": 4,
+          "name": "read_file",
+          "call_id": "call_523c2900a6a247709619fa84",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "a8f3171753250dba343e8104601fa9e7a169f5596b4c4d2076cb91429289b080"
+        },
+        {
+          "order": 5,
+          "name": "read_file",
+          "call_id": "call_b68898eef9be48079b097b04",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "177a38b8eea0cdb548021269d5bc649b7860560265e8df53d85ac916862d7abe"
+        },
+        {
+          "order": 6,
+          "name": "read_file",
+          "call_id": "call_90a219dbb9f04d7daf0e3f59",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "6b9375c92d4e53636d46493de65aba9381bdec5e837ed3ff68355f64b13269a4"
+        },
+        {
+          "order": 8,
+          "name": "write_file",
+          "call_id": "call_b6db3b3efbe841a0b2ae345a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "7ca23f57922f48b370c592a4bb9eee78ae4175209ba2a01da27b0424331dd7ab"
+        }
+      ],
+      "case": "HA-17",
+      "status": "fail",
+      "score": 20,
+      "wall_seconds": 35.189
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-18-attempt-1/agent-result.json",
+      "sha256": "e3e8eb5b060a8310d2017b2ae1136342962f6b4d90169fc15d0269567895eb39",
+      "agent_call_count": 2,
+      "reported_completed": 2,
+      "completed_events": 2,
+      "verified_completed_count": 2,
+      "tool_names": [
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "terminal",
+          "call_id": "call_5a05970cd7ee437797c5e33a",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "9fb7020bff0041e4400c59d51eff51d6b43bd860e9383f0fe7573977d5377160"
+        },
+        {
+          "order": 5,
+          "name": "terminal",
+          "call_id": "call_52641510bb304daf94306df1",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "1d67d04cc29e54db18f1f1d4acc674ed266de2884ba9c801344ccd235c8ffd0d"
+        }
+      ],
+      "case": "HA-18",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 17.027
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-19-attempt-1/agent-result.json",
+      "sha256": "fb34e7fa7b9f6592633ea514cf288c6b4e452f7f96c36c1a0946d44a7e5a4191",
+      "agent_call_count": 7,
+      "reported_completed": 7,
+      "completed_events": 7,
+      "verified_completed_count": 7,
+      "tool_names": [
+        "read_file",
+        "search_files",
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "search_files",
+          "call_id": "call_b9358431382b4d0f9998fe35",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "aeb02856b2c68c903916d0bfe10369a054c9d14e63444227ef31ccbc8fb449bc"
+        },
+        {
+          "order": 4,
+          "name": "terminal",
+          "call_id": "call_4215d93c5e374155b925e3be",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "868a9f81a5a0fbb4532198221e17a1737d60d8579cfe02a1e902f967cfb35086"
+        },
+        {
+          "order": 8,
+          "name": "read_file",
+          "call_id": "call_66faef2d721e431fb3527461",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "14ac01c2338691ca7cb5651ee415fbea41fa3a8673eb3ec0f13b07721da077b6"
+        },
+        {
+          "order": 9,
+          "name": "read_file",
+          "call_id": "call_15ae1a34baea4eec99d42e77",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "44106b2c45f6eb41a796d10ed1cc2e1173a8a65512227b17ac81af5ca81107be"
+        },
+        {
+          "order": 10,
+          "name": "read_file",
+          "call_id": "call_ea9c1a6044ad4a2e8ea883d0",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "7ac9b14381245a4353634ec802dfe6818c66362b70d87b377e8e87275d40af35"
+        },
+        {
+          "order": 12,
+          "name": "terminal",
+          "call_id": "call_6ce29c683cf54ce4a77ba731",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "a41f71a74058f0d7644a7fa2512d747cf434a889b806d3ecefd06672af9c278b"
+        },
+        {
+          "order": 14,
+          "name": "terminal",
+          "call_id": "call_e0d8cb31e6514a9897a13533",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "96186dc9929d7f62f8e17766a620380ae82a4e99c51fb5163a893ee3ec902e07"
+        }
+      ],
+      "case": "HA-19",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 28.324
+    },
+    {
+      "source": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-20-attempt-1/agent-result.json",
+      "sha256": "e656b3f54cd545f3c86efedce68c9e8eabd87237471cc381246f55bf313ee64b",
+      "agent_call_count": 7,
+      "reported_completed": 5,
+      "completed_events": 5,
+      "verified_completed_count": 5,
+      "tool_names": [
+        "clarify",
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "terminal",
+          "call_id": "call_08b13026c32e4466b036468e",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "2523c76a7cb4f5b071ff0b8f656a146abe636dad1aa46a3a9fafcc270c3a1e0e"
+        },
+        {
+          "order": 4,
+          "name": "terminal",
+          "call_id": "call_9ca3fc71ab78486ba08b7963",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "05b243974e1c6c10be099ac1966127c71ddede859d641bd38c054dacf523282e"
+        },
+        {
+          "order": 6,
+          "name": "terminal",
+          "call_id": "call_bc4dfcb525a8490282445294",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "087c3165e79eb17c2b030e69e389d12a7af00ef23413e8542f49033884a803f9"
+        },
+        {
+          "order": 9,
+          "name": "clarify",
+          "call_id": "call_7c51e14e6d8e4c1b84af8f13",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "67d6c2160ae520e754de02efd3872bd625e3c77408414ca2a80bbe5ecd24ad4e"
+        },
+        {
+          "order": 11,
+          "name": "terminal",
+          "call_id": "call_6a40a4b60d0c43c2b05f75ce",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "582f9b89cd8ac854e1d6cad2131fedfb29f1a413ce574f6a65cd586b5ffe7632"
+        }
+      ],
+      "case": "HA-20",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 34.14
+    }
+  ],
+  "all_chat_http_status_200": true,
+  "validated_chat_requests": 104,
+  "http_status_counts": {
+    "200": 146,
+    "404": 63
+  },
+  "ancillary_404_probes": [
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0001",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0002",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0003",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0008",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0009",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0010",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0016",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0017",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0018",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0022",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0023",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0024",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0032",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0033",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0034",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0043",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0044",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0045",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0058",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0059",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0060",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0077",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0078",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0079",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0094",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0095",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0096",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0103",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0104",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0105",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0114",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0115",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0116",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0123",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0124",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0125",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0133",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0134",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0135",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0142",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0143",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0144",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0150",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0151",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0152",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0158",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0159",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0160",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0164",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0165",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0166",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0172",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0173",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0174",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0180",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0181",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0182",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0188",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0189",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0190",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0198",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0199",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/pass1/http/0200",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    }
+  ],
+  "first_attempt_only": true
+}

@@ -1,0 +1,5 @@
+  ┊ 💬 I'll load the existing skill and read the notes file first.
+  ┊ 📚 skill     release-check  0.0s
+  ┊ 📖 read      notes/validate_release.py  1.0s
+  ┊ 💬 Now I'll add the script to the skill:
+  ┊ ⚡ skill_man release-check  0.0s

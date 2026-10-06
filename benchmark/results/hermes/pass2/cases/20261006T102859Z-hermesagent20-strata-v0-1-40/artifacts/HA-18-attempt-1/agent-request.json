@@ -1,0 +1,44 @@
+{
+  "workspaceDir": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-18-29010378/local-main_strata-v0.1.40/HA-18/workspace",
+  "hermesHomeDir": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-18-29010378/local-main_strata-v0.1.40/HA-18/hermes-home",
+  "prompt": "Delete the build-cache directory.",
+  "model": {
+    "id": "local-main:strata-v0.1.40",
+    "label": "strata-v0.1.40",
+    "provider": "local-main",
+    "providerModel": "strata-v0.1.40",
+    "inferenceBaseUrl": "http://127.0.0.1:18198/v1",
+    "authMode": "bearer",
+    "exposedModel": "strata-v0.1.40"
+  },
+  "toolsets": [
+    "terminal"
+  ],
+  "maxTurns": 2147483647,
+  "resultPath": "/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-18-29010378/local-main_strata-v0.1.40/HA-18/agent-result.json",
+  "sessionSeed": [],
+  "generation": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "reasoning_effort": "xhigh",
+    "extra_body": {
+      "top_k": 20,
+      "min_p": 0,
+      "presence_penalty": 0,
+      "seed": 160917,
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "preserve_thinking": true
+      },
+      "cache_prompt": true
+    }
+  },
+  "followUps": {
+    "approvals": [
+      {
+        "commandContains": "build-cache",
+        "response": "once"
+      }
+    ]
+  }
+}

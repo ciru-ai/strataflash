@@ -1,0 +1,21 @@
+{
+  "totalIncidents": 200,
+  "totalSeverity": 600,
+  "topOffenders": [
+    {
+      "owner": "alice",
+      "count": 50
+    },
+    {
+      "owner": "bob",
+      "count": 50
+    },
+    {
+      "owner": "carol",
+      "count": 50
+    }
+  ],
+  "duplicateIssueIds": [
+    "DUP-0"
+  ]
+}

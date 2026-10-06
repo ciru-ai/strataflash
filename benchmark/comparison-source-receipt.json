@@ -1,0 +1,22 @@
+[
+  {
+    "path": "evidence/local/Qwen3.8flash/hcq8-20260930/active-sweep-contract.json",
+    "sha256": "0d9915e813677a58368d230accc556f5eacf60aa49edc214f9b5684ef2450295",
+    "bytes": 5203
+  },
+  {
+    "path": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/latest-suite.json",
+    "sha256": "bd3d05859b497066be7bd62fbda1e3ea52177aea88a2093cf5e60d1c5f220dbd",
+    "bytes": 261464
+  },
+  {
+    "path": "evidence/local/Qwen3.8flash/reports/ultimate-qwen-flash-strix/data/hermes.json",
+    "sha256": "abb3bb1b0b5fc61b9fe619ea442d20d8d537e4668a3710d9ee72343ad9a780ef",
+    "bytes": 2759686
+  },
+  {
+    "path": "evidence/local/Qwen3.8flash/reports/ultimate-qwen-flash-strix/data/nonhermes.json",
+    "sha256": "663b3711a4c7a57629c175f41df636526a6f9279e322565956e8811893a709be",
+    "bytes": 539388
+  }
+]

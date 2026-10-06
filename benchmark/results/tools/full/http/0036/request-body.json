@@ -1,0 +1,144 @@
+{
+  "model": "strata-v0.1.40",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant with access to the tools provided.\n\nRules:\n- Use a tool ONLY when it is necessary to fulfill the user's request.\n- If you can answer directly from your own knowledge, do so without calling a tool.\n- If a tool call fails, explain the failure and suggest an alternative approach.\n- Never invent information that a tool should provide.\n\nBenchmark context: today is 2026-03-20 (Friday). Use this date for any relative time request."
+    },
+    {
+      "role": "user",
+      "content": "Check the weather in Lisbon and find Priya Shah's email. If it will be dry, schedule a 30-minute outdoor review with Priya tomorrow at 09:00 Europe/Lisbon."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll check the weather in Lisbon and look up Priya Shah's contact info simultaneously.",
+      "tool_calls": [
+        {
+          "id": "call_b137e2810b5a405388d9bce8",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"location\":\"Lisbon\"}"
+          }
+        },
+        {
+          "id": "call_e525cafeae984dd094f1650f",
+          "type": "function",
+          "function": {
+            "name": "get_contacts",
+            "arguments": "{\"query\":\"Priya Shah\"}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_b137e2810b5a405388d9bce8",
+      "content": "{\"location\": \"Lisbon\", \"condition\": \"Dry\", \"precipitation_probability\": 0, \"wind_speed_kmh\": 16.0, \"wind_direction\": \"W\", \"uv_index\": 2, \"visibility_km\": 9.8, \"pressure_hpa\": 1026, \"feels_like\": -2, \"dew_point\": -5, \"forecast_summary\": \"Conditions expected to remain similar for the next 6 hours.\", \"last_updated\": \"2026-03-20T12:00:00Z\", \"data_source\": \"National Weather Service\", \"station_id\": \"WXSTN-07d4f536\", \"request_id\": \"req_wx_07d4f536\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_e525cafeae984dd094f1650f",
+      "content": "{\"results\": [{\"name\": \"Priya Shah\", \"email\": \"redacted@example.com\", \"id\": \"contact_1000\", \"department\": \"Engineering\", \"phone\": \"+1-555-0100\", \"title\": \"Team Member\", \"last_contacted\": \"2026-03-18T15:30:00Z\", \"notes\": \"\", \"source\": \"directory\"}], \"total_contacts\": 1, \"directory_version\": \"2026.03\", \"request_id\": \"req_ct_6e3b2a1c\"}"
+    }
+  ],
+  "max_tokens": -1,
+  "temperature": 0.7,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "get_weather",
+        "description": "Get weather for a location.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "location": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "location"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_contacts",
+        "description": "Look up contacts.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "create_calendar_event",
+        "description": "Create a calendar event.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "time": {
+              "type": "string"
+            },
+            "timezone": {
+              "type": "string"
+            },
+            "duration_minutes": {
+              "type": "integer"
+            },
+            "attendees": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "title",
+            "date",
+            "time",
+            "timezone",
+            "duration_minutes",
+            "attendees"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "seed": 123,
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "preserve_thinking": true
+  },
+  "top_p": 0.8,
+  "top_k": 20,
+  "min_p": 0.0,
+  "repetition_penalty": 1.0,
+  "presence_penalty": 1.5,
+  "frequency_penalty": 0.0,
+  "repeat_penalty": 1.0,
+  "cache_prompt": true
+}

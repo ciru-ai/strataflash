@@ -1,0 +1,4 @@
+{"elapsedSeconds": 8.301352973008761, "name": "terminal", "order": 1, "phase": "start", "toolCallId": "call_5a05970cd7ee437797c5e33a"}
+{"actionResultSha256": "1a2432fb1bc689d67a9e5c9390f1563d16e0198bb1c6f8655660553df1afc5ff", "elapsedSeconds": 10.496287221001694, "name": "terminal", "order": 2, "phase": "complete", "toolCallId": "call_5a05970cd7ee437797c5e33a"}
+{"elapsedSeconds": 13.714380504010478, "name": "terminal", "order": 3, "phase": "start", "toolCallId": "call_52641510bb304daf94306df1"}
+{"actionResultSha256": "668671acf48d73f44b138c1b73b332fa29cb3c8ab2d66c9f246e232513b5f432", "elapsedSeconds": 14.010013363003964, "name": "terminal", "order": 5, "phase": "complete", "toolCallId": "call_52641510bb304daf94306df1"}

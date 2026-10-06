@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_AUDITED",
+  "panels": [
+    "append_speed_grid",
+    "cold_prefix",
+    "short_fidelity",
+    "he09_speed",
+    "hard_tool_15",
+    "hermesagent20",
+    "memory_and_disk"
+  ],
+  "hermes_pass_cases": [
+    20,
+    20
+  ],
+  "zero_prefix_replay": true
+}

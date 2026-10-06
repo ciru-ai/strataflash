@@ -1,0 +1,265 @@
+{
+  "status": "AUDITED",
+  "stage": "smoke",
+  "cases": 3,
+  "official_score": 100,
+  "summary_path": "benchmark/results/hermes/smoke/cases/20261006T101126Z-hermesagent20-strata-v0-1-40/summary.json",
+  "summary_sha256": "5dc73084a82d9314c64d15d75b77a235e0fef871e7c54ad8c5b23024b1af6f0f",
+  "case_wall_sum_seconds": 88.339,
+  "verified_tool_executions": 17,
+  "case_evidence": [
+    {
+      "source": "benchmark/results/hermes/smoke/cases/20261006T101126Z-hermesagent20-strata-v0-1-40/artifacts/HA-01-attempt-1/agent-result.json",
+      "sha256": "2ab93b3d6e42a56f5eef29b926ddae8da37b9634980d05b500e7372222a9eb2f",
+      "agent_call_count": 1,
+      "reported_completed": 1,
+      "completed_events": 1,
+      "verified_completed_count": 1,
+      "tool_names": [
+        "memory"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "memory",
+          "call_id": "call_77aae1c80613463d9399b528",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "407bf8b0572961f7244496fa8a5dad82e5106bb7a570de0338ed1450d44d66e2"
+        }
+      ],
+      "case": "HA-01",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 10.041
+    },
+    {
+      "source": "benchmark/results/hermes/smoke/cases/20261006T101126Z-hermesagent20-strata-v0-1-40/artifacts/HA-05-attempt-1/agent-result.json",
+      "sha256": "87535530c49fde68c40ac7c7d12de0fe5700aee7ad15a6d6ccd8999b8d9231ca",
+      "agent_call_count": 6,
+      "reported_completed": 6,
+      "completed_events": 6,
+      "verified_completed_count": 6,
+      "tool_names": [
+        "patch",
+        "read_file",
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "terminal",
+          "call_id": "call_62ef752908694cbd8e866559",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "0ba37ed074dfdd42f2ec820ad1dde30cd209eee8cd6e94de486c515dddc092cd"
+        },
+        {
+          "order": 5,
+          "name": "read_file",
+          "call_id": "call_802b99ebb28d48458c55ab4d",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "d24c1dd528559171145052cff74f6f9a9bdb0c897fed73ae6326d9e93046e23c"
+        },
+        {
+          "order": 6,
+          "name": "read_file",
+          "call_id": "call_9ba500fbc377420397f88857",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "b6550ad3511f0a14a4e00909e1bb046a09bb2d168473062ff00a273a154d070d"
+        },
+        {
+          "order": 8,
+          "name": "terminal",
+          "call_id": "call_84091192dca2423eb29c6ab2",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "3337005e0faf99584ff06e6ace4b494d7e3c4a86294eccaeb518c5ff88f65647"
+        },
+        {
+          "order": 10,
+          "name": "patch",
+          "call_id": "call_4584963808be48a7b4c59880",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "870aad7163ab43661f1e2878565bc1b42a63c24a6dcee4d1b4e1d983cb820c4f"
+        },
+        {
+          "order": 12,
+          "name": "terminal",
+          "call_id": "call_a0c3e768d7864107b5f41742",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "6163ef4a08e9589874c0cd553c41e4b64f5a7ef33aa386856665058f40c90c0f"
+        }
+      ],
+      "case": "HA-05",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 29.026
+    },
+    {
+      "source": "benchmark/results/hermes/smoke/cases/20261006T101126Z-hermesagent20-strata-v0-1-40/artifacts/HA-20-attempt-1/agent-result.json",
+      "sha256": "1237d41d1ea846c57f2cf71d54c97062f77134a4baacb2d34a666a15a1cf1e10",
+      "agent_call_count": 10,
+      "reported_completed": 10,
+      "completed_events": 10,
+      "verified_completed_count": 10,
+      "tool_names": [
+        "clarify",
+        "terminal"
+      ],
+      "events": [
+        {
+          "order": 2,
+          "name": "terminal",
+          "call_id": "call_bda79f0ad8eb41f4a82cc7f1",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "4a1c93023eee67b452875aa3799eebb1919fe68fe6c51228a23c7ea953fe5b61"
+        },
+        {
+          "order": 4,
+          "name": "terminal",
+          "call_id": "call_faa14e7a138a4892b1440dfc",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "708054e20f8345e96aa29aa3d3ae50e6245e6723619f1f57c1486f2c2ef9c451"
+        },
+        {
+          "order": 6,
+          "name": "terminal",
+          "call_id": "call_36f6452e97a44f30ad5a7d05",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e1c9627368d85576269578130ea8fdbb85d87b2372ac4fdcda3eb3baaf90b983"
+        },
+        {
+          "order": 8,
+          "name": "terminal",
+          "call_id": "call_804916e3466d4f8cafa5be92",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "718f717dae02016bb5fef011e91193e151bc185d892d1007c531a86002b6cf02"
+        },
+        {
+          "order": 10,
+          "name": "terminal",
+          "call_id": "call_5b15efd07e1e4e0cb95e3827",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "5461e91c2df38fb91bf475bffaaff05ff3c402c6b7a604f37503a6aece8d6c2d"
+        },
+        {
+          "order": 13,
+          "name": "clarify",
+          "call_id": "call_b420092857874545bb4237e7",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "a61561c6180c504081764ab341d114124fdb35be05fa243b1e6c554b2c5fc083"
+        },
+        {
+          "order": 15,
+          "name": "terminal",
+          "call_id": "call_6647ced01afb4b8891cf0b76",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "23c1ad32fa17c42d518399c16eaf743b28d98571280ba8fec20534feb9d7eb67"
+        },
+        {
+          "order": 17,
+          "name": "terminal",
+          "call_id": "call_f4d52fdf06974074972274c8",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "835fd5188d8796c0a96e66e042f8eb0fc23b95f6fddc52974584db7410a44f36"
+        },
+        {
+          "order": 19,
+          "name": "terminal",
+          "call_id": "call_e2b3413c81c04fa6ad53cf69",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "e6537daddc227cfdf700deba646cd5f9a3b39a4bf4ac56af14eb6cbd80abe872"
+        },
+        {
+          "order": 21,
+          "name": "terminal",
+          "call_id": "call_0ce4a03fdf134b89a4e6f515",
+          "agent_originated": true,
+          "has_observation": true,
+          "observation_sha256": "c8c7ba66ec68dffb2cdb1fa794b3478ac0a000810954a5dc5ba65ae49e7ed726"
+        }
+      ],
+      "case": "HA-20",
+      "status": "pass",
+      "score": 100,
+      "wall_seconds": 49.272
+    }
+  ],
+  "all_chat_http_status_200": true,
+  "validated_chat_requests": 18,
+  "http_status_counts": {
+    "200": 24,
+    "404": 9
+  },
+  "ancillary_404_probes": [
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0001",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0002",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0003",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0008",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0009",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0010",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/v1/models",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0019",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/api/tags",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0020",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    },
+    {
+      "path": "/v1/props",
+      "status": 404,
+      "source": "benchmark/results/hermes/smoke/http/0021",
+      "classification": "Unscored optional provider autodiscovery; no model generation"
+    }
+  ],
+  "first_attempt_only": true
+}

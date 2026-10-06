@@ -1,0 +1,22 @@
+{
+  "tokens": [
+    33737
+  ],
+  "last": {
+    "generated": 1,
+    "prompt_tokens": 513,
+    "prompt_ms": 2612.6,
+    "decode_ms": 35.9,
+    "finish": "length",
+    "drafts_accepted": 0,
+    "drafts_offered": 0,
+    "reused": 0,
+    "hits": 0,
+    "lookups": 0,
+    "ram_blobs": 0,
+    "file_blobs": 0,
+    "file_mb": 0.0,
+    "prompt_read": 513,
+    "offloaded": 0
+  }
+}

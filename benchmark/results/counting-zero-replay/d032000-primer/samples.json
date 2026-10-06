@@ -1,0 +1,1958 @@
+[
+  {
+    "at": 1791279212.1948211,
+    "ram_total": 134309679104,
+    "ram_available": 47854587904,
+    "ram_used": 86455091200,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279212.4455419,
+    "ram_total": 134309679104,
+    "ram_available": 47805661184,
+    "ram_used": 86504017920,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279212.6959414,
+    "ram_total": 134309679104,
+    "ram_available": 47805661184,
+    "ram_used": 86504017920,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279212.946296,
+    "ram_total": 134309679104,
+    "ram_available": 47805661184,
+    "ram_used": 86504017920,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279213.1968935,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279213.4472182,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279213.6978273,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279213.948339,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279214.1988387,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279214.4493246,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279214.6998274,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279214.9503155,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279215.200816,
+    "ram_total": 134309679104,
+    "ram_available": 47805431808,
+    "ram_used": 86504247296,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279215.4513059,
+    "ram_total": 134309679104,
+    "ram_available": 47803883520,
+    "ram_used": 86505795584,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279215.7019758,
+    "ram_total": 134309679104,
+    "ram_available": 47802077184,
+    "ram_used": 86507601920,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279215.9524977,
+    "ram_total": 134309679104,
+    "ram_available": 47802077184,
+    "ram_used": 86507601920,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279216.2030363,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279216.4535332,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279216.7040255,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279216.9545128,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279217.204973,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279217.4554603,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279217.7059238,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279217.9564168,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279218.20686,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279218.4573255,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279218.7077713,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279218.958261,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279219.2087514,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279219.459205,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279219.7096822,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279219.9601207,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279220.210579,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279220.4610727,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279220.711561,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279220.9620612,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279221.212551,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279221.4630415,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279221.7135324,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279221.9640105,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279222.214497,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279222.4649878,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279222.715462,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279222.9659183,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279223.2164462,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279223.4669192,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279223.7173643,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279223.967852,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279224.2182996,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279224.4687946,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279224.719286,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279224.969786,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279225.2202287,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279225.4707265,
+    "ram_total": 134309679104,
+    "ram_available": 47801602048,
+    "ram_used": 86508077056,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279225.721367,
+    "ram_total": 134309679104,
+    "ram_available": 47799537664,
+    "ram_used": 86510141440,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279225.9719508,
+    "ram_total": 134309679104,
+    "ram_available": 47800840192,
+    "ram_used": 86508838912,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279226.2224572,
+    "ram_total": 134309679104,
+    "ram_available": 47800741888,
+    "ram_used": 86508937216,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279226.4729764,
+    "ram_total": 134309679104,
+    "ram_available": 47800741888,
+    "ram_used": 86508937216,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279226.7234662,
+    "ram_total": 134309679104,
+    "ram_available": 47800741888,
+    "ram_used": 86508937216,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279226.9739776,
+    "ram_total": 134309679104,
+    "ram_available": 47800741888,
+    "ram_used": 86508937216,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279227.2244766,
+    "ram_total": 134309679104,
+    "ram_available": 47802286080,
+    "ram_used": 86507393024,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279227.474981,
+    "ram_total": 134309679104,
+    "ram_available": 47802286080,
+    "ram_used": 86507393024,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279227.7254388,
+    "ram_total": 134309679104,
+    "ram_available": 47802286080,
+    "ram_used": 86507393024,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279227.975874,
+    "ram_total": 134309679104,
+    "ram_available": 47802286080,
+    "ram_used": 86507393024,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279228.226361,
+    "ram_total": 134309679104,
+    "ram_available": 47802847232,
+    "ram_used": 86506831872,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279228.476856,
+    "ram_total": 134309679104,
+    "ram_available": 47802847232,
+    "ram_used": 86506831872,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279228.7273386,
+    "ram_total": 134309679104,
+    "ram_available": 47802847232,
+    "ram_used": 86506831872,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279228.9778085,
+    "ram_total": 134309679104,
+    "ram_available": 47802847232,
+    "ram_used": 86506831872,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279229.2282388,
+    "ram_total": 134309679104,
+    "ram_available": 47803273216,
+    "ram_used": 86506405888,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279229.4787185,
+    "ram_total": 134309679104,
+    "ram_available": 47803273216,
+    "ram_used": 86506405888,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279229.729206,
+    "ram_total": 134309679104,
+    "ram_available": 47803273216,
+    "ram_used": 86506405888,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279229.9797058,
+    "ram_total": 134309679104,
+    "ram_available": 47803273216,
+    "ram_used": 86506405888,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279230.230157,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279230.4806485,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279230.7311292,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279230.9815636,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279231.2320404,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279231.4824867,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279231.7329953,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279231.9834864,
+    "ram_total": 134309679104,
+    "ram_available": 47803604992,
+    "ram_used": 86506074112,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279232.2340226,
+    "ram_total": 134309679104,
+    "ram_available": 47671611392,
+    "ram_used": 86638067712,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279232.484495,
+    "ram_total": 134309679104,
+    "ram_available": 47671611392,
+    "ram_used": 86638067712,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279232.7349973,
+    "ram_total": 134309679104,
+    "ram_available": 47671611392,
+    "ram_used": 86638067712,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279232.985486,
+    "ram_total": 134309679104,
+    "ram_available": 47671611392,
+    "ram_used": 86638067712,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279233.2359865,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279233.4864304,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279233.736943,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279233.9874094,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279234.2379093,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279234.4883995,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279234.7388408,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279234.9893382,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279235.2398396,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279235.4903316,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279235.7408295,
+    "ram_total": 134309679104,
+    "ram_available": 47671414784,
+    "ram_used": 86638264320,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279235.991452,
+    "ram_total": 134309679104,
+    "ram_available": 47668654080,
+    "ram_used": 86641025024,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279236.2419612,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279236.4924426,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279236.7429578,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279236.9934528,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279237.243957,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279237.494441,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279237.7449377,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279237.9953942,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279238.2458951,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279238.4963582,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279238.7468624,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279238.9973497,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279239.247849,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279239.4983377,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279239.748842,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279239.999367,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279240.2498806,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279240.5003357,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279240.7507885,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279241.0012789,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279241.2517838,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279241.5022702,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279241.7527814,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279242.0032692,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279242.2537673,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279242.5042586,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279242.7547567,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279243.0052214,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279243.2557251,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279243.5062377,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279243.7566953,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279244.007182,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279244.257651,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279244.5081105,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279244.7586067,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279245.0091002,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279245.2595851,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279245.5100837,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279245.7605722,
+    "ram_total": 134309679104,
+    "ram_available": 47667826688,
+    "ram_used": 86641852416,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279246.0111828,
+    "ram_total": 134309679104,
+    "ram_available": 47665795072,
+    "ram_used": 86643884032,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279246.2617972,
+    "ram_total": 134309679104,
+    "ram_available": 47664517120,
+    "ram_used": 86645161984,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279246.5123239,
+    "ram_total": 134309679104,
+    "ram_available": 47664517120,
+    "ram_used": 86645161984,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279246.7628117,
+    "ram_total": 134309679104,
+    "ram_available": 47664517120,
+    "ram_used": 86645161984,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279247.0132914,
+    "ram_total": 134309679104,
+    "ram_available": 47664517120,
+    "ram_used": 86645161984,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279247.2637355,
+    "ram_total": 134309679104,
+    "ram_available": 47665549312,
+    "ram_used": 86644129792,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279247.5141764,
+    "ram_total": 134309679104,
+    "ram_available": 47665549312,
+    "ram_used": 86644129792,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279247.764648,
+    "ram_total": 134309679104,
+    "ram_available": 47665549312,
+    "ram_used": 86644129792,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279248.0151143,
+    "ram_total": 134309679104,
+    "ram_available": 47665549312,
+    "ram_used": 86644129792,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279248.265601,
+    "ram_total": 134309679104,
+    "ram_available": 47667712000,
+    "ram_used": 86641967104,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279248.5160809,
+    "ram_total": 134309679104,
+    "ram_available": 47667712000,
+    "ram_used": 86641967104,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279248.7665057,
+    "ram_total": 134309679104,
+    "ram_available": 47667712000,
+    "ram_used": 86641967104,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279249.0170004,
+    "ram_total": 134309679104,
+    "ram_available": 47667712000,
+    "ram_used": 86641967104,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279249.2674453,
+    "ram_total": 134309679104,
+    "ram_available": 47669530624,
+    "ram_used": 86640148480,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279249.5179079,
+    "ram_total": 134309679104,
+    "ram_available": 47669530624,
+    "ram_used": 86640148480,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279249.768379,
+    "ram_total": 134309679104,
+    "ram_available": 47669530624,
+    "ram_used": 86640148480,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279250.018926,
+    "ram_total": 134309679104,
+    "ram_available": 47669530624,
+    "ram_used": 86640148480,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279250.2694273,
+    "ram_total": 134309679104,
+    "ram_available": 47671574528,
+    "ram_used": 86638104576,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279250.5199318,
+    "ram_total": 134309679104,
+    "ram_available": 47671574528,
+    "ram_used": 86638104576,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279250.770422,
+    "ram_total": 134309679104,
+    "ram_available": 47671574528,
+    "ram_used": 86638104576,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279251.0209332,
+    "ram_total": 134309679104,
+    "ram_available": 47671574528,
+    "ram_used": 86638104576,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279251.2714205,
+    "ram_total": 134309679104,
+    "ram_available": 47673360384,
+    "ram_used": 86636318720,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279251.521916,
+    "ram_total": 134309679104,
+    "ram_available": 47673360384,
+    "ram_used": 86636318720,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279251.7724,
+    "ram_total": 134309679104,
+    "ram_available": 47673360384,
+    "ram_used": 86636318720,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279252.0228925,
+    "ram_total": 134309679104,
+    "ram_available": 47673360384,
+    "ram_used": 86636318720,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279252.2733793,
+    "ram_total": 134309679104,
+    "ram_available": 47674408960,
+    "ram_used": 86635270144,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279252.5238378,
+    "ram_total": 134309679104,
+    "ram_available": 47674408960,
+    "ram_used": 86635270144,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  },
+  {
+    "at": 1791279252.5829358,
+    "ram_total": 134309679104,
+    "ram_available": 47673905152,
+    "ram_used": 86635773952,
+    "gpu": {
+      "mem_info_gtt_used": 73048141824,
+      "mem_info_gtt_total": 133143986176,
+      "mem_info_vram_used": 180690944,
+      "mem_info_vram_total": 536870912
+    }
+  }
+]

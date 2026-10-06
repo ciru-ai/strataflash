@@ -1,0 +1,313 @@
+{
+  "status": "COMPLETE",
+  "score": 77,
+  "cases": [
+    "TC-70",
+    "TC-71",
+    "TC-72",
+    "TC-73",
+    "TC-74",
+    "TC-75",
+    "TC-76",
+    "TC-77",
+    "TC-78",
+    "TC-79",
+    "TC-80",
+    "TC-81",
+    "TC-82",
+    "TC-83",
+    "TC-84"
+  ],
+  "requests": [
+    {
+      "path": "benchmark/results/tools/full/http/0001",
+      "request_sha256": "26013637e07353f4a4244b5b7ddc8f5cd7c3914f9fe4dc70bd4397234574fece",
+      "response_sha256": "abc76edfcf4022f21774014350293409e0eeabbfc92d76288f10212a84274467"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0002",
+      "request_sha256": "e2d23556246c046012b821b8a9722438f3a4b282adf35ecbe2e0c886ff3d997e",
+      "response_sha256": "e9aef925117694a01c9f4d12456ebe73f5d83fd5c9eb960a65ccbeedd441d2a2"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0003",
+      "request_sha256": "565e08289948cef0f888c253403859406666e468ae21f1d3791a26e5c578ef8d",
+      "response_sha256": "c2d2f13d06e17877e9fc8d0a9edef71d6723bf7e61538ef5e131ee15c7abd244"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0004",
+      "request_sha256": "97fad91ea514f1de1327248a991c37ecf14a91b804a8794932c051c085ccd605",
+      "response_sha256": "91636e10503af9d1311d271b3bbd3324a6bea951c44c35e77910beab1b9252d8"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0005",
+      "request_sha256": "f6dcefffec86a8eb9cc7f94025162d0a75b9426404aaab1f3d0a3a5fd614e5cc",
+      "response_sha256": "6fe98c0a0e52a755044f4b91938c6845eba904ed9b66ae012452817520dc3e1e"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0006",
+      "request_sha256": "ee6d03738433ad45a280d5ac85997264b71ad1c873630373da08ccf351a6c466",
+      "response_sha256": "142c6a9ef59383ef96dc4930b7e702ce20186e53d5630b502b12ca41c645970b"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0007",
+      "request_sha256": "00c406a340f76e15aa897b7d5dec7b969d078833f79bffa60eb784e46ab6781a",
+      "response_sha256": "29949f5e09d50ff5d14034c50244ae6b810e9f8424a068f627f5e748e3538d9e"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0008",
+      "request_sha256": "0cd82cd8f8dde1ce886ce88a5b772d233e0b0159befd6b4f073f6cc3e6fc8537",
+      "response_sha256": "08ed853ee6978a49cbeda8ef82272cdb78cbe99e05a2914d7b19890971916fb6"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0009",
+      "request_sha256": "4df516df2345410893b5a4d4522cacc41fc0649f3373e1245618f68edebac384",
+      "response_sha256": "e51d29c6b47f88025e266435d207b44d5f300e26d38fd4f5adb1a1ec0b067d33"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0010",
+      "request_sha256": "ce7fa3d247541d5d014fb9303e6acfe12685e483d00eb26248ba391c60be1e2a",
+      "response_sha256": "9b97b4a2d1e1818a2b06783431d1f3f5d8a245ac6be33dc91f5b5c62bf9bf5ec"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0011",
+      "request_sha256": "766ba637c7db1872087dbddc229b492082f319b8abecdf4dcc4b0f937f36e2e2",
+      "response_sha256": "3ff776f610edc94defc53e17ac4afb406fefd33313337a10650012eb6ab84600"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0012",
+      "request_sha256": "88d1f20b83dcbf0c13df5a4b88b0ebf71f1e4bd98cbd95968c1220bf812bed62",
+      "response_sha256": "65ca6fc04a2cbe6f1067b7a52a3e6c46b918bf5e608c755076f2004dab87eac8"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0013",
+      "request_sha256": "a0c3dcf1399da4140f17d279a18eac38d681b6aac705b385289c99ac197c4754",
+      "response_sha256": "c3237e77f20fae38c8e990ce79fcf9fa7c7554151cbe6359348edf3402d666e5"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0014",
+      "request_sha256": "e764fe5e5f4784b7a0ac572e19ebe24df873a503e6bf29b7145199a05f5ac281",
+      "response_sha256": "5e39d824f1cc0da62dd2d98324dce59f2b8783a864e1c1c5d19bee175ed96a01"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0015",
+      "request_sha256": "cc525fbf8723dcd35b2d26483789ad1c85de58c1f984d4b264464c9362522645",
+      "response_sha256": "bf4b60d8ac59423b9ea6b1f148d6feb43ef23dc4599510bcfcedea0c36376153"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0016",
+      "request_sha256": "36da25c620ed9798738e89eccfe6f6418a3efa548afbcbde599928a8af306227",
+      "response_sha256": "0476ce88e4b79702bc2b6a362e1b7a1b2ea5e9f15b0824ea71bd38c506941640"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0017",
+      "request_sha256": "9c7de8a68598615636c0da9f3c448477f45d3461cf7f00b1b8600038b8ad6355",
+      "response_sha256": "8cad8664a40d725f535bae930ffdb57a5c686c4ea3f3344575b9fc9d15224c12"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0018",
+      "request_sha256": "9cfd4926ba1ec6047dc0f7d9a288884dde2e255abbe5088468bcfa5d510f89f8",
+      "response_sha256": "8e064cb053a67be9b2367778fab37fd782a028bb91054b157e1460e05ada8496"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0019",
+      "request_sha256": "6118d0ec5d9a50241fcd7216e6ec58c592abaf4a0d706d50efc900c1ac2dc492",
+      "response_sha256": "4694811bcc73c507893944f29a8447bc6e7f34cb731086f7047f60930ea81076"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0020",
+      "request_sha256": "d59d54417cf4da9f947a3211879ec4cfffac45bf3ee86c8c3b09e9bd94f33bb8",
+      "response_sha256": "4f8fc733039aba1837a76aa78353290b6428a67b2e9e4b10c538bbe7a8b6711c"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0021",
+      "request_sha256": "108dfe13480e3c93958c01773c2c5f37d9acbd34a5d794110b05b529f281f3db",
+      "response_sha256": "e65f5e26304d96e829ecd0e75fd104ec31d653306583269993a4e77f5ccf60a9"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0022",
+      "request_sha256": "4ccf52ef40d428582febd9137b93afc0c1fc48243dc89c728197335a887ed23e",
+      "response_sha256": "d468bf807edfa9675a81fe59185976640e2702b7545e6575176ff06199a52bf4"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0023",
+      "request_sha256": "31becb5734e0027d2aece5f84ad00038dbda3e8e33818548ad6568c5016d3ce5",
+      "response_sha256": "da87fd0a2886edd67a4dd2465857b62bf258f707184d02c750d5903046e71757"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0024",
+      "request_sha256": "b36505fd77b63e4e574a1feb73aadb844223bb61da2694478a6aa98f40e120c6",
+      "response_sha256": "e8cc4521061273c802fb36298e6f1c6d1f0f68967e3b9a51c173de9f1da3cf05"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0025",
+      "request_sha256": "9264bcf9bb3d84b892ca06baa3ef3f86d13bfaf7e912f01da2dbed1350965ed0",
+      "response_sha256": "69dadcc11f976edfb6ee4d2e5a62b866d3df7734a7cdedc3cbec1005305ab1cb"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0026",
+      "request_sha256": "0d1b74b37d3fc74a7b928446a40f04e682adb4deb0a3488dcbd15868d9982f23",
+      "response_sha256": "4432a03e17635f8cff56d4b12624fc48a16f7729f05230062f5ba512664fb928"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0027",
+      "request_sha256": "794e94dd4a55872bd01fe927de7b350e6cf2b3363ba652179bd130674e888c66",
+      "response_sha256": "ac26e33e1e451cd94e48a48951e66010f9a1afdcaa5690f92bd513bcdae5ab67"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0028",
+      "request_sha256": "83d1e4022d7f646f2539faf2deb9d70e7a47cf966b956eb9788d64bff88c6331",
+      "response_sha256": "bc438be714f2fd0f4a77ad1def6a10733e94da5035da7a073886d759dd96e174"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0029",
+      "request_sha256": "7d5d9419ea750b1570075f2ec7e9662cad252478b36b9c7488cd3feceb94b4b3",
+      "response_sha256": "eeb2e79e8bbdc6eaae273898ba778fe80d665f0ef91c95f3c163d2da809275a0"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0030",
+      "request_sha256": "043b8a97ea6a72685ee100ad3b32e11f4bb16a8e5eab77bb5374e5f1a58f99bb",
+      "response_sha256": "2fa44c3a9f180f9fa78502e2d237f056390c636f0d13653b367be56afa39215f"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0031",
+      "request_sha256": "b6d74336c6f0657314a93a65e5f22a98707612011d5f5f3b858665ca99aba243",
+      "response_sha256": "f7b393ea489cd025faa57f26a5c7a06f2fad0b22b64c4860f7cdd077165bf589"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0032",
+      "request_sha256": "65ecb2d7442346d92fcc688db985e9ea5df9a280a461e6d653d656b8f7e9b350",
+      "response_sha256": "6f02bc8f5eec130bd58e0dc6cc1477f2d538b0a88edb8dd79a2e7f345cbf10ca"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0033",
+      "request_sha256": "f2e06481c3f4222793dda62cac62ef9cd75f34c05d2847f508ec625d91f4f082",
+      "response_sha256": "6f960e4dec9c22915c73036add18daaff8d9dd1770dbdb9f0a140f6a3ce287f6"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0034",
+      "request_sha256": "2a1fd19d3ef474e101815eed82ac0d6dcb08e594d51add55ac320da547ffa845",
+      "response_sha256": "4f9faddad721379c61396c2e33fc02adc7b4ba715e30ac227c80a2901bbd38e6"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0035",
+      "request_sha256": "1c4f8d6755bd0148efde73dafb5ed9877a41cee4be98dbdf7ec0aab6d9bd268c",
+      "response_sha256": "bbbb42f761b65f1d348ee89aab333f657f9952428dbce329ceb2dd841c3a5592"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0036",
+      "request_sha256": "082160f6fb39091af3d45f561163255f8881fcfc87fc5b8aacb2d5d311ad4266",
+      "response_sha256": "bfca4e388a2120243ffaa51a59727c4d65508f2c21bb2a23eea64dbd668fb1bd"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0037",
+      "request_sha256": "69715c5a591ad995754e225da5f18ff7f073e896658dcd861008face1e76ee98",
+      "response_sha256": "e0c1c7aba37b066d98175c69fa3db758ca565cb63cbae21e89a02559709ae909"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0038",
+      "request_sha256": "9b576f80b92380bd901ded378bb6884bd3f6c9bc1fc37fbd04c396e31cefb5b1",
+      "response_sha256": "7af035d1fa33848f8460fd122ec5763b529167cb349a139171196e9d6b18ac35"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0039",
+      "request_sha256": "f6a753bc07abc7961156a02c3853d5da9266228f64f91b213baa34844d9f7077",
+      "response_sha256": "ff7b008471a5d52d2b017a4ca24d3a8c16980f3521458f5f56ea980f840b6d0f"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0040",
+      "request_sha256": "71018a3fdfd2005c9259005189683178b72ba2fcf2df001efdf5e33071faee0b",
+      "response_sha256": "708a0444adcd964a2de9f67cca74aeec843b3470cda644d86fa3cbe339f2a137"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0041",
+      "request_sha256": "3f7eb9826096be6a0a18875db99701d276f7f51a7443117d45ce3edd3e81d8f0",
+      "response_sha256": "0c7a7c06fde6c49c88ae0035e4a2ce2e4ca8148509d0105aee891654e9c00db1"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0042",
+      "request_sha256": "ae6e7a5f9f8fdf4c2612a9352a418351112c5abe37cb3fdd8e34494ec34826e4",
+      "response_sha256": "7f47b99015e012429dbbc513fb12f8129277333da3373c6e33fbfabd442f620f"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0043",
+      "request_sha256": "99ee19849124e6ed886e1ce07fe13c50ac7312812e2459731faa35ae880e90a4",
+      "response_sha256": "27053c3cbf2ac7b9fb7ad112183223033dc85b31dd84625707d35fddc641d195"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0044",
+      "request_sha256": "33bf7e3476ba76b9eca63d14d8d03518fbade30ff1e7eb5c64ca6a507501413a",
+      "response_sha256": "a1c5c785bcbbd1a2637cf05d4df9e9885f0a12096436b290a787792ae6a382ba"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0045",
+      "request_sha256": "e3b378a79172ca2397601d218c7db25f5eb0caded975b14e69db36ae32319cf3",
+      "response_sha256": "41da85cc1c8dfeb16e873d145fd95ee8f9bfea36e007d83efd8d9e15ff9594c0"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0046",
+      "request_sha256": "2631635c4adf3b56b9d857fc60196157ce17b013fede2ceb9ae13063d027f888",
+      "response_sha256": "a880d4817203a9385db1c544074bde5a8b9c8ce0f8a9a900c0b6c4bc730ac583"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0047",
+      "request_sha256": "48d381d8f910c9a5e8276a603e496293332222d6d6e6e8d176fea1bffd57b913",
+      "response_sha256": "ed609bb0cbf06d45360d71186d00fff0f21480cd7178d7a3f40e8d6893d13146"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0048",
+      "request_sha256": "9bebba04128f63eb21b58a894b34230714490e90726a4363ecc8fa178d352984",
+      "response_sha256": "3fc3e969846f184a5053929528a400dfe310fdfc63ffe69c006dfa15a6aa790d"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0049",
+      "request_sha256": "d808bb592c1583e2698cd347dd04b2877dbe21d8fc8263b39cd76ff641e9a700",
+      "response_sha256": "7e7463a934011c50302df7d36fb0570600e0d8bc780d0749c1fe962cbe2955a3"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0050",
+      "request_sha256": "2bec36be522f3290c3b41670b3887239cff7731f56ab2bc82e56ca8979daaf5b",
+      "response_sha256": "6886e8b9c0cd83478b52700cc76b5c018d45e6d15f3f5143ccdcf961ae003335"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0051",
+      "request_sha256": "db57be7b49cf94e604819858050bd4be5910d6b5ba2be31020477dd4a08ec93b",
+      "response_sha256": "0071d352c9ff0b778f5b9a8b947a465c768862e0a8c6eff193345f58825eef6b"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0052",
+      "request_sha256": "b30c545bc47d9d657b563f3de780a02d65f37f1426f677f4b13686e63f8630b7",
+      "response_sha256": "f2c0af69d9531adecfcae1a9ccebff6ad4b485992083e05af7cf347a8c4c4a6c"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0053",
+      "request_sha256": "9a123a3168339211f126aba594d12aef8fc375465dda9206df6e28f564ffcf83",
+      "response_sha256": "7f3421d3a554f704dce05c89791cbae81c2a89bde0483d7f42963b594c3eb9dd"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0054",
+      "request_sha256": "159f299ae52596d6d6f879eefae57a78a594fe3d03eea9d7d73eda22a0f838ed",
+      "response_sha256": "9ff3a45535c97ca0d4346c66e2fef7b60cd27edd5a9ac5e97fee4afacdceeba2"
+    },
+    {
+      "path": "benchmark/results/tools/full/http/0055",
+      "request_sha256": "91c52b07af16075b1a311b74a17d5fe025668cc39c612f5d7525a8782b725a0e",
+      "response_sha256": "40d0f6ec03e3b87d5e7610d2570a1b9dd29eef6ee79fc885e83a5d2a8e30196e"
+    }
+  ],
+  "all_requests_validated_before_generation": true,
+  "thinking": false,
+  "retries": 0,
+  "card_sampler": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 1.5,
+    "frequency_penalty": 0.0,
+    "repeat_penalty": 1.0,
+    "seed": 123
+  },
+  "report_sha256": "b94358bd1e1b816b430afd61165487a15e549d23fbe06c93ff627aaa0de51b6c",
+  "wall_seconds": 185.05713018300594
+}

@@ -1,0 +1,15 @@
+{
+  "before": {
+    "ActiveState": "active",
+    "UnitFileState": "enabled",
+    "MainPID": "96321"
+  },
+  "after": {
+    "ActiveState": "active",
+    "UnitFileState": "enabled",
+    "MainPID": "97710"
+  },
+  "benchmark_gpu_released": true,
+  "main_active_state_restored": true,
+  "hardware_unchanged": true
+}

@@ -1,0 +1,8 @@
+  ┊ 📚 skill     incident-summary  0.0s
+  ┊ 💬 Yes — the `incident-summary` skill exists. Following it now.
+  ┊ 🔎 find      *.json  1.0s
+  ┊ 📖 read      data/incidents/0.json  0.6s
+  ┊ 📖 read      data/incidents/1.json  0.6s
+  ┊ 📖 read      data/incidents/2.json  0.6s
+  ┊ ✍️  write     reports/summary.txt  0.6s
+  ┊ 📖 read      reports/summary.txt  0.8s

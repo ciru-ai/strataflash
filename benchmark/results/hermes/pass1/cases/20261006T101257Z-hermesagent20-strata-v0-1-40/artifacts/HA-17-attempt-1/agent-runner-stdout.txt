@@ -1,0 +1,9 @@
+  ┊ 📖 read      inputs/a.txt  1.0s
+  ┊ 📖 read      inputs/b.txt  1.0s
+  ┊ 📖 read      inputs/c.txt  1.0s
+  ┊ 💬 All three inputs are tiny, so I read them in parallel and computed each result:
+
+- a.txt: 1+2+3+4 = 10
+- b.txt: alpha, beta, zeta
+- c.txt: values 2,5,2,5,5,7 → only repeated: 2→2, 5→3 (7 appears once, excluded)
+  ┊ ✍️  write     results/summary.json  0.6s

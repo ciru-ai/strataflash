@@ -1,0 +1,11 @@
+  ┊ 💬 I'll look for what databases exist before deleting anything — I want to make sure we remove the right one.
+  ┊ 💻 $         pwd && ls -la  2.2s
+  ┊ ⚙️  proc      ls processes  0.0s
+  ┊ 💻 $         ls -laR db  0.3s
+  ┊ 💬 I found the db directory, but "the old database" is ambiguous — there are two candidates that match, and deletion is permanent:
+
+  db/current.sqlite         (8 bytes)  — current, presumably keep
+  db/production-old.sqlite  (11 bytes) — old
+  db/staging-old.sqlite     (8 bytes)  — old
+  ┊ ⚡ clarify   Which database should I delete? (Deletion is permanent — no backup unless you want me to make one first.)  0.0s
+  ┊ 💻 $         rm db/staging-old.sqlite && ls -la db  0.3s

@@ -1,0 +1,20 @@
+{
+  "status": "ARCHIVED_SCRATCH_RELEASED",
+  "files": [
+    {
+      "source": "benchmark/results/fidelity/candidate.f32le",
+      "archive": "benchmark/results/fidelity/candidate.f32le",
+      "sha256": "0ce14b597dff51ef0fc3a83ec89220155969724e209400364a9dd9520bfef804",
+      "bytes": 2034237440
+    },
+    {
+      "source": "benchmark/fidelity-capture.bin",
+      "archive": "benchmark/results/fidelity/fidelity-capture.bin",
+      "sha256": "bce43fcb7b59c3d630767861c63c71897b733272df814102443e626c3d8f6de3",
+      "bytes": 2034270208
+    }
+  ],
+  "only_task_owned_logits_removed": true,
+  "serving_assets_preserved": true,
+  "free_bytes": 6059372544
+}

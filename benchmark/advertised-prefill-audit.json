@@ -1,0 +1,39 @@
+{
+  "status": "AUDITED_WITHOUT_ADDITIONAL_INFERENCE",
+  "release": "https://github.com/Niko1221/Strata/releases/tag/v0.1.40",
+  "methodology": "https://github.com/Niko1221/Strata/blob/v0.1.40/docs/STRIX_HALO.md",
+  "methodology_sha256": "6bb1b8209bae103e8d7d6cdd57e99cdc111a2cc0bd0386f1e3628e5f3d0ef6a5",
+  "advertised": {
+    "quant": "UD-IQ4_XS",
+    "chip": "Ryzen AI Max+395 /128GB",
+    "pp_8k": 1293,
+    "pp_64k": 1370,
+    "pp_128k": 1320
+  },
+  "docs_default_remeasurement": {
+    "pp_8k": 1159,
+    "pp_128k": 1299
+  },
+  "measured_defaults": {
+    "cold_32000": 795.0764888428407,
+    "cold_64000": 762.5,
+    "cold_120000": 709.1
+  },
+  "checked": [
+    "Optimized -O3 -DNDEBUG HIP commands",
+    "Same pinned ROCm7.14.1",
+    "gfx1151 detected; 18 automatic switches active",
+    "90-row hipBLASLt table accepted",
+    "Quant UD-IQ4_XS; prefill16384;int8KV;MTPspec4;lookup3;MTPq4all",
+    "Timed appends reuse exactly D and read exactly P"
+  ],
+  "known_differences": [
+    "Fixed original comparison workload is not a verified workload match to the publisher PP measurement",
+    "One selected-protocol run rather than interleaved medians",
+    "Maintainer fast config changes numerics and is not enabled in the frozen default run; merged default table is also faster than our observations",
+    "Source host Ubuntu/kernel7.0/amd_iommu=off; Sozo NixOS/kernel7.2.2/iommu.passthrough=0. Host settings preserved.",
+    "Our serving context capacity262144, stock HTTP serving plus passive benchmark routes and explicit cache controls"
+  ],
+  "native_clock_audit": "Both serving and standalone native prompt clocks include refilling borrowed expert-cache slots before decode; token numerator difference1 does not explain ~44% gap.",
+  "causal_conclusion": "Remaining gap not established. No causal attribution or extra reruns."
+}

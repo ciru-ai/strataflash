@@ -1,0 +1,24 @@
+{
+  "first_pass_invalid_case": "HA-04",
+  "case_not_retried": true,
+  "first_pass_remaining": [
+    "HA-05",
+    "HA-06",
+    "HA-07",
+    "HA-08",
+    "HA-09",
+    "HA-10",
+    "HA-11",
+    "HA-12",
+    "HA-13",
+    "HA-14",
+    "HA-15",
+    "HA-16",
+    "HA-17",
+    "HA-18",
+    "HA-19",
+    "HA-20"
+  ],
+  "reason": "Local adapter rejected native session_search summarizer before provider generation; agent internal retries invalidate first HA04 evidence",
+  "nested_request_policy": "Retain summarizer messages and 10000-token internal limit; use provider .6/xhigh recommendation and stage seed"
+}

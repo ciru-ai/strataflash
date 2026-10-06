@@ -1,0 +1,22 @@
+{
+  "case": "HA-15-attempt-1",
+  "status": "valid-agent-evidence",
+  "issues": [],
+  "completed": true,
+  "model": "strata-v0.1.40",
+  "api_calls": 3,
+  "max_turns": 2147483647,
+  "input_tokens": 1699,
+  "output_tokens": 221,
+  "tools": [
+    "cronjob",
+    "cronjob"
+  ],
+  "no_tool_trace": false,
+  "has_final_response": true,
+  "has_assistant_output": true,
+  "forced_budget_summary": false,
+  "client_error_lines": [],
+  "request_sha256": "93ef6205d18e0e266654b0bdea38a15299a023284e2a995057546396192b7b94",
+  "result_sha256": "87f07453af3d70e29ac66b7371d5b2ed498b376ca43d8f5e4a8fbd517e22a5ae"
+}

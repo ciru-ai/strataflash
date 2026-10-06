@@ -1,0 +1,4 @@
+/opt/hermes-venv/lib/python3.11/site-packages/firecrawl/v2/types.py:1209: UserWarning: Field name "json" in "MonitorPageDiff" shadows an attribute in parent "BaseModel"
+  class MonitorPageDiff(BaseModel):
+/opt/hermes-venv/lib/python3.11/site-packages/firecrawl/v2/types.py:1224: UserWarning: Field name "json" in "MonitorPageSnapshot" shadows an attribute in parent "BaseModel"
+  class MonitorPageSnapshot(BaseModel):

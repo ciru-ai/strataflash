@@ -1,0 +1,71 @@
+{
+  "panel": "hermes",
+  "command": [
+    "benchmark/python/bin/python3",
+    "benchmark/benchmark_frontend.py",
+    "--engine",
+    "strata",
+    "--config",
+    "benchmark/ownership/hermes/config.json",
+    "--port",
+    "18140"
+  ],
+  "config": {
+    "exe": "benchmark/bin/strata",
+    "args": [
+      "--native",
+      "benchmark/weights/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+      "--pack",
+      "benchmark/pack",
+      "--max-context",
+      "262144",
+      "--prefill",
+      "16384",
+      "--kv",
+      "int8",
+      "--resident-experts",
+      "--expert-profile",
+      "benchmark/source/data/expert-profile.bin",
+      "--prompt-cache",
+      "6",
+      "--mtp",
+      "benchmark/mtp/rt",
+      "--spec",
+      "4",
+      "--lookup-chain",
+      "3",
+      "--mtp-q4",
+      "all"
+    ],
+    "cwd": "benchmark/source",
+    "tokenizer": "benchmark/pack/tokenizer",
+    "model_name": "strata-v0.1.40",
+    "log": "benchmark/ownership/hermes/engine.log",
+    "host": "127.0.0.1",
+    "backend": "hip",
+    "repeat_stop_tokens": 0,
+    "engine_silence_s": 1800,
+    "reasoning_loop_recovery": false,
+    "sampling": {
+      "temperature": 1,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0,
+      "presence_penalty": 0,
+      "repetition_penalty": 1,
+      "frequency_penalty": 0
+    }
+  },
+  "context": 262144,
+  "executable_sha256": "80176b25e7e72fc004bfb6d169ef24ed0c8ad4a2d2cb7d25c04e18ac553ea4ad",
+  "model_sha256": "5ce89370720f8bf90890f439361282104c1aa1482d4013bb9a50923e758e71a4",
+  "build_receipt_sha256": "af6374188311c99afd0735701d5ccf35ce7ba078429ac5a77cac59c6dda480d4",
+  "experiment_plan_sha256": "947115fe1cb294294e5035019ec55cd714660552bbf09e8b9d0f63010a133b54",
+  "optional_numeric_fast_kernels": false,
+  "environment": {
+    "STRATA_HIPBLASLT_TUNING": "benchmark/source/tools/hip/gfx1151-hipblaslt-100401.txt",
+    "STRATA_BENCH_JOURNAL": "benchmark/ownership/hermes/native-journal.jsonl"
+  },
+  "zero_replay_contract_sha256": null,
+  "cpu_arena_policy": "native mmap with resident CPU complement; avoid duplicating GPU-cached expert blobs in UMA"
+}

@@ -1,0 +1,1029 @@
+: heartbeat
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "<|im_end|>", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "\n", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "<|im_start|>", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "<think>", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "\n", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "The", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " user", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " wants", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " me", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " to", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " continue", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " the", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ascending", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " integer", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " sequence", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " from", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " to", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " separated", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " by", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " commas", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " This", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " is", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " a", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " straightforward", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " enumeration", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " task", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " I", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "'ll", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " continue", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " from", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " where", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " they", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " left", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " off", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " (", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "after", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ")", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " and", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " go", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " all", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " the", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " way", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " to", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ".", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "\n", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "</think>", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "\n\n", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "6", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "7", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "8", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "9", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "0", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "3", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "4", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "1", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "2", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "5", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": ",", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": " ", "finish_reason": null}]}
+
+data: {"model": "strata-v0.1.40", "choices": [{"index": 0, "text": "", "finish_reason": "length"}], "usage": {"prompt_tokens": 256512, "completion_tokens": 512, "total_tokens": 257024}, "timings": {"cache_n": 256000, "prompt_n": 512, "prompt_ms": 1964.3, "prompt_per_token_ms": 3.837, "prompt_per_second": 260.7, "predicted_n": 512, "predicted_ms": 9484.8, "predicted_per_token_ms": 18.525, "predicted_per_second": 54.0, "draft_n": 407, "draft_n_accepted": 378}, "native_timings": {"generated": 512, "prompt_tokens": 256512, "prompt_ms": 1964.3, "decode_ms": 9484.8, "finish": "length", "drafts_accepted": 378, "drafts_offered": 407, "reused": 256000, "hits": 0, "lookups": 0, "ram_blobs": 0, "file_blobs": 0, "file_mb": 0.0, "prompt_read": 512, "offloaded": 0}}
+
+data: [DONE]

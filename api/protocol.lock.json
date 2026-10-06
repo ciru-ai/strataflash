@@ -1,0 +1,67 @@
+{
+  "model": "qwen3.8-flash",
+  "endpoint": "https://token-plan.ap-southeast-1.maas.aliyuncs.com",
+  "classification": "Hosted service extension; excluded from controlled local-hardware rankings",
+  "requested_panels": [
+    "he09_speed",
+    "hard_tool_15",
+    "hermesagent20"
+  ],
+  "unsupported_panels": {
+    "append_speed_grid": "No raw token-ID completion/tokenize/slot-reset interface",
+    "cold_prefix": "Native prompt timing and verified cold cache unavailable",
+    "short_fidelity": "Full vocabulary logits and exact deployed weights unavailable",
+    "memory_and_disk": "Provider weight files, RAM, GPU and disk metrics unavailable"
+  },
+  "mismatch_corrections": {
+    "hardware": "Hosted hardware/runtime/weights/template revision cannot be pinned; separate hosted panel",
+    "context": "Hosted 1M capacity versus local 262144; physical capacity cannot be forced; no claim of controlled equivalence",
+    "cache": "Provider implicit cache uncontrolled; capture returned cached_tokens; no cold-cache claim",
+    "sampler": "Use hosted model guide: thinking .6/xhigh, off .7; omit top_p per provider recommendation; top_k20; own presence defaults",
+    "native_fields": "Remove unsupported neutral min_p/repeat penalties/cache_prompt; max_tokens=-1 becomes documented default maximum",
+    "output": "No custom cap; hosted documented max output 131072, thinking 262144; local unlimited to context differs",
+    "timings": "Capture client wall/stream deltas and provider usage; native PP/TG cannot be substituted",
+    "model_identity": "qwen3.8-flash rolling hosted alias; official release catalog pinned as evidence, served weights unobservable"
+  },
+  "he09": {
+    "thinking": false,
+    "concurrency": 1,
+    "seed": 123,
+    "warmups": 0,
+    "timeout": 180,
+    "stream": false
+  },
+  "tools": {
+    "thinking": false,
+    "concurrency": 1,
+    "seed": 123,
+    "warmups": 0,
+    "max_turns": 32,
+    "timeout": 1800
+  },
+  "hermes": {
+    "thinking": true,
+    "passes": 2,
+    "smoke": [
+      "HA-01",
+      "HA-05",
+      "HA-20"
+    ],
+    "seeds": [
+      160915,
+      160916,
+      160917
+    ],
+    "case_timeout": 1800
+  },
+  "retries": 0,
+  "first_attempt_only": true,
+  "runner_sha256": "45cd528ccb38e31af0beddd4db05d5f5ec404468d3745a1e44aaec38c0f86a17",
+  "source_sha256": {
+    "hcq8-20260930/active-sweep-contract.json": "0d9915e813677a58368d230accc556f5eacf60aa49edc214f9b5684ef2450295",
+    "hcq8-20260930/recommended-tools-20261001/initial-requests.json": "0b393234b3db362aedb63004da0fb1a8afc46abd660f5c64ad70762cd894388d",
+    "token-plan-qwen38-20261002/model-catalog.json": "24daeec3636f475c30eb97c1376076b56cebb4926e33dbc2d9a29655bbed060b",
+    "token-plan-qwen38-20261002/model-guide.html": "567f11a85eeaf709aa84c70f89e7c3f7bcca8be141a168235efb524dacb73d7a"
+  },
+  "guide_url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model"
+}

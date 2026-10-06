@@ -1,0 +1,11 @@
+  ┊ 🐍 exec      import os, json  3.2s
+  ┊ 🐍 exec      import os  3.2s
+  ┊ 📖 read      script.py  0.6s [error]
+  ┊ 🐍 exec      import os, subprocess  3.2s
+  ┊ 🐍 exec      import subprocess  3.2s
+  ┊ 🐍 exec      import subprocess  3.8s
+  ┊ 🐍 exec      import os, subprocess  3.2s
+  ┊ 🐍 exec      import subprocess, json, os  3.2s
+  ┊ 🐍 exec      import json, os  3.2s
+  ┊ 🐍 exec      import json, os  3.2s
+  ┊ 🐍 exec      import json, os  3.2s

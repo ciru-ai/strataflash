@@ -1,0 +1,39 @@
+{
+  "scenarioId": "HA-04",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes searched prior sessions and reused the remembered Docker networking fix.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-04\nrun_dir=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-04-5c0dd465/local-main_strata-v0.1.40/HA-04\nworkspace=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-04-5c0dd465/local-main_strata-v0.1.40/HA-04/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T102859Z-hermesagent20-strata-v0-1-40-HA-04-5c0dd465/local-main_strata-v0.1.40/HA-04/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=863101dc-ad43-4c27-bec6-0eb17bbba2c3\ntool_events=12\nartifact_dir=benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-04-attempt-1\napi_block=\"  api:\\n    image: ghcr.io/acme/api:latest\\n    depends_on:\\n      - db\\n    networks:\\n      - backend\"\ncompose=\"services:\\n  api:\\n    image: ghcr.io/acme/api:latest\\n    depends_on:\\n      - db\\n    networks:\\n      - backend\\n  db:\\n    image: postgres:16\\n    networks:\\n      - backend\\n\\nnetworks:\\n  backend:\\n    driver: bridge\\n\"",
+  "output": {
+    "finalAnswer": "Done. I recalled the fix from our last session — the `api` service needed to be attached to the `backend` network so it could reach `db`.\n\nApplied to docker-compose.yml:\n\n  services:\n    api:\n      image: ghcr.io/acme/api:latest\n      depends_on:\n        - db\n      networks:\n        - backend      <-- added\n    db:\n      image: postgres:16\n      networks:\n        - backend\n\nBefore: `api` was only on the implicit `default` network while `db` was only on `backend`, so they couldn't communicate. Now both are on `backend` and `api` can reach `db` via the `db` hostname."
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "Compose file reflects the recalled networking fix.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "composePath": "docker-compose.yml",
+      "apiHasBackend": true,
+      "dbStillPresent": true,
+      "backendStillDefined": true,
+      "searchedFirst": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:30:42.219Z",
+    "completedAt": "2026-10-06T10:31:17.208Z",
+    "durationMs": 34989
+  },
+  "primaryToolCalls": 6,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 5,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 34.989,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass2/cases/20261006T102859Z-hermesagent20-strata-v0-1-40/artifacts/HA-04-attempt-1"
+}

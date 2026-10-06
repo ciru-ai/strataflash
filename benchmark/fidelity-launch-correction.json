@@ -1,0 +1,7 @@
+{
+  "classification": "setup failure before generation",
+  "native_generations": 0,
+  "cause": "Native IQ pack requires --spec >=2 even without MTP; missing flag in owner arguments",
+  "correction": "Target-only fidelity uses --spec2, no --mtp, max_tokens1; raw teacher-forced prefill unchanged",
+  "completed_speed_panels_repeated": false
+}

@@ -1,0 +1,77 @@
+{
+  "policy": "Credentials, private identifiers, synthetic fixture secrets, environment homes, runtime binaries, weights, caches, and binary tensors are excluded. Textual HTTP response-body.bin files are retained. Fidelity logits are retained privately with public hashes and scorer source.",
+  "files": [
+    {
+      "path": "engine/Strata/data/draft_vocab.bin",
+      "reason": "binary artifact",
+      "bytes": 425196,
+      "sha256": "b1e1d3a7a9e4bf862dcd5923ce661fb59bbd07907e594df5cf86a62ac235cb91"
+    },
+    {
+      "path": "engine/Strata/data/draft_vocab_cyrillic.bin",
+      "reason": "binary artifact",
+      "bytes": 235852,
+      "sha256": "25d7fd1670a2e0ec885868d1718d410a3baab03bceeacf0a156cf93ffe4e1ef4"
+    },
+    {
+      "path": "engine/Strata/data/draft_vocab_en.bin",
+      "reason": "binary artifact",
+      "bytes": 162100,
+      "sha256": "369151522226a5edaa5f12cfd1e2ae7db8f4fbdbd222f3dcf327dced9597fb25"
+    },
+    {
+      "path": "engine/Strata/data/draft_vocab_fr.bin",
+      "reason": "binary artifact",
+      "bytes": 184844,
+      "sha256": "42b9993629f757c17ad30fc8c242533cb702330f359e85ba729a70d10ef12a81"
+    },
+    {
+      "path": "engine/Strata/data/experimental-speed-projection/Qwen3.8-Flash-Next-experimental-speed-projection.gguf",
+      "reason": "binary artifact",
+      "bytes": 483520,
+      "sha256": "ef0724c5b79297e481017be85769832bc26eb220c984ecba2b0e1b0c8426312b"
+    },
+    {
+      "path": "engine/Strata/data/expert-profile-coder.bin",
+      "reason": "binary artifact",
+      "bytes": 98328,
+      "sha256": "a514661124d5305effe9c1bcecff7dc069af398b2b19ff9d11628a2cad0a8915"
+    },
+    {
+      "path": "engine/Strata/data/expert-profile.bin",
+      "reason": "binary artifact",
+      "bytes": 196632,
+      "sha256": "8f59b4aa8873209dff11c11e37bcda9529a1335b724a1afeea37bf6388975baf"
+    },
+    {
+      "path": "engine/Strata/docs/media/pagoda-preview.webp",
+      "reason": "binary artifact",
+      "bytes": 9605276,
+      "sha256": "5122d0b906ed1ed2c414408645de2875c0fddd0507e6d2a2b0e59d404a3350d1"
+    },
+    {
+      "path": "engine/Strata/docs/media/runpagoda.png",
+      "reason": "binary artifact",
+      "bytes": 383584,
+      "sha256": "226f29c07c0b9fb86f7cc84559d3a8c7eee359bcbb13b4834fce5a4a1d39bd68"
+    },
+    {
+      "path": "engine/Strata/docs/paper/Strata-Paper.pdf",
+      "reason": "binary artifact",
+      "bytes": 341672,
+      "sha256": "c6b2680b37cff8196682cb9fca0c729368404fccb8bb002aa50e8fff96a6490d"
+    },
+    {
+      "path": "engine/Strata/serve/web/fonts/outfit-latin-ext-wght.woff2",
+      "reason": "binary artifact",
+      "bytes": 14808,
+      "sha256": "0f53d1c03b3918d744a843b5039001ee31695ca1e255e3914188df81beb461e9"
+    },
+    {
+      "path": "engine/Strata/serve/web/fonts/outfit-latin-wght.woff2",
+      "reason": "binary artifact",
+      "bytes": 32292,
+      "sha256": "6c18d579fd87c3776be068b762cbc83fde3acb543d49eabd3ade842eb987e887"
+    }
+  ]
+}

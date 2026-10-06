@@ -1,0 +1,7 @@
+  ┊ 💻 $         ls -la && head -50 server.py 2>/dev/null  2.1s
+  ┊ 💬 The server prints "READY" when it's up. Starting it in the background now:
+  ┊ 💻 $         python server.py --port 40605  0.1s
+  ┊ ⚙️  proc      wait proc_d19f8fd  15.0s
+  ┊ ⚙️  proc      poll proc_d19f8fd  0.0s
+  ┊ 💻 $         curl -s -m 5 http://127.0.0.1:40605/health; echo; echo "HTTP exit: $?"  0.3s
+  ┊ 💻 $         python -c "import urllib.request,json; r=urllib.request.urlopen('http://127.0.0.1:40605/health', timeout=5); print(r.status, r.read().decode())"  0.1s [exit -1]

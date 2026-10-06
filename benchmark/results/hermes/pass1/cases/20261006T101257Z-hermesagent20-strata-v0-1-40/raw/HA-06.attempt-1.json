@@ -1,0 +1,40 @@
+{
+  "scenarioId": "HA-06",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes used the background process workflow correctly and left one healthy dev server running.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-06\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-06-8567e6ee/local-main_strata-v0.1.40/HA-06\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-06-8567e6ee/local-main_strata-v0.1.40/HA-06/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-06-8567e6ee/local-main_strata-v0.1.40/HA-06/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=4ac3564a-6aa3-4677-97e5-e4b0e5ad6ffe\ntool_events=20\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-06-attempt-1\nrunning_processes=[\"240 python server.py --port 43669\"]\nhealth_ok=true",
+  "output": {
+    "finalAnswer": "Dev server is up and running in the background. Summary:\n\n- Command: python server.py --port 43669 (PID 240, session proc_1c910aad339c)\n- Readiness confirmed: /proc/net/tcp shows a LISTEN socket (state 0A) on 127.0.0.1:43669 (port hex AA95), which the server prints READY right before entering serve_forever — so the listener confirms it finished startup.\n- The server exposes GET /health (returns {\"ok\": true}) and stays running; I did not block any foreground shell.\n\nNote: my /health request via urllib was denied by approval, and curl isn't installed, so readiness was verified via the listening socket instead. The process will keep running; let me know if you want me to poll its logs or stop it later."
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "A single healthy background dev server remained running.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "port": 43669,
+      "healthOk": true,
+      "runningProcessCount": 1,
+      "startedInBackground": true,
+      "usedWatchPatterns": true,
+      "usedProcessTool": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:16:11.923Z",
+    "completedAt": "2026-10-06T10:17:24.567Z",
+    "durationMs": 72644
+  },
+  "primaryToolCalls": 10,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 10,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 72.644,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-06-attempt-1"
+}

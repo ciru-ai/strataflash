@@ -1,0 +1,17 @@
+{
+  "status": "BUILT",
+  "revision": "1735d6471df29b42c26170efaac1f1446a58640f",
+  "all_hip_commands_optimized": true,
+  "hip_commands": 64,
+  "hip_release_flags": "-O3 -DNDEBUG",
+  "binaries": {
+    "strata": "80176b25e7e72fc004bfb6d169ef24ed0c8ad4a2d2cb7d25c04e18ac553ea4ad",
+    "strata-benchmark": "c37988e95ab1bc183555c82a8e6e49be34d0466141fa65687d1261035bb34380"
+  },
+  "compile_commands_sha256": "db76e02696b2ec67926b6aa00bb627b1b433ac23b1257a983f377481701f7793",
+  "zero_replay_cache_guard": true,
+  "zero_replay_contract_sha256": "3dc80049278c550c4f79b39a2505961cefe4832a91c3a7df749eaa1cf4c6648d",
+  "zero_replay_hip_commands_sha256": "67811b68f68a6c65ea7892c29612d92b07c415fb26c75fcc1277a96586364984",
+  "prior_build_receipt_sha256": "53205d4a85d530456f7e5df9e41dd0383a368d6c99acc090833460645092920b",
+  "benchmark_source_sha256": "e681efc7191f015fa70b0eea612ea8bf242270884b607708cc84a00ddba7c5a7"
+}

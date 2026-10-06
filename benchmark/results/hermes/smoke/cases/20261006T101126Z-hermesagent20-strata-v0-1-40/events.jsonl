@@ -1,0 +1,6 @@
+{"type": "run_started", "at": "2026-10-06T10:11:26.445Z", "profile": "strata-v0.1.40"}
+{"type": "model_ready", "at": "2026-10-06T10:11:26.447Z", "profile": "strata-v0.1.40", "exposedModel": "strata-v0.1.40"}
+{"type": "scenario_result", "at": "2026-10-06T10:11:37.732Z", "scenarioId": "HA-01", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:12:06.781Z", "scenarioId": "HA-05", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "scenario_result", "at": "2026-10-06T10:12:56.077Z", "scenarioId": "HA-20", "attempt": 1, "status": "pass", "score": 100, "note": "Pinned Hermes ea74f61d983e"}
+{"type": "run_completed", "at": "2026-10-06T10:12:56.204Z", "profile": "strata-v0.1.40", "totalScore": 100}

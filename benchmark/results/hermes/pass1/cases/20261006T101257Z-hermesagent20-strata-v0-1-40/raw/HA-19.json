@@ -1,0 +1,38 @@
+{
+  "scenarioId": "HA-19",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes recovered from the deterministic deployment failure and retried correctly.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-19\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-19-d89207a6/local-main_strata-v0.1.40/HA-19\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-19-d89207a6/local-main_strata-v0.1.40/HA-19/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-19-d89207a6/local-main_strata-v0.1.40/HA-19/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=c9837261-4554-4c4b-b843-2801dd58f3f5\ntool_events=14\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-19-attempt-1\ndeploy_runs=[{\"phase\":\"complete\",\"order\":12,\"toolCallId\":\"call_6ce29c683cf54ce4a77ba731\",\"name\":\"terminal\",\"args\":{\"command\":\"./deploy.sh || (echo '--- deploy failed, preparing release ---' && python prepare_release.py && ./deploy.sh)\"},\"result\":\"{\\\"output\\\": \\\"/usr/bin/bash: line 3: ./deploy.sh: Permission denied\\\\n--- deploy failed, preparing release ---\\\\nmanifest prepared\\\\n/usr/bin/bash: line 3: ./deploy.sh: Permission denied\\\", \\\"exit_code\\\": 126, \\\"error\\\": null}\"},{\"phase\":\"complete\",\"order\":14,\"toolCallId\":\"call_e0d8cb31e6514a9897a13533\",\"name\":\"terminal\",\"args\":{\"command\":\"bash deploy.sh && chmod +x deploy.sh && cat deploy-status.txt\"},\"result\":\"{\\\"output\\\": \\\"deploy succeeded\\\\nDEPLOY_OK\\\", \\\"exit_code\\\": 0, \\\"error\\\": null}\"}]",
+  "output": {
+    "finalAnswer": "Deployment succeeded.\n\nWhat happened:\n1. ./deploy.sh initially failed on two counts: no release/manifest.json, and the script wasn't executable.\n2. Per the README, I ran `python prepare_release.py` — manifest prepared (version 1.0.0).\n3. Ran the script via `bash deploy.sh` (avoids the permission issue) → \"deploy succeeded\".\n4. Verified deploy-status.txt contains DEPLOY_OK, and set +x on deploy.sh so it runs directly next time.\n\nStatus: DEPLOY_OK"
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The deployment recovered after a real corrective step and retry.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "deployRunCount": 2,
+      "firstDeployFailed": true,
+      "correctiveRun": true,
+      "laterDeploySucceeded": true
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:27:55.033Z",
+    "completedAt": "2026-10-06T10:28:23.357Z",
+    "durationMs": 28324
+  },
+  "primaryToolCalls": 7,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 5,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 28.324,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-19-attempt-1"
+}

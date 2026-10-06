@@ -1,0 +1,37 @@
+{
+  "scenarioId": "HA-05",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes fixed the bug and proved it with a final passing test run.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-05\nrun_dir=/tmp/hermesagent20-runs/20261006T101126Z-hermesagent20-strata-v0-1-40-HA-05-8e46807a/local-main_strata-v0.1.40/HA-05\nworkspace=/tmp/hermesagent20-runs/20261006T101126Z-hermesagent20-strata-v0-1-40-HA-05-8e46807a/local-main_strata-v0.1.40/HA-05/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101126Z-hermesagent20-strata-v0-1-40-HA-05-8e46807a/local-main_strata-v0.1.40/HA-05/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=71eb0e3a-0e42-4edf-b3d1-a278dd82e8d4\ntool_events=12\nartifact_dir=benchmark/results/hermes/smoke/cases/20261006T101126Z-hermesagent20-strata-v0-1-40/artifacts/HA-05-attempt-1\npytest_exit=0\npytest_stdout=.                                                                        [100%]\n1 passed in 0.00s",
+  "output": {
+    "finalAnswer": "Fixed. The test passes now.\n\nIssue: `apply_discount` in calculator.py was subtracting the percentage value directly from the price instead of applying it as a percentage discount:\n\n- Before: `round(price - pct, 2)` → `apply_discount(100, 0.15)` returned `99.85`\n- After: `round(price - price * pct, 2)` → `apply_discount(100, 0.15)` returns `85.0`\n\nTest result: 1 passed."
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "Final pytest verification passed.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "pytestExitCode": 0,
+      "verifiedAfterFix": true,
+      "pytestCommandCount": 2
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:11:37.755Z",
+    "completedAt": "2026-10-06T10:12:06.781Z",
+    "durationMs": 29026
+  },
+  "primaryToolCalls": 6,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 6,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 29.026,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/smoke/cases/20261006T101126Z-hermesagent20-strata-v0-1-40/artifacts/HA-05-attempt-1"
+}

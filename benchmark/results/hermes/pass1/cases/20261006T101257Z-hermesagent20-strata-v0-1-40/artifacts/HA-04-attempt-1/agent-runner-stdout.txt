@@ -1,0 +1,6 @@
+  ┊ 💬 I'll recall the previous fix and locate the compose file at the same time.
+  ┊ 🔍 recall    "Docker networking fix compose network_mode OR network OR bridge OR subnet"  5.2s
+  ┊ 🔎 find      *compose*.y*ml  1.0s
+  ┊ 📖 read      ./docker-compose.yml  0.8s
+  ┊ 💬 Found the same problem as last time: `api` isn't attached to the `backend` network (so it falls back to the `default` network), while `db` is only on `backend` — they can't reach each other. Applying the same fix.
+  ┊ 🔧 patch     ./docker-compose.yml  0.8s

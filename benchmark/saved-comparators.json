@@ -1,0 +1,235 @@
+{
+  "source": "Latest research selection of corrected HE/card-sampler tools/recommended-thinking Hermes/frozen full-vocabulary fidelity",
+  "baseline_generation_runs": 0,
+  "rows": [
+    {
+      "model": "Ciru v4.4.1",
+      "id": "ciru44",
+      "he09_native_tg": 56.020149943031875,
+      "he09_timing": "(n−1)/time",
+      "he09_wall": 38.206121588125825,
+      "tools_score": null,
+      "tools_reviewed_score": null,
+      "tools_wall": null,
+      "hermes_score": 97,
+      "hermes_pass_scores": [
+        99,
+        95
+      ],
+      "hermes_mean_case_wall": 872.836,
+      "fidelity_kl": 0.0867449193,
+      "fidelity_top1": 92.7246094,
+      "fidelity_ppl": 2.0924601500111857,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/hcq8-20260930/final-three-20261001/v44-he09/result.json",
+        "tools": null,
+        "fidelity": "evidence/local/optimize/reports/flash-c1-20260926/v5-common-suite/native-quality-result.json",
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/v4.4/recv44p1/pass1/cases/20260929T131212Z-hermesagent20-v4-4/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/v4.4/recv44p2/pass2/cases/20260929T132732Z-hermesagent20-v4-4/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "Ciru v5.0",
+      "id": "ciru5",
+      "he09_native_tg": 55.26246148757685,
+      "he09_timing": "(n−1)/time",
+      "he09_wall": 37.47560209874064,
+      "tools_score": 80,
+      "tools_reviewed_score": 80,
+      "tools_wall": 213.48999999999995,
+      "hermes_score": 96,
+      "hermes_pass_scores": [
+        93,
+        99
+      ],
+      "hermes_mean_case_wall": 1052.817,
+      "fidelity_kl": 0.049537253,
+      "fidelity_top1": 94.3847656,
+      "fidelity_ppl": 2.0441517903338635,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/hcq8-20260930/speed-audit/corrected-cohort/v5-he09/result.json",
+        "tools": "evidence/local/Qwen3.8flash/hcq8-20260930/recommended-tools-20261001/results/v5rec/full/report.json",
+        "fidelity": "evidence/local/optimize/reports/flash-c1-20260926/v5-common-suite/native-quality-result.json",
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/v5.0/recv5p1/pass1/cases/20260929T122455Z-hermesagent20-v5-0/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/v5.0/recv5p2/pass2/cases/20260929T125347Z-hermesagent20-v5-0/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "HaloBox HIP",
+      "id": "halobox",
+      "he09_native_tg": 45.737141257617324,
+      "he09_timing": "(n−1)/time",
+      "he09_wall": 43.01516885776073,
+      "tools_score": 70,
+      "tools_reviewed_score": 70,
+      "tools_wall": 265.11,
+      "hermes_score": 96,
+      "hermes_pass_scores": [
+        98,
+        94
+      ],
+      "hermes_mean_case_wall": 1357.8915,
+      "fidelity_kl": 0.0291820424,
+      "fidelity_top1": 96.1425781,
+      "fidelity_ppl": 2.0364193335796124,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/hcq8-20260930/speed-audit/corrected-cohort/halobox-he09/result.json",
+        "tools": "evidence/local/Qwen3.8flash/hcq8-20260930/recommended-tools-20261001/results/halorec/full/report.json",
+        "fidelity": "evidence/local/optimize/reports/flash-c1-20260926/v5-common-suite/halobox-quality.json",
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/HaloBox/rechbp1/pass1/cases/20260929T134420Z-hermesagent20-halobox/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/HaloBox/rechbp2/pass2/cases/20260929T140806Z-hermesagent20-halobox/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "Gufo",
+      "id": "gufo",
+      "he09_native_tg": 57.61984842207895,
+      "he09_timing": "n/time",
+      "he09_wall": 33.09632412204519,
+      "tools_score": 73,
+      "tools_reviewed_score": 73,
+      "tools_wall": 238.40000000000003,
+      "hermes_score": 90,
+      "hermes_pass_scores": [
+        89,
+        91
+      ],
+      "hermes_mean_case_wall": 898.8515,
+      "fidelity_kl": 0.0279660099,
+      "fidelity_top1": 96.4355469,
+      "fidelity_ppl": 2.0350225054040183,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/reports/flash-benchmarks-20260928/data/gufo-he09-source-20261001.json",
+        "tools": "evidence/local/Qwen3.8flash/hcq8-20260930/recommended-tools-20261001/results/guforec/full/report.json",
+        "fidelity": "evidence/local/optimize/reports/flash-c1-20260926/v5-common-suite/gufo-quality.json",
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/Gufo/recgufop1/pass1/cases/20260929T143024Z-hermesagent20-gufo/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/Gufo/recgufop2/pass2/cases/20260929T144525Z-hermesagent20-gufo/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "AgentionAI AP-Q5_K_XL",
+      "id": "agention",
+      "he09_native_tg": 44.316773936537096,
+      "he09_timing": "(n−1)/time",
+      "he09_wall": 42.630542205646634,
+      "tools_score": 83,
+      "tools_reviewed_score": 83,
+      "tools_wall": 260.84,
+      "hermes_score": 99,
+      "hermes_pass_scores": [
+        99,
+        99
+      ],
+      "hermes_mean_case_wall": 1355.8854999999999,
+      "fidelity_kl": 0.0291354031,
+      "fidelity_top1": 96.4355469,
+      "fidelity_ppl": 2.0263647577547848,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/hcq8-20260930/speed-audit/corrected-cohort/ap-he09/result.json",
+        "tools": "evidence/local/Qwen3.8flash/hcq8-20260930/recommended-tools-20261001/results/aprec/full/report.json",
+        "fidelity": "evidence/local/optimize/reports/flash-c1-20260926/v5-common-suite/ap-quality.json",
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/AgentionAI_AP-Q5_K_XL/recapp1/pass1/cases/20260929T153845Z-hermesagent20-agentionai-ap-q5-k-xl/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/AgentionAI_AP-Q5_K_XL/recapp2/pass2/cases/20260929T160211Z-hermesagent20-agentionai-ap-q5-k-xl/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "Halogen",
+      "id": "halogen",
+      "he09_native_tg": 54.273186067676015,
+      "he09_timing": "n/time",
+      "he09_wall": 34.554416520986706,
+      "tools_score": 80,
+      "tools_reviewed_score": 80,
+      "tools_wall": 214.36,
+      "hermes_score": 96.5,
+      "hermes_pass_scores": [
+        99,
+        94
+      ],
+      "hermes_mean_case_wall": 799.1144999999999,
+      "fidelity_kl": 0.085904687,
+      "fidelity_top1": 92.7734375,
+      "fidelity_ppl": 2.0796831991246103,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/hcq8-20260930/final-three-20261001/halogen-he09/result.json",
+        "tools": "evidence/local/Qwen3.8flash/hcq8-20260930/recommended-tools-20261001/results/halogenrecfix/full/report.json",
+        "fidelity": "evidence/local/optimize/reports/flash-c1-20260926/v5-common-suite/halogen-quality-scores.csv",
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/Halogen/rechalop1/pass1/cases/20260929T150121Z-hermesagent20-halogen/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/Halogen/rechalop2/pass2/cases/20260929T151252Z-hermesagent20-halogen/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "Carlos HC-Q8",
+      "id": "carlos",
+      "he09_native_tg": 46.3302403174662,
+      "he09_timing": "(n−1)/time",
+      "he09_wall": 40.9506232268177,
+      "tools_score": 73,
+      "tools_reviewed_score": 80,
+      "tools_wall": 289.25,
+      "hermes_score": 95,
+      "hermes_pass_scores": [
+        99,
+        91
+      ],
+      "hermes_mean_case_wall": 2734.692,
+      "fidelity_kl": 0.185625364,
+      "fidelity_top1": 89.16015619999999,
+      "fidelity_ppl": 2.1975630964549357,
+      "source_paths": {
+        "he09": "evidence/local/Qwen3.8flash/hcq8-20260930/speed-audit/corrected-cohort/hc-he09/result.json",
+        "tools": "evidence/local/Qwen3.8flash/hcq8-20260930/recommended-tools-20261001/results/hcrec/full/report.json",
+        "fidelity": "evidence/local/Qwen3.8flash/hcq8-20260930/remaining-suite/fidelity/short-full/result.json",
+        "hermes": [
+          "evidence/local/Qwen3.8flash/hcq8-20260930/hermes-publisher-current/pass1/cases/20260930T160831Z-hermesagent20-hc-q8/summary.json",
+          "evidence/local/Qwen3.8flash/hcq8-20260930/hermes-publisher-current/pass2/cases/20260930T164531Z-hermesagent20-hc-q8/summary.json"
+        ]
+      }
+    },
+    {
+      "model": "Orca",
+      "id": "orca",
+      "he09_native_tg": null,
+      "he09_timing": null,
+      "he09_wall": null,
+      "tools_score": null,
+      "tools_reviewed_score": null,
+      "tools_wall": null,
+      "hermes_score": 94.5,
+      "hermes_pass_scores": [
+        96,
+        93
+      ],
+      "hermes_mean_case_wall": 1141.168,
+      "fidelity_kl": null,
+      "fidelity_top1": null,
+      "fidelity_ppl": null,
+      "source_paths": {
+        "he09": null,
+        "tools": null,
+        "fidelity": null,
+        "hermes": [
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/Orca/recorcap1/pass1/cases/20260929T163121Z-hermesagent20-orca/summary.json",
+          "evidence/ciru/runs/20260929-flash-hermes-recommended-thinking/models/Orca/recorcap2/pass2/cases/20260929T165735Z-hermesagent20-orca/summary.json"
+        ]
+      }
+    }
+  ],
+  "metric_definitions": {
+    "hermes_mean_case_wall": "Mean across passes of the SUM of all 20 case wall times; this is not mean wall per case.",
+    "he09_native_tg": "Native timing conventions are retained per row.",
+    "tools_score": "Official frozen 15-case score; manual reviews retained separately."
+  }
+}

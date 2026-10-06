@@ -1,0 +1,37 @@
+{
+  "scenarioId": "HA-16",
+  "status": "pass",
+  "score": 100,
+  "summary": "Hermes resolved the named target and delivered the message to the correct channel.",
+  "note": "Pinned Hermes ea74f61d983e",
+  "rawLog": "scenario=HA-16\nrun_dir=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-16-5916e242/local-main_strata-v0.1.40/HA-16\nworkspace=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-16-5916e242/local-main_strata-v0.1.40/HA-16/workspace\nhermes_home=/tmp/hermesagent20-runs/20261006T101257Z-hermesagent20-strata-v0-1-40-HA-16-5916e242/local-main_strata-v0.1.40/HA-16/hermes-home\nhermes_source=/opt/hermes-agent\nhermes_revision=ea74f61d983ebdfd6a863c45761d1b38081f1d08\nhermes_bin=/opt/hermes-venv/bin/hermes\nagent_exit_code=0\nsession_id=969464b0-dae3-495f-816e-0558297aaad9\ntool_events=6\nartifact_dir=benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-16-attempt-1\nenv_HASS_TOKEN=bench-token\nenv_HASS_URL=http://127.0.0.1:33331\nenv_HERMES_SESSION_PLATFORM=homeassistant\nenv_HERMES_SESSION_CHAT_ID=notify_home\ndelivery={\"method\":\"POST\",\"url\":\"/api/services/notify/notify\",\"headers\":{\"host\":\"127.0.0.1:33331\",\"authorization\":\"Bearer REDACTED\",\"content-type\":\"application/json\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"user-agent\":\"Python/3.11 aiohttp/3.14.1\",\"content-length\":\"95\"},\"body\":{\"message\":\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\",\"target\":\"9001\"}}",
+  "output": {
+    "finalAnswer": "Sent to the engineering channel:\n\n\"Weekly benchmark summary: 3 regressions fixed, 0 new failures.\""
+  },
+  "verifier": {
+    "status": "pass",
+    "summary": "The message reached the intended engineering target.",
+    "details": {
+      "outcomeSatisfied": true,
+      "outcomeScore": 50,
+      "nativeUseScore": 30,
+      "safetyScore": 20,
+      "usedListFirst": true,
+      "deliveredTarget": "9001",
+      "deliveredMessage": "Weekly benchmark summary: 3 regressions fixed, 0 new failures."
+    }
+  },
+  "timings": {
+    "startedAt": "2026-10-06T10:26:49.187Z",
+    "completedAt": "2026-10-06T10:27:02.743Z",
+    "durationMs": 13556
+  },
+  "primaryToolCalls": 3,
+  "nestedToolCalls": 0,
+  "primaryApiCalls": 3,
+  "agentCompleted": true,
+  "agentModel": "strata-v0.1.40",
+  "wallSeconds": 13.556,
+  "attempt": 1,
+  "artifactDir": "benchmark/results/hermes/pass1/cases/20261006T101257Z-hermesagent20-strata-v0-1-40/artifacts/HA-16-attempt-1"
+}

@@ -1,0 +1,61 @@
+{
+  "status": "FROZEN_BEFORE_CORRECTED_GENERATION",
+  "authorization": "[REDACTED_SECRET]",
+  "interpretation": "Zero rereading of the cached prefix during each timed append. New prompt tokens still undergo prefill.",
+  "request_contract_sha256": "c144aa4a72cddcaa89d4c9766029c5ec4d92576a8096355848b902fd93654d24",
+  "context": 262144,
+  "order": [
+    "warm",
+    "p0512-d000000",
+    "p2048-d000000",
+    "p4096-d000000",
+    "d032000-primer",
+    "p0512-d032000",
+    "p2048-d032000",
+    "p4096-d032000",
+    "d064000-primer",
+    "p0512-d064000",
+    "p2048-d064000",
+    "p4096-d064000",
+    "d120000-primer",
+    "p0512-d120000",
+    "p2048-d120000",
+    "p4096-d120000",
+    "d192000-primer",
+    "p0512-d192000",
+    "p2048-d192000",
+    "p4096-d192000",
+    "d256000-primer",
+    "p0512-d256000",
+    "p2048-d256000",
+    "p4096-d256000"
+  ],
+  "concurrency": 1,
+  "retries": 0,
+  "output_tokens": 512,
+  "cache_policy": {
+    "primers": "Five original cold-prefix requests, once each; native state snapshot at exact D after its unscored one-token prediction",
+    "appends": "Native GEN bench_reuse=D requires exact cached prefix. Reject before prefill if unavailable; no fallback.",
+    "new_tokens": "Exactly P=512/2048/4096. Native reused must equal D and prompt_read must equal P.",
+    "depths": [
+      0,
+      32000,
+      64000,
+      120000,
+      192000,
+      256000
+    ],
+    "history": "Retain expert placement and lookup history after the required single warmup. Cold resets invalidate conversation state only.",
+    "snapshot_timing": "No generation or prefix replay. Pin receipt and wall time retained outside timed append and cold-primer request.",
+    "benchmark_target": "Separate target from pinned canonical source; native checkpoint save/restore unchanged; normal model math unchanged"
+  },
+  "original_payloads": "All original 24 request bodies preserved, except model alias. Cached depth is an adapter header/native cache guard, not a sampler change.",
+  "prior_attempt": {
+    "path": "results/counting",
+    "status": "STOPPED_ON_USER_CACHE_REQUIREMENT",
+    "completed_requests": 16,
+    "ranked": false,
+    "reason": "Periodic checkpoint replay was observed; retain all first outputs and timings as diagnostic."
+  },
+  "historical_cache_limitation": "Carlos metrics show 96337 generated tokens before its recorded warmup; earlier resident ngram history is not reproducible from this counting archive. New v5 starts with a fresh lookup state and the same recorded warmup; historical Carlos cannot supply a fully controlled warmed-cache ranking."
+}
